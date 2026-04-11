@@ -19,7 +19,7 @@ The pipeline runs on **Llama-3.2-3B** with the antonym relation as the primary c
 Evaluate the model on three relation conditions (`antonym`, `none`, `repeat`) to establish baseline accuracy and identify correct/incorrect samples.
 
 ### Step 2 — Activation Patching
-For correctly predicted samples, cache attention head outputs and compute per-head intervention scores by measuring how each head's mean activation shifts the output logit toward the target.
+For correctly predicted samples, cache attention head outputs and compute per-head intervention scores by measuring how each head's mean activation shifts the output logit toward the target. Red borders indicate the top-10 scoring heads.
 
 ![Head Intervention Scores](results/meta-llama_Llama-3.2-3B/antonym/patching_head_viz.png)
 
@@ -40,6 +40,16 @@ Add the intervention vector to hidden states at each layer and measure accuracy 
 **Incorrect samples (no relation change)** — What happens when we intervene without changing the relation prompt?
 
 ![Intervention on Incorrect Samples (enforce)](results/meta-llama_Llama-3.2-3B/antonym/intervention_enforce_fig.png)
+
+### Note on Sample Split
+
+Samples are split into **correct** and **incorrect** based solely on the model's baseline predictions — whether the model produced the right answer for each prompt *without any intervention*.
+
+## Implication
+
+The intervention vector is effective at steering correct samples: even after corrupting the relation prompt (antonym → none), injecting the vector at the right layer successfully restores antonym behavior. However, **the effect on incorrect samples is notably weaker** — even without corruption, simply injecting the vector does little to improve accuracy.
+
+This asymmetry suggests that zero-shot inference failure is not purely a matter of missing relational knowledge. If it were, the intervention vector — which encodes the antonym relation — should be able to correct incorrect samples as well. Instead, the results point to a deeper issue: the model's ability to leverage a relation depends on its internal "understanding" of the input word itself. For samples the model already handles correctly, the relational representation is robust enough to be reinforced or overridden by the vector. For samples it gets wrong, the bottleneck may lie in how the model represents the input, not just the relation.
 
 ## Project Structure
 
@@ -79,6 +89,12 @@ Open `demo.ipynb` and run all cells sequentially. The notebook handles the full 
 
 - [nnsight](https://github.com/ndif-team/nnsight) — Interpretability-first model tracing and intervention
 - [transformers](https://github.com/huggingface/transformers) — Model and tokenizer loading
+
+## References
+
+This project is inspired by and builds upon the methodology from:
+
+> Evan Hernandez, Arnab Sen Sharma, Tal Haklay, Kevin Meng, Martin Wattenberg, Jacob Andreas, Yonatan Belinkov, David Bau. *Linearity of Relation Decoding in Transformer Language Models.* ICLR 2024. [[arXiv:2310.15213]](https://arxiv.org/abs/2310.15213)
 
 ## License
 
