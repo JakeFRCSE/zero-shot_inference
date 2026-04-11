@@ -56,7 +56,7 @@ This asymmetry suggests that zero-shot inference failure is not purely a matter 
 ```
 ├── demo.ipynb                  # Main experiment notebook
 ├── dataset/
-│   └── antonym.json            # Antonym word pairs
+│   └── antonym.json            # Antonym word pairs (from the reference codebase)
 ├── src/
 │   ├── evaluation_helpers.py   # Model loading, inference, evaluation pipeline
 │   ├── patching_helpers.py     # Activation caching, head scoring, vector construction
@@ -95,6 +95,8 @@ Open `demo.ipynb` and run all cells sequentially. The notebook handles the full 
 This project is inspired by and builds upon the methodology from:
 
 > Evan Hernandez, Arnab Sen Sharma, Tal Haklay, Kevin Meng, Martin Wattenberg, Jacob Andreas, Yonatan Belinkov, David Bau. *Linearity of Relation Decoding in Transformer Language Models.* ICLR 2024. [[arXiv:2310.15213]](https://arxiv.org/abs/2310.15213)
+
+The dataset (`dataset/antonym.json`) is sourced directly from the [reference codebase](https://github.com/evandez/relations).
 
 ## License
 
