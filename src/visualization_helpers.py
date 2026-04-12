@@ -355,3 +355,53 @@ def visualize_intervention_scores(scores: torch.Tensor, top_n: int = 10, title: 
     plt.ylabel("Layer Index", fontsize=14)
     ax.invert_yaxis()
     _save_and_show(save_path=save_path)
+
+
+def plot_accuracy_barplot(
+    df_antonym: pd.DataFrame,
+    df_none: pd.DataFrame,
+    df_repeat: pd.DataFrame,
+    save_path=None,
+):
+    metrics = ["input_prediction", "relation_prediction", "output_prediction"]
+    group_labels = ["Input Repeat", "Relation Repeat", "Correct Output"]
+    condition_labels = ["Antonym", "None", "Repeat"]
+    colors = ["#5B9BD5", "#ED7D31", "#70AD47"]
+
+    accuracies = np.array([
+        [df[m].mean() * 100 for m in metrics]
+        for df in [df_antonym, df_none, df_repeat]
+    ])
+
+    x = np.arange(len(group_labels))
+    n = len(condition_labels)
+    width = 0.22
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    for i, (label, color) in enumerate(zip(condition_labels, colors)):
+        offset = (i - (n - 1) / 2) * width
+        bars = ax.bar(x + offset, accuracies[i], width, label=label, color=color, alpha=0.9)
+        for bar in bars:
+            h = bar.get_height()
+            ax.annotate(
+                f"{h:.1f}%",
+                xy=(bar.get_x() + bar.get_width() / 2, h),
+                xytext=(0, 4),
+                textcoords="offset points",
+                ha="center",
+                va="bottom",
+                fontsize=9,
+                fontweight="bold",
+            )
+
+    ax.set_ylabel("Accuracy (%)", fontsize=12)
+    ax.set_title("Prediction Accuracy by Relation Condition", fontsize=14, pad=15)
+    ax.set_xticks(x)
+    ax.set_xticklabels(group_labels, fontsize=11)
+    ax.set_ylim(0, max(accuracies.max() + 15, 50))
+    ax.legend(loc="upper right", fontsize=10, framealpha=0.9)
+    ax.grid(axis="y", linestyle="--", alpha=0.4)
+    sns.despine()
+
+    _save_and_show(save_path=save_path)
