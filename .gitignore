@@ -172,3 +172,6 @@ __marimo__/
 
 # macOS
 .DS_Store
+
+# documentation
+documentation/

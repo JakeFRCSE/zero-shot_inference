@@ -358,19 +358,18 @@ def visualize_intervention_scores(scores: torch.Tensor, top_n: int = 10, title: 
 
 
 def plot_accuracy_barplot(
-    df_antonym: pd.DataFrame,
-    df_none: pd.DataFrame,
-    df_repeat: pd.DataFrame,
+    dataframes: dict[str, pd.DataFrame],
     save_path=None,
 ):
     metrics = ["input_prediction", "relation_prediction", "output_prediction"]
     group_labels = ["Input Repeat", "Relation Repeat", "Correct Output"]
-    condition_labels = ["Antonym", "None", "Repeat"]
-    colors = ["#5B9BD5", "#ED7D31", "#70AD47"]
+    condition_labels = [name.capitalize() for name in dataframes]
+    palette = ["#5B9BD5", "#ED7D31", "#70AD47", "#FFC000", "#A855F7", "#EF4444"]
+    colors = palette[:len(dataframes)]
 
     accuracies = np.array([
         [df[m].mean() * 100 for m in metrics]
-        for df in [df_antonym, df_none, df_repeat]
+        for df in dataframes.values()
     ])
 
     x = np.arange(len(group_labels))
