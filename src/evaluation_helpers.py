@@ -12,6 +12,9 @@ from io_helpers import load_file, save_file
 
 DATASET_DIR: Optional[Path] = None
 
+DEFAULT_PROMPT_TEMPLATE = "Relation: {relation}\nInput: {input}\nOutput: {output}"
+ALTERNATIVE_PROMPT_TEMPLATE = "Q: What is the {relation} of {input}?\nA: {output}"
+
 
 def resolve_device(device: Optional[str] = None) -> str:
     """
@@ -28,7 +31,12 @@ def resolve_device(device: Optional[str] = None) -> str:
     return "cuda" if torch.cuda.is_available() else "cpu"
 
 
-def generate_prompt(relation: str, item: Dict, include_output: bool = False) -> str:
+def generate_prompt(
+    relation: str,
+    item: Dict,
+    include_output: bool = False,
+    prompt_template: str = DEFAULT_PROMPT_TEMPLATE,
+) -> str:
     """
     Generates a model input prompt based on the given relation and item data.
     The inclusion of the target output can be toggled for different use cases.
@@ -37,13 +45,16 @@ def generate_prompt(relation: str, item: Dict, include_output: bool = False) -> 
         relation: Description of the relationship between data points
         item: Dictionary containing 'input' and 'output' values
         include_output: Whether to include the target output in the prompt
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         The generated prompt string (str)
     """
     input_val = item.get("input", "")
     target_output = item.get("output", "")
     display_output = target_output if include_output else ""
-    prompt = f"Relation: {relation}\nInput: {input_val}\nOutput: {display_output}"
+    prompt = prompt_template.format(
+        relation=relation, input=input_val, output=display_output,
+    )
     return prompt.strip()
 
 
@@ -99,6 +110,25 @@ def get_first_token_id(tokenizer, text: str, add_leading_space: bool = True) -> 
     raise ValueError(f"Could not tokenize text: {text!r}")
 
 
+def token_ids_match(tokenizer, id_a: int, id_b: int) -> bool:
+    """
+    Compares two token IDs by decoding and normalizing their text
+    (strip whitespace + lowercase).
+
+    Args:
+        tokenizer: Tokenizer for decoding token IDs
+        id_a: First token ID
+        id_b: Second token ID
+    Returns:
+        True if the normalized decoded texts are equal
+    """
+    if id_a == id_b:
+        return True
+    text_a = tokenizer.decode([id_a], skip_special_tokens=True).strip().lower()
+    text_b = tokenizer.decode([id_b], skip_special_tokens=True).strip().lower()
+    return text_a == text_b
+
+
 def get_last_logits(model, tokenizer, prompt: str, device: Optional[str] = None) -> torch.Tensor:
     """
     Runs the model on the input prompt and extracts the logits for the last token.
@@ -147,7 +177,10 @@ def get_token_logit(logits: torch.Tensor, token_id: int) -> float:
     return logits[token_id].item()
 
 
-def evaluate_sample(model, tokenizer, relation: str, item: Dict, device: str) -> Dict[str, object]:
+def evaluate_sample(
+    model, tokenizer, relation: str, item: Dict, device: str,
+    prompt_template: str = DEFAULT_PROMPT_TEMPLATE,
+) -> Dict[str, object]:
     """
     Performs inference on a single data item and constructs a result dictionary.
     Includes predictions, ground truth comparisons, and logits for key tokens.
@@ -158,10 +191,11 @@ def evaluate_sample(model, tokenizer, relation: str, item: Dict, device: str) ->
         relation: Description of the relationship
         item: Data dictionary containing input and output information
         device: Device to perform inference on
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         Dictionary containing inference results and metadata (Dict)
     """
-    prompt = generate_prompt(relation, item)
+    prompt = generate_prompt(relation, item, prompt_template=prompt_template)
 
     logits = get_last_logits(model, tokenizer, prompt, device=device)
     prediction = tokenizer.decode(get_predicted_id(logits), skip_special_tokens=True).strip()
@@ -175,9 +209,9 @@ def evaluate_sample(model, tokenizer, relation: str, item: Dict, device: str) ->
     output_logit = get_token_logit(logits, output_id)
     relation_logit = get_token_logit(logits, relation_id)
 
-    output_prediction = prediction_id == output_id
-    input_prediction = prediction_id == input_id
-    relation_prediction = prediction_id == relation_id
+    output_prediction = token_ids_match(tokenizer, prediction_id, output_id)
+    input_prediction = token_ids_match(tokenizer, prediction_id, input_id)
+    relation_prediction = token_ids_match(tokenizer, prediction_id, relation_id)
     
     return {
         "input": item["input"],
@@ -199,7 +233,10 @@ def evaluate_sample(model, tokenizer, relation: str, item: Dict, device: str) ->
     }
 
 
-def evaluate_relation(model, tokenizer, data: List[Dict], relation: str) -> pd.DataFrame:
+def evaluate_relation(
+    model, tokenizer, data: List[Dict], relation: str,
+    prompt_template: str = DEFAULT_PROMPT_TEMPLATE,
+) -> pd.DataFrame:
     """
     Evaluates the model on a list of data items belonging to a single relation.
     Collects inference results for each sample into a Pandas DataFrame.
@@ -209,6 +246,7 @@ def evaluate_relation(model, tokenizer, data: List[Dict], relation: str) -> pd.D
         tokenizer: Tokenizer for text processing
         data: List of evaluation data items
         relation: Name of the relation being evaluated
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         DataFrame containing all evaluation results (pd.DataFrame)
     """
@@ -218,7 +256,7 @@ def evaluate_relation(model, tokenizer, data: List[Dict], relation: str) -> pd.D
     print(f"Evaluating {len(data)} samples...")
 
     for item in tqdm(data, total=len(data), desc="Inference"):
-        result_row = evaluate_sample(model, tokenizer, relation, item, device)
+        result_row = evaluate_sample(model, tokenizer, relation, item, device, prompt_template=prompt_template)
         results.append(result_row)
 
     results_df = pd.DataFrame(results)
@@ -226,7 +264,10 @@ def evaluate_relation(model, tokenizer, data: List[Dict], relation: str) -> pd.D
     return results_df
 
 
-def evaluate_relations(model, tokenizer, data: List[Dict], relations: List[str]) -> Dict[str, pd.DataFrame]:
+def evaluate_relations(
+    model, tokenizer, data: List[Dict], relations: List[str],
+    prompt_template: str = DEFAULT_PROMPT_TEMPLATE,
+) -> Dict[str, pd.DataFrame]:
     """
     Evaluates the model across multiple relations sequentially.
     Stores and returns the evaluation results for each relation in a dictionary.
@@ -236,12 +277,13 @@ def evaluate_relations(model, tokenizer, data: List[Dict], relations: List[str])
         tokenizer: Tokenizer for text processing
         data: List of evaluation data items
         relations: List of relation names to evaluate
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         Dictionary mapping relation names to their result DataFrames (Dict)
     """
     results = {}
     for relation in relations:
-        results[relation] = evaluate_relation(model, tokenizer, data, relation)
+        results[relation] = evaluate_relation(model, tokenizer, data, relation, prompt_template=prompt_template)
     return results
 
 
@@ -277,6 +319,7 @@ def run_evaluation(
     relation: str | List[str],
     load_path: Path,
     save_dir: Path,
+    prompt_template: str = DEFAULT_PROMPT_TEMPLATE,
 ) -> pd.DataFrame:
     """
     Executes the full inference pipeline: data loading, evaluation, and saving results.
@@ -287,16 +330,17 @@ def run_evaluation(
         tokenizer: Tokenizer for text processing
         relation: Single relation name or a list of relation names
         load_path: Path to load the input data from
-        save_path: Path to save the evaluation results to
+        save_dir: Path to save the evaluation results to
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         The final evaluation results (Dict[str, pd.DataFrame] or pd.DataFrame)
     """
     data = load_file(load_path)
 
     if isinstance(relation, str):
-        results_df = evaluate_relation(model, tokenizer, data, relation)
+        results_df = evaluate_relation(model, tokenizer, data, relation, prompt_template=prompt_template)
     else:
-        results_df = evaluate_relations(model, tokenizer, data, relation)
+        results_df = evaluate_relations(model, tokenizer, data, relation, prompt_template=prompt_template)
 
     if isinstance(results_df, pd.DataFrame):
         save_file(results_df, save_dir / f"_{relation}.csv")

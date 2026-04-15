@@ -47,20 +47,29 @@ def filter_correct_samples(df: pd.DataFrame, correct: bool = True) -> pd.DataFra
     return filtered_df
 
 
-def convert_relation(df: pd.DataFrame, old_relation: str, new_relation: str) -> pd.DataFrame:
+def convert_relation(
+    df: pd.DataFrame,
+    new_relation: str,
+    prompt_template: str = "Relation: {relation}\nInput: {input}\nOutput:",
+) -> pd.DataFrame:
     """
-    Changes the relation name and updates the prompt text accordingly in a copy.
+    Changes the relation name and regenerates prompts from the template.
 
     Args:
-        df: Input DataFrame
-        old_relation: The original relation name to replace
+        df: Input DataFrame with 'input' and 'relation' columns
         new_relation: The new relation name to set
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         Updated DataFrame copy
     """
     df = df.copy()
     df["relation"] = new_relation
-    df["prompt"] = df["prompt"].apply(lambda x: x.replace(f"Relation: {old_relation}", f"Relation: {new_relation}"))
+    df["prompt"] = df.apply(
+        lambda row: prompt_template.format(
+            relation=new_relation, input=row["input"], output="",
+        ).strip(),
+        axis=1,
+    )
     return df
 
 
@@ -68,8 +77,8 @@ def split_correct_samples(
     df: pd.DataFrame, 
     n_clean: int = 100, 
     n_corrupted: int = 25, 
-    old_rel: str = "antonym", 
-    new_rel: str = "none"
+    new_rel: str = "none",
+    prompt_template: str = "Relation: {relation}\nInput: {input}\nOutput:",
 ) -> Dict[str, pd.DataFrame]:
     """
     Splits the data into clean (converted) and corrupted sets using random sampling.
@@ -78,19 +87,22 @@ def split_correct_samples(
         df: Input DataFrame of correct samples
         n_clean: Number of samples for the clean set
         n_corrupted: Number of samples for the corrupted set
-        old_rel: Original relation name
-        new_rel: New relation name for the clean set
+        new_rel: New relation name for the corrupted set
+        prompt_template: Format string with {relation}, {input}, {output} placeholders
     Returns:
         Dictionary containing 'clean' and 'corrupted' DataFrames
     """
-    # Use pandas .sample() for safe and efficient sampling
     clean_samples = df.sample(n=min(n_clean, len(df)))
     
     remaining_df = df.drop(clean_samples.index)
+    if len(remaining_df) == 0:
+        raise ValueError(
+            f"No samples left for corrupted set (total={len(df)}, n_clean={n_clean}). "
+            f"Reduce n_clean or use more data."
+        )
     corrupted_samples = remaining_df.sample(n=min(n_corrupted, len(remaining_df)))
     
-    # Convert relation for clean samples
-    corrupted_samples = convert_relation(corrupted_samples, old_rel, new_rel)
+    corrupted_samples = convert_relation(corrupted_samples, new_rel, prompt_template=prompt_template)
     
     return clean_samples, corrupted_samples
 
@@ -111,31 +123,27 @@ def cache_activations(
     """
     layer_stack = get_layer_stack(model)
     num_layers = len(layer_stack)
-    num_heads = model.model.config.num_attention_heads
-    hidden_size = model.model.config.hidden_size
+    cfg = get_model_config(model)
+    num_heads = cfg.num_attention_heads
+    hidden_size = cfg.hidden_size
     head_dim = hidden_size // num_heads
 
+    out_projs = [get_attn_out_proj_module(layer_stack[i]) for i in range(num_layers)]
     all_attn_outs = []
 
     print(f"Extracting attention outputs for {len(df)} prompts...")
     for _, row in tqdm(df.iterrows(), total=len(df), desc="Extracting Attention"):
         prompt = row["prompt"]
         
-        # Dictionary to store saved nodes for each layer
-        layer_saved_nodes = {}
-        
         with model.trace(prompt, invoker_args={"truncation": False}):
+            layer_saved_nodes = list().save()
             for layer_idx in range(num_layers):
-                # Accessing attention output before the final linear projection (o_proj)
-                # This typically contains head-separated information
-                attn_out = layer_stack[layer_idx].self_attn.o_proj.input[:, -1, :].save()
-                layer_saved_nodes[layer_idx] = attn_out
+                layer_saved_nodes.append(out_projs[layer_idx].input[:, -1, :])
 
-        # Extract and stack layers for this prompt: (num_layers, hidden_size)
-        prompt_layers = []
-        for layer_idx in range(num_layers):
-            val = _resolve_saved_value(layer_saved_nodes[layer_idx]).detach().cpu()
-            prompt_layers.append(val)
+        prompt_layers = [
+            _resolve_saved_value(layer_saved_nodes[i]).detach().cpu()
+            for i in range(num_layers)
+        ]
         
         # Shape: (num_layers, hidden_size)
         prompt_tensor = torch.stack(prompt_layers).squeeze(1)
@@ -241,6 +249,48 @@ def compute_head_intervention_scores(
     return final_scores
 
 
+_BACKBONE_ATTRS = ("model", "gpt_neox", "transformer")
+
+
+def _get_backbone(model):
+    """
+    Resolves the inner backbone module from a causal LM wrapper.
+
+    Args:
+        model: The language model
+    Returns:
+        The backbone module (e.g. LlamaModel, GPTNeoXModel, GPT2Model)
+    """
+    for attr in _BACKBONE_ATTRS:
+        backbone = getattr(model, attr, None)
+        if backbone is not None:
+            return backbone
+    raise ValueError("Could not resolve backbone module on this model.")
+
+
+def get_model_config(model):
+    """
+    Retrieves the model config, supporting multiple architectures
+    including nnsight LanguageModel wrappers.
+
+    Args:
+        model: The language model (HuggingFace or nnsight wrapper)
+    Returns:
+        The model's configuration object
+    """
+    config = getattr(model, "config", None)
+    if config is not None:
+        return config
+
+    inner = getattr(model, "_model", None) or getattr(model, "model", None)
+    if inner is not None and inner is not model:
+        config = getattr(inner, "config", None)
+        if config is not None:
+            return config
+
+    return _get_backbone(model).config
+
+
 def get_layer_stack(model):
     """
     Resolves the transformer layer stack from a model, supporting multiple architectures.
@@ -250,11 +300,24 @@ def get_layer_stack(model):
     Returns:
         The sequential container of transformer layers
     """
-    if hasattr(model, "transformer") and hasattr(model.transformer, "h"):
-        return model.transformer.h
-    if hasattr(model, "model") and hasattr(model.model, "layers"):
-        return model.model.layers
+    _LAYER_CHILD = {"model": "layers", "gpt_neox": "layers", "transformer": "h"}
+    for attr in _BACKBONE_ATTRS:
+        backbone = getattr(model, attr, None)
+        if backbone is not None:
+            child = _LAYER_CHILD.get(attr)
+            layers = getattr(backbone, child, None) if child else None
+            if layers is not None:
+                return layers
     raise ValueError("Could not find transformer layer stack on this model.")
+
+
+_ATTN_OUT_PROJ_PATHS = [
+    ("self_attn", "o_proj"),    # LLaMA, Qwen
+    ("self_attn", "out_proj"),  # some HF variants
+    ("attention", "dense"),     # Pythia / GPT-NeoX
+    ("attn", "c_proj"),         # GPT-2
+    ("attn", "out_proj"),       # some HF variants
+]
 
 
 def get_attn_out_proj_module(layer):
@@ -264,22 +327,14 @@ def get_attn_out_proj_module(layer):
     Args:
         layer: A single transformer layer
     Returns:
-        The output projection module (e.g. o_proj, out_proj, c_proj)
+        The output projection module (e.g. o_proj, dense, c_proj)
     """
-    if hasattr(layer, "self_attn"):
-        attn = layer.self_attn
-        if hasattr(attn, "o_proj"):
-            return attn.o_proj
-        if hasattr(attn, "out_proj"):
-            return attn.out_proj
-
-    if hasattr(layer, "attn"):
-        attn = layer.attn
-        if hasattr(attn, "c_proj"):
-            return attn.c_proj
-        if hasattr(attn, "out_proj"):
-            return attn.out_proj
-
+    for attn_attr, proj_attr in _ATTN_OUT_PROJ_PATHS:
+        attn = getattr(layer, attn_attr, None)
+        if attn is not None:
+            proj = getattr(attn, proj_attr, None)
+            if proj is not None:
+                return proj
     raise ValueError(f"Could not find attention output projection module for layer: {type(layer)}")
 
 
@@ -326,8 +381,9 @@ def build_intervention_vector(
         Intervention vector of shape (hidden_dim,)
     """
     layer_stack = get_layer_stack(model)
-    num_heads = model.model.config.num_attention_heads
-    hidden_size = model.model.config.hidden_size
+    cfg = get_model_config(model)
+    num_heads = cfg.num_attention_heads
+    hidden_size = cfg.hidden_size
     head_dim = hidden_size // num_heads
 
     intervention_vector = torch.zeros(hidden_size)
