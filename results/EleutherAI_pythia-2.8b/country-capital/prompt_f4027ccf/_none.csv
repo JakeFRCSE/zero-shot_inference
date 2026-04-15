@@ -1,0 +1,592 @@
+input,output,relation,prompt,input_id,output_id,relation_id,prediction,logits,prediction_id,input_logit,output_logit,relation_logit,input_prediction,output_prediction,relation_prediction
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",16111,611,5293,The,"tensor([ 5.7266, -4.5547,  2.6152,  ..., -4.4531, -4.3516, -4.4883],
+       dtype=torch.float16)",380,11.84375,8.953125,7.88671875,False,False,False
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",31208,48669,5293,The,"tensor([ 5.7031, -4.7969,  2.5879,  ..., -4.9297, -4.7695, -4.8477],
+       dtype=torch.float16)",380,11.359375,6.33984375,7.56640625,False,False,False
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",36364,1219,5293,The,"tensor([ 5.6562, -4.7891,  2.6035,  ..., -4.6680, -4.5820, -4.6641],
+       dtype=torch.float16)",380,11.8125,9.3203125,7.90234375,False,False,False
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",1244,1244,5293,It,"tensor([ 6.1953, -4.8945,  2.6250,  ..., -5.0742, -5.0078, -4.9805],
+       dtype=torch.float16)",733,12.015625,12.015625,8.3203125,False,False,False
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",4965,7511,5293,The,"tensor([ 5.2266, -5.0430,  2.3125,  ..., -5.1016, -4.9844, -5.0000],
+       dtype=torch.float16)",380,12.1640625,5.75390625,7.84375,False,False,False
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",9422,659,5293,Ant,"tensor([ 6.2031, -4.7930,  2.0488,  ..., -4.8789, -4.8086, -4.8438],
+       dtype=torch.float16)",9422,13.4921875,7.59765625,7.1875,True,False,False
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",23881,46287,5293,The,"tensor([ 5.3945, -4.7188,  2.5371,  ..., -4.7500, -4.7578, -4.6406],
+       dtype=torch.float16)",380,11.0390625,7.51171875,7.6328125,False,False,False
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",5360,714,5293,The,"tensor([ 5.7461, -4.9844,  3.0625,  ..., -4.9961, -4.8867, -4.9570],
+       dtype=torch.float16)",380,12.0859375,7.64453125,7.375,False,False,False
+Australia,Canberra,none,"Q: What is the none of Australia?
+A:",6976,2615,5293,The,"tensor([ 5.9023, -4.6133,  2.9316,  ..., -4.5742, -4.5820, -4.5312],
+       dtype=torch.float16)",380,11.90625,7.9140625,7.60546875,False,False,False
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",21753,26229,5293,The,"tensor([ 5.5391, -4.9375,  2.4355,  ..., -4.9297, -4.8359, -4.8320],
+       dtype=torch.float16)",380,11.671875,8.296875,7.7890625,False,False,False
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",46555,378,5293,The,"tensor([ 6.2070, -4.8750,  3.0977,  ..., -4.7266, -4.6250, -4.6875],
+       dtype=torch.float16)",380,12.25,9.1015625,7.75,False,False,False
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",21789,49905,5293,The,"tensor([ 5.4414, -5.2188,  2.1523,  ..., -5.1914, -5.1211, -5.1719],
+       dtype=torch.float16)",380,11.109375,7.125,7.23046875,False,False,False
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",21789,3083,5293,The,"tensor([ 5.7266, -4.7188,  2.3496,  ..., -4.6016, -4.5820, -4.6914],
+       dtype=torch.float16)",380,11.71875,6.6953125,7.80859375,False,False,False
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",29310,37287,5293,Bangladesh,"tensor([ 5.1484, -4.9766,  2.4375,  ..., -4.9727, -4.8281, -4.8477],
+       dtype=torch.float16)",29310,12.734375,9.7421875,7.62109375,True,False,False
+Barbados,Bridgetown,none,"Q: What is the none of Barbados?
+A:",33782,2652,5293,The,"tensor([ 5.9023, -4.7734,  2.4824,  ..., -4.8477, -4.7656, -4.7930],
+       dtype=torch.float16)",380,11.8984375,6.38671875,6.59375,False,False,False
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",6512,353,5293,The,"tensor([ 5.9453, -4.9727,  2.7695,  ..., -5.0156, -4.8438, -4.9844],
+       dtype=torch.float16)",380,11.6328125,8.6796875,7.4453125,False,False,False
+Belgium,Brussels,none,"Q: What is the none of Belgium?
+A:",22785,30167,5293,The,"tensor([ 5.6914, -4.8906,  2.6035,  ..., -5.0234, -4.8867, -4.8750],
+       dtype=torch.float16)",380,11.28125,8.3359375,7.82421875,False,False,False
+Belize,Belmopan,none,"Q: What is the none of Belize?
+A:",6512,6512,5293,The,"tensor([ 5.9766, -4.8789,  2.6582,  ..., -5.0039, -4.8320, -4.9141],
+       dtype=torch.float16)",380,10.890625,10.890625,7.5625,False,False,False
+Benin,Porto-Novo,none,"Q: What is the none of Benin?
+A:",6029,6162,5293,Ben,"tensor([ 4.7734, -5.4141,  1.8623,  ..., -5.4414, -5.2812, -5.2969],
+       dtype=torch.float16)",6029,12.609375,5.0234375,7.44140625,True,False,False
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",26165,596,5293,The,"tensor([ 5.9375, -4.8984,  2.8984,  ..., -4.9219, -4.8359, -4.8711],
+       dtype=torch.float16)",380,12.5390625,8.140625,7.64453125,False,False,False
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",16001,3905,5293,The,"tensor([ 5.3828, -4.8750,  2.5762,  ..., -4.9258, -4.8359, -4.8320],
+       dtype=torch.float16)",380,11.515625,7.43359375,7.64453125,False,False,False
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",46795,9997,5293,The,"tensor([ 6.0977, -4.7031,  2.5605,  ..., -4.7422, -4.6562, -4.8164],
+       dtype=torch.float16)",380,11.921875,9.265625,7.1796875,False,False,False
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",378,443,5293,B,"tensor([ 6.0469, -4.8945,  2.9727,  ..., -4.9141, -4.8984, -4.8164],
+       dtype=torch.float16)",378,12.9921875,8.7265625,7.1015625,True,False,False
+Brazil,Brasilia,none,"Q: What is the none of Brazil?
+A:",10869,31574,5293,The,"tensor([ 5.5898, -5.0977,  2.7168,  ..., -5.1094, -5.0664, -4.9414],
+       dtype=torch.float16)",380,12.1796875,6.75,7.43359375,False,False,False
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",2652,16804,5293,Br,"tensor([ 5.7188, -5.2500,  2.4004,  ..., -5.1914, -5.1211, -5.1758],
+       dtype=torch.float16)",2652,12.359375,4.95703125,7.30078125,True,False,False
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",43905,36104,5293,The,"tensor([ 5.9336, -5.0586,  2.9355,  ..., -5.1641, -4.9570, -5.0000],
+       dtype=torch.float16)",380,12.1015625,7.1875,7.4765625,False,False,False
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",45262,473,5293,The,"tensor([ 5.5859, -4.8555,  2.2812,  ..., -4.8594, -4.6797, -4.7500],
+       dtype=torch.float16)",380,11.40625,8.1796875,7.546875,False,False,False
+Burundi,Bujumbura,none,"Q: What is the none of Burundi?
+A:",7634,378,5293,The,"tensor([ 5.1250, -4.4961,  2.4844,  ..., -4.5273, -4.3711, -4.5000],
+       dtype=torch.float16)",380,12.6171875,9.1484375,7.59765625,False,False,False
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",15569,28340,5293,Cab,"tensor([ 6.0781, -4.8594,  2.6777,  ..., -4.8203, -4.7695, -4.7852],
+       dtype=torch.float16)",15569,13.25,5.05859375,7.1640625,True,False,False
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",41984,1777,5293,The,"tensor([ 5.2031, -4.9141,  2.0605,  ..., -4.8828, -4.7773, -4.7930],
+       dtype=torch.float16)",380,11.25,8.3671875,7.65625,False,False,False
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",6039,36523,5293,The,"tensor([ 5.0508, -5.1562,  2.6699,  ..., -5.0898, -4.9883, -4.9883],
+       dtype=torch.float16)",380,11.90625,5.1484375,7.25,False,False,False
+Canada,Ottawa,none,"Q: What is the none of Canada?
+A:",6144,29539,5293,The,"tensor([ 6.0430, -4.5977,  2.7207,  ..., -4.5742, -4.5664, -4.5352],
+       dtype=torch.float16)",380,11.6484375,7.41796875,8.0859375,False,False,False
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",8170,378,5293,The,"tensor([ 5.7852, -4.7109,  1.9834,  ..., -4.6094, -4.4336, -4.6328],
+       dtype=torch.float16)",380,12.078125,8.359375,7.78515625,False,False,False
+Chad,N'Djamena,none,"Q: What is the none of Chad?
+A:",34884,427,5293,He,"tensor([ 6.0742, -4.7734,  1.8418,  ..., -4.6953, -4.6094, -4.6836],
+       dtype=torch.float16)",754,11.984375,9.234375,8.8125,False,False,False
+Chile,Santiago,none,"Q: What is the none of Chile?
+A:",22755,38436,5293,The,"tensor([ 5.4297, -4.8242,  2.7188,  ..., -4.8945, -4.7500, -4.6992],
+       dtype=torch.float16)",380,11.859375,6.98828125,7.6796875,False,False,False
+China,Beijing,none,"Q: What is the none of China?
+A:",4135,18496,5293,The,"tensor([ 5.8594, -5.1367,  2.1582,  ..., -4.9727, -5.0156, -4.9531],
+       dtype=torch.float16)",380,12.0390625,7.703125,7.99609375,False,False,False
+Colombia,Bogotá,none,"Q: What is the none of Colombia?
+A:",31003,27737,5293,The,"tensor([ 5.2969, -4.7891,  2.4297,  ..., -4.9062, -4.7891, -4.7656],
+       dtype=torch.float16)",380,10.546875,7.41796875,7.51953125,False,False,False
+Comoros,Moroni,none,"Q: What is the none of Comoros?
+A:",1176,4922,5293,The,"tensor([ 5.7891, -5.1211,  2.5684,  ..., -5.0391, -4.9922, -5.0430],
+       dtype=torch.float16)",380,12.8671875,7.37109375,8.578125,False,False,False
+Congo,Kinshasa,none,"Q: What is the none of Congo?
+A:",37642,611,5293,The,"tensor([ 5.3984, -4.7969,  2.0684,  ..., -4.8008, -4.6602, -4.7422],
+       dtype=torch.float16)",380,10.703125,8.453125,7.9140625,False,False,False
+Costa Rica,San José,none,"Q: What is the none of Costa Rica?
+A:",26002,5003,5293,The,"tensor([ 5.9492, -4.9805,  2.7344,  ..., -5.1875, -5.0273, -4.9961],
+       dtype=torch.float16)",380,11.9921875,7.5,7.19140625,False,False,False
+Cote d'Ivoire,Yamoussoukro,none,"Q: What is the none of Cote d'Ivoire?
+A:",330,714,5293,The,"tensor([ 5.2578, -4.6250,  2.1582,  ..., -4.6250, -4.5039, -4.5234],
+       dtype=torch.float16)",380,13.1015625,6.0078125,7.02734375,False,False,False
+Croatia,Zagreb,none,"Q: What is the none of Croatia?
+A:",42862,49524,5293,The,"tensor([ 5.7812, -5.1094,  2.7754,  ..., -5.1641, -5.0742, -5.1289],
+       dtype=torch.float16)",380,11.453125,7.25390625,7.37890625,False,False,False
+Cuba,Havana,none,"Q: What is the none of Cuba?
+A:",24605,32977,5293,The,"tensor([ 5.6484, -4.3086,  2.4785,  ..., -4.3672, -4.2656, -4.2734],
+       dtype=torch.float16)",380,11.4375,7.81640625,7.4765625,False,False,False
+Cyprus,Nicosia,none,"Q: What is the none of Cyprus?
+A:",44637,12951,5293,The,"tensor([ 5.7969, -4.9336,  2.4824,  ..., -4.9688, -4.8008, -4.9414],
+       dtype=torch.float16)",380,11.8046875,7.4296875,7.40234375,False,False,False
+Czech Republic,Prague,none,"Q: What is the none of Czech Republic?
+A:",21647,41577,5293,The,"tensor([ 5.8477, -5.4141,  2.6875,  ..., -5.4375, -5.4102, -5.3672],
+       dtype=torch.float16)",380,11.03125,8.0625,7.50390625,False,False,False
+Democratic Republic of the Congo,Kinshasa,none,"Q: What is the none of Democratic Republic of the Congo?
+A:",9922,611,5293,The,"tensor([ 5.7617, -4.3711,  1.0957,  ..., -4.3359, -4.1523, -4.3594],
+       dtype=torch.float16)",380,12.375,9.4296875,6.81640625,False,False,False
+Denmark,Copenhagen,none,"Q: What is the none of Denmark?
+A:",22783,40892,5293,The,"tensor([ 5.7109, -4.7969,  2.5078,  ..., -4.9453, -4.8750, -4.7422],
+       dtype=torch.float16)",380,11.59375,8.28125,7.890625,False,False,False
+Djibouti,Djibouti City,none,"Q: What is the none of Djibouti?
+A:",43050,43050,5293,The,"tensor([ 6.1172, -4.8359,  2.6426,  ..., -4.8203, -4.7852, -4.7969],
+       dtype=torch.float16)",380,12.421875,12.421875,7.85546875,False,False,False
+Dominica,Roseau,none,"Q: What is the none of Dominica?
+A:",19307,12447,5293,The,"tensor([ 5.8633, -4.8047,  2.2812,  ..., -4.8945, -4.7383, -4.8164],
+       dtype=torch.float16)",380,12.515625,4.38671875,7.08984375,False,False,False
+Dominican Republic,Santo Domingo,none,"Q: What is the none of Dominican Republic?
+A:",46406,322,5293,The,"tensor([ 5.5156, -5.1055,  2.1641,  ..., -5.2227, -5.1016, -5.0703],
+       dtype=torch.float16)",380,11.3359375,7.89453125,7.59765625,False,False,False
+Ecuador,Quito,none,"Q: What is the none of Ecuador?
+A:",40145,1165,5293,The,"tensor([ 5.5586, -4.8633,  2.2344,  ..., -4.8867, -4.7578, -4.7695],
+       dtype=torch.float16)",380,10.796875,8.5078125,7.85546875,False,False,False
+Egypt,Cairo,none,"Q: What is the none of Egypt?
+A:",10253,37068,5293,The,"tensor([ 5.1484, -5.0469,  2.2246,  ..., -5.0391, -4.9609, -5.0039],
+       dtype=torch.float16)",380,11.0546875,5.953125,7.66796875,False,False,False
+El Salvador,San Salvador,none,"Q: What is the none of El Salvador?
+A:",3599,5003,5293,The,"tensor([ 5.1797, -4.7930,  1.8750,  ..., -4.8086, -4.6641, -4.7383],
+       dtype=torch.float16)",380,11.84375,7.73828125,7.71875,False,False,False
+Equatorial Guinea,Malabo,none,"Q: What is the none of Equatorial Guinea?
+A:",8721,5979,5293,The,"tensor([ 6.4336, -4.7578,  2.7227,  ..., -4.7773, -4.5586, -4.6328],
+       dtype=torch.float16)",380,12.703125,7.765625,8.1484375,False,False,False
+Eritrea,Asmara,none,"Q: What is the none of Eritrea?
+A:",444,1284,5293,E,"tensor([ 5.7031, -4.5195,  2.9316,  ..., -4.4648, -4.3398, -4.4727],
+       dtype=torch.float16)",444,13.140625,9.6875,7.84375,True,False,False
+Estonia,Tallinn,none,"Q: What is the none of Estonia?
+A:",39863,32826,5293,The,"tensor([ 6.2148, -5.0391,  2.7148,  ..., -5.1094, -4.9922, -5.0273],
+       dtype=torch.float16)",380,11.5625,6.69140625,7.31640625,False,False,False
+Eswatini,Mbabane,none,"Q: What is the none of Eswatini?
+A:",444,353,5293,The,"tensor([ 5.4336, -4.8477,  2.5723,  ..., -4.8594, -4.7539, -4.8242],
+       dtype=torch.float16)",380,12.96875,8.3515625,7.75,False,False,False
+Ethiopia,Addis Ababa,none,"Q: What is the none of Ethiopia?
+A:",35363,5733,5293,The,"tensor([ 4.9453, -4.7578,  2.4219,  ..., -4.8320, -4.6719, -4.6602],
+       dtype=torch.float16)",380,12.4765625,7.89453125,7.69140625,False,False,False
+Fiji,Suva,none,"Q: What is the none of Fiji?
+A:",401,4137,5293,The,"tensor([ 5.9336, -4.8008,  2.5527,  ..., -4.7852, -4.7266, -4.7461],
+       dtype=torch.float16)",380,12.359375,6.18359375,7.3125,False,False,False
+Finland,Helsinki,none,"Q: What is the none of Finland?
+A:",25270,34159,5293,The,"tensor([ 5.8945, -5.0234,  2.6875,  ..., -5.1797, -5.0781, -5.0078],
+       dtype=torch.float16)",380,11.6015625,8.03125,7.578125,False,False,False
+France,Paris,none,"Q: What is the none of France?
+A:",6181,7785,5293,The,"tensor([ 5.5078, -5.0039,  2.3965,  ..., -5.0586, -4.9648, -4.9648],
+       dtype=torch.float16)",380,10.984375,7.921875,7.6640625,False,False,False
+Gabon,Libreville,none,"Q: What is the none of Gabon?
+A:",17422,9271,5293,The,"tensor([ 5.6523, -4.9062,  2.3809,  ..., -4.8711, -4.8203, -4.8008],
+       dtype=torch.float16)",380,12.40625,6.28515625,6.73828125,False,False,False
+Gambia,Banjul,none,"Q: What is the none of Gambia?
+A:",41425,16456,5293,The,"tensor([ 5.3281, -5.0664,  2.6152,  ..., -5.0781, -4.9180, -5.0039],
+       dtype=torch.float16)",380,12.578125,5.83203125,7.671875,False,False,False
+Georgia,Tbilisi,none,"Q: What is the none of Georgia?
+A:",12096,308,5293,The,"tensor([ 5.5039, -4.9961,  1.8027,  ..., -4.9453, -4.8438, -4.8828],
+       dtype=torch.float16)",380,11.8515625,8.046875,7.296875,False,False,False
+Germany,Berlin,none,"Q: What is the none of Germany?
+A:",6176,12911,5293,The,"tensor([ 5.7812, -4.7461,  2.6309,  ..., -4.7227, -4.7305, -4.6953],
+       dtype=torch.float16)",380,11.4296875,7.21875,7.8671875,False,False,False
+Ghana,Accra,none,"Q: What is the none of Ghana?
+A:",34905,8874,5293,The,"tensor([ 5.5039, -4.7969,  3.0000,  ..., -4.8047, -4.6680, -4.6523],
+       dtype=torch.float16)",380,11.796875,6.47265625,7.73828125,False,False,False
+Greece,Athens,none,"Q: What is the none of Greece?
+A:",17785,27411,5293,The,"tensor([ 5.5000, -4.8984,  2.5625,  ..., -5.0156, -4.8711, -4.8906],
+       dtype=torch.float16)",380,11.234375,7.59375,7.3828125,False,False,False
+Grenada,St. George's,none,"Q: What is the none of Grenada?
+A:",34450,659,5293,The,"tensor([ 5.6406, -4.9570,  2.0645,  ..., -5.1445, -4.9805, -5.0273],
+       dtype=torch.float16)",380,11.5859375,6.8203125,7.5,False,False,False
+Guatemala,Guatemala City,none,"Q: What is the none of Guatemala?
+A:",46560,46560,5293,The,"tensor([ 5.3008, -4.7461,  2.0078,  ..., -4.8203, -4.5859, -4.6641],
+       dtype=torch.float16)",380,11.390625,11.390625,7.6171875,False,False,False
+Guinea,Conakry,none,"Q: What is the none of Guinea?
+A:",34410,1716,5293,The,"tensor([ 5.2148, -4.8398,  2.0332,  ..., -4.9648, -4.6719, -4.7539],
+       dtype=torch.float16)",380,11.8828125,6.69140625,7.83984375,False,False,False
+Guinea-Bissau,Bissau,none,"Q: What is the none of Guinea-Bissau?
+A:",34410,378,5293,The,"tensor([ 5.7812, -4.4102,  2.1348,  ..., -4.5234, -4.1992, -4.3555],
+       dtype=torch.float16)",380,12.8671875,10.234375,7.5,False,False,False
+Guyana,Georgetown,none,"Q: What is the none of Guyana?
+A:",22757,3096,5293,The,"tensor([ 5.7383, -4.7031,  2.5996,  ..., -4.7539, -4.6172, -4.6523],
+       dtype=torch.float16)",380,11.3984375,7.125,7.078125,False,False,False
+Haiti,Port-au-Prince,none,"Q: What is the none of Haiti?
+A:",40906,6162,5293,The,"tensor([ 5.8242, -4.3359,  2.3281,  ..., -4.4570, -4.3359, -4.3672],
+       dtype=torch.float16)",380,11.3984375,6.26953125,7.734375,False,False,False
+Honduras,Tegucigalpa,none,"Q: What is the none of Honduras?
+A:",44509,308,5293,The,"tensor([ 5.6641, -4.7773,  2.0898,  ..., -4.8242, -4.7227, -4.7812],
+       dtype=torch.float16)",380,11.3046875,8.109375,7.6953125,False,False,False
+Hungary,Budapest,none,"Q: What is the none of Hungary?
+A:",29171,50086,5293,The,"tensor([ 5.4375, -4.9102,  2.6035,  ..., -4.9570, -4.8320, -4.8477],
+       dtype=torch.float16)",380,11.4140625,8.078125,7.18359375,False,False,False
+Iceland,Reykjavik,none,"Q: What is the none of Iceland?
+A:",28651,1720,5293,The,"tensor([ 5.8008, -4.8477,  2.8184,  ..., -4.9062, -4.7773, -4.7461],
+       dtype=torch.float16)",380,12.6015625,8.2578125,7.32421875,False,False,False
+India,New Delhi,none,"Q: What is the none of India?
+A:",5427,1457,5293,The,"tensor([ 5.5703, -4.8906,  2.5684,  ..., -4.8359, -4.7305, -4.7305],
+       dtype=torch.float16)",380,11.3125,6.78125,7.35546875,False,False,False
+Indonesia,Jakarta,none,"Q: What is the none of Indonesia?
+A:",23340,32319,5293,The,"tensor([ 5.5469, -4.9219,  2.3828,  ..., -4.8359, -4.7930, -4.7422],
+       dtype=torch.float16)",380,12.03125,8.6015625,7.33203125,False,False,False
+Iran,Tehran,none,"Q: What is the none of Iran?
+A:",7751,35889,5293,The,"tensor([ 5.5547, -4.7148,  2.7168,  ..., -4.6406, -4.6484, -4.6484],
+       dtype=torch.float16)",380,12.265625,8.390625,8.1953125,False,False,False
+Iraq,Baghdad,none,"Q: What is the none of Iraq?
+A:",9256,39759,5293,The,"tensor([ 5.8203, -4.2227,  2.4688,  ..., -4.1133, -4.0312, -4.2656],
+       dtype=torch.float16)",380,11.140625,7.23828125,8.3671875,False,False,False
+Ireland,Dublin,none,"Q: What is the none of Ireland?
+A:",11011,24523,5293,The,"tensor([ 5.8555, -4.5859,  2.5977,  ..., -4.6680, -4.5820, -4.5430],
+       dtype=torch.float16)",380,10.3828125,7.4453125,7.48828125,False,False,False
+Israel,Jerusalem,none,"Q: What is the none of Israel?
+A:",5143,17913,5293,The,"tensor([ 4.8594, -4.9102,  2.8145,  ..., -4.8906, -4.8906, -4.9492],
+       dtype=torch.float16)",380,11.0078125,7.36328125,7.5703125,False,False,False
+Italy,Rome,none,"Q: What is the none of Italy?
+A:",9972,12300,5293,The,"tensor([ 5.5820, -5.0312,  2.5645,  ..., -5.1445, -4.9531, -4.9766],
+       dtype=torch.float16)",380,11.109375,8.0390625,7.37109375,False,False,False
+Jamaica,Kingston,none,"Q: What is the none of Jamaica?
+A:",41198,47706,5293,The,"tensor([ 5.8359, -4.6953,  2.6719,  ..., -4.7734, -4.7031, -4.6055],
+       dtype=torch.float16)",380,10.609375,5.203125,7.60546875,False,False,False
+Japan,Tokyo,none,"Q: What is the none of Japan?
+A:",4047,17413,5293,The,"tensor([ 5.6094, -5.0742,  2.3574,  ..., -4.9648, -5.0117, -4.9609],
+       dtype=torch.float16)",380,11.703125,8.265625,7.19921875,False,False,False
+Jordan,Amman,none,"Q: What is the none of Jordan?
+A:",13268,3052,5293,The,"tensor([ 5.5352, -5.1289,  1.9727,  ..., -4.9648, -5.0078, -4.9922],
+       dtype=torch.float16)",380,11.09375,6.34375,7.87890625,False,False,False
+Kazakhstan,Astana,none,"Q: What is the none of Kazakhstan?
+A:",46936,15123,5293,The,"tensor([ 6.2461, -4.9336,  2.8398,  ..., -4.8281, -4.6094, -4.7812],
+       dtype=torch.float16)",380,12.15625,7.0,7.6796875,False,False,False
+Kenya,Nairobi,none,"Q: What is the none of Kenya?
+A:",27946,427,5293,The,"tensor([ 5.0312, -4.7266,  2.5527,  ..., -4.6914, -4.5625, -4.6328],
+       dtype=torch.float16)",380,10.84375,10.265625,7.91015625,False,False,False
+Kiribati,South Tarawa,none,"Q: What is the none of Kiribati?
+A:",20799,3684,5293,Kir,"tensor([ 5.7734, -5.0078,  2.3184,  ..., -4.9062, -4.7656, -5.0352],
+       dtype=torch.float16)",20799,13.2734375,7.1171875,7.5234375,True,False,False
+Kosovo,Pristina,none,"Q: What is the none of Kosovo?
+A:",48863,367,5293,The,"tensor([ 5.8633, -4.0977,  2.9434,  ..., -4.2227, -4.0430, -4.3203],
+       dtype=torch.float16)",380,12.2578125,9.046875,7.52734375,False,False,False
+Kuwait,Kuwait City,none,"Q: What is the none of Kuwait?
+A:",46614,46614,5293,The,"tensor([ 5.3008, -5.0586,  2.6895,  ..., -4.9141, -4.8008, -4.9336],
+       dtype=torch.float16)",380,10.9765625,10.9765625,8.6328125,False,False,False
+Kyrgyzstan,Bishkek,none,"Q: What is the none of Kyrgyzstan?
+A:",611,378,5293,K,"tensor([ 6.3984, -4.7109,  2.9668,  ..., -4.7344, -4.4492, -4.7109],
+       dtype=torch.float16)",611,13.5390625,8.4140625,7.46875,True,False,False
+Laos,Vientiane,none,"Q: What is the none of Laos?
+A:",3905,657,5293,The,"tensor([ 5.6055, -4.7500,  2.0234,  ..., -4.7344, -4.6172, -4.6445],
+       dtype=torch.float16)",380,12.859375,8.3046875,7.48828125,False,False,False
+Latvia,Riga,none,"Q: What is the none of Latvia?
+A:",14310,416,5293,The,"tensor([ 5.8672, -5.2500,  3.0625,  ..., -5.2734, -5.2109, -5.2070],
+       dtype=torch.float16)",380,11.3359375,7.9140625,6.90234375,False,False,False
+Lebanon,Beirut,none,"Q: What is the none of Lebanon?
+A:",28746,2325,5293,The,"tensor([ 5.1211, -4.7383,  2.5020,  ..., -4.6680, -4.6250, -4.6875],
+       dtype=torch.float16)",380,11.484375,9.046875,7.7421875,False,False,False
+Lesotho,Maseru,none,"Q: What is the none of Lesotho?
+A:",12029,353,5293,Les,"tensor([ 5.6797, -4.7734,  2.1797,  ..., -4.9023, -4.7383, -4.8672],
+       dtype=torch.float16)",12029,12.9453125,8.390625,7.84765625,True,False,False
+Liberia,Monrovia,none,"Q: What is the none of Liberia?
+A:",15562,4200,5293,The,"tensor([ 5.3945, -4.6602,  2.4395,  ..., -4.7656, -4.5664, -4.7031],
+       dtype=torch.float16)",380,12.078125,6.82421875,6.71875,False,False,False
+Libya,Tripoli,none,"Q: What is the none of Libya?
+A:",30174,11835,5293,The,"tensor([ 5.8711, -4.2148,  2.0898,  ..., -4.1758, -4.0664, -4.2734],
+       dtype=torch.float16)",380,12.65625,7.18359375,7.88671875,False,False,False
+Liechtenstein,Vaduz,none,"Q: What is the none of Liechtenstein?
+A:",10615,657,5293,It,"tensor([ 6.4453, -4.7773,  2.8984,  ..., -4.8945, -4.8086, -4.7891],
+       dtype=torch.float16)",733,12.3515625,7.53125,7.58203125,False,False,False
+Lithuania,Vilnius,none,"Q: What is the none of Lithuania?
+A:",40115,40936,5293,The,"tensor([ 5.7695, -5.1602,  2.8613,  ..., -5.1367, -5.0977, -5.1992],
+       dtype=torch.float16)",380,11.734375,8.203125,7.08984375,False,False,False
+Luxembourg,Luxembourg City,none,"Q: What is the none of Luxembourg?
+A:",44133,44133,5293,The,"tensor([ 6.0195, -4.9102,  2.6250,  ..., -5.0625, -4.9375, -4.8906],
+       dtype=torch.float16)",380,11.5546875,11.5546875,7.04296875,False,False,False
+Madagascar,Antananarivo,none,"Q: What is the none of Madagascar?
+A:",6984,9422,5293,The,"tensor([ 5.9219, -5.2383,  2.2910,  ..., -5.2305, -5.1992, -5.1719],
+       dtype=torch.float16)",380,11.2734375,6.41796875,7.2890625,False,False,False
+Malawi,Lilongwe,none,"Q: What is the none of Malawi?
+A:",5979,36482,5293,Mal,"tensor([ 5.1758, -4.7227,  2.5898,  ..., -4.8125, -4.6680, -4.7148],
+       dtype=torch.float16)",5979,13.2578125,5.2421875,7.1328125,True,False,False
+Malaysia,Kuala Lumpur,none,"Q: What is the none of Malaysia?
+A:",23799,611,5293,The,"tensor([ 5.6914, -4.7930,  2.5332,  ..., -4.7305, -4.6797, -4.6680],
+       dtype=torch.float16)",380,11.4453125,8.6640625,7.9375,False,False,False
+Maldives,Malé,none,"Q: What is the none of Maldives?
+A:",5979,5979,5293,The,"tensor([ 5.6836, -4.9570,  2.7832,  ..., -4.9141, -4.8359, -4.8750],
+       dtype=torch.float16)",380,12.5625,12.5625,7.44140625,False,False,False
+Mali,Bamako,none,"Q: What is the none of Mali?
+A:",5979,378,5293,The,"tensor([ 5.4219, -4.9766,  2.0195,  ..., -5.0156, -4.8906, -4.9727],
+       dtype=torch.float16)",380,12.5390625,8.0,7.2421875,False,False,False
+Malta,Valletta,none,"Q: What is the none of Malta?
+A:",47832,4009,5293,The,"tensor([ 5.8359, -4.8594,  2.4961,  ..., -5.0039, -4.8242, -4.9102],
+       dtype=torch.float16)",380,10.671875,5.26171875,7.48828125,False,False,False
+Marshall Islands,Majuro,none,"Q: What is the none of Marshall Islands?
+A:",19629,18410,5293,The,"tensor([ 5.4102, -4.9297,  1.5811,  ..., -4.9023, -4.9102, -4.8164],
+       dtype=torch.float16)",380,13.0546875,6.43359375,7.08203125,False,False,False
+Mauritania,Nouakchott,none,"Q: What is the none of Mauritania?
+A:",21664,427,5293,Maur,"tensor([ 5.6172, -5.0117,  2.0996,  ..., -4.9609, -4.8477, -4.9883],
+       dtype=torch.float16)",21664,12.9765625,9.0546875,7.52734375,True,False,False
+Mauritius,Port Louis,none,"Q: What is the none of Mauritius?
+A:",21664,6162,5293,Maur,"tensor([ 5.6328, -5.2305,  2.1934,  ..., -5.2773, -5.0898, -5.1719],
+       dtype=torch.float16)",21664,12.734375,5.66796875,7.203125,True,False,False
+Mexico,Mexico City,none,"Q: What is the none of Mexico?
+A:",8987,8987,5293,The,"tensor([ 5.5898, -4.8828,  2.4863,  ..., -4.9727, -4.8438, -4.7539],
+       dtype=torch.float16)",380,11.2578125,11.2578125,7.4140625,False,False,False
+Micronesia,Palikir,none,"Q: What is the none of Micronesia?
+A:",10929,5226,5293,Mic,"tensor([ 5.8945, -4.8789,  2.0156,  ..., -4.6758, -4.6406, -4.8203],
+       dtype=torch.float16)",10929,13.015625,7.0703125,7.421875,True,False,False
+Moldova,Chisinau,none,"Q: What is the none of Moldova?
+A:",49523,775,5293,The,"tensor([ 6.0586, -5.0273,  2.6328,  ..., -5.1328, -4.9102, -5.0273],
+       dtype=torch.float16)",380,11.890625,7.3515625,7.0703125,False,False,False
+Monaco,Monaco-Ville,none,"Q: What is the none of Monaco?
+A:",4200,4200,5293,It,"tensor([ 5.9609, -5.3164,  2.5723,  ..., -5.4727, -5.3789, -5.3828],
+       dtype=torch.float16)",733,12.015625,12.015625,7.44140625,False,False,False
+Mongolia,Ulaanbaatar,none,"Q: What is the none of Mongolia?
+A:",31121,530,5293,Mong,"tensor([ 5.7227, -5.2578,  2.7266,  ..., -5.1367, -5.1055, -5.0742],
+       dtype=torch.float16)",31121,12.6953125,8.4765625,7.203125,True,False,False
+Montenegro,Podgorica,none,"Q: What is the none of Montenegro?
+A:",7812,20361,5293,The,"tensor([ 5.9648, -5.1367,  2.7305,  ..., -5.2734, -5.1641, -5.2852],
+       dtype=torch.float16)",380,12.3046875,5.609375,7.3046875,False,False,False
+Morocco,Rabat,none,"Q: What is the none of Morocco?
+A:",40983,21385,5293,The,"tensor([ 5.5469, -5.0898,  2.5332,  ..., -5.0234, -4.9141, -4.9023],
+       dtype=torch.float16)",380,11.859375,6.4453125,7.46875,False,False,False
+Mozambique,Maputo,none,"Q: What is the none of Mozambique?
+A:",24872,12968,5293,The,"tensor([ 5.1836, -5.0820,  2.4336,  ..., -5.0547, -4.8633, -4.9062],
+       dtype=torch.float16)",380,12.328125,6.1640625,7.21875,False,False,False
+Myanmar,Naypyidaw,none,"Q: What is the none of Myanmar?
+A:",43828,427,5293,The,"tensor([ 5.7578, -4.6641,  2.1094,  ..., -4.6328, -4.5469, -4.5117],
+       dtype=torch.float16)",380,12.484375,10.0625,7.5234375,False,False,False
+Namibia,Windhoek,none,"Q: What is the none of Namibia?
+A:",20635,17054,5293,The,"tensor([ 5.7578, -5.0352,  2.5391,  ..., -4.9883, -4.9141, -4.9883],
+       dtype=torch.float16)",380,11.921875,5.765625,7.44921875,False,False,False
+Nauru,Yaren District,none,"Q: What is the none of Nauru?
+A:",427,714,5293,The,"tensor([ 6.0352, -4.3828,  2.6133,  ..., -4.3359, -4.3320, -4.4805],
+       dtype=torch.float16)",380,13.0078125,6.1875,8.5625,False,False,False
+Nepal,Kathmandu,none,"Q: What is the none of Nepal?
+A:",35020,23843,5293,Nepal,"tensor([ 5.5312, -4.9414,  2.4766,  ..., -5.0117, -4.8203, -4.8633],
+       dtype=torch.float16)",35020,12.6484375,7.140625,7.9296875,True,False,False
+Netherlands,Amsterdam,none,"Q: What is the none of Netherlands?
+A:",16333,26653,5293,The,"tensor([ 5.6758, -5.1602,  2.7422,  ..., -5.1992, -5.1445, -5.1094],
+       dtype=torch.float16)",380,11.296875,7.27734375,7.8046875,False,False,False
+New Zealand,Wellington,none,"Q: What is the none of New Zealand?
+A:",1457,42337,5293,The,"tensor([ 6.3398, -4.5859,  2.8340,  ..., -4.5625, -4.5469, -4.5625],
+       dtype=torch.float16)",380,12.359375,7.3046875,7.390625,False,False,False
+Nicaragua,Managua,none,"Q: What is the none of Nicaragua?
+A:",12951,3083,5293,The,"tensor([ 5.2656, -4.5312,  2.6758,  ..., -4.5508, -4.3828, -4.4414],
+       dtype=torch.float16)",380,12.234375,7.23046875,7.28515625,False,False,False
+Niger,Niamey,none,"Q: What is the none of Niger?
+A:",32345,15753,5293,The,"tensor([ 5.7344, -4.5117,  2.4355,  ..., -4.4922, -4.3164, -4.3672],
+       dtype=torch.float16)",380,11.921875,8.203125,7.96875,False,False,False
+Nigeria,Abuja,none,"Q: What is the none of Nigeria?
+A:",23856,26957,5293,The,"tensor([ 5.5977, -4.5703,  3.0996,  ..., -4.5352, -4.4258, -4.4336],
+       dtype=torch.float16)",380,11.84375,5.94140625,7.640625,False,False,False
+North Korea,Pyongyang,none,"Q: What is the none of North Korea?
+A:",3729,8462,5293,The,"tensor([ 6.5195, -4.3477,  2.6016,  ..., -4.1406, -4.3672, -4.2578],
+       dtype=torch.float16)",380,12.921875,8.6953125,8.0625,False,False,False
+North Macedonia,Skopje,none,"Q: What is the none of North Macedonia?
+A:",3729,8229,5293,The,"tensor([ 6.5117, -4.3555,  2.9199,  ..., -4.4023, -4.3008, -4.4336],
+       dtype=torch.float16)",380,12.546875,8.015625,7.7578125,False,False,False
+Norway,Oslo,none,"Q: What is the none of Norway?
+A:",20341,43516,5293,The,"tensor([ 5.7812, -4.8008,  2.6738,  ..., -4.8828, -4.8242, -4.7461],
+       dtype=torch.float16)",380,11.7265625,7.73046875,7.921875,False,False,False
+Oman,Muscat,none,"Q: What is the none of Oman?
+A:",473,4878,5293,The,"tensor([ 5.3711, -5.0508,  2.3379,  ..., -4.9180, -4.8242, -4.8594],
+       dtype=torch.float16)",380,12.5546875,6.24609375,7.90625,False,False,False
+Pakistan,Islamabad,none,"Q: What is the none of Pakistan?
+A:",13115,8033,5293,The,"tensor([ 5.6758, -4.8125,  2.7422,  ..., -4.7070, -4.6875, -4.7305],
+       dtype=torch.float16)",380,12.3046875,8.8828125,8.1875,False,False,False
+Palau,Ngerulmud,none,"Q: What is the none of Palau?
+A:",5226,427,5293,The,"tensor([ 5.7109, -5.1055,  2.1777,  ..., -4.9531, -4.9844, -5.0430],
+       dtype=torch.float16)",380,11.875,9.0078125,7.32421875,False,False,False
+Palestine,Ramallah,none,"Q: What is the none of Palestine?
+A:",29313,9752,5293,The,"tensor([ 5.2461, -4.3672,  3.0195,  ..., -4.1797, -4.2188, -4.3516],
+       dtype=torch.float16)",380,11.4765625,7.12109375,7.62109375,False,False,False
+Panama,Panama City,none,"Q: What is the none of Panama?
+A:",37783,37783,5293,The,"tensor([ 5.6367, -5.0430,  2.2520,  ..., -5.1680, -5.0273, -5.0664],
+       dtype=torch.float16)",380,12.2265625,12.2265625,7.69921875,False,False,False
+Papua New Guinea,Port Moresby,none,"Q: What is the none of Papua New Guinea?
+A:",17206,6162,5293,The,"tensor([ 5.7031, -4.8281,  2.5156,  ..., -4.8008, -4.7070, -4.7695],
+       dtype=torch.float16)",380,12.4609375,7.30859375,6.97265625,False,False,False
+Paraguay,Asunción,none,"Q: What is the none of Paraguay?
+A:",2956,1284,5293,The,"tensor([ 5.8008, -5.2930,  2.8477,  ..., -5.2461, -5.2656, -5.1367],
+       dtype=torch.float16)",380,11.8671875,8.7421875,7.61328125,False,False,False
+Peru,Lima,none,"Q: What is the none of Peru?
+A:",31805,418,5293,The,"tensor([ 5.4336, -5.0352,  2.2188,  ..., -5.0547, -4.9922, -4.9219],
+       dtype=torch.float16)",380,10.7109375,8.3515625,7.56640625,False,False,False
+Philippines,Manila,none,"Q: What is the none of Philippines?
+A:",22075,43949,5293,The,"tensor([ 5.2383, -5.0352,  2.0703,  ..., -4.9219, -4.9023, -4.8242],
+       dtype=torch.float16)",380,11.1796875,8.296875,7.28125,False,False,False
+Poland,Warsaw,none,"Q: What is the none of Poland?
+A:",16795,40431,5293,The,"tensor([ 5.8516, -4.9531,  2.7168,  ..., -4.9141, -4.8828, -4.8828],
+       dtype=torch.float16)",380,11.4453125,7.515625,7.37109375,False,False,False
+Portugal,Lisbon,none,"Q: What is the none of Portugal?
+A:",24084,48104,5293,The,"tensor([ 5.9844, -5.0508,  2.8789,  ..., -5.2188, -5.0391, -5.0508],
+       dtype=torch.float16)",380,11.453125,8.2734375,7.30078125,False,False,False
+Qatar,Doha,none,"Q: What is the none of Qatar?
+A:",38372,399,5293,The,"tensor([ 6.0859, -4.7383,  2.6621,  ..., -4.6133, -4.5703, -4.6328],
+       dtype=torch.float16)",380,11.984375,9.6640625,8.2109375,False,False,False
+Romania,Bucharest,none,"Q: What is the none of Romania?
+A:",34262,27907,5293,The,"tensor([ 6.0195, -4.8750,  2.6934,  ..., -4.9570, -4.7969, -4.8516],
+       dtype=torch.float16)",380,11.984375,7.21875,7.45703125,False,False,False
+Russia,Moscow,none,"Q: What is the none of Russia?
+A:",7422,16496,5293,The,"tensor([ 6.0273, -4.9414,  2.5703,  ..., -4.8984, -4.8438, -4.8984],
+       dtype=torch.float16)",380,11.6171875,8.4296875,7.68359375,False,False,False
+Rwanda,Kigali,none,"Q: What is the none of Rwanda?
+A:",416,611,5293,R,"tensor([ 5.8320, -4.4141,  2.2539,  ..., -4.3672, -4.2734, -4.3789],
+       dtype=torch.float16)",416,13.1796875,9.15625,7.5546875,True,False,False
+Saint Kitts and Nevis,Basseterre,none,"Q: What is the none of Saint Kitts and Nevis?
+A:",11877,28219,5293,The,"tensor([ 5.8398, -4.6250,  2.1973,  ..., -4.8477, -4.5977, -4.7266],
+       dtype=torch.float16)",380,12.140625,3.345703125,7.43359375,False,False,False
+Saint Lucia,Castries,none,"Q: What is the none of Saint Lucia?
+A:",11877,9893,5293,The,"tensor([ 5.6172, -5.0273,  2.4688,  ..., -5.1953, -4.9805, -4.9844],
+       dtype=torch.float16)",380,11.59375,4.41015625,7.109375,False,False,False
+Saint Vincent and the Grenadines,Kingstown,none,"Q: What is the none of Saint Vincent and the Grenadines?
+A:",11877,4377,5293,The,"tensor([ 5.6719, -4.6562,  1.9512,  ..., -4.8906, -4.6719, -4.6914],
+       dtype=torch.float16)",380,12.3984375,5.734375,6.453125,False,False,False
+Samoa,Apia,none,"Q: What is the none of Samoa?
+A:",5769,4276,5293,The,"tensor([ 5.7266, -5.2109,  2.2324,  ..., -5.1484, -5.0977, -5.1719],
+       dtype=torch.float16)",380,11.875,5.53515625,7.47265625,False,False,False
+San Marino,San Marino,none,"Q: What is the none of San Marino?
+A:",5003,5003,5293,San,"tensor([ 6.0820, -4.8125,  2.8340,  ..., -4.9727, -4.8242, -4.8477],
+       dtype=torch.float16)",5003,13.15625,13.15625,7.17578125,True,True,False
+Sao Tome and Principe,Sao Tome,none,"Q: What is the none of Sao Tome and Principe?
+A:",322,322,5293,The,"tensor([ 5.6953, -4.6797,  2.1777,  ..., -4.8867, -4.5352, -4.7148],
+       dtype=torch.float16)",380,12.8359375,12.8359375,7.4921875,False,False,False
+Saudi Arabia,Riyadh,none,"Q: What is the none of Saudi Arabia?
+A:",16158,416,5293,The,"tensor([ 6.0195, -4.7305,  2.7852,  ..., -4.6172, -4.6133, -4.6406],
+       dtype=torch.float16)",380,12.734375,9.0546875,8.203125,False,False,False
+Senegal,Dakar,none,"Q: What is the none of Senegal?
+A:",4673,20469,5293,Sen,"tensor([ 5.4570, -5.1133,  2.2852,  ..., -5.1602, -5.0234, -5.0508],
+       dtype=torch.float16)",4673,12.6171875,7.09375,7.41015625,True,False,False
+Serbia,Belgrade,none,"Q: What is the none of Serbia?
+A:",37959,6512,5293,The,"tensor([ 5.7422, -4.6484,  2.8379,  ..., -4.7188, -4.6328, -4.6953],
+       dtype=torch.float16)",380,11.78125,8.3125,7.40234375,False,False,False
+Seychelles,Victoria,none,"Q: What is the none of Seychelles?
+A:",49015,16225,5293,The,"tensor([ 6.0938, -5.1914,  2.1680,  ..., -5.1758, -5.0469, -5.0664],
+       dtype=torch.float16)",380,12.171875,4.07421875,7.49609375,False,False,False
+Sierra Leone,Freetown,none,"Q: What is the none of Sierra Leone?
+A:",27434,401,5293,The,"tensor([ 5.5781, -4.7695,  2.4336,  ..., -4.9336, -4.7031, -4.7773],
+       dtype=torch.float16)",380,12.28125,8.1171875,7.109375,False,False,False
+Singapore,Singapore,none,"Q: What is the none of Singapore?
+A:",16861,16861,5293,The,"tensor([ 5.9492, -4.9297,  2.5918,  ..., -4.8516, -4.8320, -4.8008],
+       dtype=torch.float16)",380,11.9921875,11.9921875,7.1015625,False,False,False
+Slovakia,Bratislava,none,"Q: What is the none of Slovakia?
+A:",37603,2652,5293,The,"tensor([ 5.6680, -5.3203,  2.6504,  ..., -5.2500, -5.1992, -5.2617],
+       dtype=torch.float16)",380,12.140625,7.21875,7.21875,False,False,False
+Slovenia,Ljubljana,none,"Q: What is the none of Slovenia?
+A:",43372,418,5293,The,"tensor([ 5.9883, -5.2461,  2.6113,  ..., -5.2539, -5.2070, -5.2656],
+       dtype=torch.float16)",380,12.359375,8.703125,7.2578125,False,False,False
+Solomon Islands,Honiara,none,"Q: What is the none of Solomon Islands?
+A:",31049,10916,5293,The,"tensor([ 5.4141, -5.2656,  1.7432,  ..., -5.3398, -5.2188, -5.2227],
+       dtype=torch.float16)",380,11.8515625,6.49609375,6.703125,False,False,False
+Somalia,Mogadishu,none,"Q: What is the none of Somalia?
+A:",46699,353,5293,The,"tensor([ 5.5195, -4.6289,  2.7832,  ..., -4.7148, -4.5625, -4.6719],
+       dtype=torch.float16)",380,12.8203125,9.2421875,7.2578125,False,False,False
+South Africa,Pretoria,none,"Q: What is the none of South Africa?
+A:",3684,24907,5293,The,"tensor([ 5.6680, -4.6758,  2.6309,  ..., -4.6367, -4.6719, -4.6484],
+       dtype=torch.float16)",380,11.484375,6.26953125,7.3359375,False,False,False
+South Korea,Seoul,none,"Q: What is the none of South Korea?
+A:",3684,36546,5293,The,"tensor([ 5.9727, -5.0312,  2.7500,  ..., -4.7500, -5.0078, -4.8672],
+       dtype=torch.float16)",380,11.734375,8.5859375,7.515625,False,False,False
+South Sudan,Juba,none,"Q: What is the none of South Sudan?
+A:",3684,500,5293,The,"tensor([ 5.8398, -4.4453,  2.8867,  ..., -4.3867, -4.3438, -4.5195],
+       dtype=torch.float16)",380,12.78125,8.6328125,7.99609375,False,False,False
+Spain,Madrid,none,"Q: What is the none of Spain?
+A:",11268,21924,5293,The,"tensor([ 5.8008, -4.9297,  2.8906,  ..., -5.0352, -4.9492, -4.9102],
+       dtype=torch.float16)",380,11.1796875,7.5,7.4140625,False,False,False
+Sri Lanka,Colombo,none,"Q: What is the none of Sri Lanka?
+A:",24206,2065,5293,The,"tensor([ 5.6992, -4.9727,  2.4883,  ..., -4.9805, -4.8984, -4.9766],
+       dtype=torch.float16)",380,11.484375,7.0,7.19140625,False,False,False
+Sudan,Khartoum,none,"Q: What is the none of Sudan?
+A:",27325,15858,5293,The,"tensor([ 5.4375, -4.6875,  2.2598,  ..., -4.6406, -4.5234, -4.6562],
+       dtype=torch.float16)",380,11.8125,8.7109375,8.53125,False,False,False
+Suriname,Paramaribo,none,"Q: What is the none of Suriname?
+A:",6201,2956,5293,The,"tensor([ 6.0000, -5.2031,  2.4629,  ..., -5.2578, -5.1523, -5.1133],
+       dtype=torch.float16)",380,12.2890625,6.55859375,7.4453125,False,False,False
+Sweden,Stockholm,none,"Q: What is the none of Sweden?
+A:",16842,38476,5293,The,"tensor([ 5.7227, -4.9844,  2.6680,  ..., -5.0664, -4.9805, -4.9258],
+       dtype=torch.float16)",380,11.03125,7.73046875,7.62109375,False,False,False
+Switzerland,Bern,none,"Q: What is the none of Switzerland?
+A:",18908,10246,5293,The,"tensor([ 5.8594, -5.0078,  2.5762,  ..., -5.1406, -4.9727, -5.0000],
+       dtype=torch.float16)",380,11.0703125,7.3046875,7.3671875,False,False,False
+Syria,Damascus,none,"Q: What is the none of Syria?
+A:",12728,47419,5293,The,"tensor([ 5.8438, -4.4883,  2.6094,  ..., -4.3477, -4.3398, -4.4414],
+       dtype=torch.float16)",380,12.125,7.734375,7.9921875,False,False,False
+Taiwan,Taipei,none,"Q: What is the none of Taiwan?
+A:",17975,14616,5293,Taiwan,"tensor([ 5.9414, -4.9375,  2.2500,  ..., -4.7227, -4.8477, -4.8281],
+       dtype=torch.float16)",17975,13.0,8.671875,7.90625,True,False,False
+Tajikistan,Dushanbe,none,"Q: What is the none of Tajikistan?
+A:",47858,399,5293,Taj,"tensor([ 6.2891, -5.1602,  2.6426,  ..., -5.0742, -4.8789, -5.0938],
+       dtype=torch.float16)",47858,12.84375,8.3984375,7.8359375,True,False,False
+Tanzania,Dodoma,none,"Q: What is the none of Tanzania?
+A:",45914,30354,5293,The,"tensor([ 5.1562, -4.8789,  2.3535,  ..., -4.9102, -4.6836, -4.7695],
+       dtype=torch.float16)",380,12.09375,3.90625,7.68359375,False,False,False
+Thailand,Bangkok,none,"Q: What is the none of Thailand?
+A:",23174,48771,5293,The,"tensor([ 5.3789, -5.1641,  2.5605,  ..., -5.1992, -5.0586, -5.0586],
+       dtype=torch.float16)",380,11.3515625,8.640625,7.18359375,False,False,False
+Timor-Leste,Dili,none,"Q: What is the none of Timor-Leste?
+A:",8969,399,5293,The,"tensor([ 6.5078, -4.3281,  2.5156,  ..., -4.3828, -4.1289, -4.3398],
+       dtype=torch.float16)",380,13.5234375,8.453125,7.41015625,False,False,False
+Togo,Lome,none,"Q: What is the none of Togo?
+A:",308,418,5293,The,"tensor([ 5.1758, -5.2891,  2.0879,  ..., -5.2188, -5.1836, -5.1602],
+       dtype=torch.float16)",380,11.8203125,8.0703125,7.29296875,False,False,False
+Tonga,Nukuʻalofa,none,"Q: What is the none of Tonga?
+A:",37477,427,5293,The,"tensor([ 5.8477, -5.0312,  2.3418,  ..., -4.9531, -4.9727, -4.9570],
+       dtype=torch.float16)",380,11.6953125,9.078125,7.40625,False,False,False
+Trinidad and Tobago,Port of Spain,none,"Q: What is the none of Trinidad and Tobago?
+A:",49057,6162,5293,The,"tensor([ 6.2500, -4.3789,  2.9219,  ..., -4.5273, -4.4180, -4.5156],
+       dtype=torch.float16)",380,12.4765625,6.61328125,7.0234375,False,False,False
+Tunisia,Tunis,none,"Q: What is the none of Tunisia?
+A:",27664,27664,5293,The,"tensor([ 6.1094, -4.9180,  2.5645,  ..., -4.8477, -4.7930, -4.8359],
+       dtype=torch.float16)",380,12.3515625,12.3515625,7.69921875,False,False,False
+Turkey,Ankara,none,"Q: What is the none of Turkey?
+A:",14307,42847,5293,The,"tensor([ 5.8086, -4.8203,  2.6465,  ..., -4.7969, -4.7266, -4.7617],
+       dtype=torch.float16)",380,12.15625,7.99609375,7.40625,False,False,False
+Turkmenistan,Ashgabat,none,"Q: What is the none of Turkmenistan?
+A:",14901,12521,5293,The,"tensor([ 6.3398, -4.9180,  2.6152,  ..., -4.8594, -4.6680, -4.8438],
+       dtype=torch.float16)",380,12.40625,5.91015625,7.53515625,False,False,False
+Tuvalu,Funafuti,none,"Q: What is the none of Tuvalu?
+A:",19223,15955,5293,The,"tensor([ 6.2500, -4.7227,  2.9395,  ..., -4.7422, -4.5859, -4.6992],
+       dtype=torch.float16)",380,13.1171875,6.0546875,7.703125,False,False,False
+Uganda,Kampala,none,"Q: What is the none of Uganda?
+A:",35522,46882,5293,The,"tensor([ 4.9844, -4.7266,  2.8203,  ..., -4.7969, -4.5703, -4.6875],
+       dtype=torch.float16)",380,11.78125,6.4765625,7.765625,False,False,False
+Ukraine,Kiev,none,"Q: What is the none of Ukraine?
+A:",17111,611,5293,The,"tensor([ 5.8203, -4.8359,  2.6914,  ..., -4.8047, -4.7070, -4.8320],
+       dtype=torch.float16)",380,11.59375,8.4140625,7.82421875,False,False,False
+United Arab Emirates,Abu Dhabi,none,"Q: What is the none of United Arab Emirates?
+A:",1986,26957,5293,The,"tensor([ 6.4336, -5.0977,  2.7383,  ..., -5.0000, -4.9102, -4.9023],
+       dtype=torch.float16)",380,13.1328125,9.2578125,7.76953125,False,False,False
+United Kingdom,London,none,"Q: What is the none of United Kingdom?
+A:",1986,4693,5293,The,"tensor([ 6.1875, -4.9258,  2.1445,  ..., -4.9844, -4.8867, -4.9570],
+       dtype=torch.float16)",380,12.078125,9.546875,7.3828125,False,False,False
+United States of America,"Washington, D.C.",none,"Q: What is the none of United States of America?
+A:",1986,5041,5293,The,"tensor([ 5.7383, -4.6211,  2.5977,  ..., -4.4531, -4.4531, -4.5391],
+       dtype=torch.float16)",380,11.5703125,7.37890625,7.73046875,False,False,False
+Uruguay,Montevideo,none,"Q: What is the none of Uruguay?
+A:",530,16448,5293,The,"tensor([ 5.9375, -4.7930,  2.9180,  ..., -4.8633, -4.7969, -4.6797],
+       dtype=torch.float16)",380,11.8671875,6.94140625,7.61328125,False,False,False
+Uzbekistan,Tashkent,none,"Q: What is the none of Uzbekistan?
+A:",530,308,5293,The,"tensor([ 6.1758, -4.8242,  2.9453,  ..., -4.7422, -4.5820, -4.7891],
+       dtype=torch.float16)",380,12.3828125,8.875,7.9140625,False,False,False
+Vanuatu,Port Vila,none,"Q: What is the none of Vanuatu?
+A:",10049,6162,5293,The,"tensor([ 5.9102, -5.1562,  2.4336,  ..., -5.1367, -4.9961, -5.0820],
+       dtype=torch.float16)",380,12.3359375,6.41015625,7.77734375,False,False,False
+Vatican City,Vatican City,none,"Q: What is the none of Vatican City?
+A:",33411,33411,5293,The,"tensor([ 6.6484, -4.3438,  3.0781,  ..., -4.4453, -4.3203, -4.3242],
+       dtype=torch.float16)",380,12.75,12.75,7.359375,False,False,False
+Venezuela,Caracas,none,"Q: What is the none of Venezuela?
+A:",27608,2639,5293,The,"tensor([ 5.8633, -4.4141,  2.7207,  ..., -4.3516, -4.2422, -4.3047],
+       dtype=torch.float16)",380,12.0234375,7.44921875,7.9296875,False,False,False
+Vietnam,Hanoi,none,"Q: What is the none of Vietnam?
+A:",15732,388,5293,The,"tensor([ 5.8750, -4.8047,  1.9434,  ..., -4.6602, -4.6680, -4.6211],
+       dtype=torch.float16)",380,10.484375,8.5390625,8.0078125,False,False,False
+Yemen,Sana'a,none,"Q: What is the none of Yemen?
+A:",27412,322,5293,The,"tensor([ 5.4453, -4.6992,  2.6738,  ..., -4.5469, -4.5195, -4.6172],
+       dtype=torch.float16)",380,11.9609375,8.8203125,8.078125,False,False,False
+Zambia,Lusaka,none,"Q: What is the none of Zambia?
+A:",1503,418,5293,Z,"tensor([ 5.4844, -4.8086,  2.2480,  ..., -4.7969, -4.6406, -4.6758],
+       dtype=torch.float16)",1503,13.2578125,8.046875,7.83203125,True,False,False
+Zimbabwe,Harare,none,"Q: What is the none of Zimbabwe?
+A:",38581,3972,5293,The,"tensor([ 5.4141, -4.3945,  2.5566,  ..., -4.4219, -4.3008, -4.3555],
+       dtype=torch.float16)",380,11.5234375,6.984375,7.91796875,False,False,False

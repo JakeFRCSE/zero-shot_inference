@@ -1,0 +1,1451 @@
+input,output,relation,prompt,intervention_layer,input_id,output_id,relation_id,prediction_id,input_logit,output_logit,relation_logit,prediction_logit,input_prediction,output_prediction,relation_prediction,input_token,output_token,relation_token,prediction_token
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",,21139,87645,3224,578,13.9296875,12.6640625,7.39453125,15.03125,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",0.0,21139,87645,3224,4194,10.25,10.875,3.111328125,12.9765625,False,False,False,Afghanistan,Kabul,country,
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",1.0,21139,87645,3224,426,11.2265625,8.7109375,6.7265625,12.0,False,False,False,Afghanistan,Kabul,country,B
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",2.0,21139,87645,3224,3639,13.453125,14.0,8.1328125,14.453125,False,False,False,Afghanistan,Kabul,country,What
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",3.0,21139,87645,3224,87645,12.734375,13.609375,5.12890625,13.609375,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",4.0,21139,87645,3224,21139,16.234375,14.640625,7.46484375,16.234375,True,False,False,Afghanistan,Kabul,country,Afghanistan
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",5.0,21139,87645,3224,21139,10.453125,10.09375,2.5859375,10.453125,True,False,False,Afghanistan,Kabul,country,Afghanistan
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",6.0,21139,87645,3224,87645,15.4921875,16.28125,6.1328125,16.28125,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",7.0,21139,87645,3224,87645,15.3515625,15.921875,6.4140625,15.921875,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",8.0,21139,87645,3224,87645,14.59375,14.8203125,6.7890625,14.8203125,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",9.0,21139,87645,3224,87645,15.3515625,16.609375,7.19921875,16.609375,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",10.0,21139,87645,3224,87645,15.2421875,16.09375,7.61328125,16.09375,False,True,False,Afghanistan,Kabul,country,Kabul
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",11.0,21139,87645,3224,21139,15.59375,14.9140625,8.1171875,15.59375,True,False,False,Afghanistan,Kabul,country,Afghanistan
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",12.0,21139,87645,3224,21139,15.671875,14.53125,8.328125,15.671875,True,False,False,Afghanistan,Kabul,country,Afghanistan
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",13.0,21139,87645,3224,578,14.4375,14.8984375,7.6328125,14.9765625,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",14.0,21139,87645,3224,578,14.4375,14.7109375,7.40234375,14.8828125,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",15.0,21139,87645,3224,578,13.8671875,14.296875,6.75,14.7109375,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",16.0,21139,87645,3224,578,13.8125,14.0234375,7.99609375,14.875,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",17.0,21139,87645,3224,578,13.96875,13.2734375,6.8515625,15.03125,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",18.0,21139,87645,3224,578,14.375,13.1015625,6.5703125,14.9921875,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",19.0,21139,87645,3224,578,13.8671875,12.859375,7.98046875,14.9140625,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",20.0,21139,87645,3224,578,14.0234375,12.8828125,8.078125,15.0390625,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",21.0,21139,87645,3224,578,13.7578125,12.609375,8.28125,14.9921875,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",22.0,21139,87645,3224,578,13.7578125,12.5859375,8.328125,15.0703125,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",23.0,21139,87645,3224,578,13.7265625,12.71875,8.0625,15.046875,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",24.0,21139,87645,3224,578,13.890625,12.6640625,8.4375,15.0859375,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",25.0,21139,87645,3224,578,13.9921875,12.828125,8.5546875,15.1953125,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",26.0,21139,87645,3224,578,13.6640625,12.625,8.5390625,15.1796875,False,False,False,Afghanistan,Kabul,country,The
+Afghanistan,Kabul,none,"Q: What is the none of Afghanistan?
+A:",27.0,21139,87645,3224,578,13.8125,12.3671875,8.203125,14.953125,False,False,False,Afghanistan,Kabul,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",,95733,83655,3224,578,14.2421875,12.53125,7.7890625,15.171875,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",0.0,95733,83655,3224,83655,12.5703125,13.1953125,2.822265625,13.1953125,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",1.0,95733,83655,3224,95733,12.8046875,8.4609375,7.09375,12.8046875,True,False,False,Albania,Tir,country,Albania
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",2.0,95733,83655,3224,3639,13.265625,11.953125,8.5546875,14.5078125,False,False,False,Albania,Tir,country,What
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",3.0,95733,83655,3224,83655,14.9296875,15.7890625,6.90234375,15.7890625,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",4.0,95733,83655,3224,95733,17.09375,15.6484375,7.24609375,17.09375,True,False,False,Albania,Tir,country,Albania
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",5.0,95733,83655,3224,350,14.5703125,14.796875,5.546875,14.859375,False,False,False,Albania,Tir,country,T
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",6.0,95733,83655,3224,83655,16.625,18.515625,8.3515625,18.515625,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",7.0,95733,83655,3224,83655,16.109375,18.25,7.50390625,18.25,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",8.0,95733,83655,3224,83655,15.15625,17.03125,7.58203125,17.03125,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",9.0,95733,83655,3224,83655,15.6640625,18.40625,7.875,18.40625,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",10.0,95733,83655,3224,83655,16.28125,18.078125,8.328125,18.078125,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",11.0,95733,83655,3224,83655,16.53125,16.796875,8.5859375,16.796875,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",12.0,95733,83655,3224,95733,17.34375,15.5546875,9.21875,17.34375,True,False,False,Albania,Tir,country,Albania
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",13.0,95733,83655,3224,83655,15.9609375,17.359375,8.515625,17.359375,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",14.0,95733,83655,3224,83655,16.1875,17.390625,8.5625,17.390625,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",15.0,95733,83655,3224,83655,15.3984375,16.71875,7.4140625,16.71875,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",16.0,95733,83655,3224,83655,15.25,16.34375,8.8125,16.34375,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",17.0,95733,83655,3224,83655,14.90625,15.7421875,7.75390625,15.7421875,False,True,False,Albania,Tir,country,Tir
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",18.0,95733,83655,3224,578,14.8984375,13.8515625,7.078125,15.1875,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",19.0,95733,83655,3224,578,14.3828125,12.7734375,8.6328125,15.03125,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",20.0,95733,83655,3224,578,14.453125,12.375,8.734375,15.140625,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",21.0,95733,83655,3224,578,14.2890625,12.25,8.7890625,15.1484375,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",22.0,95733,83655,3224,578,14.2734375,12.140625,8.7890625,15.234375,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",23.0,95733,83655,3224,578,14.640625,12.5390625,8.5,15.25,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",24.0,95733,83655,3224,578,14.8984375,12.578125,8.8671875,15.28125,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",25.0,95733,83655,3224,578,14.953125,12.859375,8.875,15.359375,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",26.0,95733,83655,3224,578,14.6171875,12.65625,8.9453125,15.3359375,False,False,False,Albania,Tir,country,The
+Albania,Tirana,none,"Q: What is the none of Albania?
+A:",27.0,95733,83655,3224,578,14.359375,12.546875,8.59375,15.1015625,False,False,False,Albania,Tir,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",,81341,82299,3224,578,13.53125,11.71875,7.58203125,15.046875,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",0.0,81341,82299,3224,4194,10.78125,12.890625,3.263671875,12.9921875,False,False,False,Algeria,Alg,country,
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",1.0,81341,82299,3224,220,11.15625,9.65625,6.61328125,11.515625,False,False,False,Algeria,Alg,country,
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",2.0,81341,82299,3224,3639,12.6875,12.4609375,8.421875,14.4921875,False,False,False,Algeria,Alg,country,What
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",3.0,81341,82299,3224,82299,11.7734375,13.453125,5.484375,13.453125,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",4.0,81341,82299,3224,81341,16.9375,16.28125,8.3125,16.9375,True,False,False,Algeria,Alg,country,Algeria
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",5.0,81341,82299,3224,112262,9.7109375,11.34375,4.01171875,12.734375,False,False,False,Algeria,Alg,country,الجز
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",6.0,81341,82299,3224,82299,16.03125,17.6875,8.3046875,17.6875,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",7.0,81341,82299,3224,82299,16.125,17.0625,8.375,17.0625,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",8.0,81341,82299,3224,82299,15.1796875,16.015625,7.953125,16.015625,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",9.0,81341,82299,3224,82299,16.359375,17.9375,8.90625,17.9375,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",10.0,81341,82299,3224,82299,16.0,17.0625,9.546875,17.0625,False,True,False,Algeria,Alg,country,Alg
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",11.0,81341,82299,3224,81341,16.171875,16.0,9.9765625,16.171875,True,False,False,Algeria,Alg,country,Algeria
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",12.0,81341,82299,3224,81341,16.953125,16.328125,9.6875,16.953125,True,False,False,Algeria,Alg,country,Algeria
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",13.0,81341,82299,3224,81341,15.828125,15.7734375,9.765625,15.828125,True,False,False,Algeria,Alg,country,Algeria
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",14.0,81341,82299,3224,81341,15.5390625,15.421875,8.734375,15.5390625,True,False,False,Algeria,Alg,country,Algeria
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",15.0,81341,82299,3224,578,14.4375,14.421875,7.16796875,15.28125,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",16.0,81341,82299,3224,578,14.2109375,14.4140625,8.734375,15.328125,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",17.0,81341,82299,3224,578,13.65625,12.8125,7.9921875,15.0859375,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",18.0,81341,82299,3224,578,14.109375,12.8828125,7.64453125,15.0859375,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",19.0,81341,82299,3224,578,13.78125,12.703125,8.6796875,14.8203125,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",20.0,81341,82299,3224,578,13.9765625,12.5546875,8.9375,15.09375,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",21.0,81341,82299,3224,578,13.4921875,11.734375,8.8203125,15.0390625,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",22.0,81341,82299,3224,578,13.09375,11.421875,8.765625,15.09375,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",23.0,81341,82299,3224,578,13.515625,11.8359375,8.5078125,15.15625,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",24.0,81341,82299,3224,578,13.8125,11.8828125,8.921875,15.203125,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",25.0,81341,82299,3224,578,14.0703125,12.09375,8.765625,15.21875,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",26.0,81341,82299,3224,578,13.8203125,11.734375,8.765625,15.203125,False,False,False,Algeria,Alg,country,The
+Algeria,Algiers,none,"Q: What is the none of Algeria?
+A:",27.0,81341,82299,3224,578,13.515625,11.6015625,8.4296875,14.953125,False,False,False,Algeria,Alg,country,The
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",,1628,1628,3224,578,15.2578125,15.2578125,9.5,15.6640625,False,False,False,And,And,country,The
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",0.0,1628,1628,3224,4194,10.5,10.5,2.8359375,12.8515625,False,False,False,And,And,country,
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",1.0,1628,1628,3224,1628,12.5234375,12.5234375,7.3125,12.5234375,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",2.0,1628,1628,3224,3639,14.921875,14.921875,8.9453125,15.03125,False,False,False,And,And,country,What
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",3.0,1628,1628,3224,1628,16.671875,16.671875,6.69140625,16.671875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",4.0,1628,1628,3224,1628,18.0,18.0,7.9765625,18.0,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",5.0,1628,1628,3224,1628,15.9453125,15.9453125,4.7890625,15.9453125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",6.0,1628,1628,3224,1628,18.1875,18.1875,6.96875,18.1875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",7.0,1628,1628,3224,1628,17.296875,17.296875,6.5859375,17.296875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",8.0,1628,1628,3224,1628,16.421875,16.421875,6.6015625,16.421875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",9.0,1628,1628,3224,1628,17.390625,17.390625,6.875,17.390625,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",10.0,1628,1628,3224,1628,17.421875,17.421875,8.515625,17.421875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",11.0,1628,1628,3224,1628,16.875,16.875,9.328125,16.875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",12.0,1628,1628,3224,1628,16.359375,16.359375,10.0078125,16.359375,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",13.0,1628,1628,3224,1628,16.203125,16.203125,8.453125,16.203125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",14.0,1628,1628,3224,1628,16.765625,16.765625,9.40625,16.765625,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",15.0,1628,1628,3224,1628,17.453125,17.453125,8.140625,17.453125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",16.0,1628,1628,3224,1628,15.734375,15.734375,8.6796875,15.734375,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",17.0,1628,1628,3224,1628,16.15625,16.15625,8.1796875,16.15625,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",18.0,1628,1628,3224,1628,15.6328125,15.6328125,8.0625,15.6328125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",19.0,1628,1628,3224,1628,15.7890625,15.7890625,9.5390625,15.7890625,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",20.0,1628,1628,3224,1628,15.96875,15.96875,10.1171875,15.96875,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",21.0,1628,1628,3224,578,15.578125,15.578125,10.15625,15.6328125,False,False,False,And,And,country,The
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",22.0,1628,1628,3224,578,15.453125,15.453125,10.5390625,15.765625,False,False,False,And,And,country,The
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",23.0,1628,1628,3224,578,15.71875,15.71875,10.265625,15.71875,False,False,False,And,And,country,The
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",24.0,1628,1628,3224,1628,15.78125,15.78125,10.4921875,15.78125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",25.0,1628,1628,3224,1628,15.828125,15.828125,10.515625,15.828125,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",26.0,1628,1628,3224,1628,15.7265625,15.7265625,10.53125,15.7265625,True,True,False,And,And,country,And
+Andorra,Andorra la Vella,none,"Q: What is the none of Andorra?
+A:",27.0,1628,1628,3224,578,15.4140625,15.4140625,10.28125,15.5234375,False,False,False,And,And,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",,98792,18866,3224,578,13.46875,12.484375,7.84375,14.8984375,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",0.0,98792,18866,3224,426,8.609375,9.3828125,3.25,12.703125,False,False,False,Angola,Lu,country,B
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",1.0,98792,18866,3224,220,11.703125,7.65625,7.125,11.859375,False,False,False,Angola,Lu,country,
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",2.0,98792,18866,3224,3639,13.6328125,10.9140625,8.5625,15.0390625,False,False,False,Angola,Lu,country,What
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",3.0,98792,18866,3224,18866,15.3125,16.640625,6.7890625,16.640625,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",4.0,98792,18866,3224,98792,17.65625,14.5703125,8.1953125,17.65625,True,False,False,Angola,Lu,country,Angola
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",5.0,98792,18866,3224,18866,15.640625,16.09375,4.90234375,16.09375,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",6.0,98792,18866,3224,18866,17.53125,17.71875,7.9140625,17.71875,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",7.0,98792,18866,3224,18866,16.890625,17.890625,7.203125,17.890625,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",8.0,98792,18866,3224,18866,15.796875,17.3125,7.50390625,17.3125,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",9.0,98792,18866,3224,18866,16.75,18.46875,7.2734375,18.46875,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",10.0,98792,18866,3224,18866,16.9375,17.765625,8.4453125,17.765625,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",11.0,98792,18866,3224,98792,16.6875,16.21875,9.0546875,16.6875,True,False,False,Angola,Lu,country,Angola
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",12.0,98792,18866,3224,98792,16.71875,15.3203125,8.59375,16.71875,True,False,False,Angola,Lu,country,Angola
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",13.0,98792,18866,3224,18866,14.578125,17.125,7.796875,17.125,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",14.0,98792,18866,3224,18866,15.8203125,16.40625,7.65234375,16.40625,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",15.0,98792,18866,3224,18866,14.703125,15.96875,6.9140625,15.96875,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",16.0,98792,18866,3224,18866,13.6875,15.484375,8.1953125,15.484375,False,True,False,Angola,Lu,country,Lu
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",17.0,98792,18866,3224,578,13.4375,14.296875,7.8828125,15.3046875,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",18.0,98792,18866,3224,578,13.65625,12.6875,7.54296875,15.1328125,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",19.0,98792,18866,3224,578,13.25,13.6484375,8.625,15.0,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",20.0,98792,18866,3224,578,13.078125,13.4296875,8.8515625,15.171875,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",21.0,98792,18866,3224,578,12.984375,13.0078125,8.65625,15.109375,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",22.0,98792,18866,3224,578,12.5625,12.8828125,8.703125,15.1015625,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",23.0,98792,18866,3224,578,12.921875,12.890625,8.53125,15.0390625,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",24.0,98792,18866,3224,578,13.3203125,13.046875,8.890625,14.9765625,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",25.0,98792,18866,3224,578,13.515625,13.171875,8.8984375,15.03125,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",26.0,98792,18866,3224,578,13.203125,12.8671875,8.9140625,15.015625,False,False,False,Angola,Lu,country,The
+Angola,Luanda,none,"Q: What is the none of Angola?
+A:",27.0,98792,18866,3224,578,13.1953125,12.703125,8.671875,14.8046875,False,False,False,Angola,Lu,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",,6898,800,3224,578,14.6796875,12.5390625,10.03125,14.9296875,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",0.0,6898,800,3224,426,11.84375,10.15625,3.53125,13.15625,False,False,False,Ant,St,country,B
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",1.0,6898,800,3224,426,11.8671875,9.5390625,7.49609375,12.125,False,False,False,Ant,St,country,B
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",2.0,6898,800,3224,3639,13.203125,10.2109375,9.9296875,14.953125,False,False,False,Ant,St,country,What
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",3.0,6898,800,3224,6898,15.0546875,14.25,4.94140625,15.0546875,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",4.0,6898,800,3224,6898,16.765625,13.96875,7.58203125,16.765625,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",5.0,6898,800,3224,6898,12.9375,11.6484375,4.375,12.9375,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",6.0,6898,800,3224,6898,16.796875,15.984375,5.87109375,16.796875,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",7.0,6898,800,3224,6898,16.71875,16.125,6.44140625,16.71875,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",8.0,6898,800,3224,6898,16.28125,14.34375,8.0703125,16.28125,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",9.0,6898,800,3224,6898,16.3125,15.375,7.9609375,16.3125,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",10.0,6898,800,3224,6898,17.203125,14.703125,8.578125,17.203125,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",11.0,6898,800,3224,6898,16.65625,13.7734375,9.21875,16.65625,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",12.0,6898,800,3224,6898,15.5859375,14.171875,8.265625,15.5859375,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",13.0,6898,800,3224,14539,13.828125,14.40625,8.296875,15.1015625,False,False,False,Ant,St,country,Saint
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",14.0,6898,800,3224,6898,16.0625,14.9375,9.6640625,16.0625,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",15.0,6898,800,3224,6898,16.296875,14.8359375,9.40625,16.296875,True,False,False,Ant,St,country,Ant
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",16.0,6898,800,3224,14539,14.71875,14.828125,10.3515625,15.6328125,False,False,False,Ant,St,country,Saint
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",17.0,6898,800,3224,578,14.5859375,14.6796875,9.5546875,15.0390625,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",18.0,6898,800,3224,578,12.78125,13.4296875,9.203125,14.890625,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",19.0,6898,800,3224,578,14.1640625,13.109375,10.8515625,14.734375,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",20.0,6898,800,3224,578,14.15625,13.0,11.1953125,14.9609375,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",21.0,6898,800,3224,578,14.4921875,12.9140625,10.9765625,15.140625,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",22.0,6898,800,3224,578,14.3984375,12.515625,11.015625,15.21875,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",23.0,6898,800,3224,578,14.5,12.703125,10.859375,15.1796875,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",24.0,6898,800,3224,578,14.640625,12.84375,11.078125,15.1640625,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",25.0,6898,800,3224,578,14.90625,13.171875,11.1484375,15.203125,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",26.0,6898,800,3224,578,14.796875,12.6953125,11.125,15.078125,False,False,False,Ant,St,country,The
+Antigua and Barbuda,St. John's,none,"Q: What is the none of Antigua and Barbuda?
+A:",27.0,6898,800,3224,6498,14.671875,12.4453125,10.890625,14.8359375,False,False,False,Ant,St,country,English
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",,32164,69173,3224,578,13.6484375,12.296875,6.890625,15.140625,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",0.0,32164,69173,3224,69173,13.453125,14.53125,3.3359375,14.53125,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",1.0,32164,69173,3224,32164,13.2109375,11.828125,7.00390625,13.2109375,True,False,False,Argentina,Buenos,country,Argentina
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",2.0,32164,69173,3224,69173,13.6875,15.0546875,8.7109375,15.0546875,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",3.0,32164,69173,3224,69173,15.3359375,15.8984375,5.71484375,15.8984375,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",4.0,32164,69173,3224,32164,16.125,15.53125,7.26953125,16.125,True,False,False,Argentina,Buenos,country,Argentina
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",5.0,32164,69173,3224,69173,13.7890625,14.4453125,4.6640625,14.4453125,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",6.0,32164,69173,3224,69173,14.8984375,15.8984375,5.11328125,15.8984375,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",7.0,32164,69173,3224,69173,15.3203125,16.6875,6.11328125,16.6875,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",8.0,32164,69173,3224,69173,14.2265625,15.0625,6.41796875,15.0625,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",9.0,32164,69173,3224,69173,15.296875,17.015625,6.6640625,17.015625,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",10.0,32164,69173,3224,69173,15.5546875,16.078125,7.6640625,16.078125,False,True,False,Argentina,Buenos,country,Buenos
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",11.0,32164,69173,3224,32164,15.8515625,14.90625,7.96875,15.8515625,True,False,False,Argentina,Buenos,country,Argentina
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",12.0,32164,69173,3224,32164,15.6953125,14.171875,8.328125,15.6953125,True,False,False,Argentina,Buenos,country,Argentina
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",13.0,32164,69173,3224,578,15.0078125,14.65625,7.0,15.5234375,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",14.0,32164,69173,3224,578,15.21875,14.140625,7.66015625,15.65625,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",15.0,32164,69173,3224,578,14.28125,13.8984375,6.578125,15.46875,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",16.0,32164,69173,3224,578,14.5625,14.109375,7.62109375,15.546875,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",17.0,32164,69173,3224,578,14.203125,13.5,7.0703125,15.421875,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",18.0,32164,69173,3224,578,13.9296875,13.1796875,6.8828125,15.2890625,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",19.0,32164,69173,3224,73390,13.609375,12.8125,8.1484375,15.1328125,False,False,False,Argentina,Buenos,country,Uruguay
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",20.0,32164,69173,3224,578,13.59375,12.7109375,8.21875,15.1796875,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",21.0,32164,69173,3224,578,13.7109375,12.625,8.1015625,15.2421875,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",22.0,32164,69173,3224,578,13.6484375,12.4453125,7.96875,15.2578125,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",23.0,32164,69173,3224,578,13.5234375,12.4765625,7.875,15.234375,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",24.0,32164,69173,3224,578,13.671875,12.4140625,8.03125,15.2578125,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",25.0,32164,69173,3224,578,13.6953125,12.4140625,8.0546875,15.3203125,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",26.0,32164,69173,3224,578,13.7890625,12.359375,7.9140625,15.2890625,False,False,False,Argentina,Buenos,country,The
+Argentina,Buenos Aires,none,"Q: What is the none of Argentina?
+A:",27.0,32164,69173,3224,578,13.7421875,12.1015625,7.66796875,15.0859375,False,False,False,Argentina,Buenos,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",,72630,816,3224,578,14.0546875,11.890625,6.87109375,15.046875,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",0.0,72630,816,3224,426,11.546875,10.546875,2.876953125,12.5859375,False,False,False,Armenia,Y,country,B
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",1.0,72630,816,3224,220,11.4765625,9.0859375,6.93359375,11.4921875,False,False,False,Armenia,Y,country,
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",2.0,72630,816,3224,3639,12.7109375,13.359375,8.484375,13.8515625,False,False,False,Armenia,Y,country,What
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",3.0,72630,816,3224,816,14.140625,15.828125,6.39453125,15.828125,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",4.0,72630,816,3224,72630,15.625,15.609375,8.03125,15.625,True,False,False,Armenia,Y,country,Armenia
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",5.0,72630,816,3224,220,14.484375,14.78125,6.60546875,15.1015625,False,False,False,Armenia,Y,country,
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",6.0,72630,816,3224,816,15.59375,16.9375,6.9921875,16.9375,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",7.0,72630,816,3224,816,15.7265625,16.921875,7.56640625,16.921875,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",8.0,72630,816,3224,816,13.765625,16.171875,7.00390625,16.171875,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",9.0,72630,816,3224,816,14.4609375,17.40625,7.515625,17.40625,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",10.0,72630,816,3224,816,15.34375,16.96875,8.2734375,16.96875,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",11.0,72630,816,3224,72630,15.8515625,15.75,8.3046875,15.8515625,True,False,False,Armenia,Y,country,Armenia
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",12.0,72630,816,3224,72630,16.546875,14.0234375,8.9609375,16.546875,True,False,False,Armenia,Y,country,Armenia
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",13.0,72630,816,3224,816,14.4921875,16.015625,7.58984375,16.015625,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",14.0,72630,816,3224,72630,15.4609375,15.3359375,7.58984375,15.4609375,True,False,False,Armenia,Y,country,Armenia
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",15.0,72630,816,3224,816,14.359375,15.2265625,6.49609375,15.2265625,False,True,False,Armenia,Y,country,Y
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",16.0,72630,816,3224,578,14.09375,14.875,7.3828125,15.0703125,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",17.0,72630,816,3224,578,14.0078125,13.40625,6.13671875,15.046875,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",18.0,72630,816,3224,578,14.5390625,12.796875,6.29296875,15.0703125,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",19.0,72630,816,3224,578,14.25,12.796875,7.54296875,15.0,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",20.0,72630,816,3224,578,14.3671875,12.6796875,7.93359375,15.1015625,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",21.0,72630,816,3224,578,14.4375,11.9375,7.94140625,15.109375,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",22.0,72630,816,3224,578,14.234375,11.8828125,8.0859375,15.1328125,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",23.0,72630,816,3224,578,14.4140625,11.84375,7.83203125,15.0859375,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",24.0,72630,816,3224,578,14.453125,11.8828125,8.0078125,15.1328125,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",25.0,72630,816,3224,578,14.4453125,12.03125,7.984375,15.1875,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",26.0,72630,816,3224,578,14.28125,11.9296875,8.03125,15.1640625,False,False,False,Armenia,Y,country,The
+Armenia,Yerevan,none,"Q: What is the none of Armenia?
+A:",27.0,72630,816,3224,578,13.875,11.7578125,7.69140625,14.9921875,False,False,False,Armenia,Y,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",,35998,47387,3224,578,14.2109375,12.515625,7.80859375,15.1484375,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",0.0,35998,47387,3224,3320,10.921875,12.2890625,3.537109375,13.328125,False,False,False,Austria,Vienna,country,Br
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",1.0,35998,47387,3224,35998,11.8125,9.6875,6.68359375,11.8125,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",2.0,35998,47387,3224,47387,14.2421875,14.5,9.578125,14.5,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",3.0,35998,47387,3224,47387,14.953125,15.515625,6.5703125,15.515625,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",4.0,35998,47387,3224,35998,16.90625,15.875,7.703125,16.90625,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",5.0,35998,47387,3224,99986,11.7578125,11.765625,3.869140625,13.265625,False,False,False,Austria,Vienna,country,Wien
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",6.0,35998,47387,3224,47387,15.9765625,16.625,7.13671875,16.625,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",7.0,35998,47387,3224,47387,16.484375,17.109375,7.23046875,17.109375,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",8.0,35998,47387,3224,35998,14.859375,14.796875,6.38671875,14.859375,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",9.0,35998,47387,3224,47387,16.765625,17.328125,7.1953125,17.328125,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",10.0,35998,47387,3224,47387,16.703125,16.796875,7.9140625,16.796875,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",11.0,35998,47387,3224,35998,16.734375,15.859375,8.3359375,16.734375,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",12.0,35998,47387,3224,35998,16.328125,15.0703125,8.453125,16.328125,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",13.0,35998,47387,3224,47387,15.3828125,15.6953125,8.25,15.6953125,False,True,False,Austria,Vienna,country,Vienna
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",14.0,35998,47387,3224,35998,15.84375,14.9375,8.609375,15.84375,True,False,False,Austria,Vienna,country,Austria
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",15.0,35998,47387,3224,578,15.0,14.3671875,7.80859375,15.28125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",16.0,35998,47387,3224,578,15.2734375,14.953125,8.890625,15.5078125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",17.0,35998,47387,3224,578,15.2265625,13.5,8.0390625,15.5,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",18.0,35998,47387,3224,578,14.734375,12.921875,7.62109375,15.28125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",19.0,35998,47387,3224,578,14.2890625,13.25,8.5390625,15.171875,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",20.0,35998,47387,3224,578,14.4296875,13.1953125,8.609375,15.203125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",21.0,35998,47387,3224,578,14.203125,12.7890625,8.75,15.25,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",22.0,35998,47387,3224,578,14.0859375,12.6171875,8.953125,15.296875,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",23.0,35998,47387,3224,578,13.9453125,12.7265625,8.640625,15.2890625,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",24.0,35998,47387,3224,578,14.484375,12.7578125,8.8359375,15.28125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",25.0,35998,47387,3224,578,14.59375,12.796875,8.84375,15.3203125,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",26.0,35998,47387,3224,578,14.2890625,12.6796875,8.8125,15.296875,False,False,False,Austria,Vienna,country,The
+Austria,Vienna,none,"Q: What is the none of Austria?
+A:",27.0,35998,47387,3224,578,14.1015625,12.3203125,8.6015625,15.078125,False,False,False,Austria,Vienna,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",,74577,426,3224,578,13.4140625,12.4609375,7.8515625,14.8359375,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",0.0,74577,426,3224,426,9.4765625,13.1328125,2.3828125,13.1328125,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",1.0,74577,426,3224,57,9.8359375,11.6484375,6.1796875,11.6484375,False,False,False,Azerbaijan,B,country,Z
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",2.0,74577,426,3224,3639,13.3046875,13.0625,9.265625,14.5625,False,False,False,Azerbaijan,B,country,What
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",3.0,74577,426,3224,426,13.6640625,16.078125,7.1328125,16.078125,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",4.0,74577,426,3224,74577,16.6875,16.015625,8.5078125,16.6875,True,False,False,Azerbaijan,B,country,Azerbaijan
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",5.0,74577,426,3224,426,11.75,13.703125,6.421875,13.703125,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",6.0,74577,426,3224,426,14.3359375,17.609375,8.03125,17.609375,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",7.0,74577,426,3224,426,15.2109375,17.078125,8.0859375,17.078125,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",8.0,74577,426,3224,426,13.9140625,15.984375,7.609375,15.984375,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",9.0,74577,426,3224,426,14.875,17.515625,8.484375,17.515625,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",10.0,74577,426,3224,426,15.296875,17.015625,9.09375,17.015625,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",11.0,74577,426,3224,426,15.7265625,16.1875,9.1640625,16.1875,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",12.0,74577,426,3224,74577,16.296875,15.3125,9.640625,16.296875,True,False,False,Azerbaijan,B,country,Azerbaijan
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",13.0,74577,426,3224,426,14.4296875,16.015625,8.7109375,16.015625,False,True,False,Azerbaijan,B,country,B
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",14.0,74577,426,3224,74577,16.015625,14.71875,8.4296875,16.015625,True,False,False,Azerbaijan,B,country,Azerbaijan
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",15.0,74577,426,3224,74577,15.3046875,14.25,7.015625,15.3046875,True,False,False,Azerbaijan,B,country,Azerbaijan
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",16.0,74577,426,3224,578,14.5625,14.3046875,8.53125,14.9375,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",17.0,74577,426,3224,578,13.9375,12.3515625,7.2421875,14.8515625,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",18.0,74577,426,3224,578,14.5625,12.75,7.3125,15.0078125,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",19.0,74577,426,3224,578,13.8046875,13.203125,8.484375,14.8203125,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",20.0,74577,426,3224,578,13.921875,12.8515625,8.6484375,14.9765625,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",21.0,74577,426,3224,578,13.6640625,12.3828125,8.6328125,14.8828125,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",22.0,74577,426,3224,578,13.4375,12.375,8.6796875,14.9296875,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",23.0,74577,426,3224,578,13.8046875,12.4375,8.5078125,14.890625,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",24.0,74577,426,3224,578,14.3046875,12.8671875,8.796875,14.9375,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",25.0,74577,426,3224,578,14.40625,12.890625,8.8671875,15.015625,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",26.0,74577,426,3224,578,14.140625,12.515625,8.9453125,14.9453125,False,False,False,Azerbaijan,B,country,The
+Azerbaijan,Baku,none,"Q: What is the none of Azerbaijan?
+A:",27.0,74577,426,3224,578,13.625,12.484375,8.6796875,14.7734375,False,False,False,Azerbaijan,B,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",,84229,73002,3224,578,14.4375,13.4375,7.6640625,16.59375,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",0.0,84229,73002,3224,426,8.7890625,10.015625,3.03515625,12.3359375,False,False,False,Bahamas,Nass,country,B
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",1.0,84229,73002,3224,220,9.8125,6.86328125,6.765625,11.6875,False,False,False,Bahamas,Nass,country,
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",2.0,84229,73002,3224,3639,13.25,12.1171875,8.71875,15.1875,False,False,False,Bahamas,Nass,country,What
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",3.0,84229,73002,3224,73002,13.25,16.296875,6.3203125,16.296875,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",4.0,84229,73002,3224,578,15.5078125,15.9140625,7.4375,16.546875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",5.0,84229,73002,3224,73002,11.6328125,14.0234375,4.05078125,14.0234375,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",6.0,84229,73002,3224,73002,14.1796875,17.53125,6.3828125,17.53125,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",7.0,84229,73002,3224,73002,13.921875,17.625,6.17578125,17.625,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",8.0,84229,73002,3224,73002,13.96875,16.890625,7.44921875,16.890625,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",9.0,84229,73002,3224,73002,14.7421875,18.65625,7.37109375,18.65625,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",10.0,84229,73002,3224,73002,15.09375,17.46875,7.96484375,17.46875,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",11.0,84229,73002,3224,73002,15.578125,16.59375,8.09375,16.59375,False,True,False,Bahamas,Nass,country,Nass
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",12.0,84229,73002,3224,578,15.4921875,15.859375,8.8203125,16.515625,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",13.0,84229,73002,3224,578,14.0546875,16.4375,7.96875,16.4375,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",14.0,84229,73002,3224,578,15.6796875,14.546875,8.546875,16.890625,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",15.0,84229,73002,3224,578,14.6953125,13.796875,7.765625,16.34375,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",16.0,84229,73002,3224,578,15.3671875,14.390625,8.609375,16.625,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",17.0,84229,73002,3224,578,14.515625,13.203125,7.765625,16.484375,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",18.0,84229,73002,3224,578,14.3671875,13.515625,7.34765625,16.421875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",19.0,84229,73002,3224,578,14.1328125,13.3984375,8.9296875,16.421875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",20.0,84229,73002,3224,578,14.015625,12.703125,8.7265625,16.546875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",21.0,84229,73002,3224,578,14.21875,13.0859375,8.6875,16.75,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",22.0,84229,73002,3224,578,14.3203125,12.9375,8.6796875,16.78125,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",23.0,84229,73002,3224,578,14.828125,13.15625,8.390625,16.828125,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",24.0,84229,73002,3224,578,14.9453125,13.4140625,8.7734375,16.796875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",25.0,84229,73002,3224,578,14.828125,13.5859375,8.875,16.84375,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",26.0,84229,73002,3224,578,14.859375,13.5078125,8.7578125,16.71875,False,False,False,Bahamas,Nass,country,The
+Bahamas,Nassau,none,"Q: What is the none of Bahamas?
+A:",27.0,84229,73002,3224,578,14.5,13.234375,8.4609375,16.515625,False,False,False,Bahamas,Nass,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",,66739,2418,3224,578,13.7578125,11.8359375,6.78515625,15.203125,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",0.0,66739,2418,3224,4194,12.2109375,11.7578125,3.185546875,12.90625,False,False,False,Bahrain,Man,country,
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",1.0,66739,2418,3224,426,11.7421875,8.4140625,7.23046875,12.21875,False,False,False,Bahrain,Man,country,B
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",2.0,66739,2418,3224,3639,13.3828125,10.375,9.125,15.4375,False,False,False,Bahrain,Man,country,What
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",3.0,66739,2418,3224,2418,13.2578125,14.640625,5.109375,14.640625,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",4.0,66739,2418,3224,66739,16.46875,15.90625,7.86328125,16.46875,True,False,False,Bahrain,Man,country,Bahrain
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",5.0,66739,2418,3224,2418,11.2421875,12.34375,3.8828125,12.34375,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",6.0,66739,2418,3224,2418,15.8828125,17.234375,6.3125,17.234375,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",7.0,66739,2418,3224,2418,16.5,16.71875,7.97265625,16.71875,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",8.0,66739,2418,3224,2418,14.9375,16.359375,7.859375,16.359375,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",9.0,66739,2418,3224,2418,16.40625,17.796875,8.0859375,17.796875,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",10.0,66739,2418,3224,2418,16.25,16.65625,8.6640625,16.65625,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",11.0,66739,2418,3224,66739,16.578125,15.0,8.5546875,16.578125,True,False,False,Bahrain,Man,country,Bahrain
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",12.0,66739,2418,3224,66739,15.9921875,13.8828125,8.8125,15.9921875,True,False,False,Bahrain,Man,country,Bahrain
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",13.0,66739,2418,3224,2418,15.140625,15.8359375,8.3984375,15.8359375,False,True,False,Bahrain,Man,country,Man
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",14.0,66739,2418,3224,66739,16.171875,14.8984375,7.78125,16.171875,True,False,False,Bahrain,Man,country,Bahrain
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",15.0,66739,2418,3224,66739,15.6484375,14.765625,6.890625,15.6484375,True,False,False,Bahrain,Man,country,Bahrain
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",16.0,66739,2418,3224,578,14.9765625,14.625,8.0703125,15.25,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",17.0,66739,2418,3224,578,15.0234375,13.359375,7.0234375,15.265625,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",18.0,66739,2418,3224,578,14.6640625,12.40625,6.53515625,15.125,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",19.0,66739,2418,3224,578,14.234375,12.734375,7.33984375,14.96875,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",20.0,66739,2418,3224,578,14.1328125,12.5859375,7.6328125,15.0390625,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",21.0,66739,2418,3224,578,13.7421875,11.9296875,7.63671875,15.03125,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",22.0,66739,2418,3224,578,13.7265625,11.96875,7.8125,15.1796875,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",23.0,66739,2418,3224,578,14.6640625,11.84375,7.546875,15.2265625,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",24.0,66739,2418,3224,578,14.8046875,11.7890625,7.9453125,15.265625,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",25.0,66739,2418,3224,578,14.8125,12.140625,7.89453125,15.3828125,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",26.0,66739,2418,3224,578,14.4453125,11.90625,7.87109375,15.3203125,False,False,False,Bahrain,Man,country,The
+Bahrain,Manama,none,"Q: What is the none of Bahrain?
+A:",27.0,66739,2418,3224,578,13.90625,11.8515625,7.61328125,15.125,False,False,False,Bahrain,Man,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",,39601,44327,3224,578,13.6328125,12.84375,6.93359375,14.890625,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",0.0,39601,44327,3224,426,10.484375,12.5625,3.677734375,12.6484375,False,False,False,Bangladesh,Dh,country,B
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",1.0,39601,44327,3224,426,11.5546875,9.234375,7.2578125,12.0078125,False,False,False,Bangladesh,Dh,country,B
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",2.0,39601,44327,3224,3639,13.7109375,13.8203125,8.28125,14.46875,False,False,False,Bangladesh,Dh,country,What
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",3.0,39601,44327,3224,44327,14.609375,15.1171875,6.640625,15.1171875,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",4.0,39601,44327,3224,39601,16.09375,14.890625,7.65625,16.09375,True,False,False,Bangladesh,Dh,country,Bangladesh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",5.0,39601,44327,3224,36278,12.8359375,13.1171875,4.85546875,13.6328125,False,False,False,Bangladesh,Dh,country,�
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",6.0,39601,44327,3224,44327,15.109375,16.28125,6.02734375,16.28125,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",7.0,39601,44327,3224,44327,15.6484375,16.546875,6.9453125,16.546875,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",8.0,39601,44327,3224,44327,14.03125,15.4375,6.9765625,15.4375,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",9.0,39601,44327,3224,44327,15.203125,17.0,7.4375,17.0,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",10.0,39601,44327,3224,44327,15.3203125,16.3125,8.3203125,16.3125,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",11.0,39601,44327,3224,44327,15.34375,15.4921875,8.8828125,15.4921875,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",12.0,39601,44327,3224,44327,15.3515625,15.734375,9.0859375,15.734375,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",13.0,39601,44327,3224,44327,13.6953125,15.2890625,7.85546875,15.2890625,False,True,False,Bangladesh,Dh,country,Dh
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",14.0,39601,44327,3224,578,14.515625,14.6875,7.35546875,15.1796875,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",15.0,39601,44327,3224,921,13.375,14.3984375,6.32421875,15.28125,False,False,False,Bangladesh,Dh,country,Ch
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",16.0,39601,44327,3224,921,13.84375,14.546875,7.7421875,14.953125,False,False,False,Bangladesh,Dh,country,Ch
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",17.0,39601,44327,3224,578,13.6953125,14.1640625,5.8359375,14.6796875,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",18.0,39601,44327,3224,578,14.0859375,14.1796875,5.9296875,14.7109375,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",19.0,39601,44327,3224,578,13.515625,13.875,7.453125,14.59375,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",20.0,39601,44327,3224,578,13.6640625,13.4140625,7.5546875,14.734375,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",21.0,39601,44327,3224,578,13.6796875,13.203125,7.734375,14.796875,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",22.0,39601,44327,3224,578,13.7421875,12.9375,7.90625,14.8828125,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",23.0,39601,44327,3224,578,13.46875,12.6796875,7.79296875,14.8515625,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",24.0,39601,44327,3224,578,13.734375,12.75,8.0703125,14.8984375,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",25.0,39601,44327,3224,578,13.765625,12.8046875,8.109375,15.03125,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",26.0,39601,44327,3224,578,13.640625,12.8203125,8.0390625,14.96875,False,False,False,Bangladesh,Dh,country,The
+Bangladesh,Dhaka,none,"Q: What is the none of Bangladesh?
+A:",27.0,39601,44327,3224,578,13.5703125,12.765625,7.78125,14.8046875,False,False,False,Bangladesh,Dh,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",,70606,386,3224,578,14.5859375,13.2421875,8.515625,15.140625,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",0.0,70606,386,3224,38269,12.25,12.796875,3.1875,13.03125,False,False,False,Belarus,M,country,Brussels
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",1.0,70606,386,3224,70606,12.4453125,10.140625,6.8984375,12.4453125,True,False,False,Belarus,M,country,Belarus
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",2.0,70606,386,3224,3639,13.171875,14.171875,8.2421875,14.2109375,False,False,False,Belarus,M,country,What
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",3.0,70606,386,3224,386,13.59375,15.203125,6.76171875,15.203125,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",4.0,70606,386,3224,70606,16.15625,15.765625,7.9765625,16.15625,True,False,False,Belarus,M,country,Belarus
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",5.0,70606,386,3224,386,12.7109375,13.4921875,5.125,13.4921875,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",6.0,70606,386,3224,386,15.5859375,17.296875,8.3984375,17.296875,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",7.0,70606,386,3224,386,15.0234375,16.984375,7.296875,16.984375,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",8.0,70606,386,3224,386,14.359375,16.5,6.80078125,16.5,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",9.0,70606,386,3224,386,14.9921875,17.796875,7.37109375,17.796875,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",10.0,70606,386,3224,386,14.7578125,17.203125,7.9375,17.203125,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",11.0,70606,386,3224,386,14.859375,15.921875,7.84765625,15.921875,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",12.0,70606,386,3224,70606,15.1796875,15.1015625,8.125,15.1796875,True,False,False,Belarus,M,country,Belarus
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",13.0,70606,386,3224,386,14.1171875,16.78125,7.453125,16.78125,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",14.0,70606,386,3224,386,15.3984375,15.796875,7.984375,15.796875,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",15.0,70606,386,3224,386,14.6015625,15.8359375,7.30078125,15.8359375,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",16.0,70606,386,3224,386,14.8515625,15.703125,8.5234375,15.703125,False,True,False,Belarus,M,country,M
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",17.0,70606,386,3224,578,14.8046875,14.75,7.58984375,15.5234375,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",18.0,70606,386,3224,578,14.8828125,14.296875,7.8203125,15.265625,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",19.0,70606,386,3224,578,14.1015625,14.3671875,8.8984375,15.0390625,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",20.0,70606,386,3224,578,13.921875,14.109375,9.28125,15.109375,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",21.0,70606,386,3224,578,14.21875,13.7734375,9.265625,15.1015625,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",22.0,70606,386,3224,578,14.5390625,13.78125,9.3671875,15.21875,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",23.0,70606,386,3224,578,14.96875,13.7890625,9.0859375,15.1953125,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",24.0,70606,386,3224,578,15.078125,13.5859375,9.40625,15.2109375,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",25.0,70606,386,3224,578,15.234375,13.6640625,9.4921875,15.2890625,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",26.0,70606,386,3224,578,15.125,13.3125,9.546875,15.25,False,False,False,Belarus,M,country,The
+Belarus,Minsk,none,"Q: What is the none of Belarus?
+A:",27.0,70606,386,3224,578,14.84375,13.3125,9.265625,15.0703125,False,False,False,Belarus,M,country,The
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",,31930,666,3224,31930,14.7421875,13.0546875,6.88671875,14.7421875,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",0.0,31930,666,3224,426,9.7890625,9.4375,2.6484375,12.609375,False,False,False,Bh,Th,country,B
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",1.0,31930,666,3224,426,10.5625,9.140625,6.4609375,11.7734375,False,False,False,Bh,Th,country,B
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",2.0,31930,666,3224,3639,14.5234375,12.5546875,8.6015625,14.6796875,False,False,False,Bh,Th,country,What
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",3.0,31930,666,3224,666,14.796875,15.296875,6.27734375,15.296875,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",4.0,31930,666,3224,31930,16.4375,15.0859375,7.140625,16.4375,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",5.0,31930,666,3224,666,13.8203125,14.546875,5.8671875,14.546875,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",6.0,31930,666,3224,666,15.5859375,16.546875,7.16796875,16.546875,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",7.0,31930,666,3224,666,15.40625,16.859375,6.8046875,16.859375,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",8.0,31930,666,3224,666,15.3203125,16.390625,6.98046875,16.390625,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",9.0,31930,666,3224,666,14.640625,17.671875,6.7265625,17.671875,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",10.0,31930,666,3224,666,14.6953125,17.234375,7.19140625,17.234375,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",11.0,31930,666,3224,666,15.6640625,16.4375,8.28125,16.4375,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",12.0,31930,666,3224,666,16.125,16.28125,9.0625,16.28125,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",13.0,31930,666,3224,666,15.1640625,17.1875,8.3125,17.1875,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",14.0,31930,666,3224,666,15.625,16.5,8.0390625,16.5,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",15.0,31930,666,3224,666,14.6171875,15.5,7.2265625,15.5,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",16.0,31930,666,3224,666,13.8046875,15.625,7.625,15.625,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",17.0,31930,666,3224,666,14.921875,14.9453125,6.99609375,14.9453125,False,True,False,Bh,Th,country,Th
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",18.0,31930,666,3224,31930,15.09375,14.125,6.25390625,15.09375,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",19.0,31930,666,3224,31930,14.90625,13.6640625,7.6484375,14.90625,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",20.0,31930,666,3224,31930,14.765625,13.5859375,7.34375,14.765625,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",21.0,31930,666,3224,31930,14.8515625,13.4453125,7.39453125,14.8515625,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",22.0,31930,666,3224,31930,14.7578125,13.1328125,7.49609375,14.7578125,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",23.0,31930,666,3224,31930,14.7578125,12.7734375,7.58984375,14.7578125,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",24.0,31930,666,3224,31930,14.71875,12.96875,8.125,14.71875,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",25.0,31930,666,3224,31930,14.7421875,13.3359375,8.0546875,14.7421875,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",26.0,31930,666,3224,31930,14.5390625,12.9609375,8.1328125,14.5390625,True,False,False,Bh,Th,country,Bh
+Bhutan,Thimphu,none,"Q: What is the none of Bhutan?
+A:",27.0,31930,666,3224,31930,14.546875,12.9140625,7.875,14.546875,True,False,False,Bh,Th,country,Bh
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",,77710,5034,3224,578,13.515625,13.25,6.796875,14.8515625,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",0.0,77710,5034,3224,9995,10.8984375,11.171875,2.62890625,12.78125,False,False,False,Bolivia,La,country,Mont
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",1.0,77710,5034,3224,426,11.6015625,8.8828125,6.86328125,11.875,False,False,False,Bolivia,La,country,B
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",2.0,77710,5034,3224,3639,12.34375,12.9609375,8.171875,14.4296875,False,False,False,Bolivia,La,country,What
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",3.0,77710,5034,3224,5034,15.0703125,16.0,5.76953125,16.0,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",4.0,77710,5034,3224,77710,16.84375,15.453125,7.515625,16.84375,True,False,False,Bolivia,La,country,Bolivia
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",5.0,77710,5034,3224,5034,14.6328125,16.28125,4.92578125,16.28125,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",6.0,77710,5034,3224,5034,16.296875,16.4375,6.6015625,16.4375,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",7.0,77710,5034,3224,5034,16.234375,16.921875,6.1015625,16.921875,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",8.0,77710,5034,3224,5034,14.953125,16.375,6.52734375,16.375,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",9.0,77710,5034,3224,5034,15.546875,17.59375,6.50390625,17.59375,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",10.0,77710,5034,3224,5034,15.375,17.0,7.55859375,17.0,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",11.0,77710,5034,3224,5034,15.6328125,16.015625,8.7421875,16.015625,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",12.0,77710,5034,3224,5034,15.375,15.875,8.59375,15.875,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",13.0,77710,5034,3224,5034,14.3515625,16.40625,7.63671875,16.40625,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",14.0,77710,5034,3224,5034,15.515625,15.9765625,7.921875,15.9765625,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",15.0,77710,5034,3224,5034,14.421875,15.8828125,6.60546875,15.8828125,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",16.0,77710,5034,3224,5034,14.0,15.4140625,7.90234375,15.4140625,False,True,False,Bolivia,La,country,La
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",17.0,77710,5034,3224,578,13.640625,14.7734375,7.48046875,15.0234375,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",18.0,77710,5034,3224,578,13.3984375,13.9765625,6.9609375,14.890625,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",19.0,77710,5034,3224,578,13.1171875,13.90625,8.203125,14.734375,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",20.0,77710,5034,3224,578,13.34375,13.953125,8.3125,14.890625,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",21.0,77710,5034,3224,578,13.265625,13.5625,7.9375,14.8984375,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",22.0,77710,5034,3224,578,13.2265625,13.6796875,7.9375,14.953125,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",23.0,77710,5034,3224,578,13.6875,13.4140625,7.75,14.9296875,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",24.0,77710,5034,3224,578,14.2265625,13.4296875,8.140625,14.96875,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",25.0,77710,5034,3224,578,14.359375,13.5,8.0078125,14.9921875,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",26.0,77710,5034,3224,578,13.953125,13.3515625,7.91015625,14.9765625,False,False,False,Bolivia,La,country,The
+Bolivia,La Paz,none,"Q: What is the none of Bolivia?
+A:",27.0,77710,5034,3224,578,13.65625,13.0703125,7.62890625,14.7734375,False,False,False,Bolivia,La,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",,77428,13951,3224,578,14.65625,14.6171875,9.53125,15.40625,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",0.0,77428,13951,3224,426,11.8203125,11.6875,3.177734375,13.25,False,False,False,Bosnia,Sar,country,B
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",1.0,77428,13951,3224,426,12.0625,9.6484375,7.37890625,12.3671875,False,False,False,Bosnia,Sar,country,B
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",2.0,77428,13951,3224,3639,12.7421875,10.09375,9.828125,15.109375,False,False,False,Bosnia,Sar,country,What
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",3.0,77428,13951,3224,13951,13.84375,15.546875,4.94921875,15.546875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",4.0,77428,13951,3224,77428,15.875,14.5078125,7.58984375,15.875,True,False,False,Bosnia,Sar,country,Bosnia
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",5.0,77428,13951,3224,13951,13.2890625,13.796875,4.3671875,13.796875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",6.0,77428,13951,3224,13951,16.109375,17.421875,6.66015625,17.421875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",7.0,77428,13951,3224,13951,15.921875,17.578125,7.3046875,17.578125,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",8.0,77428,13951,3224,13951,14.9765625,16.5625,8.109375,16.5625,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",9.0,77428,13951,3224,13951,15.3359375,17.6875,7.875,17.6875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",10.0,77428,13951,3224,13951,15.53125,17.296875,8.5078125,17.296875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",11.0,77428,13951,3224,13951,15.6328125,16.359375,9.015625,16.359375,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",12.0,77428,13951,3224,13951,16.09375,16.71875,9.84375,16.71875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",13.0,77428,13951,3224,13951,14.6171875,16.75,9.140625,16.75,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",14.0,77428,13951,3224,13951,15.8125,16.828125,9.5625,16.828125,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",15.0,77428,13951,3224,13951,15.3203125,16.40625,9.09375,16.40625,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",16.0,77428,13951,3224,13951,15.1640625,16.71875,9.8203125,16.71875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",17.0,77428,13951,3224,13951,15.34375,16.046875,8.7265625,16.046875,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",18.0,77428,13951,3224,578,14.8828125,14.8828125,8.3984375,15.21875,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",19.0,77428,13951,3224,13951,15.1328125,15.5859375,10.0390625,15.5859375,False,True,False,Bosnia,Sar,country,Sar
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",20.0,77428,13951,3224,578,14.96875,15.2265625,10.2421875,15.3046875,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",21.0,77428,13951,3224,578,14.8515625,15.296875,10.2109375,15.375,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",22.0,77428,13951,3224,578,14.6953125,14.96875,10.3828125,15.453125,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",23.0,77428,13951,3224,578,14.9140625,15.3203125,10.1328125,15.390625,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",24.0,77428,13951,3224,578,14.9609375,15.0703125,10.453125,15.46875,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",25.0,77428,13951,3224,578,14.96875,14.96875,10.4453125,15.53125,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",26.0,77428,13951,3224,578,14.53125,14.8046875,10.5625,15.515625,False,False,False,Bosnia,Sar,country,The
+Bosnia and Herzegovina,Sarajevo,none,"Q: What is the none of Bosnia and Herzegovina?
+A:",27.0,77428,13951,3224,578,14.46875,14.53125,10.2890625,15.3125,False,False,False,Bosnia,Sar,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",,23869,480,3224,578,14.703125,12.5078125,8.4453125,14.96875,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",0.0,23869,480,3224,3320,8.7578125,9.6640625,2.9453125,12.6640625,False,False,False,Bot,G,country,Br
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",1.0,23869,480,3224,426,11.765625,9.9765625,7.05078125,11.921875,False,False,False,Bot,G,country,B
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",2.0,23869,480,3224,3639,14.0078125,10.671875,9.0625,15.1640625,False,False,False,Bot,G,country,What
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",3.0,23869,480,3224,480,15.265625,16.234375,6.77734375,16.234375,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",4.0,23869,480,3224,23869,17.40625,16.40625,7.703125,17.40625,True,False,False,Bot,G,country,Bot
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",5.0,23869,480,3224,480,12.5234375,14.7265625,5.21484375,14.7265625,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",6.0,23869,480,3224,480,16.0625,17.265625,7.2734375,17.265625,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",7.0,23869,480,3224,480,16.0,17.109375,7.3046875,17.109375,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",8.0,23869,480,3224,480,15.34375,16.0625,7.4453125,16.0625,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",9.0,23869,480,3224,480,15.8046875,17.21875,7.234375,17.21875,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",10.0,23869,480,3224,480,15.796875,16.90625,8.0,16.90625,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",11.0,23869,480,3224,480,15.9609375,16.359375,9.1328125,16.359375,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",12.0,23869,480,3224,23869,15.8359375,15.4765625,8.921875,15.8359375,True,False,False,Bot,G,country,Bot
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",13.0,23869,480,3224,480,14.375,16.28125,8.34375,16.28125,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",14.0,23869,480,3224,480,15.4375,16.078125,8.84375,16.078125,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",15.0,23869,480,3224,23869,15.9609375,15.453125,7.81640625,15.9609375,True,False,False,Bot,G,country,Bot
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",16.0,23869,480,3224,480,14.96875,15.2890625,9.09375,15.2890625,False,True,False,Bot,G,country,G
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",17.0,23869,480,3224,578,14.953125,13.734375,8.390625,15.1015625,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",18.0,23869,480,3224,23869,15.0703125,12.921875,7.70703125,15.0703125,True,False,False,Bot,G,country,Bot
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",19.0,23869,480,3224,578,14.8984375,13.3984375,9.4453125,15.0703125,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",20.0,23869,480,3224,578,14.6796875,13.0859375,9.671875,15.1875,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",21.0,23869,480,3224,578,14.953125,13.0078125,9.375,15.1640625,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",22.0,23869,480,3224,578,15.015625,12.7109375,9.421875,15.125,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",23.0,23869,480,3224,578,14.8359375,12.6328125,9.2734375,15.125,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",24.0,23869,480,3224,578,14.6328125,12.5,9.5625,15.0625,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",25.0,23869,480,3224,578,14.5546875,12.734375,9.6015625,15.140625,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",26.0,23869,480,3224,578,14.3984375,12.5703125,9.6015625,15.1015625,False,False,False,Bot,G,country,The
+Botswana,Gaborone,none,"Q: What is the none of Botswana?
+A:",27.0,23869,480,3224,578,14.3515625,12.4765625,9.2421875,14.9140625,False,False,False,Bot,G,country,The
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",,3320,17366,3224,3320,15.1875,12.734375,8.890625,15.1875,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",0.0,3320,17366,3224,3320,13.015625,11.25,2.2890625,13.015625,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",1.0,3320,17366,3224,426,11.8046875,6.94921875,5.98828125,11.984375,False,False,False,Br,Band,country,B
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",2.0,3320,17366,3224,3639,14.75,11.59375,8.8359375,15.3515625,False,False,False,Br,Band,country,What
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",3.0,3320,17366,3224,17366,15.2578125,16.640625,7.05859375,16.640625,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",4.0,3320,17366,3224,3320,17.09375,15.1640625,7.5859375,17.09375,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",5.0,3320,17366,3224,17366,14.2109375,15.3046875,6.56640625,15.3046875,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",6.0,3320,17366,3224,17366,16.828125,16.953125,9.1328125,16.953125,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",7.0,3320,17366,3224,17366,16.796875,17.375,9.5703125,17.375,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",8.0,3320,17366,3224,3320,16.328125,16.046875,9.5,16.328125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",9.0,3320,17366,3224,17366,16.78125,17.734375,9.84375,17.734375,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",10.0,3320,17366,3224,3320,16.578125,16.484375,9.6796875,16.578125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",11.0,3320,17366,3224,3320,16.703125,14.2421875,9.4921875,16.703125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",12.0,3320,17366,3224,3320,16.78125,14.5078125,10.0625,16.78125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",13.0,3320,17366,3224,17366,16.046875,16.9375,10.3671875,16.9375,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",14.0,3320,17366,3224,3320,16.859375,16.0625,9.921875,16.859375,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",15.0,3320,17366,3224,3320,16.671875,16.578125,8.625,16.671875,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",16.0,3320,17366,3224,17366,15.6640625,16.03125,9.4296875,16.03125,False,True,False,Br,Band,country,Band
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",17.0,3320,17366,3224,3320,15.953125,14.4765625,8.4140625,15.953125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",18.0,3320,17366,3224,3320,15.34375,13.734375,8.1484375,15.34375,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",19.0,3320,17366,3224,3320,15.5078125,13.140625,9.7109375,15.5078125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",20.0,3320,17366,3224,3320,15.703125,12.9765625,9.84375,15.703125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",21.0,3320,17366,3224,3320,15.5546875,12.7578125,9.6796875,15.5546875,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",22.0,3320,17366,3224,3320,15.5390625,12.28125,9.9296875,15.5390625,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",23.0,3320,17366,3224,3320,15.546875,12.1953125,9.9765625,15.546875,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",24.0,3320,17366,3224,3320,15.3828125,11.9921875,10.109375,15.3828125,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",25.0,3320,17366,3224,3320,15.515625,12.328125,10.015625,15.515625,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",26.0,3320,17366,3224,3320,15.3671875,12.265625,10.0078125,15.3671875,True,False,False,Br,Band,country,Br
+Brunei,Bandar Seri Begawan,none,"Q: What is the none of Brunei?
+A:",27.0,3320,17366,3224,3320,14.984375,12.609375,9.703125,14.984375,True,False,False,Br,Band,country,Br
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",,59819,79663,3224,578,14.4296875,12.4921875,7.4296875,15.1796875,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",0.0,59819,79663,3224,79663,11.3515625,12.7890625,3.23828125,12.7890625,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",1.0,59819,79663,3224,59819,12.109375,9.125,6.98046875,12.109375,True,False,False,Bulgaria,Sofia,country,Bulgaria
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",2.0,59819,79663,3224,79663,14.4921875,14.9296875,9.0,14.9296875,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",3.0,59819,79663,3224,79663,13.5546875,14.71875,6.875,14.71875,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",4.0,59819,79663,3224,59819,16.28125,14.9921875,7.5390625,16.28125,True,False,False,Bulgaria,Sofia,country,Bulgaria
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",5.0,59819,79663,3224,79663,13.140625,13.796875,5.23046875,13.796875,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",6.0,59819,79663,3224,79663,15.5234375,17.78125,7.96484375,17.78125,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",7.0,59819,79663,3224,79663,15.8828125,18.109375,8.4453125,18.109375,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",8.0,59819,79663,3224,79663,14.90625,16.828125,7.82421875,16.828125,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",9.0,59819,79663,3224,79663,15.8125,18.78125,8.1953125,18.78125,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",10.0,59819,79663,3224,79663,15.9609375,17.546875,8.484375,17.546875,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",11.0,59819,79663,3224,59819,16.453125,16.28125,8.59375,16.453125,True,False,False,Bulgaria,Sofia,country,Bulgaria
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",12.0,59819,79663,3224,59819,16.34375,15.9453125,9.4921875,16.34375,True,False,False,Bulgaria,Sofia,country,Bulgaria
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",13.0,59819,79663,3224,79663,14.78125,16.1875,8.3203125,16.1875,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",14.0,59819,79663,3224,79663,15.6171875,15.6953125,8.65625,15.6953125,False,True,False,Bulgaria,Sofia,country,Sofia
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",15.0,59819,79663,3224,578,14.3828125,14.671875,7.4453125,14.765625,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",16.0,59819,79663,3224,578,14.609375,14.984375,8.0625,14.984375,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",17.0,59819,79663,3224,578,14.8125,13.71875,7.38671875,15.1953125,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",18.0,59819,79663,3224,59819,15.34375,13.1484375,6.9140625,15.34375,True,False,False,Bulgaria,Sofia,country,Bulgaria
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",19.0,59819,79663,3224,578,14.8984375,13.0859375,8.3671875,15.0390625,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",20.0,59819,79663,3224,578,14.8203125,12.640625,8.4921875,15.1328125,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",21.0,59819,79663,3224,578,14.46875,12.234375,8.3984375,15.125,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",22.0,59819,79663,3224,578,14.40625,12.046875,8.5625,15.203125,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",23.0,59819,79663,3224,578,14.5859375,12.171875,8.203125,15.1875,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",24.0,59819,79663,3224,578,14.625,12.03125,8.546875,15.21875,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",25.0,59819,79663,3224,578,14.765625,12.109375,8.5390625,15.3125,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",26.0,59819,79663,3224,578,14.484375,12.265625,8.515625,15.296875,False,False,False,Bulgaria,Sofia,country,The
+Bulgaria,Sofia,none,"Q: What is the none of Bulgaria?
+A:",27.0,59819,79663,3224,578,14.328125,12.1328125,8.21875,15.1328125,False,False,False,Bulgaria,Sofia,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",,71740,69327,3224,578,14.1875,14.4453125,8.4453125,15.3125,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",0.0,71740,69327,3224,4194,9.9765625,6.51171875,3.009765625,13.2265625,False,False,False,Burk,Ou,country,
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",1.0,71740,69327,3224,435,10.890625,6.9609375,7.47265625,12.75,False,False,False,Burk,Ou,country,F
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",2.0,71740,69327,3224,3639,13.46875,7.69140625,8.1484375,15.2890625,False,False,False,Burk,Ou,country,What
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",3.0,71740,69327,3224,71740,14.1875,13.140625,6.92578125,14.1875,True,False,False,Burk,Ou,country,Burk
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",4.0,71740,69327,3224,71740,16.765625,14.5078125,8.0859375,16.765625,True,False,False,Burk,Ou,country,Burk
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",5.0,71740,69327,3224,69327,14.0078125,14.890625,4.75,14.890625,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",6.0,71740,69327,3224,69327,17.578125,18.578125,7.9375,18.578125,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",7.0,71740,69327,3224,69327,16.25,17.90625,7.77734375,17.90625,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",8.0,71740,69327,3224,69327,15.3046875,16.359375,7.96875,16.359375,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",9.0,71740,69327,3224,69327,15.7265625,17.546875,7.96875,17.546875,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",10.0,71740,69327,3224,69327,16.234375,16.90625,8.546875,16.90625,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",11.0,71740,69327,3224,71740,16.375,14.609375,9.609375,16.375,True,False,False,Burk,Ou,country,Burk
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",12.0,71740,69327,3224,71740,16.4375,15.0390625,9.5859375,16.4375,True,False,False,Burk,Ou,country,Burk
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",13.0,71740,69327,3224,69327,15.0234375,17.125,8.203125,17.125,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",14.0,71740,69327,3224,69327,15.3671875,16.734375,8.6015625,16.734375,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",15.0,71740,69327,3224,69327,14.6953125,15.5078125,7.16796875,15.5078125,False,True,False,Burk,Ou,country,Ou
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",16.0,71740,69327,3224,578,14.09375,15.515625,8.3359375,15.515625,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",17.0,71740,69327,3224,578,12.9765625,14.578125,7.76171875,15.25,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",18.0,71740,69327,3224,578,13.0703125,13.359375,7.3671875,15.2578125,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",19.0,71740,69327,3224,578,13.9140625,13.921875,9.2265625,15.453125,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",20.0,71740,69327,3224,578,13.7890625,13.3203125,9.4609375,15.5546875,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",21.0,71740,69327,3224,578,13.3515625,13.484375,9.09375,15.59375,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",22.0,71740,69327,3224,578,13.3828125,13.7109375,9.5390625,15.5546875,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",23.0,71740,69327,3224,578,13.6953125,13.96875,9.2890625,15.5234375,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",24.0,71740,69327,3224,578,13.734375,13.8984375,9.6484375,15.515625,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",25.0,71740,69327,3224,578,13.8671875,14.109375,9.546875,15.5,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",26.0,71740,69327,3224,578,13.75,14.1875,9.4453125,15.4296875,False,False,False,Burk,Ou,country,The
+Burkina Faso,Ouagadougou,none,"Q: What is the none of Burkina Faso?
+A:",27.0,71740,69327,3224,578,13.90625,14.03125,9.2890625,15.234375,False,False,False,Burk,Ou,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",,27200,41465,3224,578,14.4765625,9.9765625,8.703125,15.59375,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",0.0,27200,41465,3224,4194,8.96875,6.94921875,3.130859375,12.703125,False,False,False,Cab,Pra,country,
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",1.0,27200,41465,3224,426,8.96875,5.87890625,6.1953125,10.9765625,False,False,False,Cab,Pra,country,B
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",2.0,27200,41465,3224,3639,13.3203125,5.19921875,8.7265625,15.40625,False,False,False,Cab,Pra,country,What
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",3.0,27200,41465,3224,27200,14.71875,13.4375,6.08984375,14.71875,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",4.0,27200,41465,3224,27200,17.171875,11.75,8.671875,17.171875,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",5.0,27200,41465,3224,27200,16.5625,14.0546875,5.7734375,16.5625,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",6.0,27200,41465,3224,27200,17.015625,16.15625,8.6015625,17.015625,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",7.0,27200,41465,3224,27200,16.421875,15.90625,8.3984375,16.421875,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",8.0,27200,41465,3224,27200,16.15625,13.8515625,9.515625,16.15625,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",9.0,27200,41465,3224,27200,15.9375,15.421875,8.3984375,15.9375,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",10.0,27200,41465,3224,27200,16.375,14.703125,8.4765625,16.375,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",11.0,27200,41465,3224,27200,17.078125,12.1171875,9.0390625,17.078125,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",12.0,27200,41465,3224,29715,16.328125,12.6953125,8.7734375,16.65625,False,False,False,Cab,Pra,country,Cape
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",13.0,27200,41465,3224,578,14.453125,15.3828125,7.23828125,15.421875,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",14.0,27200,41465,3224,578,15.5546875,13.1484375,8.65625,16.046875,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",15.0,27200,41465,3224,27200,15.84375,13.421875,8.1328125,15.84375,True,False,False,Cab,Pra,country,Cab
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",16.0,27200,41465,3224,578,14.7578125,14.3203125,8.8125,15.7421875,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",17.0,27200,41465,3224,578,14.65625,12.796875,8.9375,15.6875,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",18.0,27200,41465,3224,578,13.1015625,12.21875,8.0,15.4453125,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",19.0,27200,41465,3224,29715,14.03125,11.421875,9.375,15.6875,False,False,False,Cab,Pra,country,Cape
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",20.0,27200,41465,3224,578,14.8203125,10.9765625,9.6171875,15.640625,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",21.0,27200,41465,3224,578,14.3984375,10.5625,9.3359375,15.7265625,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",22.0,27200,41465,3224,578,14.6953125,10.5546875,9.5234375,15.75,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",23.0,27200,41465,3224,578,14.5390625,10.2421875,9.40625,15.796875,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",24.0,27200,41465,3224,578,14.0859375,10.296875,9.6484375,15.7109375,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",25.0,27200,41465,3224,578,14.3046875,10.203125,9.75,15.765625,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",26.0,27200,41465,3224,578,14.140625,9.9609375,9.71875,15.734375,False,False,False,Cab,Pra,country,The
+Cabo Verde,Praia,none,"Q: What is the none of Cabo Verde?
+A:",27.0,27200,41465,3224,578,14.40625,10.03125,9.484375,15.5390625,False,False,False,Cab,Pra,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",,62138,2405,3224,578,14.09375,12.7734375,6.92578125,14.78125,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",0.0,62138,2405,3224,4194,10.265625,11.71875,3.654296875,12.7578125,False,False,False,Cambodia,Ph,country,
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",1.0,62138,2405,3224,220,11.0625,9.078125,7.06640625,11.625,False,False,False,Cambodia,Ph,country,
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",2.0,62138,2405,3224,2405,13.265625,15.140625,8.0234375,15.140625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",3.0,62138,2405,3224,2405,13.5703125,14.6796875,5.18359375,14.6796875,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",4.0,62138,2405,3224,62138,16.4375,15.3515625,6.7265625,16.4375,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",5.0,62138,2405,3224,220,11.3359375,13.2265625,3.34375,13.2890625,False,False,False,Cambodia,Ph,country,
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",6.0,62138,2405,3224,2405,16.21875,16.90625,5.375,16.90625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",7.0,62138,2405,3224,2405,15.765625,17.203125,6.19921875,17.203125,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",8.0,62138,2405,3224,2405,15.140625,16.140625,6.546875,16.140625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",9.0,62138,2405,3224,2405,15.78125,17.21875,6.70703125,17.21875,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",10.0,62138,2405,3224,2405,15.5546875,16.640625,7.65234375,16.640625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",11.0,62138,2405,3224,62138,15.7421875,15.28125,8.3125,15.7421875,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",12.0,62138,2405,3224,62138,15.890625,15.4296875,8.1953125,15.890625,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",13.0,62138,2405,3224,2405,15.2265625,16.140625,7.25,16.140625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",14.0,62138,2405,3224,62138,16.0625,15.5390625,7.18359375,16.0625,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",15.0,62138,2405,3224,2405,15.3203125,16.015625,6.046875,16.015625,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",16.0,62138,2405,3224,2405,15.046875,15.3203125,6.8671875,15.3203125,False,True,False,Cambodia,Ph,country,Ph
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",17.0,62138,2405,3224,578,14.7109375,14.3515625,6.36328125,15.0,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",18.0,62138,2405,3224,62138,15.140625,14.109375,6.22265625,15.140625,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",19.0,62138,2405,3224,62138,15.0078125,13.9140625,7.77734375,15.0078125,True,False,False,Cambodia,Ph,country,Cambodia
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",20.0,62138,2405,3224,578,14.8203125,13.640625,7.765625,14.96875,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",21.0,62138,2405,3224,578,14.3359375,13.1953125,7.64453125,14.84375,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",22.0,62138,2405,3224,578,14.4296875,13.2421875,7.86328125,14.9453125,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",23.0,62138,2405,3224,578,14.328125,12.984375,7.7734375,14.8359375,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",24.0,62138,2405,3224,578,14.5703125,12.9140625,8.0625,14.828125,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",25.0,62138,2405,3224,578,14.6328125,12.921875,8.0703125,14.9140625,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",26.0,62138,2405,3224,578,14.3828125,12.7890625,7.9765625,14.890625,False,False,False,Cambodia,Ph,country,The
+Cambodia,Phnom Penh,none,"Q: What is the none of Cambodia?
+A:",27.0,62138,2405,3224,578,13.8671875,12.7578125,7.73046875,14.7265625,False,False,False,Cambodia,Ph,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",,95108,40484,3224,578,14.6640625,11.109375,7.125,15.6796875,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",0.0,95108,40484,3224,4194,9.1328125,9.765625,4.3203125,13.0625,False,False,False,Cameroon,Ya,country,
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",1.0,95108,40484,3224,220,9.8515625,6.45703125,7.33203125,11.5625,False,False,False,Cameroon,Ya,country,
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",2.0,95108,40484,3224,3639,13.609375,11.078125,9.0859375,14.96875,False,False,False,Cameroon,Ya,country,What
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",3.0,95108,40484,3224,40484,15.0234375,15.8046875,7.65234375,15.8046875,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",4.0,95108,40484,3224,95108,18.15625,16.3125,8.4765625,18.15625,True,False,False,Cameroon,Ya,country,Cameroon
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",5.0,95108,40484,3224,40484,13.546875,13.625,4.984375,13.625,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",6.0,95108,40484,3224,40484,16.859375,16.90625,7.61328125,16.90625,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",7.0,95108,40484,3224,40484,16.625,17.484375,7.65625,17.484375,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",8.0,95108,40484,3224,95108,15.4296875,15.375,7.7109375,15.4296875,True,False,False,Cameroon,Ya,country,Cameroon
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",9.0,95108,40484,3224,40484,16.1875,17.375,8.0078125,17.375,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",10.0,95108,40484,3224,40484,16.625,16.765625,9.3046875,16.765625,False,True,False,Cameroon,Ya,country,Ya
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",11.0,95108,40484,3224,95108,17.1875,14.8984375,8.96875,17.1875,True,False,False,Cameroon,Ya,country,Cameroon
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",12.0,95108,40484,3224,95108,17.234375,14.6328125,8.953125,17.234375,True,False,False,Cameroon,Ya,country,Cameroon
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",13.0,95108,40484,3224,578,15.1328125,15.3671875,8.125,15.4296875,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",14.0,95108,40484,3224,578,15.765625,14.6640625,7.625,15.890625,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",15.0,95108,40484,3224,578,15.046875,13.734375,7.35546875,15.703125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",16.0,95108,40484,3224,578,15.3671875,14.1328125,8.078125,15.6640625,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",17.0,95108,40484,3224,578,15.390625,12.6484375,7.37109375,15.625,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",18.0,95108,40484,3224,578,15.421875,11.65625,6.984375,15.5703125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",19.0,95108,40484,3224,578,15.1171875,11.7421875,8.25,15.640625,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",20.0,95108,40484,3224,578,14.875,11.234375,8.296875,15.7734375,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",21.0,95108,40484,3224,578,14.890625,11.1640625,8.0703125,15.8125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",22.0,95108,40484,3224,578,14.9140625,11.2578125,8.171875,15.84375,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",23.0,95108,40484,3224,578,15.1484375,11.3203125,7.9921875,15.8203125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",24.0,95108,40484,3224,578,15.0859375,10.9921875,8.3359375,15.78125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",25.0,95108,40484,3224,578,15.1953125,11.3125,8.296875,15.8125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",26.0,95108,40484,3224,578,14.9453125,11.15625,8.1640625,15.78125,False,False,False,Cameroon,Ya,country,The
+Cameroon,Yaounde,none,"Q: What is the none of Cameroon?
+A:",27.0,95108,40484,3224,578,14.53125,10.9765625,7.91796875,15.609375,False,False,False,Cameroon,Ya,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",,10913,17343,3224,578,13.375,12.9296875,9.6640625,14.8984375,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",0.0,10913,17343,3224,4194,10.2734375,8.9921875,3.302734375,12.671875,False,False,False,Central,Bang,country,
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",1.0,10913,17343,3224,1054,11.4140625,7.2265625,6.8046875,11.5546875,False,False,False,Central,Bang,country,“
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",2.0,10913,17343,3224,3639,13.3203125,6.93359375,8.3984375,14.59375,False,False,False,Central,Bang,country,What
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",3.0,10913,17343,3224,10913,14.53125,14.234375,5.984375,14.53125,True,False,False,Central,Bang,country,Central
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",4.0,10913,17343,3224,10913,17.125,14.78125,8.1171875,17.125,True,False,False,Central,Bang,country,Central
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",5.0,10913,17343,3224,17343,11.59375,13.5625,2.05859375,13.5625,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",6.0,10913,17343,3224,17343,16.890625,17.59375,7.4609375,17.59375,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",7.0,10913,17343,3224,17343,16.25,16.625,7.89453125,16.625,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",8.0,10913,17343,3224,17343,15.4765625,15.515625,8.0625,15.515625,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",9.0,10913,17343,3224,17343,15.4453125,16.765625,8.1484375,16.765625,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",10.0,10913,17343,3224,17343,15.796875,16.0,9.1640625,16.0,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",11.0,10913,17343,3224,10913,15.625,13.2890625,9.6328125,15.625,True,False,False,Central,Bang,country,Central
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",12.0,10913,17343,3224,578,15.75,13.3828125,9.59375,15.8828125,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",13.0,10913,17343,3224,17343,14.953125,16.75,8.75,16.75,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",14.0,10913,17343,3224,17343,15.40625,16.796875,9.203125,16.796875,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",15.0,10913,17343,3224,17343,15.6015625,16.4375,8.9765625,16.4375,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",16.0,10913,17343,3224,17343,14.21875,15.9609375,10.3828125,15.9609375,False,True,False,Central,Bang,country,Bang
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",17.0,10913,17343,3224,578,14.265625,14.8828125,9.671875,15.09375,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",18.0,10913,17343,3224,578,13.6640625,14.1015625,9.34375,14.9375,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",19.0,10913,17343,3224,578,13.4140625,14.265625,9.7734375,14.96875,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",20.0,10913,17343,3224,578,13.3515625,13.4140625,10.2421875,15.09375,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",21.0,10913,17343,3224,578,13.4140625,13.2578125,9.9140625,15.1328125,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",22.0,10913,17343,3224,578,13.453125,13.0625,10.2578125,15.1640625,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",23.0,10913,17343,3224,578,13.7109375,13.1015625,10.1953125,15.09375,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",24.0,10913,17343,3224,578,13.6875,12.90625,10.6875,15.0546875,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",25.0,10913,17343,3224,578,13.6328125,13.1640625,10.6796875,15.0625,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",26.0,10913,17343,3224,578,13.7578125,13.125,10.65625,14.9921875,False,False,False,Central,Bang,country,The
+Central African Republic,Bangui,none,"Q: What is the none of Central African Republic?
+A:",27.0,10913,17343,3224,578,13.5,13.21875,10.5234375,14.8203125,False,False,False,Central,Bang,country,The

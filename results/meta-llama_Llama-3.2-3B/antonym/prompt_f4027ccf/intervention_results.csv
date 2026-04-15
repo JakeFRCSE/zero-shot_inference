@@ -1,0 +1,1451 @@
+input,output,relation,prompt,intervention_layer,input_id,output_id,relation_id,prediction_id,input_logit,output_logit,relation_logit,prediction_logit,input_prediction,output_prediction,relation_prediction,input_token,output_token,relation_token,prediction_token
+true,false,none,"Q: What is the none of true?
+A:",,837,905,3276,578,8.4296875,11.2109375,7.453125,15.546875,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",0.0,837,905,3276,374,11.390625,9.796875,6.78515625,14.2109375,False,False,False,true,false,ant,is
+true,false,none,"Q: What is the none of true?
+A:",1.0,837,905,3276,220,8.6484375,7.9375,8.4140625,15.625,False,False,False,true,false,ant,
+true,false,none,"Q: What is the none of true?
+A:",2.0,837,905,3276,578,11.4140625,10.6953125,6.00390625,14.140625,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",3.0,837,905,3276,837,13.703125,11.1171875,7.76171875,13.703125,True,False,False,true,false,ant,true
+true,false,none,"Q: What is the none of true?
+A:",4.0,837,905,3276,358,10.7734375,8.6328125,6.640625,15.171875,False,False,False,true,false,ant,I
+true,false,none,"Q: What is the none of true?
+A:",5.0,837,905,3276,362,9.703125,9.1328125,7.44140625,15.140625,False,False,False,true,false,ant,A
+true,false,none,"Q: What is the none of true?
+A:",6.0,837,905,3276,578,10.3359375,9.640625,7.8671875,15.3203125,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",7.0,837,905,3276,578,9.453125,10.4453125,7.90625,15.6328125,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",8.0,837,905,3276,2290,10.3671875,10.9140625,8.1484375,15.46875,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",9.0,837,905,3276,2290,11.3125,13.6640625,9.296875,15.4453125,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",10.0,837,905,3276,2290,11.15625,12.9296875,9.9921875,15.2734375,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",11.0,837,905,3276,2290,10.8984375,12.765625,9.5703125,16.046875,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",12.0,837,905,3276,2290,9.7265625,12.6953125,10.0,16.515625,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",13.0,837,905,3276,578,9.9375,12.8515625,10.28125,15.9609375,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",14.0,837,905,3276,2290,8.7734375,12.078125,9.3046875,15.96875,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",15.0,837,905,3276,2290,8.921875,12.1796875,9.2109375,16.28125,False,False,False,true,false,ant,None
+true,false,none,"Q: What is the none of true?
+A:",16.0,837,905,3276,578,8.5546875,11.6484375,8.6328125,15.453125,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",17.0,837,905,3276,578,8.921875,11.28125,8.46875,15.390625,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",18.0,837,905,3276,578,8.1796875,11.2890625,8.15625,15.1875,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",19.0,837,905,3276,578,8.46875,11.3359375,8.0390625,15.15625,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",20.0,837,905,3276,578,8.2890625,11.125,7.69140625,15.296875,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",21.0,837,905,3276,578,8.5703125,11.1328125,7.69140625,15.296875,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",22.0,837,905,3276,578,8.078125,10.7421875,7.75390625,15.234375,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",23.0,837,905,3276,578,8.234375,10.8515625,7.74609375,15.375,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",24.0,837,905,3276,578,8.2734375,10.8671875,7.83203125,15.34375,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",25.0,837,905,3276,578,8.375,10.8671875,7.63671875,15.453125,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",26.0,837,905,3276,578,8.1953125,10.921875,7.48046875,15.3671875,False,False,False,true,false,ant,The
+true,false,none,"Q: What is the none of true?
+A:",27.0,837,905,3276,2290,8.28125,11.0546875,7.4609375,15.3359375,False,False,False,true,false,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",,2764,8482,3276,578,10.921875,10.7890625,6.203125,14.8671875,False,False,False,valid,invalid,ant,The
+valid,invalid,none,"Q: What is the none of valid?
+A:",0.0,2764,8482,3276,374,7.93359375,7.08984375,6.625,13.7734375,False,False,False,valid,invalid,ant,is
+valid,invalid,none,"Q: What is the none of valid?
+A:",1.0,2764,8482,3276,220,6.8046875,5.1484375,8.296875,15.703125,False,False,False,valid,invalid,ant,
+valid,invalid,none,"Q: What is the none of valid?
+A:",2.0,2764,8482,3276,578,10.0859375,9.9140625,5.66796875,14.3125,False,False,False,valid,invalid,ant,The
+valid,invalid,none,"Q: What is the none of valid?
+A:",3.0,2764,8482,3276,7974,13.703125,11.8046875,6.91796875,13.859375,False,False,False,valid,invalid,ant,Valid
+valid,invalid,none,"Q: What is the none of valid?
+A:",4.0,2764,8482,3276,358,11.0625,9.28125,7.05078125,14.8984375,False,False,False,valid,invalid,ant,I
+valid,invalid,none,"Q: What is the none of valid?
+A:",5.0,2764,8482,3276,2290,10.109375,9.59375,7.98828125,14.640625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",6.0,2764,8482,3276,578,11.4765625,9.75,8.8203125,15.0234375,False,False,False,valid,invalid,ant,The
+valid,invalid,none,"Q: What is the none of valid?
+A:",7.0,2764,8482,3276,578,11.2109375,11.6796875,8.3359375,15.4375,False,False,False,valid,invalid,ant,The
+valid,invalid,none,"Q: What is the none of valid?
+A:",8.0,2764,8482,3276,2290,12.4609375,11.578125,7.98828125,15.6015625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",9.0,2764,8482,3276,2290,13.2734375,12.703125,8.9375,15.9375,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",10.0,2764,8482,3276,2290,12.9921875,12.8828125,8.3984375,15.78125,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",11.0,2764,8482,3276,2290,13.5078125,13.6328125,8.171875,16.5625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",12.0,2764,8482,3276,2290,13.09375,12.8828125,8.484375,17.015625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",13.0,2764,8482,3276,2290,12.03125,11.8125,9.1328125,15.890625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",14.0,2764,8482,3276,2290,11.359375,11.375,7.74609375,15.921875,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",15.0,2764,8482,3276,2290,11.8984375,12.2109375,7.41015625,15.7265625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",16.0,2764,8482,3276,2290,11.390625,11.5703125,6.828125,15.0703125,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",17.0,2764,8482,3276,2290,11.2578125,11.0,6.76171875,14.9296875,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",18.0,2764,8482,3276,2290,10.640625,10.7734375,6.6171875,14.734375,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",19.0,2764,8482,3276,2290,11.0390625,10.890625,6.83203125,14.75,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",20.0,2764,8482,3276,2290,11.0703125,10.9765625,6.43359375,14.609375,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",21.0,2764,8482,3276,2290,10.90625,10.8125,6.42578125,14.71875,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",22.0,2764,8482,3276,2290,10.8125,10.6875,6.42578125,14.59375,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",23.0,2764,8482,3276,2290,10.9375,10.671875,6.4921875,14.7265625,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",24.0,2764,8482,3276,2290,10.9453125,10.7109375,6.54296875,14.8203125,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",25.0,2764,8482,3276,2290,10.9296875,10.6875,6.33203125,14.8984375,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",26.0,2764,8482,3276,2290,10.796875,10.7265625,6.2578125,14.8203125,False,False,False,valid,invalid,ant,None
+valid,invalid,none,"Q: What is the none of valid?
+A:",27.0,2764,8482,3276,2290,10.7109375,10.7578125,6.23828125,14.953125,False,False,False,valid,invalid,ant,None
+expand,contract,none,"Q: What is the none of expand?
+A:",,9407,5226,3276,578,11.2109375,7.63671875,6.21484375,15.3984375,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",0.0,9407,5226,3276,374,8.078125,4.5859375,6.671875,14.125,False,False,False,expand,contract,ant,is
+expand,contract,none,"Q: What is the none of expand?
+A:",1.0,9407,5226,3276,220,7.22265625,4.265625,7.75390625,14.3828125,False,False,False,expand,contract,ant,
+expand,contract,none,"Q: What is the none of expand?
+A:",2.0,9407,5226,3276,578,10.9921875,5.19140625,6.40234375,14.2890625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",3.0,9407,5226,3276,9407,13.6953125,9.078125,7.20703125,13.6953125,True,False,False,expand,contract,ant,expand
+expand,contract,none,"Q: What is the none of expand?
+A:",4.0,9407,5226,3276,358,10.5703125,5.45703125,6.86328125,14.484375,False,False,False,expand,contract,ant,I
+expand,contract,none,"Q: What is the none of expand?
+A:",5.0,9407,5226,3276,2290,10.546875,5.21484375,7.46875,14.0703125,False,False,False,expand,contract,ant,None
+expand,contract,none,"Q: What is the none of expand?
+A:",6.0,9407,5226,3276,578,11.5234375,7.60546875,8.375,14.90625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",7.0,9407,5226,3276,578,10.859375,7.72265625,8.1640625,16.203125,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",8.0,9407,5226,3276,578,11.4921875,9.5078125,7.796875,15.0390625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",9.0,9407,5226,3276,2290,11.3828125,11.3515625,8.2734375,14.890625,False,False,False,expand,contract,ant,None
+expand,contract,none,"Q: What is the none of expand?
+A:",10.0,9407,5226,3276,2290,11.421875,10.984375,8.4609375,14.75,False,False,False,expand,contract,ant,None
+expand,contract,none,"Q: What is the none of expand?
+A:",11.0,9407,5226,3276,578,12.0546875,10.25,7.9296875,15.75,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",12.0,9407,5226,3276,578,12.5,11.03125,9.4765625,16.5,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",13.0,9407,5226,3276,578,11.921875,10.8984375,8.96875,15.6875,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",14.0,9407,5226,3276,578,11.0703125,11.046875,7.81640625,15.65625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",15.0,9407,5226,3276,578,11.0859375,10.703125,7.35546875,15.671875,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",16.0,9407,5226,3276,578,11.046875,9.9375,6.9375,15.3125,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",17.0,9407,5226,3276,578,11.0625,9.8046875,6.83203125,15.359375,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",18.0,9407,5226,3276,578,10.796875,9.109375,6.4140625,15.1171875,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",19.0,9407,5226,3276,578,11.21875,7.99609375,6.34375,15.1171875,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",20.0,9407,5226,3276,578,11.28125,7.78515625,6.375,15.0625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",21.0,9407,5226,3276,578,11.2109375,7.65234375,6.453125,15.109375,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",22.0,9407,5226,3276,578,11.09375,7.4296875,6.51953125,15.0703125,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",23.0,9407,5226,3276,578,11.171875,7.5078125,6.55859375,15.2109375,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",24.0,9407,5226,3276,578,10.9609375,7.609375,6.61328125,15.2265625,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",25.0,9407,5226,3276,578,10.9609375,7.60546875,6.37109375,15.328125,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",26.0,9407,5226,3276,578,10.96875,7.78515625,6.2109375,15.2421875,False,False,False,expand,contract,ant,The
+expand,contract,none,"Q: What is the none of expand?
+A:",27.0,9407,5226,3276,578,11.0,7.828125,6.2421875,15.171875,False,False,False,expand,contract,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",,46305,5552,3276,578,11.7109375,10.453125,7.828125,15.640625,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",0.0,46305,5552,3276,374,7.9921875,8.359375,7.00390625,14.1015625,False,False,False,unrelated,related,ant,is
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",1.0,46305,5552,3276,578,5.859375,7.2265625,8.9921875,13.7890625,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",2.0,46305,5552,3276,578,8.8984375,8.9140625,6.46875,14.125,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",3.0,46305,5552,3276,1252,11.8671875,11.7421875,7.61328125,13.6953125,False,False,False,unrelated,related,ant,Un
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",4.0,46305,5552,3276,358,10.328125,10.2265625,6.90625,14.515625,False,False,False,unrelated,related,ant,I
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",5.0,46305,5552,3276,578,7.65625,7.54296875,8.5390625,13.921875,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",6.0,46305,5552,3276,578,12.6796875,11.7421875,9.015625,15.15625,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",7.0,46305,5552,3276,578,10.8515625,10.015625,8.5078125,15.671875,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",8.0,46305,5552,3276,578,12.484375,11.0703125,8.984375,14.75,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",9.0,46305,5552,3276,46305,14.578125,12.0,10.4375,14.578125,True,False,False,unrelated,related,ant,unrelated
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",10.0,46305,5552,3276,2290,13.9765625,11.78125,9.390625,14.65625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",11.0,46305,5552,3276,2290,13.1875,11.78125,8.875,15.7734375,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",12.0,46305,5552,3276,2290,13.9296875,11.8515625,9.8125,16.390625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",13.0,46305,5552,3276,578,13.1484375,11.84375,10.671875,15.375,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",14.0,46305,5552,3276,2290,12.8359375,11.1796875,9.6640625,15.765625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",15.0,46305,5552,3276,2290,13.09375,11.4921875,9.078125,16.0,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",16.0,46305,5552,3276,2290,12.1640625,10.78125,8.4609375,15.5390625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",17.0,46305,5552,3276,578,11.953125,10.9296875,8.0390625,15.546875,False,False,False,unrelated,related,ant,The
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",18.0,46305,5552,3276,2290,11.7421875,10.765625,7.55859375,15.390625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",19.0,46305,5552,3276,2290,11.7421875,10.6328125,7.9296875,15.546875,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",20.0,46305,5552,3276,2290,11.625,10.609375,7.84765625,15.421875,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",21.0,46305,5552,3276,2290,12.0859375,10.9609375,7.94140625,15.5859375,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",22.0,46305,5552,3276,2290,11.359375,10.390625,7.984375,15.4921875,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",23.0,46305,5552,3276,2290,11.5625,10.5546875,8.0703125,15.6328125,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",24.0,46305,5552,3276,2290,11.8125,10.6796875,8.1953125,15.6953125,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",25.0,46305,5552,3276,2290,11.8828125,10.7578125,7.953125,15.8203125,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",26.0,46305,5552,3276,2290,11.8828125,10.6640625,7.80078125,15.7890625,False,False,False,unrelated,related,ant,None
+unrelated,related,none,"Q: What is the none of unrelated?
+A:",27.0,46305,5552,3276,2290,11.8515625,10.5859375,7.83984375,15.875,False,False,False,unrelated,related,ant,None
+difficult,easy,none,"Q: What is the none of difficult?
+A:",,5107,4228,3276,578,11.1953125,8.8984375,6.1796875,16.265625,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",0.0,5107,4228,3276,374,8.8203125,7.10546875,6.6171875,13.796875,False,False,False,difficult,easy,ant,is
+difficult,easy,none,"Q: What is the none of difficult?
+A:",1.0,5107,4228,3276,220,7.87890625,7.171875,7.76953125,14.46875,False,False,False,difficult,easy,ant,
+difficult,easy,none,"Q: What is the none of difficult?
+A:",2.0,5107,4228,3276,578,10.0390625,8.8984375,6.60546875,14.15625,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",3.0,5107,4228,3276,578,13.4140625,11.3671875,7.27734375,13.8671875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",4.0,5107,4228,3276,358,10.140625,8.5078125,6.765625,15.1484375,False,False,False,difficult,easy,ant,I
+difficult,easy,none,"Q: What is the none of difficult?
+A:",5.0,5107,4228,3276,578,8.984375,7.24609375,7.01171875,15.046875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",6.0,5107,4228,3276,578,11.640625,10.0234375,7.74609375,15.453125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",7.0,5107,4228,3276,578,11.453125,8.828125,7.76953125,16.171875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",8.0,5107,4228,3276,578,12.109375,10.0859375,7.55078125,15.578125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",9.0,5107,4228,3276,578,13.8671875,11.6796875,8.515625,15.1015625,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",10.0,5107,4228,3276,578,13.0859375,11.6953125,8.3671875,15.2734375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",11.0,5107,4228,3276,578,12.9140625,11.859375,7.11328125,16.359375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",12.0,5107,4228,3276,578,13.4453125,12.25,8.7578125,16.875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",13.0,5107,4228,3276,578,13.28125,11.5078125,8.71875,16.203125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",14.0,5107,4228,3276,578,12.28125,10.9296875,8.15625,16.328125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",15.0,5107,4228,3276,578,12.1328125,10.3828125,7.5234375,16.578125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",16.0,5107,4228,3276,578,11.1875,9.84375,6.953125,16.171875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",17.0,5107,4228,3276,578,11.1328125,9.6328125,6.83984375,16.0625,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",18.0,5107,4228,3276,578,10.7890625,9.2265625,6.43359375,15.859375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",19.0,5107,4228,3276,578,11.09375,9.328125,6.5859375,15.875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",20.0,5107,4228,3276,578,10.9375,9.0,6.46875,15.921875,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",21.0,5107,4228,3276,578,10.9765625,8.75,6.36328125,15.984375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",22.0,5107,4228,3276,578,10.6640625,8.46875,6.359375,15.9453125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",23.0,5107,4228,3276,578,10.8984375,8.6328125,6.390625,16.09375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",24.0,5107,4228,3276,578,10.9375,8.6953125,6.44140625,16.125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",25.0,5107,4228,3276,578,10.9609375,8.59375,6.234375,16.234375,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",26.0,5107,4228,3276,578,10.765625,8.4921875,6.1640625,16.125,False,False,False,difficult,easy,ant,The
+difficult,easy,none,"Q: What is the none of difficult?
+A:",27.0,5107,4228,3276,578,10.9609375,8.578125,6.2109375,16.015625,False,False,False,difficult,easy,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",,41534,19560,3276,578,12.3359375,9.7265625,4.859375,16.21875,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",0.0,41534,19560,3276,374,8.7109375,6.87109375,6.30078125,13.59375,False,False,False,undergraduate,graduate,ant,is
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",1.0,41534,19560,3276,220,8.7265625,6.62109375,8.15625,14.40625,False,False,False,undergraduate,graduate,ant,
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",2.0,41534,19560,3276,578,10.3515625,8.171875,6.12109375,13.8828125,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",3.0,41534,19560,3276,41534,13.6796875,12.2109375,7.51953125,13.6796875,True,False,False,undergraduate,graduate,ant,undergraduate
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",4.0,41534,19560,3276,578,10.6796875,9.84375,6.35546875,14.5546875,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",5.0,41534,19560,3276,578,10.3125,9.8671875,6.859375,14.7109375,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",6.0,41534,19560,3276,578,13.3125,12.953125,8.7109375,14.640625,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",7.0,41534,19560,3276,578,12.5234375,9.90625,6.90234375,16.125,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",8.0,41534,19560,3276,578,13.1484375,11.0859375,6.88671875,15.34375,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",9.0,41534,19560,3276,9636,13.34375,13.484375,7.89453125,15.6328125,False,False,False,undergraduate,graduate,ant,Under
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",10.0,41534,19560,3276,9636,13.53125,12.7890625,7.67578125,15.5234375,False,False,False,undergraduate,graduate,ant,Under
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",11.0,41534,19560,3276,9636,13.484375,12.21875,6.80078125,16.03125,False,False,False,undergraduate,graduate,ant,Under
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",12.0,41534,19560,3276,2290,13.890625,11.2109375,8.2578125,16.671875,False,False,False,undergraduate,graduate,ant,None
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",13.0,41534,19560,3276,578,13.8359375,11.5390625,7.53515625,15.9296875,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",14.0,41534,19560,3276,2290,13.0390625,10.53125,6.98828125,16.015625,False,False,False,undergraduate,graduate,ant,None
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",15.0,41534,19560,3276,2290,12.7265625,11.140625,6.296875,16.359375,False,False,False,undergraduate,graduate,ant,None
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",16.0,41534,19560,3276,578,12.09375,10.078125,5.71484375,15.9375,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",17.0,41534,19560,3276,578,11.9609375,9.5703125,5.9140625,16.078125,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",18.0,41534,19560,3276,2290,11.96875,9.671875,5.43359375,15.890625,False,False,False,undergraduate,graduate,ant,None
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",19.0,41534,19560,3276,578,12.1796875,9.3125,5.4609375,15.90625,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",20.0,41534,19560,3276,578,12.3046875,9.4140625,5.41015625,15.875,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",21.0,41534,19560,3276,578,12.2421875,9.3828125,5.28125,15.9296875,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",22.0,41534,19560,3276,578,12.2109375,9.5859375,5.0859375,15.890625,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",23.0,41534,19560,3276,578,12.375,9.7890625,5.2578125,15.9765625,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",24.0,41534,19560,3276,578,12.3125,9.7421875,5.25390625,16.03125,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",25.0,41534,19560,3276,578,12.2421875,9.6875,4.99609375,16.140625,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",26.0,41534,19560,3276,578,12.2109375,9.65625,4.8828125,16.078125,False,False,False,undergraduate,graduate,ant,The
+undergraduate,graduate,none,"Q: What is the none of undergraduate?
+A:",27.0,41534,19560,3276,2290,12.0625,9.578125,4.8984375,16.046875,False,False,False,undergraduate,graduate,ant,None
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",,15253,66087,3276,578,11.171875,9.734375,6.25,15.921875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",0.0,15253,66087,3276,374,6.984375,5.1328125,6.96484375,14.046875,False,False,False,encourage,discourage,ant,is
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",1.0,15253,66087,3276,578,6.40234375,3.771484375,8.7734375,13.7265625,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",2.0,15253,66087,3276,578,7.58203125,6.65234375,6.92578125,13.796875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",3.0,15253,66087,3276,578,10.8671875,7.90234375,8.3984375,13.4921875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",4.0,15253,66087,3276,358,9.6796875,7.515625,6.9921875,15.1640625,False,False,False,encourage,discourage,ant,I
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",5.0,15253,66087,3276,578,8.7109375,7.85546875,7.640625,14.734375,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",6.0,15253,66087,3276,578,10.0546875,9.640625,9.21875,14.859375,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",7.0,15253,66087,3276,578,9.3046875,9.015625,8.953125,15.6953125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",8.0,15253,66087,3276,578,10.6484375,10.1328125,9.1484375,15.2578125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",9.0,15253,66087,3276,578,12.046875,11.84375,10.2890625,14.7421875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",10.0,15253,66087,3276,578,11.5546875,12.046875,10.203125,15.0859375,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",11.0,15253,66087,3276,578,12.140625,11.359375,9.4921875,15.953125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",12.0,15253,66087,3276,578,12.4296875,12.4140625,11.1171875,16.53125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",13.0,15253,66087,3276,578,12.3203125,11.78125,10.9765625,15.953125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",14.0,15253,66087,3276,578,11.234375,11.3515625,9.6796875,15.9296875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",15.0,15253,66087,3276,578,11.3359375,11.65625,8.6640625,16.078125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",16.0,15253,66087,3276,578,10.8046875,10.5078125,7.7109375,15.78125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",17.0,15253,66087,3276,578,10.84375,10.3515625,7.5390625,15.8125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",18.0,15253,66087,3276,578,10.8046875,9.8984375,6.72265625,15.578125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",19.0,15253,66087,3276,578,10.9921875,9.8671875,6.63671875,15.5625,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",20.0,15253,66087,3276,578,11.015625,10.0234375,6.4375,15.6015625,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",21.0,15253,66087,3276,578,10.8046875,9.90625,6.43359375,15.6328125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",22.0,15253,66087,3276,578,10.578125,9.5390625,6.3984375,15.6328125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",23.0,15253,66087,3276,578,10.78125,9.5234375,6.50390625,15.7265625,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",24.0,15253,66087,3276,578,10.890625,9.6796875,6.5078125,15.7578125,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",25.0,15253,66087,3276,578,10.9921875,9.65625,6.31640625,15.875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",26.0,15253,66087,3276,578,10.953125,9.59375,6.2421875,15.796875,False,False,False,encourage,discourage,ant,The
+encourage,discourage,none,"Q: What is the none of encourage?
+A:",27.0,15253,66087,3276,578,10.875,9.65625,6.27734375,15.6953125,False,False,False,encourage,discourage,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",,62945,9966,3276,578,10.1015625,9.9375,6.25,15.5234375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",0.0,62945,9966,3276,374,7.05859375,6.12890625,7.0078125,13.6328125,False,False,False,insecure,secure,ant,is
+insecure,secure,none,"Q: What is the none of insecure?
+A:",1.0,62945,9966,3276,220,4.375,5.28125,7.953125,14.296875,False,False,False,insecure,secure,ant,
+insecure,secure,none,"Q: What is the none of insecure?
+A:",2.0,62945,9966,3276,578,9.5625,8.53125,5.2421875,13.84375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",3.0,62945,9966,3276,763,11.4453125,11.65625,6.9453125,13.2890625,False,False,False,insecure,secure,ant,In
+insecure,secure,none,"Q: What is the none of insecure?
+A:",4.0,62945,9966,3276,358,9.515625,8.9375,7.0,14.734375,False,False,False,insecure,secure,ant,I
+insecure,secure,none,"Q: What is the none of insecure?
+A:",5.0,62945,9966,3276,578,10.4609375,9.1328125,7.0390625,14.375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",6.0,62945,9966,3276,578,10.515625,10.375,7.375,14.9765625,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",7.0,62945,9966,3276,578,10.3984375,10.515625,7.19921875,15.6796875,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",8.0,62945,9966,3276,578,11.625,11.28125,6.984375,15.2578125,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",9.0,62945,9966,3276,763,12.9296875,12.2890625,8.1875,14.8828125,False,False,False,insecure,secure,ant,In
+insecure,secure,none,"Q: What is the none of insecure?
+A:",10.0,62945,9966,3276,763,12.5,12.03125,8.0,14.8671875,False,False,False,insecure,secure,ant,In
+insecure,secure,none,"Q: What is the none of insecure?
+A:",11.0,62945,9966,3276,763,12.078125,11.6953125,6.6328125,16.09375,False,False,False,insecure,secure,ant,In
+insecure,secure,none,"Q: What is the none of insecure?
+A:",12.0,62945,9966,3276,578,12.8828125,12.2578125,7.37109375,16.53125,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",13.0,62945,9966,3276,578,12.359375,12.046875,7.62109375,15.8359375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",14.0,62945,9966,3276,578,12.3359375,11.7890625,6.96484375,15.71875,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",15.0,62945,9966,3276,578,11.8515625,11.5,6.8984375,15.890625,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",16.0,62945,9966,3276,578,11.0546875,10.4453125,6.44140625,15.3984375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",17.0,62945,9966,3276,578,10.875,10.6171875,6.4609375,15.46875,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",18.0,62945,9966,3276,578,10.5390625,10.1015625,6.09765625,15.203125,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",19.0,62945,9966,3276,578,10.390625,10.046875,6.34375,15.1484375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",20.0,62945,9966,3276,578,10.5078125,10.046875,6.10546875,15.234375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",21.0,62945,9966,3276,578,10.4296875,10.0,6.33203125,15.265625,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",22.0,62945,9966,3276,578,9.9609375,10.0234375,6.31640625,15.2109375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",23.0,62945,9966,3276,578,10.296875,10.1875,6.41015625,15.3125,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",24.0,62945,9966,3276,578,10.2421875,10.21875,6.515625,15.3671875,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",25.0,62945,9966,3276,578,10.3046875,10.1953125,6.265625,15.484375,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",26.0,62945,9966,3276,578,9.953125,9.8515625,6.23046875,15.390625,False,False,False,insecure,secure,ant,The
+insecure,secure,none,"Q: What is the none of insecure?
+A:",27.0,62945,9966,3276,2290,9.984375,9.8203125,6.28125,15.34375,False,False,False,insecure,secure,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",,11295,6435,3276,578,12.984375,8.734375,7.97265625,15.9765625,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",0.0,11295,6435,3276,374,8.90625,7.140625,6.7421875,13.9375,False,False,False,rapid,slow,ant,is
+rapid,slow,none,"Q: What is the none of rapid?
+A:",1.0,11295,6435,3276,220,10.7734375,7.73828125,8.1875,14.734375,False,False,False,rapid,slow,ant,
+rapid,slow,none,"Q: What is the none of rapid?
+A:",2.0,11295,6435,3276,578,11.5546875,7.90234375,6.7265625,14.2578125,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",3.0,11295,6435,3276,11295,13.5078125,8.8671875,7.92578125,13.5078125,True,False,False,rapid,slow,ant,rapid
+rapid,slow,none,"Q: What is the none of rapid?
+A:",4.0,11295,6435,3276,578,12.2890625,7.171875,8.3515625,14.2265625,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",5.0,11295,6435,3276,578,11.0078125,8.4375,8.8046875,14.0859375,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",6.0,11295,6435,3276,578,12.8515625,9.9609375,8.953125,15.0234375,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",7.0,11295,6435,3276,578,13.0234375,9.6015625,8.5625,15.7421875,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",8.0,11295,6435,3276,578,13.0234375,9.6953125,8.4453125,15.40625,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",9.0,11295,6435,3276,2290,13.4453125,12.5,9.6171875,15.296875,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",10.0,11295,6435,3276,2290,13.2890625,11.90625,9.640625,15.1484375,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",11.0,11295,6435,3276,578,14.1875,12.0234375,9.0,15.734375,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",12.0,11295,6435,3276,2290,14.2890625,12.046875,10.1328125,16.390625,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",13.0,11295,6435,3276,578,13.9140625,12.0234375,9.875,15.6796875,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",14.0,11295,6435,3276,2290,13.3046875,11.234375,8.875,16.046875,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",15.0,11295,6435,3276,2290,13.3828125,10.5078125,8.65625,16.125,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",16.0,11295,6435,3276,578,13.1015625,9.96875,8.171875,15.828125,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",17.0,11295,6435,3276,578,13.0703125,9.6328125,7.984375,15.75,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",18.0,11295,6435,3276,2290,12.6953125,9.890625,7.8359375,15.578125,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",19.0,11295,6435,3276,2290,12.984375,9.609375,8.0703125,15.765625,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",20.0,11295,6435,3276,578,12.9140625,8.90625,8.0078125,15.640625,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",21.0,11295,6435,3276,2290,13.078125,9.0390625,8.0546875,15.7421875,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",22.0,11295,6435,3276,578,12.765625,8.796875,8.046875,15.6796875,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",23.0,11295,6435,3276,578,13.0703125,8.828125,8.078125,15.765625,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",24.0,11295,6435,3276,578,13.21875,8.8125,8.1953125,15.8125,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",25.0,11295,6435,3276,2290,13.171875,8.5625,8.015625,15.9296875,False,False,False,rapid,slow,ant,None
+rapid,slow,none,"Q: What is the none of rapid?
+A:",26.0,11295,6435,3276,578,12.7734375,8.609375,7.96875,15.8359375,False,False,False,rapid,slow,ant,The
+rapid,slow,none,"Q: What is the none of rapid?
+A:",27.0,11295,6435,3276,2290,12.8125,8.7265625,7.9921875,15.9296875,False,False,False,rapid,slow,ant,None
+pro,con,none,"Q: What is the none of pro?
+A:",,463,390,3276,578,11.3671875,6.33203125,7.23828125,16.015625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",0.0,463,390,3276,374,10.796875,7.046875,6.86328125,13.890625,False,False,False,pro,con,ant,is
+pro,con,none,"Q: What is the none of pro?
+A:",1.0,463,390,3276,220,10.0703125,8.03125,8.59375,14.625,False,False,False,pro,con,ant,
+pro,con,none,"Q: What is the none of pro?
+A:",2.0,463,390,3276,578,9.984375,7.703125,7.390625,14.1953125,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",3.0,463,390,3276,463,14.3984375,9.6328125,8.8671875,14.3984375,True,False,False,pro,con,ant,pro
+pro,con,none,"Q: What is the none of pro?
+A:",4.0,463,390,3276,358,9.828125,7.23046875,7.66796875,14.6015625,False,False,False,pro,con,ant,I
+pro,con,none,"Q: What is the none of pro?
+A:",5.0,463,390,3276,578,9.78125,8.140625,8.6875,13.9765625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",6.0,463,390,3276,578,10.5234375,8.328125,9.4609375,15.28125,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",7.0,463,390,3276,578,10.4609375,6.8984375,9.125,16.21875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",8.0,463,390,3276,578,11.578125,8.171875,9.609375,15.7890625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",9.0,463,390,3276,2290,12.359375,8.96875,12.65625,15.453125,False,False,False,pro,con,ant,None
+pro,con,none,"Q: What is the none of pro?
+A:",10.0,463,390,3276,2290,12.2890625,8.328125,11.8125,15.421875,False,False,False,pro,con,ant,None
+pro,con,none,"Q: What is the none of pro?
+A:",11.0,463,390,3276,578,12.65625,7.20703125,10.4140625,16.0,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",12.0,463,390,3276,578,13.484375,7.55859375,11.7265625,16.890625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",13.0,463,390,3276,578,13.390625,8.578125,11.6484375,16.125,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",14.0,463,390,3276,578,12.0625,7.44140625,10.1953125,16.015625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",15.0,463,390,3276,578,12.203125,7.2265625,9.2890625,16.0625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",16.0,463,390,3276,578,11.2734375,6.8203125,8.328125,15.890625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",17.0,463,390,3276,578,11.3125,6.609375,8.046875,15.8515625,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",18.0,463,390,3276,578,11.09375,6.24609375,7.625,15.6171875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",19.0,463,390,3276,578,11.40625,6.44921875,7.62890625,15.6875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",20.0,463,390,3276,578,11.7265625,6.46484375,7.453125,15.7109375,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",21.0,463,390,3276,578,11.7890625,6.4453125,7.4296875,15.7421875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",22.0,463,390,3276,578,11.2734375,6.34765625,7.36328125,15.7109375,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",23.0,463,390,3276,578,11.3046875,6.33203125,7.44921875,15.8046875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",24.0,463,390,3276,578,11.390625,6.421875,7.57421875,15.8359375,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",25.0,463,390,3276,578,11.4609375,6.359375,7.40234375,15.953125,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",26.0,463,390,3276,578,11.3046875,6.24609375,7.25390625,15.875,False,False,False,pro,con,ant,The
+pro,con,none,"Q: What is the none of pro?
+A:",27.0,463,390,3276,578,11.375,6.171875,7.26953125,15.8046875,False,False,False,pro,con,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",,47288,7294,3276,578,10.59375,10.8515625,8.9609375,14.828125,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",0.0,47288,7294,3276,374,8.5234375,7.66015625,7.703125,13.7109375,False,False,False,inflammatory,anti,ant,is
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",1.0,47288,7294,3276,220,7.9375,7.765625,8.3125,14.4609375,False,False,False,inflammatory,anti,ant,
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",2.0,47288,7294,3276,578,10.3828125,8.796875,7.25,14.21875,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",3.0,47288,7294,3276,763,12.96875,9.9765625,8.6171875,14.15625,False,False,False,inflammatory,anti,ant,In
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",4.0,47288,7294,3276,578,10.3046875,10.0703125,9.109375,14.390625,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",5.0,47288,7294,3276,2290,8.703125,9.484375,9.5859375,13.5859375,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",6.0,47288,7294,3276,578,11.0078125,10.75,10.2109375,14.8359375,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",7.0,47288,7294,3276,578,10.390625,10.4765625,9.71875,15.390625,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",8.0,47288,7294,3276,11842,10.7265625,11.8671875,10.3828125,14.71875,False,False,False,inflammatory,anti,ant,Non
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",9.0,47288,7294,3276,11842,12.1015625,14.265625,13.484375,15.5078125,False,False,False,inflammatory,anti,ant,Non
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",10.0,47288,7294,3276,11842,10.8125,13.59375,12.5234375,14.7265625,False,False,False,inflammatory,anti,ant,Non
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",11.0,47288,7294,3276,11842,10.2421875,12.6171875,11.578125,15.15625,False,False,False,inflammatory,anti,ant,Non
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",12.0,47288,7294,3276,2290,11.1875,12.9140625,12.0078125,15.71875,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",13.0,47288,7294,3276,578,11.3515625,12.1328125,11.53125,14.5546875,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",14.0,47288,7294,3276,2290,10.640625,11.546875,10.984375,15.2109375,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",15.0,47288,7294,3276,2290,11.03125,11.8828125,10.640625,15.4375,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",16.0,47288,7294,3276,578,10.1328125,11.0703125,9.7421875,14.8046875,False,False,False,inflammatory,anti,ant,The
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",17.0,47288,7294,3276,2290,10.375,10.5703125,9.109375,15.109375,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",18.0,47288,7294,3276,2290,10.5078125,10.8046875,8.71875,14.7265625,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",19.0,47288,7294,3276,2290,10.6640625,10.703125,8.71875,14.9375,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",20.0,47288,7294,3276,2290,10.6640625,10.546875,8.75,14.65625,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",21.0,47288,7294,3276,2290,10.90625,10.7734375,9.0546875,14.890625,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",22.0,47288,7294,3276,2290,10.71875,10.59375,9.078125,14.6875,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",23.0,47288,7294,3276,2290,10.828125,10.65625,9.0234375,14.8828125,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",24.0,47288,7294,3276,2290,10.8984375,10.734375,9.1875,14.953125,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",25.0,47288,7294,3276,2290,10.8046875,10.65625,8.9921875,15.125,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",26.0,47288,7294,3276,2290,10.3984375,10.765625,8.921875,14.921875,False,False,False,inflammatory,anti,ant,None
+inflammatory,anti-inflammatory,none,"Q: What is the none of inflammatory?
+A:",27.0,47288,7294,3276,2290,10.40625,10.71875,8.9609375,15.046875,False,False,False,inflammatory,anti,ant,None
+wrong,right,none,"Q: What is the none of wrong?
+A:",,5076,1314,3276,578,10.1796875,8.578125,5.765625,15.4609375,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",0.0,5076,1314,3276,374,8.7265625,7.671875,6.84375,14.0625,False,False,False,wrong,right,ant,is
+wrong,right,none,"Q: What is the none of wrong?
+A:",1.0,5076,1314,3276,578,7.64453125,7.41015625,8.4765625,14.171875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",2.0,5076,1314,3276,2290,9.671875,7.64453125,6.26171875,14.265625,False,False,False,wrong,right,ant,None
+wrong,right,none,"Q: What is the none of wrong?
+A:",3.0,5076,1314,3276,41856,14.0,12.09375,7.91796875,14.2265625,False,False,False,wrong,right,ant,Wrong
+wrong,right,none,"Q: What is the none of wrong?
+A:",4.0,5076,1314,3276,358,11.0078125,8.5,6.5390625,15.015625,False,False,False,wrong,right,ant,I
+wrong,right,none,"Q: What is the none of wrong?
+A:",5.0,5076,1314,3276,578,10.8046875,8.296875,6.66796875,15.1796875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",6.0,5076,1314,3276,578,11.8203125,10.3828125,7.08984375,15.6953125,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",7.0,5076,1314,3276,578,11.953125,9.6640625,7.4296875,15.984375,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",8.0,5076,1314,3276,578,12.296875,10.4921875,7.46875,15.5,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",9.0,5076,1314,3276,2290,13.6796875,11.515625,8.7578125,14.9921875,False,False,False,wrong,right,ant,None
+wrong,right,none,"Q: What is the none of wrong?
+A:",10.0,5076,1314,3276,2290,13.1875,11.5234375,8.3984375,14.8515625,False,False,False,wrong,right,ant,None
+wrong,right,none,"Q: What is the none of wrong?
+A:",11.0,5076,1314,3276,578,13.5703125,11.90625,7.5390625,15.75,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",12.0,5076,1314,3276,578,13.4296875,11.2578125,8.609375,16.578125,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",13.0,5076,1314,3276,578,12.546875,10.6171875,8.7734375,15.71875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",14.0,5076,1314,3276,578,11.609375,10.3359375,7.828125,15.8984375,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",15.0,5076,1314,3276,2290,11.2578125,9.7109375,7.50390625,16.15625,False,False,False,wrong,right,ant,None
+wrong,right,none,"Q: What is the none of wrong?
+A:",16.0,5076,1314,3276,578,10.6015625,9.1875,6.765625,15.484375,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",17.0,5076,1314,3276,578,10.0390625,8.765625,6.59765625,15.2890625,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",18.0,5076,1314,3276,578,10.3515625,8.8515625,6.109375,15.1328125,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",19.0,5076,1314,3276,578,10.359375,8.6171875,6.20703125,15.109375,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",20.0,5076,1314,3276,578,10.4921875,8.5625,5.9296875,15.15625,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",21.0,5076,1314,3276,578,10.1796875,8.453125,5.88671875,15.171875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",22.0,5076,1314,3276,578,9.7578125,8.1328125,5.859375,15.1875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",23.0,5076,1314,3276,578,10.0546875,8.4609375,5.95703125,15.3203125,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",24.0,5076,1314,3276,578,10.1640625,8.5546875,6.03515625,15.3671875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",25.0,5076,1314,3276,578,10.1015625,8.421875,5.8515625,15.46875,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",26.0,5076,1314,3276,578,9.84375,8.4296875,5.7421875,15.3515625,False,False,False,wrong,right,ant,The
+wrong,right,none,"Q: What is the none of wrong?
+A:",27.0,5076,1314,3276,2290,9.9296875,8.40625,5.79296875,15.2578125,False,False,False,wrong,right,ant,None
+whisper,shout,none,"Q: What is the none of whisper?
+A:",,35955,42223,3276,578,10.796875,6.66015625,6.4765625,15.53125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",0.0,35955,42223,3276,374,5.45703125,3.8203125,6.8984375,14.21875,False,False,False,whisper,shout,ant,is
+whisper,shout,none,"Q: What is the none of whisper?
+A:",1.0,35955,42223,3276,220,5.921875,4.3828125,7.34375,14.78125,False,False,False,whisper,shout,ant,
+whisper,shout,none,"Q: What is the none of whisper?
+A:",2.0,35955,42223,3276,578,10.0234375,5.3359375,6.37109375,14.0546875,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",3.0,35955,42223,3276,578,12.4609375,9.2109375,7.359375,13.4140625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",4.0,35955,42223,3276,358,8.515625,5.71484375,6.26171875,14.984375,False,False,False,whisper,shout,ant,I
+whisper,shout,none,"Q: What is the none of whisper?
+A:",5.0,35955,42223,3276,578,9.6171875,6.7421875,7.08984375,13.90625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",6.0,35955,42223,3276,578,10.4609375,7.8046875,7.5,14.9453125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",7.0,35955,42223,3276,578,9.84375,6.24609375,6.890625,16.015625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",8.0,35955,42223,3276,578,10.5859375,6.89453125,7.55859375,14.90625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",9.0,35955,42223,3276,578,11.703125,7.9453125,6.953125,14.109375,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",10.0,35955,42223,3276,578,11.2421875,7.91796875,7.31640625,14.3203125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",11.0,35955,42223,3276,578,12.2578125,8.171875,6.78515625,15.796875,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",12.0,35955,42223,3276,578,12.484375,8.1875,8.421875,16.25,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",13.0,35955,42223,3276,578,12.0078125,8.4765625,9.453125,15.828125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",14.0,35955,42223,3276,578,11.140625,8.2734375,8.359375,15.6875,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",15.0,35955,42223,3276,578,11.40625,8.625,7.62109375,15.78125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",16.0,35955,42223,3276,578,11.140625,7.89453125,7.01171875,15.375,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",17.0,35955,42223,3276,578,11.0390625,7.78515625,6.96875,15.4140625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",18.0,35955,42223,3276,578,10.875,7.23828125,6.765625,15.109375,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",19.0,35955,42223,3276,578,11.1875,7.0546875,7.02734375,15.1328125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",20.0,35955,42223,3276,578,10.8828125,6.72265625,6.796875,15.21875,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",21.0,35955,42223,3276,578,10.8125,6.640625,6.70703125,15.2421875,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",22.0,35955,42223,3276,578,10.6484375,6.671875,6.62109375,15.234375,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",23.0,35955,42223,3276,578,10.546875,6.5859375,6.703125,15.3515625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",24.0,35955,42223,3276,578,10.625,6.67578125,6.76953125,15.3828125,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",25.0,35955,42223,3276,578,10.5625,6.59765625,6.62109375,15.4765625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",26.0,35955,42223,3276,578,10.6171875,6.6484375,6.48828125,15.390625,False,False,False,whisper,shout,ant,The
+whisper,shout,none,"Q: What is the none of whisper?
+A:",27.0,35955,42223,3276,578,10.5078125,6.61328125,6.5,15.3125,False,False,False,whisper,shout,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",,81522,20095,3276,578,11.671875,11.40625,9.015625,15.3125,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",0.0,81522,20095,3276,374,5.296875,3.3671875,7.42578125,14.125,False,False,False,fascism,democracy,ant,is
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",1.0,81522,20095,3276,220,5.5703125,3.708984375,8.34375,14.2109375,False,False,False,fascism,democracy,ant,
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",2.0,81522,20095,3276,578,6.3046875,3.619140625,5.95703125,13.609375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",3.0,81522,20095,3276,578,12.328125,8.640625,8.8984375,12.796875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",4.0,81522,20095,3276,578,11.6015625,7.9765625,7.125,15.3671875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",5.0,81522,20095,3276,578,11.203125,8.203125,8.1640625,14.921875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",6.0,81522,20095,3276,578,11.7890625,9.5390625,8.8828125,15.1484375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",7.0,81522,20095,3276,578,11.515625,8.234375,8.375,15.4453125,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",8.0,81522,20095,3276,578,11.375,8.046875,9.4609375,15.2421875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",9.0,81522,20095,3276,578,11.7890625,8.625,11.484375,14.3828125,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",10.0,81522,20095,3276,70707,11.9765625,9.1640625,12.390625,14.4375,False,False,False,fascism,democracy,ant,Fasc
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",11.0,81522,20095,3276,2290,11.859375,9.28125,10.7890625,14.84375,False,False,False,fascism,democracy,ant,None
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",12.0,81522,20095,3276,578,12.375,9.2734375,11.0703125,15.2578125,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",13.0,81522,20095,3276,70707,12.8828125,10.140625,10.9296875,15.28125,False,False,False,fascism,democracy,ant,Fasc
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",14.0,81522,20095,3276,578,11.5625,10.3515625,10.375,15.140625,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",15.0,81522,20095,3276,578,11.6796875,10.9765625,10.28125,15.171875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",16.0,81522,20095,3276,578,11.65625,10.9140625,9.7734375,14.8984375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",17.0,81522,20095,3276,578,11.6015625,10.7421875,9.5078125,15.09375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",18.0,81522,20095,3276,578,11.609375,10.7421875,9.2109375,14.9296875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",19.0,81522,20095,3276,578,11.859375,10.875,9.609375,14.84375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",20.0,81522,20095,3276,578,11.8515625,10.9609375,9.3046875,14.9140625,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",21.0,81522,20095,3276,578,11.921875,11.140625,9.234375,15.0234375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",22.0,81522,20095,3276,578,11.6953125,10.984375,9.1328125,15.0,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",23.0,81522,20095,3276,578,11.875,11.28125,9.3046875,15.0859375,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",24.0,81522,20095,3276,578,11.9609375,11.375,9.3671875,15.1328125,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",25.0,81522,20095,3276,578,11.890625,11.3203125,9.2265625,15.25,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",26.0,81522,20095,3276,578,11.7890625,11.2734375,8.953125,15.1875,False,False,False,fascism,democracy,ant,The
+fascism,democracy,none,"Q: What is the none of fascism?
+A:",27.0,81522,20095,3276,578,11.65625,11.2109375,9.0234375,15.0625,False,False,False,fascism,democracy,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",,38594,51166,3276,578,12.796875,8.7109375,6.60546875,15.921875,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",0.0,38594,51166,3276,374,8.65625,5.90625,6.88671875,14.0234375,False,False,False,uncle,aunt,ant,is
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",1.0,38594,51166,3276,578,7.77734375,4.84375,8.5625,14.25,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",2.0,38594,51166,3276,578,10.1875,7.59765625,7.0625,14.1953125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",3.0,38594,51166,3276,38594,14.25,10.515625,8.28125,14.25,True,False,False,uncle,aunt,ant,uncle
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",4.0,38594,51166,3276,358,11.546875,7.90625,6.70703125,15.0859375,False,False,False,uncle,aunt,ant,I
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",5.0,38594,51166,3276,578,10.859375,7.66015625,7.44140625,14.453125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",6.0,38594,51166,3276,578,11.28125,8.546875,8.5703125,14.9453125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",7.0,38594,51166,3276,578,11.625,8.0703125,8.4765625,16.03125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",8.0,38594,51166,3276,578,12.890625,10.0078125,9.109375,15.6015625,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",9.0,38594,51166,3276,578,13.4921875,10.578125,9.9296875,14.75,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",10.0,38594,51166,3276,578,13.28125,10.1953125,9.671875,14.7109375,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",11.0,38594,51166,3276,578,13.484375,9.7890625,8.46875,15.9921875,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",12.0,38594,51166,3276,578,13.6015625,9.5390625,9.4140625,16.578125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",13.0,38594,51166,3276,578,13.921875,10.1328125,9.9921875,16.0625,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",14.0,38594,51166,3276,578,12.3125,8.8828125,8.7734375,16.171875,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",15.0,38594,51166,3276,578,12.734375,9.5,8.2890625,16.1875,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",16.0,38594,51166,3276,578,12.234375,9.03125,7.41015625,15.8203125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",17.0,38594,51166,3276,578,12.046875,8.78125,7.2890625,15.78125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",18.0,38594,51166,3276,578,12.046875,8.703125,6.87890625,15.484375,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",19.0,38594,51166,3276,578,12.3359375,8.875,7.01953125,15.5234375,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",20.0,38594,51166,3276,578,12.2578125,8.3984375,6.73828125,15.5703125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",21.0,38594,51166,3276,578,12.375,8.421875,6.7578125,15.625,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",22.0,38594,51166,3276,578,12.359375,8.515625,6.64453125,15.6015625,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",23.0,38594,51166,3276,578,12.65625,8.6953125,6.82421875,15.7265625,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",24.0,38594,51166,3276,578,12.59375,8.625,6.89453125,15.7734375,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",25.0,38594,51166,3276,578,12.6953125,8.6875,6.74609375,15.8828125,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",26.0,38594,51166,3276,578,12.4609375,8.4453125,6.59765625,15.796875,False,False,False,uncle,aunt,ant,The
+uncle,aunt,none,"Q: What is the none of uncle?
+A:",27.0,38594,51166,3276,578,12.578125,8.46875,6.6328125,15.71875,False,False,False,uncle,aunt,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",,25959,19163,3276,578,11.4140625,8.3046875,4.8984375,16.640625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",0.0,25959,19163,3276,374,7.2734375,5.23046875,6.578125,13.90625,False,False,False,departure,arrival,ant,is
+departure,arrival,none,"Q: What is the none of departure?
+A:",1.0,25959,19163,3276,578,7.69140625,5.4375,7.265625,14.4453125,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",2.0,25959,19163,3276,578,9.25,5.796875,6.47265625,14.390625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",3.0,25959,19163,3276,578,13.890625,11.21875,7.14453125,14.0625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",4.0,25959,19163,3276,578,9.921875,5.68359375,6.64453125,15.2421875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",5.0,25959,19163,3276,578,10.8359375,6.578125,6.69921875,15.296875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",6.0,25959,19163,3276,578,12.78125,7.88671875,7.984375,15.515625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",7.0,25959,19163,3276,578,11.6953125,6.61328125,6.33203125,16.578125,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",8.0,25959,19163,3276,578,12.2890625,7.578125,6.43359375,16.328125,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",9.0,25959,19163,3276,578,13.59375,8.3828125,7.9375,15.2734375,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",10.0,25959,19163,3276,578,12.375,8.359375,8.03125,15.53125,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",11.0,25959,19163,3276,578,12.5078125,9.0703125,6.72265625,16.25,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",12.0,25959,19163,3276,578,13.46875,8.4921875,8.0078125,17.265625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",13.0,25959,19163,3276,578,12.6171875,9.1796875,7.64453125,16.546875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",14.0,25959,19163,3276,578,11.609375,8.7734375,7.015625,16.546875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",15.0,25959,19163,3276,578,11.8359375,9.7109375,6.171875,16.90625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",16.0,25959,19163,3276,578,11.1796875,8.7265625,5.47265625,16.4375,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",17.0,25959,19163,3276,578,11.265625,8.2578125,5.359375,16.390625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",18.0,25959,19163,3276,578,11.078125,8.1171875,5.171875,16.296875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",19.0,25959,19163,3276,578,11.3125,8.03125,5.06640625,16.296875,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",20.0,25959,19163,3276,578,11.421875,8.265625,5.01171875,16.328125,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",21.0,25959,19163,3276,578,11.2578125,7.9296875,5.09375,16.375,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",22.0,25959,19163,3276,578,11.2890625,7.9453125,4.94921875,16.34375,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",23.0,25959,19163,3276,578,11.3203125,8.0234375,5.09765625,16.390625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",24.0,25959,19163,3276,578,11.53125,8.3359375,5.1796875,16.4375,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",25.0,25959,19163,3276,578,11.625,8.359375,4.96875,16.5625,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",26.0,25959,19163,3276,578,11.5234375,8.328125,4.875,16.5,False,False,False,departure,arrival,ant,The
+departure,arrival,none,"Q: What is the none of departure?
+A:",27.0,25959,19163,3276,578,11.28125,8.1328125,4.94140625,16.40625,False,False,False,departure,arrival,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",,97985,28093,3276,578,10.671875,8.0859375,7.27734375,15.8671875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",0.0,97985,28093,3276,374,7.375,6.26953125,7.59765625,13.53125,False,False,False,conspicuous,incon,ant,is
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",1.0,97985,28093,3276,220,3.8671875,4.03515625,7.9765625,14.8984375,False,False,False,conspicuous,incon,ant,
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",2.0,97985,28093,3276,578,7.453125,7.18359375,7.25390625,14.1171875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",3.0,97985,28093,3276,97985,13.171875,9.453125,8.0546875,13.171875,True,False,False,conspicuous,incon,ant,conspicuous
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",4.0,97985,28093,3276,578,7.44140625,7.01171875,7.14453125,14.6796875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",5.0,97985,28093,3276,578,10.3359375,9.859375,7.73046875,14.671875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",6.0,97985,28093,3276,578,12.0546875,11.578125,8.6640625,14.9140625,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",7.0,97985,28093,3276,578,11.453125,10.3515625,7.87109375,15.8984375,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",8.0,97985,28093,3276,578,13.03125,11.546875,8.0546875,15.2421875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",9.0,97985,28093,3276,578,14.234375,13.734375,8.6328125,14.609375,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",10.0,97985,28093,3276,578,13.890625,12.9296875,8.5625,14.796875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",11.0,97985,28093,3276,578,12.4375,11.203125,8.1953125,15.953125,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",12.0,97985,28093,3276,2290,13.8984375,11.703125,8.765625,16.03125,False,False,False,conspicuous,incon,ant,None
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",13.0,97985,28093,3276,578,13.8203125,10.6171875,9.0625,15.4140625,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",14.0,97985,28093,3276,578,12.4609375,10.578125,8.21875,15.5703125,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",15.0,97985,28093,3276,578,12.28125,10.28125,8.0703125,15.96875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",16.0,97985,28093,3276,578,11.859375,9.421875,7.6328125,15.6796875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",17.0,97985,28093,3276,578,11.3046875,9.046875,7.5625,15.8671875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",18.0,97985,28093,3276,578,11.40625,8.640625,7.34375,15.5625,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",19.0,97985,28093,3276,578,11.78125,8.5390625,7.37890625,15.4921875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",20.0,97985,28093,3276,578,11.3359375,8.5546875,7.28515625,15.4609375,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",21.0,97985,28093,3276,578,11.15625,8.46875,7.33984375,15.5703125,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",22.0,97985,28093,3276,578,10.515625,7.76953125,7.421875,15.5546875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",23.0,97985,28093,3276,578,10.6640625,8.0546875,7.42578125,15.65625,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",24.0,97985,28093,3276,578,10.828125,8.015625,7.53125,15.6875,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",25.0,97985,28093,3276,578,10.90625,8.0078125,7.3515625,15.7734375,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",26.0,97985,28093,3276,578,10.7109375,7.89453125,7.26953125,15.7109375,False,False,False,conspicuous,incon,ant,The
+conspicuous,inconspicuous,none,"Q: What is the none of conspicuous?
+A:",27.0,97985,28093,3276,578,10.625,8.0,7.296875,15.6328125,False,False,False,conspicuous,incon,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",,74649,2867,3276,578,12.234375,11.078125,7.0234375,15.9453125,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",0.0,74649,2867,3276,374,8.2421875,6.8984375,7.27734375,13.84375,False,False,False,cloudy,clear,ant,is
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",1.0,74649,2867,3276,220,9.34375,7.0625,8.53125,14.0703125,False,False,False,cloudy,clear,ant,
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",2.0,74649,2867,3276,2290,8.3828125,9.375,5.3515625,13.859375,False,False,False,cloudy,clear,ant,None
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",3.0,74649,2867,3276,74649,13.875,11.8125,6.9765625,13.875,True,False,False,cloudy,clear,ant,cloudy
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",4.0,74649,2867,3276,358,10.8203125,9.15625,6.71484375,15.171875,False,False,False,cloudy,clear,ant,I
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",5.0,74649,2867,3276,578,10.6796875,10.234375,6.640625,14.09375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",6.0,74649,2867,3276,578,11.609375,11.890625,7.14453125,14.6796875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",7.0,74649,2867,3276,578,11.3046875,11.109375,6.43359375,15.46875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",8.0,74649,2867,3276,578,12.1328125,11.828125,6.5625,15.109375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",9.0,74649,2867,3276,2290,13.390625,13.296875,6.703125,14.375,False,False,False,cloudy,clear,ant,None
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",10.0,74649,2867,3276,578,12.8125,12.9375,7.05859375,14.4296875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",11.0,74649,2867,3276,578,13.15625,12.9609375,6.875,15.7421875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",12.0,74649,2867,3276,578,13.9453125,13.7578125,7.48828125,16.125,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",13.0,74649,2867,3276,578,13.640625,13.28125,8.3125,15.7265625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",14.0,74649,2867,3276,578,12.796875,12.9140625,8.0,15.7578125,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",15.0,74649,2867,3276,578,12.953125,12.59375,7.65234375,15.984375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",16.0,74649,2867,3276,578,12.4140625,11.8671875,7.0390625,15.7421875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",17.0,74649,2867,3276,578,12.65625,11.4140625,6.88671875,15.890625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",18.0,74649,2867,3276,578,12.0234375,11.125,6.69140625,15.625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",19.0,74649,2867,3276,578,12.2421875,11.0,6.98046875,15.5625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",20.0,74649,2867,3276,578,12.171875,10.8515625,7.04296875,15.5859375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",21.0,74649,2867,3276,578,12.171875,10.8828125,7.11328125,15.640625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",22.0,74649,2867,3276,578,11.9296875,10.609375,7.26953125,15.6171875,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",23.0,74649,2867,3276,578,12.0234375,10.625,7.17578125,15.734375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",24.0,74649,2867,3276,578,12.1875,10.6796875,7.22265625,15.734375,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",25.0,74649,2867,3276,578,12.125,10.609375,7.0390625,15.8515625,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",26.0,74649,2867,3276,578,12.15625,10.6875,7.04296875,15.78125,False,False,False,cloudy,clear,ant,The
+cloudy,clear,none,"Q: What is the none of cloudy?
+A:",27.0,74649,2867,3276,578,12.109375,10.5703125,7.05078125,15.71875,False,False,False,cloudy,clear,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",,4741,28655,3276,578,11.71875,9.546875,6.8671875,16.09375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",0.0,4741,28655,3276,374,9.6015625,8.0390625,6.8125,14.171875,False,False,False,forward,backward,ant,is
+forward,backward,none,"Q: What is the none of forward?
+A:",1.0,4741,28655,3276,220,8.9296875,7.54296875,7.98828125,15.3046875,False,False,False,forward,backward,ant,
+forward,backward,none,"Q: What is the none of forward?
+A:",2.0,4741,28655,3276,2290,11.328125,9.8984375,6.32421875,14.546875,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",3.0,4741,28655,3276,578,13.9140625,11.90625,8.90625,14.0703125,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",4.0,4741,28655,3276,2290,12.125,10.1796875,6.8671875,14.6953125,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",5.0,4741,28655,3276,578,11.0703125,11.5625,8.390625,14.9375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",6.0,4741,28655,3276,578,12.7109375,12.953125,9.328125,15.4765625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",7.0,4741,28655,3276,578,12.421875,11.078125,9.2734375,16.625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",8.0,4741,28655,3276,2290,12.3671875,12.953125,9.6484375,15.71875,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",9.0,4741,28655,3276,2290,11.25,15.203125,10.5625,15.6484375,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",10.0,4741,28655,3276,2290,11.5703125,14.171875,10.65625,15.2890625,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",11.0,4741,28655,3276,578,11.8203125,13.8203125,9.9765625,15.9375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",12.0,4741,28655,3276,578,13.046875,14.609375,10.9765625,17.0,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",13.0,4741,28655,3276,578,12.8359375,14.3828125,10.78125,16.484375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",14.0,4741,28655,3276,2290,11.859375,13.03125,9.78125,16.28125,False,False,False,forward,backward,ant,None
+forward,backward,none,"Q: What is the none of forward?
+A:",15.0,4741,28655,3276,578,11.9765625,12.6875,9.1953125,16.3125,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",16.0,4741,28655,3276,578,11.6171875,11.421875,8.3515625,15.875,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",17.0,4741,28655,3276,578,11.546875,11.0,8.0078125,15.8359375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",18.0,4741,28655,3276,578,11.1171875,10.6796875,7.24609375,15.6640625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",19.0,4741,28655,3276,578,11.8359375,10.265625,7.1015625,15.765625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",20.0,4741,28655,3276,578,11.9609375,10.1171875,6.8984375,15.75,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",21.0,4741,28655,3276,578,11.46875,9.96875,7.04296875,15.84375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",22.0,4741,28655,3276,578,11.5234375,9.8515625,7.015625,15.7890625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",23.0,4741,28655,3276,578,11.4375,9.796875,7.0,15.8671875,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",24.0,4741,28655,3276,578,11.5859375,9.8125,7.1171875,15.890625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",25.0,4741,28655,3276,578,11.5078125,9.7109375,6.88671875,16.015625,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",26.0,4741,28655,3276,578,11.453125,9.5546875,6.8359375,15.9375,False,False,False,forward,backward,ant,The
+forward,backward,none,"Q: What is the none of forward?
+A:",27.0,4741,28655,3276,2290,11.375,9.3984375,6.89453125,15.9453125,False,False,False,forward,backward,ant,None
+wide,narrow,none,"Q: What is the none of wide?
+A:",,7029,15376,3276,578,12.140625,9.140625,6.42578125,16.078125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",0.0,7029,15376,3276,374,9.0390625,6.77734375,6.21875,14.1328125,False,False,False,wide,narrow,ant,is
+wide,narrow,none,"Q: What is the none of wide?
+A:",1.0,7029,15376,3276,220,10.7734375,7.24609375,7.203125,14.4921875,False,False,False,wide,narrow,ant,
+wide,narrow,none,"Q: What is the none of wide?
+A:",2.0,7029,15376,3276,578,10.78125,9.015625,6.5078125,14.0625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",3.0,7029,15376,3276,578,13.28125,10.7578125,7.19921875,14.078125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",4.0,7029,15376,3276,578,10.9609375,7.7734375,6.9375,14.453125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",5.0,7029,15376,3276,2290,10.5859375,7.71484375,7.51953125,14.3984375,False,False,False,wide,narrow,ant,None
+wide,narrow,none,"Q: What is the none of wide?
+A:",6.0,7029,15376,3276,578,11.71875,10.546875,8.125,15.1640625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",7.0,7029,15376,3276,578,11.421875,9.8515625,7.8359375,16.15625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",8.0,7029,15376,3276,578,12.140625,10.2734375,7.8046875,15.7421875,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",9.0,7029,15376,3276,2290,12.984375,11.96875,8.5625,15.7109375,False,False,False,wide,narrow,ant,None
+wide,narrow,none,"Q: What is the none of wide?
+A:",10.0,7029,15376,3276,2290,12.9140625,11.5625,8.59375,15.625,False,False,False,wide,narrow,ant,None
+wide,narrow,none,"Q: What is the none of wide?
+A:",11.0,7029,15376,3276,578,13.3359375,12.1484375,7.82421875,16.390625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",12.0,7029,15376,3276,578,14.0078125,12.84375,8.375,17.15625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",13.0,7029,15376,3276,578,13.6796875,13.078125,8.7421875,16.609375,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",14.0,7029,15376,3276,578,13.0078125,12.46875,7.91015625,16.359375,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",15.0,7029,15376,3276,578,13.15625,11.7421875,7.65625,16.328125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",16.0,7029,15376,3276,578,12.3828125,10.7890625,6.9921875,15.96875,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",17.0,7029,15376,3276,578,12.40625,10.3984375,6.859375,15.9296875,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",18.0,7029,15376,3276,578,12.046875,9.9609375,6.48046875,15.703125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",19.0,7029,15376,3276,578,12.25,9.546875,6.80078125,15.734375,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",20.0,7029,15376,3276,578,12.03125,8.9765625,6.6875,15.765625,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",21.0,7029,15376,3276,578,12.078125,9.0625,6.66796875,15.8046875,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",22.0,7029,15376,3276,578,11.96875,8.9765625,6.59375,15.78125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",23.0,7029,15376,3276,578,12.21875,9.0546875,6.62109375,15.8984375,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",24.0,7029,15376,3276,578,12.28125,9.1640625,6.7109375,15.9375,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",25.0,7029,15376,3276,578,12.1171875,9.078125,6.5234375,16.03125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",26.0,7029,15376,3276,578,12.0,8.9609375,6.4140625,15.9453125,False,False,False,wide,narrow,ant,The
+wide,narrow,none,"Q: What is the none of wide?
+A:",27.0,7029,15376,3276,578,11.890625,8.9765625,6.453125,15.859375,False,False,False,wide,narrow,ant,The
+big,small,none,"Q: What is the none of big?
+A:",,2466,2678,3276,578,10.96875,9.484375,6.828125,16.546875,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",0.0,2466,2678,3276,374,11.4765625,9.2421875,6.765625,14.1875,False,False,False,big,small,ant,is
+big,small,none,"Q: What is the none of big?
+A:",1.0,2466,2678,3276,220,11.578125,9.1953125,7.828125,14.9140625,False,False,False,big,small,ant,
+big,small,none,"Q: What is the none of big?
+A:",2.0,2466,2678,3276,578,11.1875,9.46875,6.921875,14.15625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",3.0,2466,2678,3276,2466,14.2265625,11.375,7.921875,14.2265625,True,False,False,big,small,ant,big
+big,small,none,"Q: What is the none of big?
+A:",4.0,2466,2678,3276,578,10.5078125,8.734375,7.03515625,14.671875,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",5.0,2466,2678,3276,578,11.1328125,8.5546875,7.32421875,15.1640625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",6.0,2466,2678,3276,578,12.3984375,11.3203125,7.93359375,15.4296875,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",7.0,2466,2678,3276,578,11.6171875,10.4140625,7.91015625,16.375,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",8.0,2466,2678,3276,578,12.0,10.703125,8.078125,16.0,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",9.0,2466,2678,3276,578,12.7578125,12.234375,8.828125,15.28125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",10.0,2466,2678,3276,2290,12.6640625,11.953125,9.328125,15.484375,False,False,False,big,small,ant,None
+big,small,none,"Q: What is the none of big?
+A:",11.0,2466,2678,3276,578,12.75,12.0234375,8.5234375,16.5,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",12.0,2466,2678,3276,578,13.0390625,12.4375,9.671875,17.171875,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",13.0,2466,2678,3276,578,13.1875,12.328125,9.734375,16.765625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",14.0,2466,2678,3276,578,12.609375,11.5078125,8.515625,16.75,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",15.0,2466,2678,3276,578,12.2109375,10.921875,8.046875,16.9375,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",16.0,2466,2678,3276,578,11.4921875,10.3359375,7.5703125,16.40625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",17.0,2466,2678,3276,578,11.390625,10.1484375,7.46484375,16.328125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",18.0,2466,2678,3276,578,10.7265625,9.59375,7.08203125,16.09375,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",19.0,2466,2678,3276,578,10.875,9.7109375,7.2421875,16.125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",20.0,2466,2678,3276,578,10.6640625,9.015625,7.109375,16.171875,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",21.0,2466,2678,3276,578,10.6640625,9.1640625,6.9609375,16.203125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",22.0,2466,2678,3276,578,10.3515625,9.0390625,6.95703125,16.203125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",23.0,2466,2678,3276,578,10.6875,9.1796875,7.015625,16.328125,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",24.0,2466,2678,3276,578,10.8203125,9.296875,7.1171875,16.390625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",25.0,2466,2678,3276,578,10.7890625,9.234375,6.9375,16.515625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",26.0,2466,2678,3276,578,10.7109375,9.2421875,6.828125,16.40625,False,False,False,big,small,ant,The
+big,small,none,"Q: What is the none of big?
+A:",27.0,2466,2678,3276,578,10.7578125,9.2421875,6.85546875,16.328125,False,False,False,big,small,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",,96118,8206,3276,578,8.828125,7.85546875,4.5859375,16.140625,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",0.0,96118,8206,3276,374,4.92578125,6.75390625,7.1171875,14.0859375,False,False,False,falsehood,truth,ant,is
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",1.0,96118,8206,3276,220,4.625,5.75390625,8.6640625,14.015625,False,False,False,falsehood,truth,ant,
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",2.0,96118,8206,3276,578,6.3125,6.3515625,5.31640625,13.84375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",3.0,96118,8206,3276,578,10.625,11.609375,8.078125,12.9609375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",4.0,96118,8206,3276,578,6.6953125,7.9765625,5.890625,14.921875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",5.0,96118,8206,3276,578,8.9453125,10.3046875,7.1484375,15.6015625,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",6.0,96118,8206,3276,578,9.5859375,11.046875,7.203125,15.8671875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",7.0,96118,8206,3276,578,9.8515625,10.1640625,7.2578125,16.34375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",8.0,96118,8206,3276,578,10.390625,10.1328125,7.265625,16.0625,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",9.0,96118,8206,3276,578,11.671875,10.9296875,8.625,15.5234375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",10.0,96118,8206,3276,578,10.6875,10.6171875,8.15625,15.6953125,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",11.0,96118,8206,3276,578,10.828125,10.7109375,7.0078125,16.421875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",12.0,96118,8206,3276,578,11.8359375,10.8984375,8.0859375,17.25,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",13.0,96118,8206,3276,578,10.9765625,10.46875,7.828125,16.546875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",14.0,96118,8206,3276,578,10.671875,10.3046875,7.08203125,16.765625,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",15.0,96118,8206,3276,578,9.875,9.5234375,6.58203125,17.109375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",16.0,96118,8206,3276,578,8.890625,8.3203125,5.5703125,16.171875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",17.0,96118,8206,3276,578,8.515625,8.3046875,5.375,16.0,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",18.0,96118,8206,3276,578,9.0,8.0078125,5.03515625,15.7109375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",19.0,96118,8206,3276,578,9.1953125,7.89453125,5.0078125,15.6328125,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",20.0,96118,8206,3276,578,9.3515625,8.0078125,4.515625,15.765625,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",21.0,96118,8206,3276,578,9.15625,7.91796875,4.63671875,15.7734375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",22.0,96118,8206,3276,578,8.8203125,7.51171875,4.55078125,15.7734375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",23.0,96118,8206,3276,578,8.90625,7.75390625,4.69140625,15.9609375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",24.0,96118,8206,3276,578,8.9296875,7.90625,4.90234375,15.9921875,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",25.0,96118,8206,3276,578,8.8359375,7.66796875,4.515625,16.109375,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",26.0,96118,8206,3276,578,8.7265625,7.67578125,4.484375,16.03125,False,False,False,falsehood,truth,ant,The
+falsehood,truth,none,"Q: What is the none of falsehood?
+A:",27.0,96118,8206,3276,578,8.7734375,7.71875,4.6171875,15.8359375,False,False,False,falsehood,truth,ant,The
+out,in,none,"Q: What is the none of out?
+A:",,704,304,3276,578,9.859375,10.1328125,6.53125,16.25,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",0.0,704,304,3276,374,12.09375,10.6875,6.70703125,14.0859375,False,False,False,out,in,ant,is
+out,in,none,"Q: What is the none of out?
+A:",1.0,704,304,3276,578,9.390625,10.5078125,8.09375,14.3125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",2.0,704,304,3276,2290,10.53125,10.2265625,7.05078125,14.28125,False,False,False,out,in,ant,None
+out,in,none,"Q: What is the none of out?
+A:",3.0,704,304,3276,578,12.640625,10.7578125,8.0390625,13.5625,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",4.0,704,304,3276,358,9.6953125,10.109375,6.98046875,15.0078125,False,False,False,out,in,ant,I
+out,in,none,"Q: What is the none of out?
+A:",5.0,704,304,3276,578,9.21875,9.7109375,6.6796875,15.1328125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",6.0,704,304,3276,578,10.25,10.1484375,7.52734375,15.5078125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",7.0,704,304,3276,578,9.1171875,10.078125,7.2734375,15.765625,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",8.0,704,304,3276,578,10.6171875,10.2109375,7.63671875,15.75,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",9.0,704,304,3276,578,11.3515625,10.578125,8.8359375,15.46875,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",10.0,704,304,3276,2290,11.8125,11.171875,9.03125,15.390625,False,False,False,out,in,ant,None
+out,in,none,"Q: What is the none of out?
+A:",11.0,704,304,3276,578,12.4609375,11.203125,8.03125,16.078125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",12.0,704,304,3276,578,12.8203125,11.2421875,9.0625,16.78125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",13.0,704,304,3276,578,12.609375,10.7890625,9.28125,16.3125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",14.0,704,304,3276,578,10.46875,10.4765625,8.5625,16.46875,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",15.0,704,304,3276,578,9.859375,10.3671875,7.98046875,16.59375,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",16.0,704,304,3276,578,9.53125,9.7421875,7.37890625,16.046875,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",17.0,704,304,3276,578,9.578125,9.890625,7.06640625,16.03125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",18.0,704,304,3276,578,9.5078125,9.8671875,6.8046875,15.78125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",19.0,704,304,3276,578,9.859375,10.0703125,6.9609375,15.875,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",20.0,704,304,3276,578,10.2109375,10.0,6.82421875,15.90625,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",21.0,704,304,3276,578,9.4453125,9.9921875,6.78125,15.9453125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",22.0,704,304,3276,578,9.1875,9.9453125,6.70703125,15.9140625,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",23.0,704,304,3276,578,9.296875,10.0234375,6.75,16.03125,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",24.0,704,304,3276,578,9.578125,10.1484375,6.82421875,16.0625,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",25.0,704,304,3276,578,9.6640625,10.1796875,6.64453125,16.1875,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",26.0,704,304,3276,578,9.625,10.171875,6.53515625,16.09375,False,False,False,out,in,ant,The
+out,in,none,"Q: What is the none of out?
+A:",27.0,704,304,3276,578,9.6015625,10.078125,6.5625,16.015625,False,False,False,out,in,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",,19868,2273,3276,578,11.5,8.03125,6.40625,16.578125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",0.0,19868,2273,3276,374,8.7890625,5.4921875,6.46875,14.375,False,False,False,sink,float,ant,is
+sink,float,none,"Q: What is the none of sink?
+A:",1.0,19868,2273,3276,578,6.1484375,4.56640625,7.796875,14.3671875,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",2.0,19868,2273,3276,578,10.375,9.5078125,6.01953125,14.625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",3.0,19868,2273,3276,19868,14.8984375,8.609375,6.5546875,14.8984375,True,False,False,sink,float,ant,sink
+sink,float,none,"Q: What is the none of sink?
+A:",4.0,19868,2273,3276,358,11.3671875,7.390625,6.48828125,15.0,False,False,False,sink,float,ant,I
+sink,float,none,"Q: What is the none of sink?
+A:",5.0,19868,2273,3276,578,11.703125,7.95703125,7.62890625,14.265625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",6.0,19868,2273,3276,578,12.5703125,8.1328125,8.1875,15.4453125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",7.0,19868,2273,3276,578,11.3515625,7.79296875,7.265625,16.46875,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",8.0,19868,2273,3276,578,12.3046875,8.5859375,7.3046875,15.890625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",9.0,19868,2273,3276,578,13.4921875,10.125,8.3828125,15.8125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",10.0,19868,2273,3276,578,13.1796875,10.2421875,8.4140625,15.4375,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",11.0,19868,2273,3276,578,13.296875,9.328125,7.59375,16.15625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",12.0,19868,2273,3276,578,13.8203125,9.640625,8.8984375,16.8125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",13.0,19868,2273,3276,578,13.5078125,9.125,9.0546875,16.203125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",14.0,19868,2273,3276,578,12.71875,8.65625,8.171875,16.375,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",15.0,19868,2273,3276,578,12.8359375,9.3515625,7.4921875,16.546875,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",16.0,19868,2273,3276,578,12.2421875,8.9921875,6.859375,16.265625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",17.0,19868,2273,3276,578,12.125,8.9453125,6.70703125,16.28125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",18.0,19868,2273,3276,578,11.8515625,8.3046875,6.24609375,16.0625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",19.0,19868,2273,3276,578,12.09375,7.7890625,6.28515625,16.1875,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",20.0,19868,2273,3276,578,12.0078125,8.0859375,6.36328125,16.25,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",21.0,19868,2273,3276,578,12.0,7.97265625,6.55859375,16.328125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",22.0,19868,2273,3276,578,11.8359375,7.82421875,6.39453125,16.28125,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",23.0,19868,2273,3276,578,11.6171875,7.98046875,6.48046875,16.390625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",24.0,19868,2273,3276,578,11.6875,7.953125,6.609375,16.40625,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",25.0,19868,2273,3276,578,11.6484375,7.92578125,6.375,16.5,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",26.0,19868,2273,3276,578,11.65625,7.921875,6.390625,16.4375,False,False,False,sink,float,ant,The
+sink,float,none,"Q: What is the none of sink?
+A:",27.0,19868,2273,3276,578,11.5625,8.0546875,6.43359375,16.34375,False,False,False,sink,float,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",,53170,19858,3276,578,10.7890625,8.6484375,6.80859375,16.28125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",0.0,53170,19858,3276,374,5.828125,7.3125,6.96875,13.859375,False,False,False,furious,calm,ant,is
+furious,calm,none,"Q: What is the none of furious?
+A:",1.0,53170,19858,3276,220,5.07421875,5.70703125,7.3828125,14.7265625,False,False,False,furious,calm,ant,
+furious,calm,none,"Q: What is the none of furious?
+A:",2.0,53170,19858,3276,578,8.6484375,5.04296875,6.75390625,13.9921875,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",3.0,53170,19858,3276,53170,12.875,7.94921875,7.26171875,12.875,True,False,False,furious,calm,ant,furious
+furious,calm,none,"Q: What is the none of furious?
+A:",4.0,53170,19858,3276,358,7.3203125,5.54296875,6.60546875,14.7109375,False,False,False,furious,calm,ant,I
+furious,calm,none,"Q: What is the none of furious?
+A:",5.0,53170,19858,3276,578,8.28125,6.87109375,7.37890625,14.7734375,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",6.0,53170,19858,3276,578,9.15625,9.9296875,8.3359375,15.078125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",7.0,53170,19858,3276,578,9.0234375,9.328125,7.9375,15.890625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",8.0,53170,19858,3276,578,10.6015625,10.5078125,7.9140625,15.9140625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",9.0,53170,19858,3276,578,12.2265625,12.9921875,8.90625,14.9453125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",10.0,53170,19858,3276,578,11.7734375,12.5703125,9.3359375,15.1171875,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",11.0,53170,19858,3276,578,11.78125,12.7734375,7.9921875,16.21875,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",12.0,53170,19858,3276,578,12.3359375,13.3671875,9.59375,16.5,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",13.0,53170,19858,3276,578,12.6328125,11.640625,9.9296875,16.171875,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",14.0,53170,19858,3276,578,11.3671875,11.515625,8.9375,16.28125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",15.0,53170,19858,3276,578,11.921875,11.3125,8.2734375,16.421875,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",16.0,53170,19858,3276,578,10.890625,10.28125,7.625,16.109375,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",17.0,53170,19858,3276,578,10.9765625,10.0234375,7.453125,16.0625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",18.0,53170,19858,3276,578,10.796875,9.34375,6.98828125,15.8359375,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",19.0,53170,19858,3276,578,10.828125,8.8671875,7.109375,15.9140625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",20.0,53170,19858,3276,578,10.5703125,8.7109375,6.95703125,15.953125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",21.0,53170,19858,3276,578,10.5625,8.5625,6.8359375,16.015625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",22.0,53170,19858,3276,578,10.3671875,8.34375,6.828125,15.9765625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",23.0,53170,19858,3276,578,10.765625,8.4140625,6.91015625,16.078125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",24.0,53170,19858,3276,578,10.953125,8.453125,7.00390625,16.125,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",25.0,53170,19858,3276,578,10.984375,8.28125,6.81640625,16.234375,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",26.0,53170,19858,3276,578,10.4921875,8.3359375,6.796875,16.15625,False,False,False,furious,calm,ant,The
+furious,calm,none,"Q: What is the none of furious?
+A:",27.0,53170,19858,3276,578,10.515625,8.4609375,6.8359375,16.078125,False,False,False,furious,calm,ant,The

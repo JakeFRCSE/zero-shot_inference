@@ -1,0 +1,592 @@
+input,output,relation,prompt,input_id,output_id,relation_id,prediction,logits,prediction_id,input_logit,output_logit,relation_logit,input_prediction,output_prediction,relation_prediction
+Afghanistan,Kabul,country-capital,"Q: What is the country-capital of Afghanistan?
+A:",16111,611,2586,K,"tensor([ 6.6289, -4.7500,  4.1211,  ..., -4.7344, -4.5664, -4.7109],
+       dtype=torch.float16)",611,12.8984375,13.8828125,4.4375,False,True,False
+Albania,Tirana,country-capital,"Q: What is the country-capital of Albania?
+A:",31208,48669,2586,The,"tensor([ 5.9141, -4.8555,  2.6367,  ..., -5.1641, -5.1641, -5.0391],
+       dtype=torch.float16)",380,12.4140625,12.4921875,4.15625,False,False,False
+Algeria,Algiers,country-capital,"Q: What is the country-capital of Algeria?
+A:",36364,1219,2586,Al,"tensor([ 6.4648, -4.6602,  3.8340,  ..., -4.4961, -4.4453, -4.4766],
+       dtype=torch.float16)",1219,13.4765625,13.5859375,3.84375,False,True,False
+Andorra,Andorra la Vella,country-capital,"Q: What is the country-capital of Andorra?
+A:",1244,1244,2586,And,"tensor([ 6.3672, -4.6445,  2.2578,  ..., -5.0273, -4.9688, -4.9219],
+       dtype=torch.float16)",1244,14.0625,14.0625,2.388671875,True,True,False
+Angola,Luanda,country-capital,"Q: What is the country-capital of Angola?
+A:",4965,7511,2586,The,"tensor([ 5.7031, -4.6875,  1.8213,  ..., -4.8516, -4.7812, -4.7617],
+       dtype=torch.float16)",380,12.5703125,12.046875,3.900390625,False,False,False
+Antigua and Barbuda,St. John's,country-capital,"Q: What is the country-capital of Antigua and Barbuda?
+A:",9422,659,2586,The,"tensor([ 6.7031, -4.6172,  1.0928,  ..., -4.8242, -4.8398, -4.7500],
+       dtype=torch.float16)",380,13.859375,10.5625,2.732421875,False,False,False
+Argentina,Buenos Aires,country-capital,"Q: What is the country-capital of Argentina?
+A:",23881,46287,2586,Buenos,"tensor([ 5.3242, -4.9531,  2.4004,  ..., -5.0430, -5.0625, -4.9570],
+       dtype=torch.float16)",46287,12.4375,14.6796875,3.37109375,False,True,False
+Armenia,Yerevan,country-capital,"Q: What is the country-capital of Armenia?
+A:",5360,714,2586,The,"tensor([ 6.5938, -5.1445,  3.0371,  ..., -5.3047, -5.2109, -5.0469],
+       dtype=torch.float16)",380,12.9765625,12.28125,4.8671875,False,False,False
+Australia,Canberra,country-capital,"Q: What is the country-capital of Australia?
+A:",6976,2615,2586,Australia,"tensor([ 7.1680, -4.9414,  2.9082,  ..., -4.6914, -4.9727, -4.7891],
+       dtype=torch.float16)",6976,13.8671875,13.625,4.7578125,True,False,False
+Austria,Vienna,country-capital,"Q: What is the country-capital of Austria?
+A:",21753,26229,2586,Vienna,"tensor([ 5.8125, -5.1055,  3.7578,  ..., -5.2734, -5.1250, -5.0039],
+       dtype=torch.float16)",26229,12.5078125,13.8515625,3.83203125,False,True,False
+Azerbaijan,Baku,country-capital,"Q: What is the country-capital of Azerbaijan?
+A:",46555,378,2586,The,"tensor([ 6.9492, -5.1055,  3.9316,  ..., -5.1211, -4.9375, -4.9219],
+       dtype=torch.float16)",380,12.6875,13.484375,4.42578125,False,False,False
+Bahamas,Nassau,country-capital,"Q: What is the country-capital of Bahamas?
+A:",21789,49905,2586,Nass,"tensor([ 5.2031, -4.7891,  1.2959,  ..., -4.9453, -4.9414, -5.1211],
+       dtype=torch.float16)",49905,11.75,14.3125,3.90234375,False,True,False
+Bahrain,Manama,country-capital,"Q: What is the country-capital of Bahrain?
+A:",21789,3083,2586,The,"tensor([ 6.0078, -4.9141,  2.7109,  ..., -4.9531, -5.0234, -4.9492],
+       dtype=torch.float16)",380,13.8671875,10.2734375,3.302734375,False,False,False
+Bangladesh,Dhaka,country-capital,"Q: What is the country-capital of Bangladesh?
+A:",29310,37287,2586,Dh,"tensor([ 5.6836, -5.1875,  3.4590,  ..., -5.2305, -5.2969, -5.1211],
+       dtype=torch.float16)",37287,13.1875,14.7734375,3.8515625,False,True,False
+Barbados,Bridgetown,country-capital,"Q: What is the country-capital of Barbados?
+A:",33782,2652,2586,Barb,"tensor([ 5.7344, -4.9141,  1.2451,  ..., -5.2109, -5.2031, -5.2695],
+       dtype=torch.float16)",33782,13.7265625,10.8046875,2.6015625,True,False,False
+Belarus,Minsk,country-capital,"Q: What is the country-capital of Belarus?
+A:",6512,353,2586,M,"tensor([ 6.9688, -4.6289,  3.4551,  ..., -4.9531, -4.7969, -4.7266],
+       dtype=torch.float16)",353,12.265625,13.6015625,3.396484375,False,True,False
+Belgium,Brussels,country-capital,"Q: What is the country-capital of Belgium?
+A:",22785,30167,2586,Brussels,"tensor([ 6.3516, -4.8555,  3.1602,  ..., -4.9609, -4.9219, -4.8828],
+       dtype=torch.float16)",30167,12.390625,14.1953125,2.921875,False,True,False
+Belize,Belmopan,country-capital,"Q: What is the country-capital of Belize?
+A:",6512,6512,2586,Bel,"tensor([ 5.2969, -5.0625,  1.6875,  ..., -5.3984, -5.3125, -5.2695],
+       dtype=torch.float16)",6512,13.828125,13.828125,3.91015625,True,True,False
+Benin,Porto-Novo,country-capital,"Q: What is the country-capital of Benin?
+A:",6029,6162,2586,The,"tensor([ 5.8750, -4.7695,  2.2344,  ..., -4.9688, -4.8281, -4.7383],
+       dtype=torch.float16)",380,13.6484375,9.5078125,4.00390625,False,False,False
+Bhutan,Thimphu,country-capital,"Q: What is the country-capital of Bhutan?
+A:",26165,596,2586,Bh,"tensor([ 6.3594, -4.6289,  2.2500,  ..., -4.7344, -4.7500, -4.6602],
+       dtype=torch.float16)",26165,13.59375,11.703125,2.765625,True,False,False
+Bolivia,La Paz,country-capital,"Q: What is the country-capital of Bolivia?
+A:",16001,3905,2586,The,"tensor([ 6.3711, -4.7539,  2.6445,  ..., -4.8828, -4.8008, -4.7344],
+       dtype=torch.float16)",380,12.40625,12.5390625,3.779296875,False,False,False
+Bosnia and Herzegovina,Sarajevo,country-capital,"Q: What is the country-capital of Bosnia and Herzegovina?
+A:",46795,9997,2586,Sar,"tensor([ 6.7539, -4.5781,  2.4707,  ..., -4.8789, -4.8164, -4.7266],
+       dtype=torch.float16)",9997,12.4296875,14.4453125,5.078125,False,True,False
+Botswana,Gaborone,country-capital,"Q: What is the country-capital of Botswana?
+A:",378,443,2586,B,"tensor([ 6.7578, -4.3438,  2.6465,  ..., -4.5156, -4.6641, -4.4258],
+       dtype=torch.float16)",378,14.3046875,12.671875,4.15625,True,False,False
+Brazil,Brasilia,country-capital,"Q: What is the country-capital of Brazil?
+A:",10869,31574,2586,Rio,"tensor([ 5.7031, -4.9375,  2.4648,  ..., -4.9844, -5.0898, -4.9180],
+       dtype=torch.float16)",22319,12.8515625,12.4296875,4.07421875,False,False,False
+Brunei,Bandar Seri Begawan,country-capital,"Q: What is the country-capital of Brunei?
+A:",2652,16804,2586,Br,"tensor([ 6.2656, -5.0430,  1.8076,  ..., -5.1250, -5.0820, -4.9492],
+       dtype=torch.float16)",2652,15.15625,9.1640625,3.443359375,True,False,False
+Bulgaria,Sofia,country-capital,"Q: What is the country-capital of Bulgaria?
+A:",43905,36104,2586,Sof,"tensor([ 6.6992, -5.2266,  3.3223,  ..., -5.5391, -5.4492, -5.2656],
+       dtype=torch.float16)",36104,12.0859375,14.3515625,4.07421875,False,True,False
+Burkina Faso,Ouagadougou,country-capital,"Q: What is the country-capital of Burkina Faso?
+A:",45262,473,2586,The,"tensor([ 6.1055, -4.4961,  2.3672,  ..., -4.6289, -4.4727, -4.5156],
+       dtype=torch.float16)",380,13.234375,12.171875,3.3359375,False,False,False
+Burundi,Bujumbura,country-capital,"Q: What is the country-capital of Burundi?
+A:",7634,378,2586,The,"tensor([ 5.2930, -4.5430,  2.1035,  ..., -4.7148, -4.5820, -4.5977],
+       dtype=torch.float16)",380,12.8515625,12.0234375,3.62109375,False,False,False
+Cabo Verde,Praia,country-capital,"Q: What is the country-capital of Cabo Verde?
+A:",15569,28340,2586,The,"tensor([ 6.1406, -4.5469,  1.4150,  ..., -4.6562, -4.6484, -4.5703],
+       dtype=torch.float16)",380,12.9453125,9.7109375,3.142578125,False,False,False
+Cambodia,Phnom Penh,country-capital,"Q: What is the country-capital of Cambodia?
+A:",41984,1777,2586,Ph,"tensor([ 5.5703, -5.0117,  1.9766,  ..., -5.0898, -5.0742, -4.9414],
+       dtype=torch.float16)",1777,12.484375,13.5,4.0390625,False,True,False
+Cameroon,Yaounde,country-capital,"Q: What is the country-capital of Cameroon?
+A:",6039,36523,2586,The,"tensor([ 5.5312, -4.8555,  2.3750,  ..., -4.8945, -4.8438, -4.7656],
+       dtype=torch.float16)",380,11.9375,10.3125,3.97265625,False,False,False
+Canada,Ottawa,country-capital,"Q: What is the country-capital of Canada?
+A:",6144,29539,2586,Ottawa,"tensor([ 6.9766, -4.8945,  2.6504,  ..., -4.7812, -4.9453, -4.9688],
+       dtype=torch.float16)",29539,12.90625,13.7734375,5.03125,False,True,False
+Central African Republic,Bangui,country-capital,"Q: What is the country-capital of Central African Republic?
+A:",8170,378,2586,The,"tensor([ 6.7461, -4.4336,  1.8018,  ..., -4.4414, -4.3086, -4.4492],
+       dtype=torch.float16)",380,11.4375,12.859375,4.7578125,False,False,False
+Chad,N'Djamena,country-capital,"Q: What is the country-capital of Chad?
+A:",34884,427,2586,The,"tensor([ 6.5234, -4.4336,  2.8086,  ..., -4.4727, -4.2812, -4.3086],
+       dtype=torch.float16)",380,12.6484375,11.8984375,4.2421875,False,False,False
+Chile,Santiago,country-capital,"Q: What is the country-capital of Chile?
+A:",22755,38436,2586,Santiago,"tensor([ 5.8203, -5.2148,  2.4805,  ..., -5.3906, -5.3203, -5.3281],
+       dtype=torch.float16)",38436,12.4453125,13.671875,4.04296875,False,True,False
+China,Beijing,country-capital,"Q: What is the country-capital of China?
+A:",4135,18496,2586,Beijing,"tensor([ 6.4336, -5.3086,  2.4941,  ..., -5.1797, -5.1211, -5.0547],
+       dtype=torch.float16)",18496,12.828125,14.125,3.357421875,False,True,False
+Colombia,Bogotá,country-capital,"Q: What is the country-capital of Colombia?
+A:",31003,27737,2586,Bog,"tensor([ 5.8438, -4.9727,  1.7666,  ..., -5.1602, -5.1523, -5.1602],
+       dtype=torch.float16)",27737,11.421875,14.1171875,3.71875,False,True,False
+Comoros,Moroni,country-capital,"Q: What is the country-capital of Comoros?
+A:",1176,4922,2586,The,"tensor([ 6.5859, -4.9258,  1.9424,  ..., -4.7422, -4.8398, -4.8672],
+       dtype=torch.float16)",380,12.90625,10.2578125,3.568359375,False,False,False
+Congo,Kinshasa,country-capital,"Q: What is the country-capital of Congo?
+A:",37642,611,2586,The,"tensor([ 6.5117, -4.5703,  2.4609,  ..., -4.6523, -4.4688, -4.6133],
+       dtype=torch.float16)",380,11.4375,12.3203125,4.703125,False,False,False
+Costa Rica,San José,country-capital,"Q: What is the country-capital of Costa Rica?
+A:",26002,5003,2586,The,"tensor([ 6.2070, -4.9258,  1.4307,  ..., -5.2109, -5.1094, -5.1523],
+       dtype=torch.float16)",380,12.9296875,13.1328125,4.78125,False,False,False
+Cote d'Ivoire,Yamoussoukro,country-capital,"Q: What is the country-capital of Cote d'Ivoire?
+A:",330,714,2586,The,"tensor([ 6.4023, -4.4883,  2.0840,  ..., -4.5508, -4.5391, -4.4688],
+       dtype=torch.float16)",380,14.140625,7.94140625,4.92578125,False,False,False
+Croatia,Zagreb,country-capital,"Q: What is the country-capital of Croatia?
+A:",42862,49524,2586,Croatia,"tensor([ 6.2617, -4.9492,  2.4648,  ..., -5.2070, -5.1836, -5.1016],
+       dtype=torch.float16)",42862,13.25,12.890625,4.625,True,False,False
+Cuba,Havana,country-capital,"Q: What is the country-capital of Cuba?
+A:",24605,32977,2586,Hav,"tensor([ 5.9258, -4.8008,  2.5273,  ..., -4.8984, -4.7852, -4.9336],
+       dtype=torch.float16)",32977,12.921875,14.40625,3.41796875,False,True,False
+Cyprus,Nicosia,country-capital,"Q: What is the country-capital of Cyprus?
+A:",44637,12951,2586,The,"tensor([ 6.0586, -5.2148,  1.9502,  ..., -5.4766, -5.2695, -5.4766],
+       dtype=torch.float16)",380,11.9765625,10.9140625,4.4296875,False,False,False
+Czech Republic,Prague,country-capital,"Q: What is the country-capital of Czech Republic?
+A:",21647,41577,2586,Prague,"tensor([ 6.3164, -5.1836,  3.3457,  ..., -5.2852, -5.3047, -5.1562],
+       dtype=torch.float16)",41577,12.4921875,13.90625,5.61328125,False,True,False
+Democratic Republic of the Congo,Kinshasa,country-capital,"Q: What is the country-capital of Democratic Republic of the Congo?
+A:",9922,611,2586,K,"tensor([ 6.9102, -3.9434,  0.8501,  ..., -4.0547, -3.9434, -3.9961],
+       dtype=torch.float16)",611,10.375,13.71875,3.642578125,False,True,False
+Denmark,Copenhagen,country-capital,"Q: What is the country-capital of Denmark?
+A:",22783,40892,2586,Copenhagen,"tensor([ 6.2969, -4.9492,  2.6680,  ..., -5.1562, -5.1758, -4.8320],
+       dtype=torch.float16)",40892,12.6171875,14.125,3.431640625,False,True,False
+Djibouti,Djibouti City,country-capital,"Q: What is the country-capital of Djibouti?
+A:",43050,43050,2586,Dj,"tensor([ 6.6211, -4.8789,  2.6133,  ..., -4.9258, -4.8594, -4.8086],
+       dtype=torch.float16)",43050,14.3984375,14.3984375,4.02734375,True,True,False
+Dominica,Roseau,country-capital,"Q: What is the country-capital of Dominica?
+A:",19307,12447,2586,The,"tensor([ 5.5820, -4.9492,  0.8164,  ..., -5.3398, -5.2305, -5.2773],
+       dtype=torch.float16)",380,12.90625,8.7421875,3.2578125,False,False,False
+Dominican Republic,Santo Domingo,country-capital,"Q: What is the country-capital of Dominican Republic?
+A:",46406,322,2586,The,"tensor([ 6.4531, -5.1641,  1.9199,  ..., -5.4609, -5.3672, -5.3359],
+       dtype=torch.float16)",380,11.59375,12.09375,4.95703125,False,False,False
+Ecuador,Quito,country-capital,"Q: What is the country-capital of Ecuador?
+A:",40145,1165,2586,Q,"tensor([ 6.7734, -5.0273,  1.4502,  ..., -5.0430, -4.9023, -5.1523],
+       dtype=torch.float16)",1165,12.4296875,14.4609375,4.17578125,False,True,False
+Egypt,Cairo,country-capital,"Q: What is the country-capital of Egypt?
+A:",10253,37068,2586,Cairo,"tensor([ 6.1953, -5.0703,  2.5469,  ..., -4.9336, -4.9844, -5.0156],
+       dtype=torch.float16)",37068,12.109375,13.3125,4.48046875,False,True,False
+El Salvador,San Salvador,country-capital,"Q: What is the country-capital of El Salvador?
+A:",3599,5003,2586,El,"tensor([ 6.5859, -5.0117,  1.2461,  ..., -5.1094, -5.0625, -4.9727],
+       dtype=torch.float16)",3599,14.0546875,13.578125,4.03125,True,False,False
+Equatorial Guinea,Malabo,country-capital,"Q: What is the country-capital of Equatorial Guinea?
+A:",8721,5979,2586,The,"tensor([ 6.6562, -4.8477,  1.8438,  ..., -4.8398, -4.7891, -4.7148],
+       dtype=torch.float16)",380,12.75,11.3046875,3.80078125,False,False,False
+Eritrea,Asmara,country-capital,"Q: What is the country-capital of Eritrea?
+A:",444,1284,2586,E,"tensor([ 5.2188, -4.5312,  2.3125,  ..., -4.6914, -4.4805, -4.6016],
+       dtype=torch.float16)",444,14.2109375,12.765625,4.2265625,True,False,False
+Estonia,Tallinn,country-capital,"Q: What is the country-capital of Estonia?
+A:",39863,32826,2586,Tall,"tensor([ 7.4453, -4.9102,  2.5566,  ..., -5.2109, -5.1211, -5.0352],
+       dtype=torch.float16)",32826,11.8671875,13.5078125,4.16796875,False,True,False
+Eswatini,Mbabane,country-capital,"Q: What is the country-capital of Eswatini?
+A:",444,353,2586,E,"tensor([ 6.2656, -4.4570,  1.4395,  ..., -4.5977, -4.6406, -4.4727],
+       dtype=torch.float16)",444,14.1015625,10.875,4.19921875,True,False,False
+Ethiopia,Addis Ababa,country-capital,"Q: What is the country-capital of Ethiopia?
+A:",35363,5733,2586,Add,"tensor([ 5.3711, -4.6719,  2.4609,  ..., -5.1055, -4.8633, -4.8984],
+       dtype=torch.float16)",5733,12.28125,14.84375,4.54296875,False,True,False
+Fiji,Suva,country-capital,"Q: What is the country-capital of Fiji?
+A:",401,4137,2586,F,"tensor([ 6.9375, -4.5508,  1.9502,  ..., -4.7305, -4.7500, -4.8320],
+       dtype=torch.float16)",401,14.3046875,11.78125,3.62109375,True,False,False
+Finland,Helsinki,country-capital,"Q: What is the country-capital of Finland?
+A:",25270,34159,2586,Helsinki,"tensor([ 6.6602, -4.8438,  2.9102,  ..., -5.1367, -4.9688, -4.9609],
+       dtype=torch.float16)",34159,12.9765625,13.7109375,3.6484375,False,True,False
+France,Paris,country-capital,"Q: What is the country-capital of France?
+A:",6181,7785,2586,Paris,"tensor([ 6.4570, -5.0000,  3.5078,  ..., -5.0078, -4.9336, -5.1172],
+       dtype=torch.float16)",7785,12.5859375,14.3359375,4.4921875,False,True,False
+Gabon,Libreville,country-capital,"Q: What is the country-capital of Gabon?
+A:",17422,9271,2586,The,"tensor([ 7.0430, -4.8633,  2.3105,  ..., -4.8164, -4.8047, -4.7344],
+       dtype=torch.float16)",380,13.0,11.40625,3.45703125,False,False,False
+Gambia,Banjul,country-capital,"Q: What is the country-capital of Gambia?
+A:",41425,16456,2586,The,"tensor([ 5.9688, -4.8828,  2.5020,  ..., -4.9922, -4.9844, -5.0273],
+       dtype=torch.float16)",380,12.21875,11.2421875,4.5703125,False,False,False
+Georgia,Tbilisi,country-capital,"Q: What is the country-capital of Georgia?
+A:",12096,308,2586,T,"tensor([ 6.5039, -5.0469,  3.0195,  ..., -5.1797, -4.8789, -4.9531],
+       dtype=torch.float16)",308,12.6953125,14.1171875,4.92578125,False,True,False
+Germany,Berlin,country-capital,"Q: What is the country-capital of Germany?
+A:",6176,12911,2586,Berlin,"tensor([ 5.5859, -5.0312,  4.1328,  ..., -4.9922, -5.2070, -4.9219],
+       dtype=torch.float16)",12911,12.640625,13.9296875,3.974609375,False,True,False
+Ghana,Accra,country-capital,"Q: What is the country-capital of Ghana?
+A:",34905,8874,2586,The,"tensor([ 6.7539, -4.8086,  2.8379,  ..., -4.9883, -4.9766, -4.8906],
+       dtype=torch.float16)",380,12.65625,13.4765625,5.3984375,False,False,False
+Greece,Athens,country-capital,"Q: What is the country-capital of Greece?
+A:",17785,27411,2586,Athens,"tensor([ 5.7852, -5.0547,  2.8652,  ..., -5.3789, -5.2656, -5.2617],
+       dtype=torch.float16)",27411,12.5625,13.4453125,4.56640625,False,True,False
+Grenada,St. George's,country-capital,"Q: What is the country-capital of Grenada?
+A:",34450,659,2586,The,"tensor([ 5.6289, -5.0508,  0.8228,  ..., -5.4375, -5.2617, -5.2734],
+       dtype=torch.float16)",380,12.8125,11.4765625,2.859375,False,False,False
+Guatemala,Guatemala City,country-capital,"Q: What is the country-capital of Guatemala?
+A:",46560,46560,2586,Guatemala,"tensor([ 6.5703, -4.9336,  1.6113,  ..., -5.0039, -4.8789, -4.8594],
+       dtype=torch.float16)",46560,14.109375,14.109375,4.3828125,True,True,False
+Guinea,Conakry,country-capital,"Q: What is the country-capital of Guinea?
+A:",34410,1716,2586,The,"tensor([ 6.5664, -4.5391,  2.8047,  ..., -4.7383, -4.5117, -4.5312],
+       dtype=torch.float16)",380,12.4453125,11.796875,4.81640625,False,False,False
+Guinea-Bissau,Bissau,country-capital,"Q: What is the country-capital of Guinea-Bissau?
+A:",34410,378,2586,The,"tensor([ 6.1445, -4.5430,  1.6992,  ..., -4.7539, -4.6016, -4.5586],
+       dtype=torch.float16)",380,11.65625,13.6484375,4.61328125,False,False,False
+Guyana,Georgetown,country-capital,"Q: What is the country-capital of Guyana?
+A:",22757,3096,2586,The,"tensor([ 5.6758, -4.8555,  1.9014,  ..., -4.9922, -5.0430, -4.8750],
+       dtype=torch.float16)",380,12.328125,12.546875,3.68359375,False,False,False
+Haiti,Port-au-Prince,country-capital,"Q: What is the country-capital of Haiti?
+A:",40906,6162,2586,The,"tensor([ 6.4023, -4.6289,  2.0801,  ..., -4.9727, -4.7109, -4.9180],
+       dtype=torch.float16)",380,12.9765625,13.2265625,4.2265625,False,False,False
+Honduras,Tegucigalpa,country-capital,"Q: What is the country-capital of Honduras?
+A:",44509,308,2586,The,"tensor([ 6.4688, -5.0312,  1.6807,  ..., -5.2070, -5.1211, -5.0586],
+       dtype=torch.float16)",380,13.40625,12.359375,3.841796875,False,False,False
+Hungary,Budapest,country-capital,"Q: What is the country-capital of Hungary?
+A:",29171,50086,2586,Budapest,"tensor([ 6.5078, -4.9531,  3.4277,  ..., -5.2109, -5.0195, -4.9492],
+       dtype=torch.float16)",50086,12.5,14.1328125,3.751953125,False,True,False
+Iceland,Reykjavik,country-capital,"Q: What is the country-capital of Iceland?
+A:",28651,1720,2586,Re,"tensor([ 6.6523, -4.8984,  2.7363,  ..., -5.1016, -5.0430, -5.0273],
+       dtype=torch.float16)",1720,13.3359375,13.3984375,3.728515625,False,True,False
+India,New Delhi,country-capital,"Q: What is the country-capital of India?
+A:",5427,1457,2586,Delhi,"tensor([ 5.8633, -5.1172,  3.3066,  ..., -5.1289, -5.1992, -5.1992],
+       dtype=torch.float16)",19950,12.8125,12.546875,4.5,False,False,False
+Indonesia,Jakarta,country-capital,"Q: What is the country-capital of Indonesia?
+A:",23340,32319,2586,Jak,"tensor([ 6.1602, -4.8477,  2.6777,  ..., -5.0078, -5.0312, -4.7383],
+       dtype=torch.float16)",32319,12.5078125,14.171875,3.666015625,False,True,False
+Iran,Tehran,country-capital,"Q: What is the country-capital of Iran?
+A:",7751,35889,2586,Tehran,"tensor([ 6.0312, -4.9922,  3.5195,  ..., -4.9648, -4.9844, -4.8711],
+       dtype=torch.float16)",35889,12.7109375,14.234375,4.9921875,False,True,False
+Iraq,Baghdad,country-capital,"Q: What is the country-capital of Iraq?
+A:",9256,39759,2586,Baghdad,"tensor([ 6.5234, -4.6914,  4.0664,  ..., -4.5469, -4.5547, -4.6914],
+       dtype=torch.float16)",39759,13.375,13.53125,4.37109375,False,True,False
+Ireland,Dublin,country-capital,"Q: What is the country-capital of Ireland?
+A:",11011,24523,2586,Dublin,"tensor([ 6.8828, -4.9766,  2.6680,  ..., -5.1016, -5.2031, -5.0938],
+       dtype=torch.float16)",24523,12.8828125,13.96875,4.26953125,False,True,False
+Israel,Jerusalem,country-capital,"Q: What is the country-capital of Israel?
+A:",5143,17913,2586,Israel,"tensor([ 6.6680, -4.8203,  2.0254,  ..., -4.8320, -4.9102, -5.0234],
+       dtype=torch.float16)",5143,14.0,13.515625,4.67578125,True,False,False
+Italy,Rome,country-capital,"Q: What is the country-capital of Italy?
+A:",9972,12300,2586,Rome,"tensor([ 5.9219, -5.0508,  2.6406,  ..., -5.0820, -5.0664, -5.0859],
+       dtype=torch.float16)",12300,12.3359375,13.5546875,4.1015625,False,True,False
+Jamaica,Kingston,country-capital,"Q: What is the country-capital of Jamaica?
+A:",41198,47706,2586,Jamaica,"tensor([ 5.8359, -5.1680,  1.3711,  ..., -5.5195, -5.3750, -5.4805],
+       dtype=torch.float16)",41198,12.9296875,12.75,4.33203125,True,False,False
+Japan,Tokyo,country-capital,"Q: What is the country-capital of Japan?
+A:",4047,17413,2586,Tokyo,"tensor([ 6.2070, -4.9180,  2.8223,  ..., -4.9102, -5.0000, -5.0977],
+       dtype=torch.float16)",17413,13.3515625,14.8125,3.6640625,False,True,False
+Jordan,Amman,country-capital,"Q: What is the country-capital of Jordan?
+A:",13268,3052,2586,Am,"tensor([ 6.8867, -4.9414,  3.1660,  ..., -4.8438, -4.8672, -4.7422],
+       dtype=torch.float16)",3052,11.6953125,13.8515625,3.408203125,False,True,False
+Kazakhstan,Astana,country-capital,"Q: What is the country-capital of Kazakhstan?
+A:",46936,15123,2586,The,"tensor([ 7.3438, -4.8477,  3.6191,  ..., -4.8906, -4.5000, -4.6953],
+       dtype=torch.float16)",380,12.359375,12.2265625,3.8515625,False,False,False
+Kenya,Nairobi,country-capital,"Q: What is the country-capital of Kenya?
+A:",27946,427,2586,N,"tensor([ 6.0469, -4.6602,  2.5430,  ..., -4.8516, -4.7578, -4.8125],
+       dtype=torch.float16)",427,12.25,13.15625,4.1171875,False,True,False
+Kiribati,South Tarawa,country-capital,"Q: What is the country-capital of Kiribati?
+A:",20799,3684,2586,Kir,"tensor([ 6.4297, -4.6797,  1.6748,  ..., -4.7266, -4.6562, -4.8398],
+       dtype=torch.float16)",20799,13.375,8.515625,2.0078125,True,False,False
+Kosovo,Pristina,country-capital,"Q: What is the country-capital of Kosovo?
+A:",48863,367,2586,The,"tensor([ 6.3945, -4.5859,  2.9473,  ..., -5.0234, -4.8477, -4.9141],
+       dtype=torch.float16)",380,13.0,12.3671875,4.1875,False,False,False
+Kuwait,Kuwait City,country-capital,"Q: What is the country-capital of Kuwait?
+A:",46614,46614,2586,Kuwait,"tensor([ 6.5508, -4.9961,  3.6426,  ..., -4.8438, -4.8320, -4.8633],
+       dtype=torch.float16)",46614,15.8515625,15.8515625,4.08984375,True,True,False
+Kyrgyzstan,Bishkek,country-capital,"Q: What is the country-capital of Kyrgyzstan?
+A:",611,378,2586,K,"tensor([ 7.1328, -4.7344,  2.8340,  ..., -4.9062, -4.5859, -4.6914],
+       dtype=torch.float16)",611,14.5859375,12.8984375,4.15625,True,False,False
+Laos,Vientiane,country-capital,"Q: What is the country-capital of Laos?
+A:",3905,657,2586,The,"tensor([ 6.1758, -4.8984,  1.1934,  ..., -4.9375, -4.8594, -4.7227],
+       dtype=torch.float16)",380,13.3828125,13.296875,3.916015625,False,False,False
+Latvia,Riga,country-capital,"Q: What is the country-capital of Latvia?
+A:",14310,416,2586,The,"tensor([ 7.0508, -4.9766,  2.8125,  ..., -5.2109, -5.1367, -5.0430],
+       dtype=torch.float16)",380,12.34375,12.8046875,4.0546875,False,False,False
+Lebanon,Beirut,country-capital,"Q: What is the country-capital of Lebanon?
+A:",28746,2325,2586,Be,"tensor([ 6.1992, -5.0469,  3.2988,  ..., -4.9219, -5.0859, -4.9883],
+       dtype=torch.float16)",2325,13.6796875,14.296875,4.4921875,False,True,False
+Lesotho,Maseru,country-capital,"Q: What is the country-capital of Lesotho?
+A:",12029,353,2586,The,"tensor([ 6.2969, -4.6445,  1.4746,  ..., -4.8203, -4.7930, -4.7109],
+       dtype=torch.float16)",380,13.3046875,11.4296875,3.568359375,False,False,False
+Liberia,Monrovia,country-capital,"Q: What is the country-capital of Liberia?
+A:",15562,4200,2586,Liber,"tensor([ 5.1680, -5.0156,  1.3428,  ..., -5.1953, -5.1367, -5.2305],
+       dtype=torch.float16)",15562,13.2421875,11.984375,4.109375,True,False,False
+Libya,Tripoli,country-capital,"Q: What is the country-capital of Libya?
+A:",30174,11835,2586,Tri,"tensor([ 6.9844, -4.4688,  2.9531,  ..., -4.4297, -4.3828, -4.5352],
+       dtype=torch.float16)",11835,13.546875,13.7578125,4.26953125,False,True,False
+Liechtenstein,Vaduz,country-capital,"Q: What is the country-capital of Liechtenstein?
+A:",10615,657,2586,Lie,"tensor([ 6.2539, -5.0742,  2.2852,  ..., -5.3594, -5.2070, -5.0547],
+       dtype=torch.float16)",10615,14.84375,11.7109375,3.328125,True,False,False
+Lithuania,Vilnius,country-capital,"Q: What is the country-capital of Lithuania?
+A:",40115,40936,2586,Vil,"tensor([ 7.1250, -5.0430,  2.5664,  ..., -5.3711, -5.2500, -5.3125],
+       dtype=torch.float16)",40936,12.6796875,14.6328125,4.6875,False,True,False
+Luxembourg,Luxembourg City,country-capital,"Q: What is the country-capital of Luxembourg?
+A:",44133,44133,2586,Luxem,"tensor([ 6.3164, -5.1992,  2.6836,  ..., -5.3320, -5.1719, -5.2070],
+       dtype=torch.float16)",44133,15.1015625,15.1015625,3.9375,True,True,False
+Madagascar,Antananarivo,country-capital,"Q: What is the country-capital of Madagascar?
+A:",6984,9422,2586,The,"tensor([ 6.1289, -5.0820,  2.1133,  ..., -5.1328, -5.1016, -5.0977],
+       dtype=torch.float16)",380,12.578125,10.171875,3.509765625,False,False,False
+Malawi,Lilongwe,country-capital,"Q: What is the country-capital of Malawi?
+A:",5979,36482,2586,The,"tensor([ 5.8906, -4.6250,  1.4248,  ..., -4.8008, -4.7891, -4.6992],
+       dtype=torch.float16)",380,12.859375,12.953125,4.42578125,False,False,False
+Malaysia,Kuala Lumpur,country-capital,"Q: What is the country-capital of Malaysia?
+A:",23799,611,2586,K,"tensor([ 6.7500, -4.7344,  2.5977,  ..., -4.8867, -4.9414, -4.7344],
+       dtype=torch.float16)",611,12.703125,13.625,4.59765625,False,True,False
+Maldives,Malé,country-capital,"Q: What is the country-capital of Maldives?
+A:",5979,5979,2586,The,"tensor([ 5.8398, -4.8828,  2.5996,  ..., -4.9180, -5.0898, -4.8867],
+       dtype=torch.float16)",380,12.7109375,12.7109375,4.41796875,False,False,False
+Mali,Bamako,country-capital,"Q: What is the country-capital of Mali?
+A:",5979,378,2586,The,"tensor([ 7.1523, -4.5000,  2.6621,  ..., -4.5938, -4.4258, -4.4688],
+       dtype=torch.float16)",380,13.171875,12.3828125,4.6015625,False,False,False
+Malta,Valletta,country-capital,"Q: What is the country-capital of Malta?
+A:",47832,4009,2586,The,"tensor([ 6.1836, -4.8125,  2.0586,  ..., -5.0664, -5.0195, -5.0586],
+       dtype=torch.float16)",380,12.8046875,10.796875,3.826171875,False,False,False
+Marshall Islands,Majuro,country-capital,"Q: What is the country-capital of Marshall Islands?
+A:",19629,18410,2586,The,"tensor([ 7.5781, -4.5547,  1.0088,  ..., -4.5938, -4.6133, -4.4570],
+       dtype=torch.float16)",380,12.984375,10.6640625,3.271484375,False,False,False
+Mauritania,Nouakchott,country-capital,"Q: What is the country-capital of Mauritania?
+A:",21664,427,2586,The,"tensor([ 6.8047, -4.7422,  2.3223,  ..., -4.7305, -4.7344, -4.7617],
+       dtype=torch.float16)",380,12.6640625,11.40625,3.11328125,False,False,False
+Mauritius,Port Louis,country-capital,"Q: What is the country-capital of Mauritius?
+A:",21664,6162,2586,Maur,"tensor([ 6.2148, -5.1758,  1.6797,  ..., -5.2578, -5.2305, -5.2227],
+       dtype=torch.float16)",21664,13.125,10.5390625,2.458984375,True,False,False
+Mexico,Mexico City,country-capital,"Q: What is the country-capital of Mexico?
+A:",8987,8987,2586,Mexico,"tensor([ 5.6406, -5.2422,  2.8223,  ..., -5.3008, -5.2852, -5.1250],
+       dtype=torch.float16)",8987,14.4375,14.4375,4.22265625,True,True,False
+Micronesia,Palikir,country-capital,"Q: What is the country-capital of Micronesia?
+A:",10929,5226,2586,The,"tensor([ 8.2344, -4.2422,  1.0820,  ..., -4.0430, -4.1367, -4.1055],
+       dtype=torch.float16)",380,11.9921875,12.2890625,3.458984375,False,False,False
+Moldova,Chisinau,country-capital,"Q: What is the country-capital of Moldova?
+A:",49523,775,2586,The,"tensor([ 7.9648, -4.8672,  2.5137,  ..., -5.3047, -5.1602, -4.9766],
+       dtype=torch.float16)",380,11.625,11.5703125,4.08984375,False,False,False
+Monaco,Monaco-Ville,country-capital,"Q: What is the country-capital of Monaco?
+A:",4200,4200,2586,Mon,"tensor([ 6.1250, -5.2422,  3.0566,  ..., -5.3203, -5.2969, -5.3164],
+       dtype=torch.float16)",4200,14.3046875,14.3046875,2.66015625,True,True,False
+Mongolia,Ulaanbaatar,country-capital,"Q: What is the country-capital of Mongolia?
+A:",31121,530,2586,U,"tensor([ 6.5977, -5.1445,  2.7734,  ..., -5.0938, -4.9688, -4.8633],
+       dtype=torch.float16)",530,12.4609375,12.9765625,3.673828125,False,True,False
+Montenegro,Podgorica,country-capital,"Q: What is the country-capital of Montenegro?
+A:",7812,20361,2586,Mont,"tensor([ 5.7109, -5.1914,  1.8232,  ..., -5.4805, -5.5625, -5.3633],
+       dtype=torch.float16)",7812,13.53125,11.109375,4.18359375,True,False,False
+Morocco,Rabat,country-capital,"Q: What is the country-capital of Morocco?
+A:",40983,21385,2586,The,"tensor([ 6.8594, -4.9102,  2.8496,  ..., -4.8359, -4.7500, -4.7734],
+       dtype=torch.float16)",380,13.109375,12.453125,3.982421875,False,False,False
+Mozambique,Maputo,country-capital,"Q: What is the country-capital of Mozambique?
+A:",24872,12968,2586,The,"tensor([ 5.0820, -4.7500,  1.1133,  ..., -4.8242, -4.5898, -4.6875],
+       dtype=torch.float16)",380,12.3203125,11.53125,3.0390625,False,False,False
+Myanmar,Naypyidaw,country-capital,"Q: What is the country-capital of Myanmar?
+A:",43828,427,2586,Yang,"tensor([ 6.7305, -4.6797,  1.6006,  ..., -4.6875, -4.8125, -4.6211],
+       dtype=torch.float16)",19028,12.0625,11.21875,3.751953125,False,False,False
+Namibia,Windhoek,country-capital,"Q: What is the country-capital of Namibia?
+A:",20635,17054,2586,The,"tensor([ 5.7617, -4.5859,  2.3066,  ..., -4.6562, -4.7383, -4.6875],
+       dtype=torch.float16)",380,12.046875,12.0625,3.884765625,False,False,False
+Nauru,Yaren District,country-capital,"Q: What is the country-capital of Nauru?
+A:",427,714,2586,N,"tensor([ 6.6406, -4.7148,  2.0117,  ..., -4.6367, -4.7656, -4.7617],
+       dtype=torch.float16)",427,14.28125,8.34375,3.728515625,True,False,False
+Nepal,Kathmandu,country-capital,"Q: What is the country-capital of Nepal?
+A:",35020,23843,2586,The,"tensor([ 6.6172, -4.9336,  2.8711,  ..., -5.1836, -5.0312, -5.0859],
+       dtype=torch.float16)",380,12.8671875,12.6328125,4.578125,False,False,False
+Netherlands,Amsterdam,country-capital,"Q: What is the country-capital of Netherlands?
+A:",16333,26653,2586,The,"tensor([ 5.9922, -5.3945,  3.1582,  ..., -5.4062, -5.5508, -5.3008],
+       dtype=torch.float16)",380,12.234375,12.921875,4.59375,False,False,False
+New Zealand,Wellington,country-capital,"Q: What is the country-capital of New Zealand?
+A:",1457,42337,2586,Wellington,"tensor([ 7.5938, -4.1992,  1.9619,  ..., -4.1562, -4.3164, -4.3086],
+       dtype=torch.float16)",42337,13.75,14.4375,3.576171875,False,True,False
+Nicaragua,Managua,country-capital,"Q: What is the country-capital of Nicaragua?
+A:",12951,3083,2586,The,"tensor([ 5.7188, -4.9219,  1.2500,  ..., -4.9961, -4.9062, -4.8750],
+       dtype=torch.float16)",380,12.046875,12.625,3.4296875,False,False,False
+Niger,Niamey,country-capital,"Q: What is the country-capital of Niger?
+A:",32345,15753,2586,The,"tensor([ 7.3047, -4.2656,  3.1074,  ..., -4.3203, -4.1211, -4.0352],
+       dtype=torch.float16)",380,13.0,13.0546875,3.484375,False,False,False
+Nigeria,Abuja,country-capital,"Q: What is the country-capital of Nigeria?
+A:",23856,26957,2586,Lag,"tensor([ 6.6367, -4.5820,  2.4570,  ..., -4.7852, -4.6875, -4.5742],
+       dtype=torch.float16)",15184,12.5234375,12.46875,5.5234375,False,False,False
+North Korea,Pyongyang,country-capital,"Q: What is the country-capital of North Korea?
+A:",3729,8462,2586,Py,"tensor([ 6.7148, -4.6875,  2.7812,  ..., -4.4805, -4.6484, -4.3711],
+       dtype=torch.float16)",8462,13.03125,14.7421875,3.94140625,False,True,False
+North Macedonia,Skopje,country-capital,"Q: What is the country-capital of North Macedonia?
+A:",3729,8229,2586,The,"tensor([ 6.6641, -4.6562,  2.1387,  ..., -5.0508, -5.1133, -4.8633],
+       dtype=torch.float16)",380,12.1953125,12.921875,4.66015625,False,False,False
+Norway,Oslo,country-capital,"Q: What is the country-capital of Norway?
+A:",20341,43516,2586,Oslo,"tensor([ 6.9141, -4.7773,  3.3340,  ..., -4.9922, -4.9805, -4.7070],
+       dtype=torch.float16)",43516,12.6796875,14.140625,3.66796875,False,True,False
+Oman,Muscat,country-capital,"Q: What is the country-capital of Oman?
+A:",473,4878,2586,The,"tensor([ 6.0938, -4.9922,  2.4258,  ..., -5.0195, -4.9453, -4.8672],
+       dtype=torch.float16)",380,14.015625,12.1953125,2.935546875,False,False,False
+Pakistan,Islamabad,country-capital,"Q: What is the country-capital of Pakistan?
+A:",13115,8033,2586,Pakistan,"tensor([ 6.1875, -5.0898,  4.1758,  ..., -4.8633, -4.9688, -4.9648],
+       dtype=torch.float16)",13115,13.171875,12.5703125,4.50390625,True,False,False
+Palau,Ngerulmud,country-capital,"Q: What is the country-capital of Palau?
+A:",5226,427,2586,Pal,"tensor([ 6.2148, -5.0508,  1.4727,  ..., -4.9453, -4.9883, -4.9102],
+       dtype=torch.float16)",5226,13.390625,10.2265625,2.66796875,True,False,False
+Palestine,Ramallah,country-capital,"Q: What is the country-capital of Palestine?
+A:",29313,9752,2586,The,"tensor([ 5.9141, -4.7617,  3.1074,  ..., -4.6094, -4.6836, -4.7891],
+       dtype=torch.float16)",380,13.015625,11.2109375,3.85546875,False,False,False
+Panama,Panama City,country-capital,"Q: What is the country-capital of Panama?
+A:",37783,37783,2586,Panama,"tensor([ 5.7031, -5.2617,  1.7656,  ..., -5.2891, -5.2305, -5.3281],
+       dtype=torch.float16)",37783,14.65625,14.65625,3.359375,True,True,False
+Papua New Guinea,Port Moresby,country-capital,"Q: What is the country-capital of Papua New Guinea?
+A:",17206,6162,2586,The,"tensor([ 6.8203, -4.6055,  1.9844,  ..., -4.7031, -4.7812, -4.6133],
+       dtype=torch.float16)",380,11.5859375,12.5078125,3.78515625,False,False,False
+Paraguay,Asunción,country-capital,"Q: What is the country-capital of Paraguay?
+A:",2956,1284,2586,The,"tensor([ 6.2891, -4.9961,  2.9180,  ..., -4.8359, -5.0742, -4.6914],
+       dtype=torch.float16)",380,13.34375,13.1171875,3.44140625,False,False,False
+Peru,Lima,country-capital,"Q: What is the country-capital of Peru?
+A:",31805,418,2586,The,"tensor([ 6.3125, -5.1328,  1.7568,  ..., -5.1719, -5.1406, -5.1758],
+       dtype=torch.float16)",380,12.1875,12.75,3.41015625,False,False,False
+Philippines,Manila,country-capital,"Q: What is the country-capital of Philippines?
+A:",22075,43949,2586,The,"tensor([ 6.3867, -5.1914,  0.4329,  ..., -5.1719, -5.3672, -5.0898],
+       dtype=torch.float16)",380,12.46875,13.1953125,5.10546875,False,False,False
+Poland,Warsaw,country-capital,"Q: What is the country-capital of Poland?
+A:",16795,40431,2586,Warsaw,"tensor([ 6.2969, -5.0352,  2.9902,  ..., -5.1367, -5.0430, -5.0195],
+       dtype=torch.float16)",40431,12.78125,13.7109375,4.05859375,False,True,False
+Portugal,Lisbon,country-capital,"Q: What is the country-capital of Portugal?
+A:",24084,48104,2586,Lisbon,"tensor([ 6.4297, -4.9688,  2.5352,  ..., -5.1562, -5.0977, -5.0430],
+       dtype=torch.float16)",48104,12.5625,14.046875,4.73828125,False,True,False
+Qatar,Doha,country-capital,"Q: What is the country-capital of Qatar?
+A:",38372,399,2586,D,"tensor([ 7.3672, -4.7617,  3.6113,  ..., -4.5039, -4.5078, -4.5195],
+       dtype=torch.float16)",399,14.109375,14.8125,4.4609375,False,True,False
+Romania,Bucharest,country-capital,"Q: What is the country-capital of Romania?
+A:",34262,27907,2586,Buch,"tensor([ 6.5195, -4.8555,  3.4824,  ..., -5.2188, -5.0898, -5.0430],
+       dtype=torch.float16)",27907,13.234375,13.5234375,5.6796875,False,True,False
+Russia,Moscow,country-capital,"Q: What is the country-capital of Russia?
+A:",7422,16496,2586,Moscow,"tensor([ 6.7617, -4.9492,  4.0625,  ..., -5.2188, -5.0234, -4.9844],
+       dtype=torch.float16)",16496,12.4375,14.6953125,3.21875,False,True,False
+Rwanda,Kigali,country-capital,"Q: What is the country-capital of Rwanda?
+A:",416,611,2586,R,"tensor([ 6.6055, -4.2148,  2.1504,  ..., -4.4062, -4.3477, -4.4180],
+       dtype=torch.float16)",416,13.90625,13.390625,4.1484375,True,False,False
+Saint Kitts and Nevis,Basseterre,country-capital,"Q: What is the country-capital of Saint Kitts and Nevis?
+A:",11877,28219,2586,The,"tensor([ 6.4180, -4.7266,  1.3105,  ..., -5.0625, -4.9922, -4.9648],
+       dtype=torch.float16)",380,13.5546875,7.5546875,3.447265625,False,False,False
+Saint Lucia,Castries,country-capital,"Q: What is the country-capital of Saint Lucia?
+A:",11877,9893,2586,The,"tensor([ 5.4688, -4.9570,  1.0615,  ..., -5.2930, -5.2188, -5.1680],
+       dtype=torch.float16)",380,13.09375,8.4609375,4.00390625,False,False,False
+Saint Vincent and the Grenadines,Kingstown,country-capital,"Q: What is the country-capital of Saint Vincent and the Grenadines?
+A:",11877,4377,2586,The,"tensor([ 5.9219, -4.7578,  0.1809,  ..., -5.1289, -5.0000, -4.9727],
+       dtype=torch.float16)",380,13.234375,7.7109375,4.34765625,False,False,False
+Samoa,Apia,country-capital,"Q: What is the country-capital of Samoa?
+A:",5769,4276,2586,Sam,"tensor([ 7.2812, -4.4141,  1.0996,  ..., -4.5820, -4.4727, -4.7305],
+       dtype=torch.float16)",5769,13.890625,11.5390625,3.708984375,True,False,False
+San Marino,San Marino,country-capital,"Q: What is the country-capital of San Marino?
+A:",5003,5003,2586,San,"tensor([ 6.0000, -5.1172,  1.6426,  ..., -5.3398, -5.2773, -5.1797],
+       dtype=torch.float16)",5003,14.328125,14.328125,2.95703125,True,True,False
+Sao Tome and Principe,Sao Tome,country-capital,"Q: What is the country-capital of Sao Tome and Principe?
+A:",322,322,2586,S,"tensor([ 6.6875, -4.3086,  1.6768,  ..., -4.4609, -4.3242, -4.2383],
+       dtype=torch.float16)",322,14.234375,14.234375,3.7890625,True,True,False
+Saudi Arabia,Riyadh,country-capital,"Q: What is the country-capital of Saudi Arabia?
+A:",16158,416,2586,Saudi,"tensor([ 6.5898, -4.8203,  3.6543,  ..., -4.6133, -4.7305, -4.6094],
+       dtype=torch.float16)",16158,13.7109375,13.640625,4.46875,True,False,False
+Senegal,Dakar,country-capital,"Q: What is the country-capital of Senegal?
+A:",4673,20469,2586,Dak,"tensor([ 6.5312, -4.5742,  2.7305,  ..., -4.6992, -4.5664, -4.5859],
+       dtype=torch.float16)",20469,12.8515625,13.9609375,4.78125,False,True,False
+Serbia,Belgrade,country-capital,"Q: What is the country-capital of Serbia?
+A:",37959,6512,2586,Bel,"tensor([ 5.9961, -4.9453,  3.3926,  ..., -5.1875, -5.1992, -5.0078],
+       dtype=torch.float16)",6512,12.546875,13.3125,4.2421875,False,True,False
+Seychelles,Victoria,country-capital,"Q: What is the country-capital of Seychelles?
+A:",49015,16225,2586,The,"tensor([ 6.9844, -5.0859,  1.4258,  ..., -5.1445, -5.0781, -5.0781],
+       dtype=torch.float16)",380,13.5078125,8.9609375,2.84375,False,False,False
+Sierra Leone,Freetown,country-capital,"Q: What is the country-capital of Sierra Leone?
+A:",27434,401,2586,The,"tensor([ 6.0312, -4.7969,  1.6445,  ..., -5.0820, -4.8906, -4.9062],
+       dtype=torch.float16)",380,12.4375,11.5703125,4.79296875,False,False,False
+Singapore,Singapore,country-capital,"Q: What is the country-capital of Singapore?
+A:",16861,16861,2586,Singapore,"tensor([ 6.6602, -5.1055,  2.1797,  ..., -5.1484, -5.2461, -5.1875],
+       dtype=torch.float16)",16861,14.703125,14.703125,3.845703125,True,True,False
+Slovakia,Bratislava,country-capital,"Q: What is the country-capital of Slovakia?
+A:",37603,2652,2586,The,"tensor([ 6.4922, -5.3203,  2.7793,  ..., -5.5078, -5.3750, -5.3320],
+       dtype=torch.float16)",380,12.1875,12.640625,4.67578125,False,False,False
+Slovenia,Ljubljana,country-capital,"Q: What is the country-capital of Slovenia?
+A:",43372,418,2586,The,"tensor([ 6.4961, -5.2891,  1.8799,  ..., -5.5938, -5.4492, -5.4375],
+       dtype=torch.float16)",380,13.1171875,13.0625,4.14453125,False,False,False
+Solomon Islands,Honiara,country-capital,"Q: What is the country-capital of Solomon Islands?
+A:",31049,10916,2586,The,"tensor([ 6.5859, -4.8086,  0.3003,  ..., -4.9141, -4.9375, -4.9805],
+       dtype=torch.float16)",380,12.0390625,11.7890625,3.99609375,False,False,False
+Somalia,Mogadishu,country-capital,"Q: What is the country-capital of Somalia?
+A:",46699,353,2586,The,"tensor([ 5.8438, -4.6523,  2.8984,  ..., -4.9219, -4.9141, -4.8711],
+       dtype=torch.float16)",380,12.6015625,11.96875,4.40625,False,False,False
+South Africa,Pretoria,country-capital,"Q: What is the country-capital of South Africa?
+A:",3684,24907,2586,The,"tensor([ 5.2227, -4.5703,  2.3398,  ..., -4.5469, -4.8203, -4.6523],
+       dtype=torch.float16)",380,12.140625,12.4140625,5.09375,False,False,False
+South Korea,Seoul,country-capital,"Q: What is the country-capital of South Korea?
+A:",3684,36546,2586,Seoul,"tensor([ 6.6250, -4.9453,  3.0137,  ..., -4.8594, -5.1055, -4.8828],
+       dtype=torch.float16)",36546,13.78125,15.46875,4.1953125,False,True,False
+South Sudan,Juba,country-capital,"Q: What is the country-capital of South Sudan?
+A:",3684,500,2586,The,"tensor([ 6.7578, -4.0742,  2.2070,  ..., -4.1914, -4.2383, -4.2500],
+       dtype=torch.float16)",380,12.9375,12.3046875,6.0703125,False,False,False
+Spain,Madrid,country-capital,"Q: What is the country-capital of Spain?
+A:",11268,21924,2586,Madrid,"tensor([ 6.4727, -5.0430,  2.8613,  ..., -5.1133, -5.0977, -5.1523],
+       dtype=torch.float16)",21924,13.2890625,14.203125,3.666015625,False,True,False
+Sri Lanka,Colombo,country-capital,"Q: What is the country-capital of Sri Lanka?
+A:",24206,2065,2586,The,"tensor([ 5.7461, -5.1680,  1.5928,  ..., -5.3672, -5.4023, -5.4883],
+       dtype=torch.float16)",380,12.6796875,12.328125,4.0625,False,False,False
+Sudan,Khartoum,country-capital,"Q: What is the country-capital of Sudan?
+A:",27325,15858,2586,The,"tensor([ 6.7969, -4.3164,  3.4766,  ..., -4.3398, -4.2852, -4.3008],
+       dtype=torch.float16)",380,12.6875,13.03125,4.9453125,False,False,False
+Suriname,Paramaribo,country-capital,"Q: What is the country-capital of Suriname?
+A:",6201,2956,2586,The,"tensor([ 5.7148, -4.8906,  1.2168,  ..., -5.0234, -4.8477, -4.6055],
+       dtype=torch.float16)",380,12.9921875,11.3046875,3.75390625,False,False,False
+Sweden,Stockholm,country-capital,"Q: What is the country-capital of Sweden?
+A:",16842,38476,2586,Stockholm,"tensor([ 6.5078, -5.0859,  3.3047,  ..., -5.1758, -5.1680, -5.0039],
+       dtype=torch.float16)",38476,12.0,13.8046875,4.2421875,False,True,False
+Switzerland,Bern,country-capital,"Q: What is the country-capital of Switzerland?
+A:",18908,10246,2586,Bern,"tensor([ 6.3086, -5.0586,  2.9473,  ..., -5.2617, -5.1094, -5.0625],
+       dtype=torch.float16)",10246,12.1015625,13.5703125,3.9921875,False,True,False
+Syria,Damascus,country-capital,"Q: What is the country-capital of Syria?
+A:",12728,47419,2586,Damascus,"tensor([ 6.6836, -4.7031,  3.3730,  ..., -4.4414, -4.4766, -4.5352],
+       dtype=torch.float16)",47419,12.625,13.9140625,4.40234375,False,True,False
+Taiwan,Taipei,country-capital,"Q: What is the country-capital of Taiwan?
+A:",17975,14616,2586,Tai,"tensor([ 7.5430, -5.1250,  2.0859,  ..., -5.0273, -5.0938, -5.0781],
+       dtype=torch.float16)",14616,13.6328125,13.796875,3.01171875,False,True,False
+Tajikistan,Dushanbe,country-capital,"Q: What is the country-capital of Tajikistan?
+A:",47858,399,2586,T,"tensor([ 7.5547, -5.1562,  3.1816,  ..., -5.2227, -4.9336, -4.9727],
+       dtype=torch.float16)",308,12.5,13.0859375,2.92578125,False,False,False
+Tanzania,Dodoma,country-capital,"Q: What is the country-capital of Tanzania?
+A:",45914,30354,2586,Dar,"tensor([ 5.9141, -4.8750,  1.8271,  ..., -4.9922, -4.7969, -4.8516],
+       dtype=torch.float16)",11128,12.828125,10.234375,4.10546875,False,False,False
+Thailand,Bangkok,country-capital,"Q: What is the country-capital of Thailand?
+A:",23174,48771,2586,Bangkok,"tensor([ 6.6484, -4.8828,  2.2793,  ..., -4.9531, -4.8867, -4.8633],
+       dtype=torch.float16)",48771,12.7578125,14.0703125,4.11328125,False,True,False
+Timor-Leste,Dili,country-capital,"Q: What is the country-capital of Timor-Leste?
+A:",8969,399,2586,The,"tensor([ 7.0469, -4.5820,  1.8379,  ..., -4.7070, -4.5078, -4.5156],
+       dtype=torch.float16)",380,12.53125,11.78125,3.392578125,False,False,False
+Togo,Lome,country-capital,"Q: What is the country-capital of Togo?
+A:",308,418,2586,T,"tensor([ 6.5820, -4.6875,  2.0078,  ..., -4.9102, -4.7266, -4.6367],
+       dtype=torch.float16)",308,14.9375,12.3671875,4.22265625,True,False,False
+Tonga,Nukuʻalofa,country-capital,"Q: What is the country-capital of Tonga?
+A:",37477,427,2586,Tong,"tensor([ 7.4023, -4.5000,  0.9961,  ..., -4.5312, -4.5625, -4.6641],
+       dtype=torch.float16)",37477,13.1484375,12.015625,2.818359375,True,False,False
+Trinidad and Tobago,Port of Spain,country-capital,"Q: What is the country-capital of Trinidad and Tobago?
+A:",49057,6162,2586,Trin,"tensor([ 5.6133, -4.7461,  1.5889,  ..., -5.0391, -4.9961, -5.0664],
+       dtype=torch.float16)",49057,13.9296875,11.4375,2.892578125,True,False,False
+Tunisia,Tunis,country-capital,"Q: What is the country-capital of Tunisia?
+A:",27664,27664,2586,Tun,"tensor([ 6.9375, -4.9492,  2.9199,  ..., -4.9062, -4.9297, -4.9141],
+       dtype=torch.float16)",27664,14.1328125,14.1328125,3.359375,True,True,False
+Turkey,Ankara,country-capital,"Q: What is the country-capital of Turkey?
+A:",14307,42847,2586,Istanbul,"tensor([ 6.6797, -5.0234,  3.6152,  ..., -4.9453, -5.0000, -4.8867],
+       dtype=torch.float16)",41460,12.59375,12.734375,3.953125,False,False,False
+Turkmenistan,Ashgabat,country-capital,"Q: What is the country-capital of Turkmenistan?
+A:",14901,12521,2586,Turk,"tensor([ 7.0156, -5.0977,  3.0449,  ..., -5.1133, -4.8320, -4.9453],
+       dtype=torch.float16)",14901,14.046875,11.0,3.6796875,True,False,False
+Tuvalu,Funafuti,country-capital,"Q: What is the country-capital of Tuvalu?
+A:",19223,15955,2586,Tu,"tensor([ 6.9375, -4.5820,  1.8018,  ..., -4.7070, -4.6523, -4.7578],
+       dtype=torch.float16)",19223,13.6640625,9.265625,2.162109375,True,False,False
+Uganda,Kampala,country-capital,"Q: What is the country-capital of Uganda?
+A:",35522,46882,2586,Kamp,"tensor([ 6.6406, -4.5117,  2.0664,  ..., -4.8594, -4.6641, -4.6797],
+       dtype=torch.float16)",46882,13.1875,13.2734375,4.48046875,False,True,False
+Ukraine,Kiev,country-capital,"Q: What is the country-capital of Ukraine?
+A:",17111,611,2586,Ky,"tensor([ 6.7773, -4.7461,  3.8438,  ..., -5.0352, -4.8516, -4.8516],
+       dtype=torch.float16)",18009,12.8671875,13.3359375,4.953125,False,False,False
+United Arab Emirates,Abu Dhabi,country-capital,"Q: What is the country-capital of United Arab Emirates?
+A:",1986,26957,2586,Dubai,"tensor([ 7.2031, -5.0312,  3.1523,  ..., -5.0000, -5.0000, -4.8750],
+       dtype=torch.float16)",34992,12.6171875,14.6875,3.95703125,False,False,False
+United Kingdom,London,country-capital,"Q: What is the country-capital of United Kingdom?
+A:",1986,4693,2586,London,"tensor([ 7.0781, -4.8320,  2.3652,  ..., -4.8945, -5.0000, -4.9375],
+       dtype=torch.float16)",4693,12.2578125,13.8125,4.8984375,False,True,False
+United States of America,"Washington, D.C.",country-capital,"Q: What is the country-capital of United States of America?
+A:",1986,5041,2586,Washington,"tensor([ 5.9805, -5.1797,  1.8584,  ..., -5.0664, -5.1172, -5.2148],
+       dtype=torch.float16)",5041,12.3046875,13.203125,5.15234375,False,True,False
+Uruguay,Montevideo,country-capital,"Q: What is the country-capital of Uruguay?
+A:",530,16448,2586,Monte,"tensor([ 6.5703, -4.4922,  2.1777,  ..., -4.7734, -4.7305, -4.5156],
+       dtype=torch.float16)",16448,13.4453125,14.4453125,4.01953125,False,True,False
+Uzbekistan,Tashkent,country-capital,"Q: What is the country-capital of Uzbekistan?
+A:",530,308,2586,T,"tensor([ 7.5039, -4.7031,  3.3652,  ..., -4.7031, -4.4258, -4.5898],
+       dtype=torch.float16)",308,13.5078125,14.5859375,3.5703125,False,True,False
+Vanuatu,Port Vila,country-capital,"Q: What is the country-capital of Vanuatu?
+A:",10049,6162,2586,The,"tensor([ 6.2656, -4.9375,  0.9243,  ..., -4.9609, -5.0547, -5.0547],
+       dtype=torch.float16)",380,12.203125,12.90625,3.484375,False,False,False
+Vatican City,Vatican City,country-capital,"Q: What is the country-capital of Vatican City?
+A:",33411,33411,2586,Vatican,"tensor([ 6.3047, -4.9375,  2.6738,  ..., -5.0781, -4.9727, -5.0273],
+       dtype=torch.float16)",33411,14.125,14.125,2.984375,True,True,False
+Venezuela,Caracas,country-capital,"Q: What is the country-capital of Venezuela?
+A:",27608,2639,2586,Car,"tensor([ 6.3945, -4.8047,  2.7441,  ..., -4.8086, -4.8125, -4.8594],
+       dtype=torch.float16)",2639,12.0390625,13.7578125,3.6640625,False,True,False
+Vietnam,Hanoi,country-capital,"Q: What is the country-capital of Vietnam?
+A:",15732,388,2586,Ho,"tensor([ 7.3359, -5.0039,  2.6836,  ..., -4.8320, -4.8516, -4.7266],
+       dtype=torch.float16)",11826,12.4140625,14.046875,4.3984375,False,False,False
+Yemen,Sana'a,country-capital,"Q: What is the country-capital of Yemen?
+A:",27412,322,2586,The,"tensor([ 6.3984, -4.8828,  2.5410,  ..., -4.8945, -4.8477, -4.9570],
+       dtype=torch.float16)",380,12.5,11.296875,4.57421875,False,False,False
+Zambia,Lusaka,country-capital,"Q: What is the country-capital of Zambia?
+A:",1503,418,2586,L,"tensor([ 5.4844, -4.3320,  0.6631,  ..., -4.3867, -4.3906, -4.4648],
+       dtype=torch.float16)",418,12.609375,13.5625,4.1875,False,True,False
+Zimbabwe,Harare,country-capital,"Q: What is the country-capital of Zimbabwe?
+A:",38581,3972,2586,The,"tensor([ 5.7539, -4.6328,  1.4863,  ..., -4.7969, -4.8398, -4.8164],
+       dtype=torch.float16)",380,12.46875,12.203125,4.625,False,False,False

@@ -1,0 +1,592 @@
+input,output,relation,prompt,input_id,output_id,relation_id,prediction,logits,prediction_id,input_logit,output_logit,relation_logit,input_prediction,output_prediction,relation_prediction
+Afghanistan,Kabul,repeition,"Q: What is the repeition of Afghanistan?
+A:",16111,611,3842,The,"tensor([ 5.6055, -4.5977,  3.1816,  ..., -4.3750, -4.3047, -4.6211],
+       dtype=torch.float16)",380,12.71875,9.3125,4.50390625,False,False,False
+Albania,Tirana,repeition,"Q: What is the repeition of Albania?
+A:",31208,48669,3842,The,"tensor([ 5.0391, -4.8945,  2.3848,  ..., -4.8164, -4.7500, -4.9648],
+       dtype=torch.float16)",380,11.5390625,6.41015625,5.703125,False,False,False
+Algeria,Algiers,repeition,"Q: What is the repeition of Algeria?
+A:",36364,1219,3842,The,"tensor([ 4.8281, -4.8984,  2.3887,  ..., -4.6406, -4.5820, -4.8086],
+       dtype=torch.float16)",380,12.3046875,9.7265625,4.8984375,False,False,False
+Andorra,Andorra la Vella,repeition,"Q: What is the repeition of Andorra?
+A:",1244,1244,3842,The,"tensor([ 5.4062, -4.7695,  2.3535,  ..., -4.7773, -4.7266, -4.7852],
+       dtype=torch.float16)",380,12.546875,12.546875,5.69921875,False,False,False
+Angola,Luanda,repeition,"Q: What is the repeition of Angola?
+A:",4965,7511,3842,Ang,"tensor([ 4.8125, -5.0469,  1.9297,  ..., -4.9727, -4.9414, -5.0703],
+       dtype=torch.float16)",4965,12.59375,5.67578125,4.53515625,True,False,False
+Antigua and Barbuda,St. John's,repeition,"Q: What is the repeition of Antigua and Barbuda?
+A:",9422,659,3842,The,"tensor([ 5.4766, -4.8359,  1.2764,  ..., -4.6992, -4.7461, -4.8984],
+       dtype=torch.float16)",380,13.046875,6.55859375,5.5,False,False,False
+Argentina,Buenos Aires,repeition,"Q: What is the repeition of Argentina?
+A:",23881,46287,3842,The,"tensor([ 4.8438, -4.9023,  2.0605,  ..., -4.8086, -4.8008, -4.8750],
+       dtype=torch.float16)",380,11.4609375,8.3046875,5.171875,False,False,False
+Armenia,Yerevan,repeition,"Q: What is the repeition of Armenia?
+A:",5360,714,3842,The,"tensor([ 4.9570, -4.9062,  2.7090,  ..., -4.7617, -4.7070, -4.8789],
+       dtype=torch.float16)",380,12.6015625,7.90625,5.421875,False,False,False
+Australia,Canberra,repeition,"Q: What is the repeition of Australia?
+A:",6976,2615,3842,Australia,"tensor([ 5.4961, -4.9297,  2.5508,  ..., -4.7188, -4.6680, -4.8789],
+       dtype=torch.float16)",6976,12.765625,7.43359375,6.63671875,True,False,False
+Austria,Vienna,repeition,"Q: What is the repeition of Austria?
+A:",21753,26229,3842,The,"tensor([ 4.6953, -4.9141,  2.4844,  ..., -4.7500, -4.6680, -4.7734],
+       dtype=torch.float16)",380,12.59375,8.921875,5.30859375,False,False,False
+Azerbaijan,Baku,repeition,"Q: What is the repeition of Azerbaijan?
+A:",46555,378,3842,The,"tensor([ 5.3320, -5.0859,  2.5117,  ..., -4.7500, -4.7461, -4.8984],
+       dtype=torch.float16)",380,12.328125,9.328125,5.41015625,False,False,False
+Bahamas,Nassau,repeition,"Q: What is the repeition of Bahamas?
+A:",21789,49905,3842,The,"tensor([ 4.6211, -5.3281,  1.6045,  ..., -5.1445, -5.1172, -5.3594],
+       dtype=torch.float16)",380,10.9921875,6.02734375,6.01171875,False,False,False
+Bahrain,Manama,repeition,"Q: What is the repeition of Bahrain?
+A:",21789,3083,3842,The,"tensor([ 4.8125, -4.9297,  1.8936,  ..., -4.6797, -4.7109, -4.9570],
+       dtype=torch.float16)",380,11.8359375,5.59375,5.890625,False,False,False
+Bangladesh,Dhaka,repeition,"Q: What is the repeition of Bangladesh?
+A:",29310,37287,3842,Bangladesh,"tensor([ 4.4531, -5.0469,  2.1426,  ..., -4.8555, -4.7383, -4.9531],
+       dtype=torch.float16)",29310,13.1015625,9.8671875,5.7734375,True,False,False
+Barbados,Bridgetown,repeition,"Q: What is the repeition of Barbados?
+A:",33782,2652,3842,The,"tensor([ 4.9297, -4.9609,  1.8037,  ..., -4.8711, -4.8086, -5.0664],
+       dtype=torch.float16)",380,11.859375,6.04296875,5.8359375,False,False,False
+Belarus,Minsk,repeition,"Q: What is the repeition of Belarus?
+A:",6512,353,3842,The,"tensor([ 5.0938, -5.0117,  2.0840,  ..., -4.9375, -4.8555, -5.0273],
+       dtype=torch.float16)",380,11.890625,8.3203125,5.484375,False,False,False
+Belgium,Brussels,repeition,"Q: What is the repeition of Belgium?
+A:",22785,30167,3842,Belgium,"tensor([ 4.4727, -5.0938,  2.1074,  ..., -5.1094, -4.9570, -5.1484],
+       dtype=torch.float16)",22785,12.3125,8.3515625,5.5859375,True,False,False
+Belize,Belmopan,repeition,"Q: What is the repeition of Belize?
+A:",6512,6512,3842,The,"tensor([ 4.8125, -4.9844,  2.1074,  ..., -4.9727, -4.8359, -5.0781],
+       dtype=torch.float16)",380,11.6640625,11.6640625,5.76171875,False,False,False
+Benin,Porto-Novo,repeition,"Q: What is the repeition of Benin?
+A:",6029,6162,3842,The,"tensor([ 4.3359, -5.3359,  1.4297,  ..., -5.2266, -5.1875, -5.3398],
+       dtype=torch.float16)",380,12.1015625,4.8203125,5.5,False,False,False
+Bhutan,Thimphu,repeition,"Q: What is the repeition of Bhutan?
+A:",26165,596,3842,Bh,"tensor([ 5.4453, -4.8789,  2.4180,  ..., -4.7969, -4.7227, -4.8828],
+       dtype=torch.float16)",26165,13.5546875,8.1875,4.98828125,True,False,False
+Bolivia,La Paz,repeition,"Q: What is the repeition of Bolivia?
+A:",16001,3905,3842,The,"tensor([ 4.6992, -5.0312,  2.2246,  ..., -4.9297, -4.8984, -4.9805],
+       dtype=torch.float16)",380,11.7890625,7.375,5.4609375,False,False,False
+Bosnia and Herzegovina,Sarajevo,repeition,"Q: What is the repeition of Bosnia and Herzegovina?
+A:",46795,9997,3842,The,"tensor([ 5.5078, -4.6094,  2.7773,  ..., -4.4141, -4.4180, -4.7266],
+       dtype=torch.float16)",380,12.296875,8.1171875,5.265625,False,False,False
+Botswana,Gaborone,repeition,"Q: What is the repeition of Botswana?
+A:",378,443,3842,B,"tensor([ 5.4453, -4.9922,  2.1973,  ..., -4.8711, -4.8320, -4.9688],
+       dtype=torch.float16)",378,13.2890625,8.671875,5.2109375,True,False,False
+Brazil,Brasilia,repeition,"Q: What is the repeition of Brazil?
+A:",10869,31574,3842,Brazil,"tensor([ 4.8281, -5.2422,  2.4121,  ..., -5.1328, -5.0547, -5.1211],
+       dtype=torch.float16)",10869,12.859375,7.921875,5.3046875,True,False,False
+Brunei,Bandar Seri Begawan,repeition,"Q: What is the repeition of Brunei?
+A:",2652,16804,3842,Br,"tensor([ 4.7734, -5.3320,  1.8672,  ..., -5.1289, -5.0859, -5.2383],
+       dtype=torch.float16)",2652,12.7109375,4.140625,5.96484375,True,False,False
+Bulgaria,Sofia,repeition,"Q: What is the repeition of Bulgaria?
+A:",43905,36104,3842,Bulgaria,"tensor([ 5.0742, -4.9492,  2.4336,  ..., -4.9062, -4.7578, -4.9180],
+       dtype=torch.float16)",43905,12.90625,7.6484375,5.30078125,True,False,False
+Burkina Faso,Ouagadougou,repeition,"Q: What is the repeition of Burkina Faso?
+A:",45262,473,3842,Burk,"tensor([ 4.8047, -4.8008,  1.5312,  ..., -4.6328, -4.6172, -4.7500],
+       dtype=torch.float16)",45262,13.1171875,8.3125,5.0703125,True,False,False
+Burundi,Bujumbura,repeition,"Q: What is the repeition of Burundi?
+A:",7634,378,3842,Bur,"tensor([ 4.6172, -4.5898,  1.8672,  ..., -4.4805, -4.4336, -4.6016],
+       dtype=torch.float16)",7634,13.2265625,9.1015625,5.875,True,False,False
+Cabo Verde,Praia,repeition,"Q: What is the repeition of Cabo Verde?
+A:",15569,28340,3842,The,"tensor([ 4.8555, -5.0273,  2.0039,  ..., -4.8750, -4.8203, -4.9922],
+       dtype=torch.float16)",380,12.6875,4.37890625,5.7578125,False,False,False
+Cambodia,Phnom Penh,repeition,"Q: What is the repeition of Cambodia?
+A:",41984,1777,3842,The,"tensor([ 4.7383, -4.9688,  1.6777,  ..., -4.8281, -4.7812, -4.9297],
+       dtype=torch.float16)",380,11.734375,8.4140625,4.92578125,False,False,False
+Cameroon,Yaounde,repeition,"Q: What is the repeition of Cameroon?
+A:",6039,36523,3842,The,"tensor([ 4.6133, -5.1523,  1.8408,  ..., -4.9883, -4.9375, -5.0820],
+       dtype=torch.float16)",380,12.1640625,5.421875,5.26953125,False,False,False
+Canada,Ottawa,repeition,"Q: What is the repeition of Canada?
+A:",6144,29539,3842,Canada,"tensor([ 5.4766, -4.8320,  2.4805,  ..., -4.7031, -4.5898, -4.8594],
+       dtype=torch.float16)",6144,12.6875,7.30078125,6.7421875,True,False,False
+Central African Republic,Bangui,repeition,"Q: What is the repeition of Central African Republic?
+A:",8170,378,3842,The,"tensor([ 5.3594, -4.7070,  1.5625,  ..., -4.4492, -4.3789, -4.6250],
+       dtype=torch.float16)",380,12.8984375,8.53125,4.140625,False,False,False
+Chad,N'Djamena,repeition,"Q: What is the repeition of Chad?
+A:",34884,427,3842,The,"tensor([ 4.4727, -4.9609,  1.2832,  ..., -4.7617, -4.6641, -4.8789],
+       dtype=torch.float16)",380,11.1328125,7.8671875,5.81640625,False,False,False
+Chile,Santiago,repeition,"Q: What is the repeition of Chile?
+A:",22755,38436,3842,The,"tensor([ 4.5977, -4.9805,  2.3691,  ..., -4.8984, -4.8008, -4.9258],
+       dtype=torch.float16)",380,12.0625,8.0703125,5.6875,False,False,False
+China,Beijing,repeition,"Q: What is the repeition of China?
+A:",4135,18496,3842,China,"tensor([ 4.9805, -5.4688,  2.2930,  ..., -5.1875, -5.1992, -5.2930],
+       dtype=torch.float16)",4135,12.5390625,8.3671875,5.078125,True,False,False
+Colombia,Bogotá,repeition,"Q: What is the repeition of Colombia?
+A:",31003,27737,3842,The,"tensor([ 4.3672, -4.9375,  1.7461,  ..., -4.9180, -4.8633, -5.0039],
+       dtype=torch.float16)",380,11.3359375,6.54296875,4.8046875,False,False,False
+Comoros,Moroni,repeition,"Q: What is the repeition of Comoros?
+A:",1176,4922,3842,The,"tensor([ 4.9766, -5.0703,  1.7666,  ..., -4.8477, -4.8945, -4.9961],
+       dtype=torch.float16)",380,11.6328125,6.14453125,6.47265625,False,False,False
+Congo,Kinshasa,repeition,"Q: What is the repeition of Congo?
+A:",37642,611,3842,The,"tensor([ 4.7539, -4.9922,  1.7793,  ..., -4.8945, -4.7852, -4.9844],
+       dtype=torch.float16)",380,11.2578125,7.9140625,4.88671875,False,False,False
+Costa Rica,San José,repeition,"Q: What is the repeition of Costa Rica?
+A:",26002,5003,3842,Costa,"tensor([ 5.1875, -5.0391,  2.1914,  ..., -5.0391, -4.9375, -5.0703],
+       dtype=torch.float16)",26002,12.3515625,7.10546875,5.0703125,True,False,False
+Cote d'Ivoire,Yamoussoukro,repeition,"Q: What is the repeition of Cote d'Ivoire?
+A:",330,714,3842,The,"tensor([ 4.5625, -4.8477,  1.3975,  ..., -4.6797, -4.6875, -4.8086],
+       dtype=torch.float16)",380,12.71875,5.984375,5.32421875,False,False,False
+Croatia,Zagreb,repeition,"Q: What is the repeition of Croatia?
+A:",42862,49524,3842,The,"tensor([ 5.1836, -5.0703,  2.6680,  ..., -4.9609, -4.8594, -5.0977],
+       dtype=torch.float16)",380,12.1484375,6.703125,5.84765625,False,False,False
+Cuba,Havana,repeition,"Q: What is the repeition of Cuba?
+A:",24605,32977,3842,The,"tensor([ 4.9141, -4.4766,  2.5078,  ..., -4.3906, -4.2930, -4.4453],
+       dtype=torch.float16)",380,12.609375,7.53125,5.2734375,False,False,False
+Cyprus,Nicosia,repeition,"Q: What is the repeition of Cyprus?
+A:",44637,12951,3842,The,"tensor([ 5.3047, -4.7344,  2.5078,  ..., -4.6562, -4.4961, -4.8789],
+       dtype=torch.float16)",380,12.90625,7.07421875,5.11328125,False,False,False
+Czech Republic,Prague,repeition,"Q: What is the repeition of Czech Republic?
+A:",21647,41577,3842,Czech,"tensor([ 4.8633, -5.4609,  2.2402,  ..., -5.3516, -5.2969, -5.3477],
+       dtype=torch.float16)",21647,12.0859375,8.3828125,5.5234375,True,False,False
+Democratic Republic of the Congo,Kinshasa,repeition,"Q: What is the repeition of Democratic Republic of the Congo?
+A:",9922,611,3842,Democratic,"tensor([ 5.4648, -4.5508,  1.4092,  ..., -4.3398, -4.2539, -4.4453],
+       dtype=torch.float16)",9922,13.890625,8.515625,4.0,True,False,False
+Denmark,Copenhagen,repeition,"Q: What is the repeition of Denmark?
+A:",22783,40892,3842,Denmark,"tensor([ 4.7773, -5.0547,  2.2871,  ..., -5.0703, -5.0234, -5.0430],
+       dtype=torch.float16)",22783,12.6875,8.3125,5.171875,True,False,False
+Djibouti,Djibouti City,repeition,"Q: What is the repeition of Djibouti?
+A:",43050,43050,3842,The,"tensor([ 5.0820, -4.8906,  1.3955,  ..., -4.6602, -4.6914, -4.8672],
+       dtype=torch.float16)",380,12.5546875,12.5546875,5.328125,False,False,False
+Dominica,Roseau,repeition,"Q: What is the repeition of Dominica?
+A:",19307,12447,3842,Domin,"tensor([ 5.0859, -5.0039,  1.6006,  ..., -4.9141, -4.8281, -5.0312],
+       dtype=torch.float16)",19307,13.1484375,4.2109375,5.68359375,True,False,False
+Dominican Republic,Santo Domingo,repeition,"Q: What is the repeition of Dominican Republic?
+A:",46406,322,3842,The,"tensor([ 4.8086, -5.1797,  1.4990,  ..., -5.1562, -5.0898, -5.1641],
+       dtype=torch.float16)",380,12.3984375,7.625,5.83984375,False,False,False
+Ecuador,Quito,repeition,"Q: What is the repeition of Ecuador?
+A:",40145,1165,3842,The,"tensor([ 4.9648, -4.7344,  1.9863,  ..., -4.6016, -4.4883, -4.6211],
+       dtype=torch.float16)",380,12.0390625,8.375,5.64453125,False,False,False
+Egypt,Cairo,repeition,"Q: What is the repeition of Egypt?
+A:",10253,37068,3842,The,"tensor([ 4.7344, -5.1367,  2.4980,  ..., -5.0195, -4.9531, -5.1758],
+       dtype=torch.float16)",380,11.4921875,6.390625,4.26953125,False,False,False
+El Salvador,San Salvador,repeition,"Q: What is the repeition of El Salvador?
+A:",3599,5003,3842,The,"tensor([ 4.5547, -4.9844,  1.3691,  ..., -4.8750, -4.8203, -4.9688],
+       dtype=torch.float16)",380,12.1953125,7.35546875,5.109375,False,False,False
+Equatorial Guinea,Malabo,repeition,"Q: What is the repeition of Equatorial Guinea?
+A:",8721,5979,3842,The,"tensor([ 5.4297, -4.9297,  1.8975,  ..., -4.7656, -4.5859, -4.7070],
+       dtype=torch.float16)",380,12.6796875,6.53515625,5.03515625,False,False,False
+Eritrea,Asmara,repeition,"Q: What is the repeition of Eritrea?
+A:",444,1284,3842,E,"tensor([ 5.0547, -4.6016,  2.3770,  ..., -4.4258, -4.3359, -4.5703],
+       dtype=torch.float16)",444,13.140625,9.5546875,5.84375,True,False,False
+Estonia,Tallinn,repeition,"Q: What is the repeition of Estonia?
+A:",39863,32826,3842,The,"tensor([ 5.6016, -5.1367,  2.3867,  ..., -5.0703, -5.0039, -5.1484],
+       dtype=torch.float16)",380,11.796875,5.3359375,5.6875,False,False,False
+Eswatini,Mbabane,repeition,"Q: What is the repeition of Eswatini?
+A:",444,353,3842,E,"tensor([ 4.9766, -4.8438,  1.9092,  ..., -4.6992, -4.6641, -4.8438],
+       dtype=torch.float16)",444,13.21875,7.94921875,6.265625,True,False,False
+Ethiopia,Addis Ababa,repeition,"Q: What is the repeition of Ethiopia?
+A:",35363,5733,3842,Ethiopia,"tensor([ 4.6133, -4.7305,  2.3730,  ..., -4.6328, -4.5508, -4.6406],
+       dtype=torch.float16)",35363,13.4921875,7.68359375,5.19140625,True,False,False
+Fiji,Suva,repeition,"Q: What is the repeition of Fiji?
+A:",401,4137,3842,The,"tensor([ 5.2578, -4.8867,  2.1895,  ..., -4.7578, -4.6953, -4.8633],
+       dtype=torch.float16)",380,12.6484375,5.71484375,5.5390625,False,False,False
+Finland,Helsinki,repeition,"Q: What is the repeition of Finland?
+A:",25270,34159,3842,The,"tensor([ 5.3359, -5.0703,  2.6055,  ..., -5.0977, -5.0078, -5.0547],
+       dtype=torch.float16)",380,12.4453125,8.4453125,5.40625,False,False,False
+France,Paris,repeition,"Q: What is the repeition of France?
+A:",6181,7785,3842,The,"tensor([ 4.6641, -5.1523,  2.5293,  ..., -5.1250, -5.0117, -5.2070],
+       dtype=torch.float16)",380,11.9140625,8.2734375,4.8203125,False,False,False
+Gabon,Libreville,repeition,"Q: What is the repeition of Gabon?
+A:",17422,9271,3842,Gab,"tensor([ 5.0430, -4.8867,  1.6221,  ..., -4.7266, -4.7500, -4.8125],
+       dtype=torch.float16)",17422,13.4921875,6.53125,5.05078125,True,False,False
+Gambia,Banjul,repeition,"Q: What is the repeition of Gambia?
+A:",41425,16456,3842,The,"tensor([ 4.7773, -5.0625,  1.9697,  ..., -4.9453, -4.8125, -5.0664],
+       dtype=torch.float16)",380,11.8515625,6.15234375,6.15625,False,False,False
+Georgia,Tbilisi,repeition,"Q: What is the repeition of Georgia?
+A:",12096,308,3842,The,"tensor([ 4.3438, -5.2617,  1.3057,  ..., -5.0938, -5.0195, -5.2539],
+       dtype=torch.float16)",380,11.8359375,7.84375,6.21484375,False,False,False
+Germany,Berlin,repeition,"Q: What is the repeition of Germany?
+A:",6176,12911,3842,The,"tensor([ 5.2500, -4.8359,  2.8555,  ..., -4.7266, -4.6797, -4.7852],
+       dtype=torch.float16)",380,12.53125,7.97265625,4.25390625,False,False,False
+Ghana,Accra,repeition,"Q: What is the repeition of Ghana?
+A:",34905,8874,3842,The,"tensor([ 4.8281, -4.8125,  2.6914,  ..., -4.7148, -4.5625, -4.7305],
+       dtype=torch.float16)",380,12.0234375,5.421875,5.72265625,False,False,False
+Greece,Athens,repeition,"Q: What is the repeition of Greece?
+A:",17785,27411,3842,The,"tensor([ 4.9023, -4.8867,  2.7559,  ..., -4.8789, -4.7734, -4.9688],
+       dtype=torch.float16)",380,11.9375,8.5546875,5.171875,False,False,False
+Grenada,St. George's,repeition,"Q: What is the repeition of Grenada?
+A:",34450,659,3842,Gren,"tensor([ 5.0820, -4.9531,  1.6602,  ..., -4.9688, -4.8555, -5.0820],
+       dtype=torch.float16)",34450,12.734375,6.859375,5.37890625,True,False,False
+Guatemala,Guatemala City,repeition,"Q: What is the repeition of Guatemala?
+A:",46560,46560,3842,The,"tensor([ 4.6992, -4.7109,  1.7812,  ..., -4.5820, -4.4414, -4.6641],
+       dtype=torch.float16)",380,12.7265625,12.7265625,5.26953125,False,False,False
+Guinea,Conakry,repeition,"Q: What is the repeition of Guinea?
+A:",34410,1716,3842,The,"tensor([ 5.0273, -4.5781,  1.5371,  ..., -4.5352, -4.3320, -4.5508],
+       dtype=torch.float16)",380,11.3125,7.30859375,5.08984375,False,False,False
+Guinea-Bissau,Bissau,repeition,"Q: What is the repeition of Guinea-Bissau?
+A:",34410,378,3842,The,"tensor([ 5.3516, -4.3320,  1.9258,  ..., -4.2734, -4.0586, -4.2969],
+       dtype=torch.float16)",380,12.1640625,10.6015625,4.71484375,False,False,False
+Guyana,Georgetown,repeition,"Q: What is the repeition of Guyana?
+A:",22757,3096,3842,The,"tensor([ 5.1367, -4.7930,  1.8643,  ..., -4.7422, -4.5703, -4.7617],
+       dtype=torch.float16)",380,12.015625,7.55859375,5.43359375,False,False,False
+Haiti,Port-au-Prince,repeition,"Q: What is the repeition of Haiti?
+A:",40906,6162,3842,The,"tensor([ 5.2109, -4.5195,  1.9785,  ..., -4.5039, -4.4102, -4.6211],
+       dtype=torch.float16)",380,12.5546875,6.1953125,5.45703125,False,False,False
+Honduras,Tegucigalpa,repeition,"Q: What is the repeition of Honduras?
+A:",44509,308,3842,The,"tensor([ 4.7617, -4.9219,  1.5664,  ..., -4.8086, -4.7227, -4.9297],
+       dtype=torch.float16)",380,11.6015625,8.3203125,5.10546875,False,False,False
+Hungary,Budapest,repeition,"Q: What is the repeition of Hungary?
+A:",29171,50086,3842,The,"tensor([ 4.5938, -4.8438,  2.2910,  ..., -4.7383, -4.6289, -4.7461],
+       dtype=torch.float16)",380,12.3671875,9.140625,5.0625,False,False,False
+Iceland,Reykjavik,repeition,"Q: What is the repeition of Iceland?
+A:",28651,1720,3842,Iceland,"tensor([ 5.2070, -4.9219,  2.3379,  ..., -4.8008, -4.7266, -4.8477],
+       dtype=torch.float16)",28651,13.171875,11.21875,4.5859375,True,False,False
+India,New Delhi,repeition,"Q: What is the repeition of India?
+A:",5427,1457,3842,India,"tensor([ 4.9375, -5.1250,  2.6797,  ..., -4.9453, -4.8398, -5.0742],
+       dtype=torch.float16)",5427,12.4765625,7.2421875,5.5703125,True,False,False
+Indonesia,Jakarta,repeition,"Q: What is the repeition of Indonesia?
+A:",23340,32319,3842,The,"tensor([ 4.8203, -5.0273,  2.3496,  ..., -4.8242, -4.8164, -4.9062],
+       dtype=torch.float16)",380,12.0234375,7.8203125,5.38671875,False,False,False
+Iran,Tehran,repeition,"Q: What is the repeition of Iran?
+A:",7751,35889,3842,The,"tensor([ 4.6367, -4.9023,  2.4629,  ..., -4.7344, -4.7422, -4.8633],
+       dtype=torch.float16)",380,12.6484375,9.2578125,5.421875,False,False,False
+Iraq,Baghdad,repeition,"Q: What is the repeition of Iraq?
+A:",9256,39759,3842,The,"tensor([ 5.2695, -4.3594,  2.8105,  ..., -4.1133, -4.0977, -4.4531],
+       dtype=torch.float16)",380,11.71875,6.48828125,4.98828125,False,False,False
+Ireland,Dublin,repeition,"Q: What is the repeition of Ireland?
+A:",11011,24523,3842,The,"tensor([ 5.1016, -4.8438,  2.4180,  ..., -4.7695, -4.6484, -4.9023],
+       dtype=torch.float16)",380,12.0234375,7.99609375,5.64453125,False,False,False
+Israel,Jerusalem,repeition,"Q: What is the repeition of Israel?
+A:",5143,17913,3842,The,"tensor([ 4.8438, -5.0586,  3.2559,  ..., -5.0156, -4.8945, -5.1289],
+       dtype=torch.float16)",380,11.9609375,7.70703125,4.19140625,False,False,False
+Italy,Rome,repeition,"Q: What is the repeition of Italy?
+A:",9972,12300,3842,Italy,"tensor([ 4.5859, -5.0430,  2.2500,  ..., -5.0195, -4.8594, -5.0898],
+       dtype=torch.float16)",9972,12.4765625,9.0390625,5.07421875,True,False,False
+Jamaica,Kingston,repeition,"Q: What is the repeition of Jamaica?
+A:",41198,47706,3842,The,"tensor([ 4.8789, -4.8984,  1.9385,  ..., -4.8047, -4.6758, -4.8945],
+       dtype=torch.float16)",380,11.9609375,6.9921875,6.28125,False,False,False
+Japan,Tokyo,repeition,"Q: What is the repeition of Japan?
+A:",4047,17413,3842,The,"tensor([ 4.7148, -5.3711,  1.9883,  ..., -5.1289, -5.1680, -5.2891],
+       dtype=torch.float16)",380,12.015625,8.6953125,5.1015625,False,False,False
+Jordan,Amman,repeition,"Q: What is the repeition of Jordan?
+A:",13268,3052,3842,The,"tensor([ 4.4297, -5.2344,  1.8086,  ..., -4.9727, -4.9570, -5.1562],
+       dtype=torch.float16)",380,11.5625,7.1015625,5.0234375,False,False,False
+Kazakhstan,Astana,repeition,"Q: What is the repeition of Kazakhstan?
+A:",46936,15123,3842,The,"tensor([ 5.4531, -5.0117,  2.0781,  ..., -4.7578, -4.5859, -4.8398],
+       dtype=torch.float16)",380,12.015625,6.7734375,5.58203125,False,False,False
+Kenya,Nairobi,repeition,"Q: What is the repeition of Kenya?
+A:",27946,427,3842,The,"tensor([ 4.5859, -4.7461,  2.4277,  ..., -4.5781, -4.4492, -4.7070],
+       dtype=torch.float16)",380,12.25,8.8125,6.69140625,False,False,False
+Kiribati,South Tarawa,repeition,"Q: What is the repeition of Kiribati?
+A:",20799,3684,3842,Kir,"tensor([ 5.3867, -5.0195,  1.6953,  ..., -4.7539, -4.6562, -5.0195],
+       dtype=torch.float16)",20799,13.75,7.1875,5.87109375,True,False,False
+Kosovo,Pristina,repeition,"Q: What is the repeition of Kosovo?
+A:",48863,367,3842,The,"tensor([ 5.3750, -4.2188,  2.9961,  ..., -4.1953, -4.0508, -4.4453],
+       dtype=torch.float16)",380,12.703125,9.0625,4.40625,False,False,False
+Kuwait,Kuwait City,repeition,"Q: What is the repeition of Kuwait?
+A:",46614,46614,3842,The,"tensor([ 4.7109, -4.9961,  2.2188,  ..., -4.6758, -4.5781, -4.9727],
+       dtype=torch.float16)",380,12.5546875,12.5546875,5.55859375,False,False,False
+Kyrgyzstan,Bishkek,repeition,"Q: What is the repeition of Kyrgyzstan?
+A:",611,378,3842,K,"tensor([ 5.8320, -4.9297,  2.4707,  ..., -4.7969, -4.6016, -4.8984],
+       dtype=torch.float16)",611,13.1015625,8.3359375,5.375,True,False,False
+Laos,Vientiane,repeition,"Q: What is the repeition of Laos?
+A:",3905,657,3842,The,"tensor([ 5.3867, -4.7812,  1.9590,  ..., -4.6211, -4.6289, -4.7461],
+       dtype=torch.float16)",380,12.953125,8.171875,4.70703125,False,False,False
+Latvia,Riga,repeition,"Q: What is the repeition of Latvia?
+A:",14310,416,3842,The,"tensor([ 5.1680, -5.1172,  2.5488,  ..., -4.9844, -4.9766, -5.0898],
+       dtype=torch.float16)",380,12.5859375,8.4921875,5.640625,False,False,False
+Lebanon,Beirut,repeition,"Q: What is the repeition of Lebanon?
+A:",28746,2325,3842,The,"tensor([ 4.5898, -4.9297,  2.3770,  ..., -4.6758, -4.6875, -4.9531],
+       dtype=torch.float16)",380,12.5859375,8.4453125,5.33203125,False,False,False
+Lesotho,Maseru,repeition,"Q: What is the repeition of Lesotho?
+A:",12029,353,3842,Les,"tensor([ 5.2734, -4.7070,  1.5352,  ..., -4.7031, -4.5430, -4.8711],
+       dtype=torch.float16)",12029,13.859375,8.0078125,5.7421875,True,False,False
+Liberia,Monrovia,repeition,"Q: What is the repeition of Liberia?
+A:",15562,4200,3842,The,"tensor([ 4.7422, -4.9414,  2.3418,  ..., -4.8594, -4.7227, -4.9570],
+       dtype=torch.float16)",380,12.25,6.73046875,5.69921875,False,False,False
+Libya,Tripoli,repeition,"Q: What is the repeition of Libya?
+A:",30174,11835,3842,The,"tensor([ 5.5156, -4.3672,  2.0996,  ..., -4.1641, -4.1211, -4.4375],
+       dtype=torch.float16)",380,12.796875,8.0625,4.5234375,False,False,False
+Liechtenstein,Vaduz,repeition,"Q: What is the repeition of Liechtenstein?
+A:",10615,657,3842,Lie,"tensor([ 5.5859, -4.7539,  2.6250,  ..., -4.7539, -4.6406, -4.7383],
+       dtype=torch.float16)",10615,12.984375,7.4453125,5.31640625,True,False,False
+Lithuania,Vilnius,repeition,"Q: What is the repeition of Lithuania?
+A:",40115,40936,3842,Lithuan,"tensor([ 5.0117, -5.1758,  2.5371,  ..., -5.0234, -4.9766, -5.2305],
+       dtype=torch.float16)",40115,12.4296875,8.875,5.3671875,True,False,False
+Luxembourg,Luxembourg City,repeition,"Q: What is the repeition of Luxembourg?
+A:",44133,44133,3842,The,"tensor([ 4.8789, -4.9922,  2.0801,  ..., -4.9375, -4.8477, -4.9531],
+       dtype=torch.float16)",380,12.4921875,12.4921875,5.8828125,False,False,False
+Madagascar,Antananarivo,repeition,"Q: What is the repeition of Madagascar?
+A:",6984,9422,3842,The,"tensor([ 5.2500, -5.1836,  1.5273,  ..., -5.0547, -5.0469, -5.1914],
+       dtype=torch.float16)",380,12.09375,6.4921875,4.5234375,False,False,False
+Malawi,Lilongwe,repeition,"Q: What is the repeition of Malawi?
+A:",5979,36482,3842,Mal,"tensor([ 4.7383, -5.0039,  1.7373,  ..., -4.9609, -4.9023, -5.0078],
+       dtype=torch.float16)",5979,13.515625,5.8203125,5.02734375,True,False,False
+Malaysia,Kuala Lumpur,repeition,"Q: What is the repeition of Malaysia?
+A:",23799,611,3842,Malaysia,"tensor([ 5.1836, -5.0039,  2.3008,  ..., -4.8555, -4.7188, -4.8984],
+       dtype=torch.float16)",23799,12.8359375,8.625,6.30859375,True,False,False
+Maldives,Malé,repeition,"Q: What is the repeition of Maldives?
+A:",5979,5979,3842,Mal,"tensor([ 4.7461, -5.1992,  1.6768,  ..., -5.0234, -5.0117, -5.1875],
+       dtype=torch.float16)",5979,12.9921875,12.9921875,5.69921875,True,True,False
+Mali,Bamako,repeition,"Q: What is the repeition of Mali?
+A:",5979,378,3842,Mal,"tensor([ 4.6602, -5.1016,  1.5098,  ..., -5.0234, -5.0312, -5.1797],
+       dtype=torch.float16)",5979,12.8125,7.94921875,4.7265625,True,False,False
+Malta,Valletta,repeition,"Q: What is the repeition of Malta?
+A:",47832,4009,3842,The,"tensor([ 4.6289, -5.0078,  1.4922,  ..., -4.9844, -4.8633, -5.1406],
+       dtype=torch.float16)",380,12.1484375,5.5546875,6.1875,False,False,False
+Marshall Islands,Majuro,repeition,"Q: What is the repeition of Marshall Islands?
+A:",19629,18410,3842,The,"tensor([ 5.2148, -5.1172,  1.2266,  ..., -4.9219, -4.9805, -5.0469],
+       dtype=torch.float16)",380,12.4921875,5.875,4.61328125,False,False,False
+Mauritania,Nouakchott,repeition,"Q: What is the repeition of Mauritania?
+A:",21664,427,3842,Maur,"tensor([ 4.6523, -5.1055,  1.4297,  ..., -4.8867, -4.8477, -5.0977],
+       dtype=torch.float16)",21664,12.859375,7.7734375,5.79296875,True,False,False
+Mauritius,Port Louis,repeition,"Q: What is the repeition of Mauritius?
+A:",21664,6162,3842,Maur,"tensor([ 5.0781, -5.1172,  1.3525,  ..., -4.9844, -4.8945, -5.1250],
+       dtype=torch.float16)",21664,12.96875,5.484375,6.28515625,True,False,False
+Mexico,Mexico City,repeition,"Q: What is the repeition of Mexico?
+A:",8987,8987,3842,The,"tensor([ 4.6328, -5.0430,  2.1211,  ..., -4.9688, -4.8789, -4.9961],
+       dtype=torch.float16)",380,12.1015625,12.1015625,5.83203125,False,False,False
+Micronesia,Palikir,repeition,"Q: What is the repeition of Micronesia?
+A:",10929,5226,3842,The,"tensor([ 5.4648, -5.1367,  1.5996,  ..., -4.8242, -4.7773, -5.1211],
+       dtype=torch.float16)",380,12.9140625,6.06640625,5.7734375,False,False,False
+Moldova,Chisinau,repeition,"Q: What is the repeition of Moldova?
+A:",49523,775,3842,The,"tensor([ 5.1445, -5.1055,  2.0938,  ..., -5.0508, -4.8906, -5.0898],
+       dtype=torch.float16)",380,11.0625,7.34375,5.57421875,False,False,False
+Monaco,Monaco-Ville,repeition,"Q: What is the repeition of Monaco?
+A:",4200,4200,3842,Mon,"tensor([ 4.9023, -5.3750,  1.8857,  ..., -5.3672, -5.3438, -5.4492],
+       dtype=torch.float16)",4200,12.4609375,12.4609375,4.984375,True,True,False
+Mongolia,Ulaanbaatar,repeition,"Q: What is the repeition of Mongolia?
+A:",31121,530,3842,Mong,"tensor([ 4.9180, -5.4141,  2.0566,  ..., -5.1406, -5.1484, -5.2461],
+       dtype=torch.float16)",31121,12.625,8.375,5.00390625,True,False,False
+Montenegro,Podgorica,repeition,"Q: What is the repeition of Montenegro?
+A:",7812,20361,3842,The,"tensor([ 4.6641, -5.2148,  2.2734,  ..., -5.1836, -5.0859, -5.3516],
+       dtype=torch.float16)",380,12.2421875,4.1171875,5.68359375,False,False,False
+Morocco,Rabat,repeition,"Q: What is the repeition of Morocco?
+A:",40983,21385,3842,Morocco,"tensor([ 4.6055, -5.0039,  2.2246,  ..., -4.7812, -4.6992, -4.8945],
+       dtype=torch.float16)",40983,12.8671875,5.95703125,6.078125,True,False,False
+Mozambique,Maputo,repeition,"Q: What is the repeition of Mozambique?
+A:",24872,12968,3842,Moz,"tensor([ 4.5703, -5.0195,  1.8525,  ..., -4.8281, -4.6797, -4.9219],
+       dtype=torch.float16)",24872,13.03125,5.71875,5.03515625,True,False,False
+Myanmar,Naypyidaw,repeition,"Q: What is the repeition of Myanmar?
+A:",43828,427,3842,The,"tensor([ 5.2578, -4.7734,  1.7305,  ..., -4.6016, -4.5625, -4.6484],
+       dtype=torch.float16)",380,12.8515625,8.390625,6.56640625,False,False,False
+Namibia,Windhoek,repeition,"Q: What is the repeition of Namibia?
+A:",20635,17054,3842,The,"tensor([ 5.1445, -5.0312,  2.2129,  ..., -4.8789, -4.8320, -4.9727],
+       dtype=torch.float16)",380,12.171875,4.6875,5.2109375,False,False,False
+Nauru,Yaren District,repeition,"Q: What is the repeition of Nauru?
+A:",427,714,3842,N,"tensor([ 5.5859, -4.4648,  1.9375,  ..., -4.3281, -4.2617, -4.4922],
+       dtype=torch.float16)",427,13.09375,6.6171875,5.92578125,True,False,False
+Nepal,Kathmandu,repeition,"Q: What is the repeition of Nepal?
+A:",35020,23843,3842,Nepal,"tensor([ 5.2852, -4.7930,  2.5156,  ..., -4.7227, -4.4805, -4.7812],
+       dtype=torch.float16)",35020,13.4140625,6.84765625,6.8046875,True,False,False
+Netherlands,Amsterdam,repeition,"Q: What is the repeition of Netherlands?
+A:",16333,26653,3842,The,"tensor([ 4.4336, -5.3398,  1.8926,  ..., -5.2734, -5.1719, -5.2969],
+       dtype=torch.float16)",380,11.8828125,7.99609375,6.3359375,False,False,False
+New Zealand,Wellington,repeition,"Q: What is the repeition of New Zealand?
+A:",1457,42337,3842,New,"tensor([ 5.3164, -4.9727,  2.0645,  ..., -4.8281, -4.6875, -4.9375],
+       dtype=torch.float16)",1457,12.8203125,7.12890625,6.4375,True,False,False
+Nicaragua,Managua,repeition,"Q: What is the repeition of Nicaragua?
+A:",12951,3083,3842,The,"tensor([ 4.6758, -4.8203,  2.0977,  ..., -4.7109, -4.5820, -4.7344],
+       dtype=torch.float16)",380,12.2109375,6.07421875,4.63671875,False,False,False
+Niger,Niamey,repeition,"Q: What is the repeition of Niger?
+A:",32345,15753,3842,The,"tensor([ 4.7969, -4.8320,  1.5225,  ..., -4.6445, -4.6094, -4.7266],
+       dtype=torch.float16)",380,12.0234375,7.90234375,5.51171875,False,False,False
+Nigeria,Abuja,repeition,"Q: What is the repeition of Nigeria?
+A:",23856,26957,3842,The,"tensor([ 4.7422, -4.7695,  2.6797,  ..., -4.5703, -4.4531, -4.6211],
+       dtype=torch.float16)",380,12.6875,6.80078125,6.33984375,False,False,False
+North Korea,Pyongyang,repeition,"Q: What is the repeition of North Korea?
+A:",3729,8462,3842,The,"tensor([ 5.8164, -4.9531,  2.5254,  ..., -4.6250, -4.8203, -4.8398],
+       dtype=torch.float16)",380,12.4765625,8.5703125,4.74609375,False,False,False
+North Macedonia,Skopje,repeition,"Q: What is the repeition of North Macedonia?
+A:",3729,8229,3842,The,"tensor([ 5.6914, -4.6367,  2.9102,  ..., -4.5234, -4.4609, -4.6211],
+       dtype=torch.float16)",380,11.7890625,6.57421875,5.640625,False,False,False
+Norway,Oslo,repeition,"Q: What is the repeition of Norway?
+A:",20341,43516,3842,Norway,"tensor([ 5.1602, -4.8906,  2.2832,  ..., -4.8008, -4.7812, -4.8516],
+       dtype=torch.float16)",20341,12.984375,8.921875,5.59375,True,False,False
+Oman,Muscat,repeition,"Q: What is the repeition of Oman?
+A:",473,4878,3842,The,"tensor([ 4.7969, -5.0938,  1.9795,  ..., -4.7852, -4.7461, -4.9648],
+       dtype=torch.float16)",380,12.9609375,5.53515625,5.875,False,False,False
+Pakistan,Islamabad,repeition,"Q: What is the repeition of Pakistan?
+A:",13115,8033,3842,Pakistan,"tensor([ 5.2539, -4.8242,  2.9453,  ..., -4.5938, -4.5000, -4.7734],
+       dtype=torch.float16)",13115,13.3203125,8.9453125,5.5390625,True,False,False
+Palau,Ngerulmud,repeition,"Q: What is the repeition of Palau?
+A:",5226,427,3842,Pal,"tensor([ 5.1875, -5.3516,  1.3799,  ..., -5.0938, -5.1523, -5.3008],
+       dtype=torch.float16)",5226,12.734375,7.53125,5.3671875,True,False,False
+Palestine,Ramallah,repeition,"Q: What is the repeition of Palestine?
+A:",29313,9752,3842,The,"tensor([ 4.9961, -4.4766,  3.3848,  ..., -4.2344, -4.1523, -4.5312],
+       dtype=torch.float16)",380,12.3046875,7.0703125,4.8671875,False,False,False
+Panama,Panama City,repeition,"Q: What is the repeition of Panama?
+A:",37783,37783,3842,The,"tensor([ 5.2617, -4.9102,  2.0840,  ..., -4.8086, -4.7500, -4.9961],
+       dtype=torch.float16)",380,12.796875,12.796875,5.09765625,False,False,False
+Papua New Guinea,Port Moresby,repeition,"Q: What is the repeition of Papua New Guinea?
+A:",17206,6162,3842,The,"tensor([ 5.3750, -4.8750,  1.7998,  ..., -4.7227, -4.6445, -4.8320],
+       dtype=torch.float16)",380,12.203125,6.71875,4.6875,False,False,False
+Paraguay,Asunción,repeition,"Q: What is the repeition of Paraguay?
+A:",2956,1284,3842,Par,"tensor([ 5.1250, -5.1562,  1.9893,  ..., -4.9414, -4.9883, -5.0156],
+       dtype=torch.float16)",2956,12.8671875,9.203125,5.2890625,True,False,False
+Peru,Lima,repeition,"Q: What is the repeition of Peru?
+A:",31805,418,3842,The,"tensor([ 4.9141, -5.0625,  1.8584,  ..., -4.8789, -4.8984, -4.9961],
+       dtype=torch.float16)",380,12.21875,8.40625,5.44921875,False,False,False
+Philippines,Manila,repeition,"Q: What is the repeition of Philippines?
+A:",22075,43949,3842,The,"tensor([ 4.5742, -5.1406,  1.5518,  ..., -4.8828, -4.8945, -5.0352],
+       dtype=torch.float16)",380,10.9296875,8.265625,5.97265625,False,False,False
+Poland,Warsaw,repeition,"Q: What is the repeition of Poland?
+A:",16795,40431,3842,The,"tensor([ 5.1953, -4.9531,  2.5488,  ..., -4.7930, -4.7227, -4.8672],
+       dtype=torch.float16)",380,12.4375,8.171875,5.48046875,False,False,False
+Portugal,Lisbon,repeition,"Q: What is the repeition of Portugal?
+A:",24084,48104,3842,The,"tensor([ 5.1172, -5.2344,  2.6172,  ..., -5.2188, -5.0195, -5.2383],
+       dtype=torch.float16)",380,11.9609375,8.953125,5.0546875,False,False,False
+Qatar,Doha,repeition,"Q: What is the repeition of Qatar?
+A:",38372,399,3842,Qatar,"tensor([ 5.5820, -4.8125,  2.3438,  ..., -4.5391, -4.5117, -4.7227],
+       dtype=torch.float16)",38372,13.1484375,9.359375,4.42578125,True,False,False
+Romania,Bucharest,repeition,"Q: What is the repeition of Romania?
+A:",34262,27907,3842,Romania,"tensor([ 5.3516, -4.8789,  2.5508,  ..., -4.8164, -4.6562, -4.8516],
+       dtype=torch.float16)",34262,12.8125,7.70703125,5.69140625,True,False,False
+Russia,Moscow,repeition,"Q: What is the repeition of Russia?
+A:",7422,16496,3842,The,"tensor([ 5.3516, -5.0508,  2.5293,  ..., -4.9102, -4.8633, -5.0078],
+       dtype=torch.float16)",380,12.328125,8.875,4.99609375,False,False,False
+Rwanda,Kigali,repeition,"Q: What is the repeition of Rwanda?
+A:",416,611,3842,R,"tensor([ 5.4570, -4.6367,  2.4590,  ..., -4.4844, -4.4219, -4.6094],
+       dtype=torch.float16)",416,12.9453125,8.75,4.44921875,True,False,False
+Saint Kitts and Nevis,Basseterre,repeition,"Q: What is the repeition of Saint Kitts and Nevis?
+A:",11877,28219,3842,The,"tensor([ 5.1250, -4.6719,  1.7227,  ..., -4.6875, -4.5156, -4.7500],
+       dtype=torch.float16)",380,12.7265625,2.41796875,5.7421875,False,False,False
+Saint Lucia,Castries,repeition,"Q: What is the repeition of Saint Lucia?
+A:",11877,9893,3842,Saint,"tensor([ 4.9258, -5.0430,  1.7607,  ..., -5.1406, -4.8984, -5.0508],
+       dtype=torch.float16)",11877,12.7578125,5.04296875,5.25390625,True,False,False
+Saint Vincent and the Grenadines,Kingstown,repeition,"Q: What is the repeition of Saint Vincent and the Grenadines?
+A:",11877,4377,3842,The,"tensor([ 4.9922, -4.8789,  1.1436,  ..., -4.9492, -4.7656, -4.8789],
+       dtype=torch.float16)",380,12.7109375,5.90625,4.890625,False,False,False
+Samoa,Apia,repeition,"Q: What is the repeition of Samoa?
+A:",5769,4276,3842,The,"tensor([ 5.2617, -5.2852,  1.6016,  ..., -5.1289, -5.0781, -5.3203],
+       dtype=torch.float16)",380,12.1328125,5.08203125,5.43359375,False,False,False
+San Marino,San Marino,repeition,"Q: What is the repeition of San Marino?
+A:",5003,5003,3842,The,"tensor([ 5.1367, -4.9375,  2.1562,  ..., -4.9688, -4.8281, -4.9609],
+       dtype=torch.float16)",380,12.7890625,12.7890625,5.203125,False,False,False
+Sao Tome and Principe,Sao Tome,repeition,"Q: What is the repeition of Sao Tome and Principe?
+A:",322,322,3842,The,"tensor([ 5.2617, -4.4961,  2.1484,  ..., -4.4570, -4.2969, -4.4805],
+       dtype=torch.float16)",380,12.9296875,12.9296875,5.0,False,False,False
+Saudi Arabia,Riyadh,repeition,"Q: What is the repeition of Saudi Arabia?
+A:",16158,416,3842,The,"tensor([ 5.0469, -5.0820,  2.4141,  ..., -4.8438, -4.8281, -5.0117],
+       dtype=torch.float16)",380,12.2578125,9.3515625,5.11328125,False,False,False
+Senegal,Dakar,repeition,"Q: What is the repeition of Senegal?
+A:",4673,20469,3842,The,"tensor([ 4.8906, -5.0938,  1.5400,  ..., -5.0039, -4.9727, -5.1094],
+       dtype=torch.float16)",380,12.1328125,7.5234375,5.46875,False,False,False
+Serbia,Belgrade,repeition,"Q: What is the repeition of Serbia?
+A:",37959,6512,3842,The,"tensor([ 4.9961, -4.6484,  2.7246,  ..., -4.5977, -4.5117, -4.6953],
+       dtype=torch.float16)",380,12.046875,8.3359375,4.66015625,False,False,False
+Seychelles,Victoria,repeition,"Q: What is the repeition of Seychelles?
+A:",49015,16225,3842,The,"tensor([ 5.1953, -4.9766,  1.1934,  ..., -4.8086, -4.7812, -4.8984],
+       dtype=torch.float16)",380,11.8359375,4.94921875,5.8046875,False,False,False
+Sierra Leone,Freetown,repeition,"Q: What is the repeition of Sierra Leone?
+A:",27434,401,3842,Sierra,"tensor([ 4.9609, -4.8047,  2.0371,  ..., -4.8203, -4.6992, -4.8477],
+       dtype=torch.float16)",27434,12.625,8.1171875,5.57421875,True,False,False
+Singapore,Singapore,repeition,"Q: What is the repeition of Singapore?
+A:",16861,16861,3842,The,"tensor([ 5.5703, -5.1484,  2.3887,  ..., -4.9570, -4.9258, -5.0508],
+       dtype=torch.float16)",380,12.1328125,12.1328125,5.00390625,False,False,False
+Slovakia,Bratislava,repeition,"Q: What is the repeition of Slovakia?
+A:",37603,2652,3842,Slov,"tensor([ 4.7617, -5.4258,  2.2363,  ..., -5.2266, -5.1680, -5.3281],
+       dtype=torch.float16)",37603,12.640625,7.5078125,5.93359375,True,False,False
+Slovenia,Ljubljana,repeition,"Q: What is the repeition of Slovenia?
+A:",43372,418,3842,Sloven,"tensor([ 5.0820, -5.3945,  2.4414,  ..., -5.2461, -5.1875, -5.4258],
+       dtype=torch.float16)",43372,12.6875,8.40625,6.10546875,True,False,False
+Solomon Islands,Honiara,repeition,"Q: What is the repeition of Solomon Islands?
+A:",31049,10916,3842,The,"tensor([ 5.3320, -5.0977,  1.5254,  ..., -4.9961, -4.9609, -5.1250],
+       dtype=torch.float16)",380,12.671875,5.4140625,5.09375,False,False,False
+Somalia,Mogadishu,repeition,"Q: What is the repeition of Somalia?
+A:",46699,353,3842,Somalia,"tensor([ 4.9180, -4.7109,  2.4297,  ..., -4.6406, -4.5234, -4.8164],
+       dtype=torch.float16)",46699,13.0234375,8.6328125,5.34765625,True,False,False
+South Africa,Pretoria,repeition,"Q: What is the repeition of South Africa?
+A:",3684,24907,3842,South,"tensor([ 5.1562, -4.9375,  2.5273,  ..., -4.7773, -4.8086, -4.9219],
+       dtype=torch.float16)",3684,12.4296875,4.96484375,5.55859375,True,False,False
+South Korea,Seoul,repeition,"Q: What is the repeition of South Korea?
+A:",3684,36546,3842,The,"tensor([ 4.9648, -5.5742,  2.0820,  ..., -5.2109, -5.4297, -5.4492],
+       dtype=torch.float16)",380,11.71875,8.78125,5.34765625,False,False,False
+South Sudan,Juba,repeition,"Q: What is the repeition of South Sudan?
+A:",3684,500,3842,South,"tensor([ 5.4023, -4.7109,  2.8262,  ..., -4.4570, -4.5156, -4.7734],
+       dtype=torch.float16)",3684,13.640625,8.28125,6.453125,True,False,False
+Spain,Madrid,repeition,"Q: What is the repeition of Spain?
+A:",11268,21924,3842,The,"tensor([ 4.8359, -5.0547,  2.6738,  ..., -5.0625, -4.9180, -5.0703],
+       dtype=torch.float16)",380,12.015625,7.7421875,4.98046875,False,False,False
+Sri Lanka,Colombo,repeition,"Q: What is the repeition of Sri Lanka?
+A:",24206,2065,3842,The,"tensor([ 5.1953, -5.0625,  1.9482,  ..., -4.9453, -4.9062, -5.1289],
+       dtype=torch.float16)",380,12.734375,6.6796875,5.62109375,False,False,False
+Sudan,Khartoum,repeition,"Q: What is the repeition of Sudan?
+A:",27325,15858,3842,The,"tensor([ 4.7266, -4.6602,  2.1270,  ..., -4.4961, -4.4336, -4.6328],
+       dtype=torch.float16)",380,12.7109375,8.640625,6.12109375,False,False,False
+Suriname,Paramaribo,repeition,"Q: What is the repeition of Suriname?
+A:",6201,2956,3842,The,"tensor([ 5.0391, -5.0078,  2.0547,  ..., -4.9531, -4.8789, -4.9531],
+       dtype=torch.float16)",380,12.2578125,7.50390625,5.48828125,False,False,False
+Sweden,Stockholm,repeition,"Q: What is the repeition of Sweden?
+A:",16842,38476,3842,The,"tensor([ 4.8047, -5.2969,  2.2988,  ..., -5.2617, -5.1797, -5.2344],
+       dtype=torch.float16)",380,11.328125,8.28125,5.37890625,False,False,False
+Switzerland,Bern,repeition,"Q: What is the repeition of Switzerland?
+A:",18908,10246,3842,The,"tensor([ 5.0195, -4.9844,  2.2070,  ..., -4.9883, -4.8477, -4.9688],
+       dtype=torch.float16)",380,12.5625,7.02734375,5.3828125,False,False,False
+Syria,Damascus,repeition,"Q: What is the repeition of Syria?
+A:",12728,47419,3842,The,"tensor([ 5.0195, -4.6836,  2.5195,  ..., -4.4258, -4.4688, -4.6562],
+       dtype=torch.float16)",380,12.5625,8.140625,5.40625,False,False,False
+Taiwan,Taipei,repeition,"Q: What is the repeition of Taiwan?
+A:",17975,14616,3842,Taiwan,"tensor([ 5.7148, -4.9062,  2.3828,  ..., -4.6172, -4.6953, -4.8633],
+       dtype=torch.float16)",17975,13.2734375,9.265625,5.765625,True,False,False
+Tajikistan,Dushanbe,repeition,"Q: What is the repeition of Tajikistan?
+A:",47858,399,3842,Taj,"tensor([ 5.6953, -5.1602,  2.2539,  ..., -4.9297, -4.7695, -5.0664],
+       dtype=torch.float16)",47858,13.8984375,8.46875,5.21875,True,False,False
+Tanzania,Dodoma,repeition,"Q: What is the repeition of Tanzania?
+A:",45914,30354,3842,The,"tensor([ 4.6680, -4.8320,  2.0332,  ..., -4.7031, -4.5547, -4.7500],
+       dtype=torch.float16)",380,12.53125,3.369140625,5.9375,False,False,False
+Thailand,Bangkok,repeition,"Q: What is the repeition of Thailand?
+A:",23174,48771,3842,The,"tensor([ 4.5664, -5.2227,  1.9043,  ..., -5.1094, -5.0508, -5.1719],
+       dtype=torch.float16)",380,11.6953125,8.71875,5.83203125,False,False,False
+Timor-Leste,Dili,repeition,"Q: What is the repeition of Timor-Leste?
+A:",8969,399,3842,The,"tensor([ 5.6953, -4.6641,  1.9980,  ..., -4.5195, -4.4180, -4.6016],
+       dtype=torch.float16)",380,13.046875,8.0,5.70703125,False,False,False
+Togo,Lome,repeition,"Q: What is the repeition of Togo?
+A:",308,418,3842,The,"tensor([ 4.5039, -5.2344,  1.6504,  ..., -5.0664, -5.0430, -5.1211],
+       dtype=torch.float16)",380,12.359375,7.81640625,5.1796875,False,False,False
+Tonga,Nukuʻalofa,repeition,"Q: What is the repeition of Tonga?
+A:",37477,427,3842,The,"tensor([ 4.7188, -5.3750,  1.6260,  ..., -5.1875, -5.1836, -5.3516],
+       dtype=torch.float16)",380,11.6328125,7.5390625,5.34765625,False,False,False
+Trinidad and Tobago,Port of Spain,repeition,"Q: What is the repeition of Trinidad and Tobago?
+A:",49057,6162,3842,The,"tensor([ 5.1250, -4.8008,  1.9365,  ..., -4.6719, -4.6719, -4.8867],
+       dtype=torch.float16)",380,12.71875,6.09765625,5.046875,False,False,False
+Tunisia,Tunis,repeition,"Q: What is the repeition of Tunisia?
+A:",27664,27664,3842,The,"tensor([ 5.6367, -5.0352,  2.6680,  ..., -4.7109, -4.7539, -4.9141],
+       dtype=torch.float16)",380,12.1015625,12.1015625,5.15234375,False,False,False
+Turkey,Ankara,repeition,"Q: What is the repeition of Turkey?
+A:",14307,42847,3842,The,"tensor([ 4.8633, -4.8516,  2.4121,  ..., -4.6602, -4.6172, -4.7891],
+       dtype=torch.float16)",380,12.5625,7.51953125,5.19921875,False,False,False
+Turkmenistan,Ashgabat,repeition,"Q: What is the repeition of Turkmenistan?
+A:",14901,12521,3842,Turk,"tensor([ 5.5117, -5.1016,  1.9883,  ..., -4.8672, -4.7500, -5.0312],
+       dtype=torch.float16)",14901,12.6953125,4.984375,5.20703125,True,False,False
+Tuvalu,Funafuti,repeition,"Q: What is the repeition of Tuvalu?
+A:",19223,15955,3842,The,"tensor([ 5.7227, -4.8203,  2.2578,  ..., -4.7148, -4.5469, -4.7383],
+       dtype=torch.float16)",380,13.171875,4.76171875,5.265625,False,False,False
+Uganda,Kampala,repeition,"Q: What is the repeition of Uganda?
+A:",35522,46882,3842,The,"tensor([ 4.6055, -4.6875,  2.2383,  ..., -4.6250, -4.4609, -4.6602],
+       dtype=torch.float16)",380,12.5078125,7.390625,5.84765625,False,False,False
+Ukraine,Kiev,repeition,"Q: What is the repeition of Ukraine?
+A:",17111,611,3842,The,"tensor([ 5.0938, -4.9219,  2.3555,  ..., -4.7539, -4.6992, -4.9023],
+       dtype=torch.float16)",380,11.9375,8.6953125,5.94140625,False,False,False
+United Arab Emirates,Abu Dhabi,repeition,"Q: What is the repeition of United Arab Emirates?
+A:",1986,26957,3842,United,"tensor([ 5.6250, -5.2031,  1.4502,  ..., -4.8750, -4.8984, -5.0703],
+       dtype=torch.float16)",1986,12.953125,9.40625,5.73046875,True,False,False
+United Kingdom,London,repeition,"Q: What is the repeition of United Kingdom?
+A:",1986,4693,3842,The,"tensor([ 5.4766, -5.0039,  2.0801,  ..., -4.8359, -4.7188, -5.0508],
+       dtype=torch.float16)",380,12.3125,7.73828125,6.5625,False,False,False
+United States of America,"Washington, D.C.",repeition,"Q: What is the repeition of United States of America?
+A:",1986,5041,3842,The,"tensor([ 5.2773, -4.7891,  2.3652,  ..., -4.5156, -4.4688, -4.7305],
+       dtype=torch.float16)",380,11.8828125,7.5234375,6.36328125,False,False,False
+Uruguay,Montevideo,repeition,"Q: What is the repeition of Uruguay?
+A:",530,16448,3842,The,"tensor([ 4.9492, -4.9492,  2.0137,  ..., -4.8750, -4.8008, -4.8750],
+       dtype=torch.float16)",380,12.1640625,6.59765625,5.76171875,False,False,False
+Uzbekistan,Tashkent,repeition,"Q: What is the repeition of Uzbekistan?
+A:",530,308,3842,The,"tensor([ 5.3047, -4.9258,  2.3125,  ..., -4.7539, -4.6445, -4.8633],
+       dtype=torch.float16)",380,12.328125,9.0625,5.21484375,False,False,False
+Vanuatu,Port Vila,repeition,"Q: What is the repeition of Vanuatu?
+A:",10049,6162,3842,The,"tensor([ 5.4688, -5.2500,  1.6846,  ..., -5.0977, -4.9844, -5.1680],
+       dtype=torch.float16)",380,12.890625,5.7265625,5.87109375,False,False,False
+Vatican City,Vatican City,repeition,"Q: What is the repeition of Vatican City?
+A:",33411,33411,3842,The,"tensor([ 6.3359, -4.5391,  2.6348,  ..., -4.5742, -4.3906, -4.4961],
+       dtype=torch.float16)",380,12.84375,12.84375,4.44140625,False,False,False
+Venezuela,Caracas,repeition,"Q: What is the repeition of Venezuela?
+A:",27608,2639,3842,The,"tensor([ 4.8867, -4.7930,  2.2168,  ..., -4.5742, -4.4961, -4.6289],
+       dtype=torch.float16)",380,12.5703125,7.921875,5.08203125,False,False,False
+Vietnam,Hanoi,repeition,"Q: What is the repeition of Vietnam?
+A:",15732,388,3842,The,"tensor([ 5.9023, -4.7344,  2.2031,  ..., -4.5234, -4.5430, -4.6055],
+       dtype=torch.float16)",380,11.65625,8.453125,4.0078125,False,False,False
+Yemen,Sana'a,repeition,"Q: What is the repeition of Yemen?
+A:",27412,322,3842,The,"tensor([ 4.8242, -4.7695,  2.2227,  ..., -4.4727, -4.4727, -4.7305],
+       dtype=torch.float16)",380,12.09375,8.3671875,5.984375,False,False,False
+Zambia,Lusaka,repeition,"Q: What is the repeition of Zambia?
+A:",1503,418,3842,Z,"tensor([ 5.0156, -4.8438,  1.7109,  ..., -4.7031, -4.5938, -4.7539],
+       dtype=torch.float16)",1503,13.0,7.92578125,5.296875,True,False,False
+Zimbabwe,Harare,repeition,"Q: What is the repeition of Zimbabwe?
+A:",38581,3972,3842,The,"tensor([ 4.6875, -4.5977,  2.2324,  ..., -4.5234, -4.3906, -4.5742],
+       dtype=torch.float16)",380,12.265625,6.640625,5.7109375,False,False,False
