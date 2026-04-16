@@ -1,0 +1,12 @@
+model,dataset,prompt,num_layers,target_layer,baseline_input_prediction,input_prediction,baseline_output_prediction,output_prediction,baseline_relation_prediction,relation_prediction
+EleutherAI_pythia-2.8b,antonym,prompt_f4027ccf,32.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0
+EleutherAI_pythia-2.8b,country-capital,prompt_f4027ccf,,,,,,,,
+EleutherAI_pythia-6.9b,antonym,prompt_f4027ccf,32.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0
+EleutherAI_pythia-6.9b,country-capital,prompt_f4027ccf,32.0,10.0,8.0,12.0,4.0,4.0,0.0,0.0
+meta-llama_Llama-3.1-8B,antonym,prompt_1e1ef3fe,32.0,10.0,84.0,0.0,12.0,0.0,0.0,0.0
+meta-llama_Llama-3.1-8B,antonym,prompt_f4027ccf,32.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0
+meta-llama_Llama-3.1-8B,country-capital,prompt_f4027ccf,32.0,10.0,24.0,4.0,0.0,96.0,0.0,0.0
+meta-llama_Llama-3.2-3B,antonym,prompt_1e1ef3fe,28.0,9.0,76.0,4.0,16.0,72.0,0.0,0.0
+meta-llama_Llama-3.2-3B,antonym,prompt_f4027ccf,28.0,9.0,0.0,4.0,0.0,0.0,0.0,0.0
+meta-llama_Llama-3.2-3B,country-capital,prompt_1e1ef3fe,,,,,,,,
+meta-llama_Llama-3.2-3B,country-capital,prompt_f4027ccf,28.0,9.0,8.0,12.0,0.0,92.0,0.0,0.0
