@@ -1,6 +1,8 @@
 model,dataset,prompt,num_layers,target_layer,baseline_input_prediction,input_prediction,baseline_output_prediction,output_prediction,baseline_relation_prediction,relation_prediction
+EleutherAI_pythia-2.8b,antonym,prompt_1e1ef3fe,32.0,10.0,80.0,80.0,0.0,0.0,0.0,0.0
 EleutherAI_pythia-2.8b,antonym,prompt_f4027ccf,32.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0
 EleutherAI_pythia-2.8b,country-capital,prompt_f4027ccf,,,,,,,,
+EleutherAI_pythia-6.9b,antonym,prompt_1e1ef3fe,32.0,10.0,60.0,64.0,0.0,0.0,0.0,0.0
 EleutherAI_pythia-6.9b,antonym,prompt_f4027ccf,32.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0
 EleutherAI_pythia-6.9b,country-capital,prompt_f4027ccf,32.0,10.0,32.0,44.0,0.0,0.0,0.0,0.0
 meta-llama_Llama-3.1-8B,antonym,prompt_1e1ef3fe,32.0,10.0,96.0,0.0,0.0,0.0,0.0,0.0
