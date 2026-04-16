@@ -290,6 +290,7 @@ def evaluate_relations(
 def summarize_layer_metrics(
     intervention_results_df: pd.DataFrame,
     metrics: List[str] = ("input_prediction", "output_prediction", "relation_prediction"),
+    save_path: Optional[Path] = None,
 ) -> pd.DataFrame:
     """
     Computes mean accuracy (%) per intervention layer, preserving the
@@ -299,6 +300,7 @@ def summarize_layer_metrics(
         intervention_results_df: DataFrame with an 'intervention_layer' column
             and boolean prediction columns.
         metrics: Columns to aggregate.
+        save_path: If provided, saves the resulting DataFrame to this path.
     Returns:
         DataFrame indexed by intervention_layer with mean accuracy in percent.
     """
@@ -310,7 +312,12 @@ def summarize_layer_metrics(
 
     numeric_layers = sorted(l for l in layer_metrics.index if l is not None and not pd.isna(l))
     ordered_index = [None] + numeric_layers
-    return layer_metrics.reindex(ordered_index)
+    layer_metrics = layer_metrics.reindex(ordered_index)
+
+    if save_path is not None:
+        save_file(layer_metrics.reset_index(), save_path)
+
+    return layer_metrics
 
 
 def run_evaluation(
