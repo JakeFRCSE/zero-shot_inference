@@ -1,0 +1,2476 @@
+input,output,relation,prompt,intervention_layer,input_id,output_id,relation_id,prediction_id,input_logit,output_logit,relation_logit,prediction_logit,input_prediction,output_prediction,relation_prediction
+true,false,none,"Relation: none
+Input: true
+Output:",,837,905,3276,837,12.5390625,12.15625,1.8974609375,12.5390625,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",0.0,837,905,3276,96966,1.8525390625,1.9638671875,-1.994140625,8.390625,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",1.0,837,905,3276,92550,2.611328125,1.96875,-2.1640625,8.75,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",2.0,837,905,3276,13,2.349609375,2.337890625,-1.994140625,8.40625,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",3.0,837,905,3276,13,1.6044921875,2.408203125,1.1826171875,8.9921875,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",4.0,837,905,3276,342,0.0926513671875,2.40234375,2.705078125,8.953125,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",5.0,837,905,3276,650,1.171875,0.51318359375,3.822265625,11.1875,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",6.0,837,905,3276,3717,3.0390625,2.037109375,6.08203125,12.2578125,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",7.0,837,905,3276,3717,5.625,4.43359375,7.140625,11.9453125,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",8.0,837,905,3276,271,5.91015625,4.13671875,6.09375,11.4609375,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",9.0,837,905,3276,271,3.443359375,2.19921875,3.505859375,11.8046875,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",10.0,837,905,3276,482,3.8359375,2.587890625,3.6015625,12.0,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",11.0,837,905,3276,482,6.375,4.875,4.73046875,12.59375,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",12.0,837,905,3276,482,8.0390625,7.1171875,3.99609375,10.6328125,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",13.0,837,905,3276,128001,11.828125,11.28125,4.14453125,13.5390625,False,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",14.0,837,905,3276,837,13.9453125,13.21875,4.5,13.9453125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",15.0,837,905,3276,905,13.7890625,13.859375,5.38671875,13.859375,False,True,False
+true,false,none,"Relation: none
+Input: true
+Output:",16.0,837,905,3276,837,13.2890625,13.203125,4.43359375,13.2890625,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",17.0,837,905,3276,837,13.8203125,13.2109375,4.27734375,13.8203125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",18.0,837,905,3276,837,14.703125,14.28125,4.01171875,14.703125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",19.0,837,905,3276,837,14.7109375,14.3359375,4.46875,14.7109375,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",20.0,837,905,3276,837,14.8515625,14.40625,5.25,14.8515625,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",21.0,837,905,3276,837,14.4140625,14.03125,4.1015625,14.4140625,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",22.0,837,905,3276,837,14.3828125,13.8125,4.078125,14.3828125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",23.0,837,905,3276,837,14.3515625,13.8203125,3.375,14.3515625,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",24.0,837,905,3276,837,13.9453125,13.421875,3.130859375,13.9453125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",25.0,837,905,3276,837,14.109375,13.5703125,3.42578125,14.109375,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",26.0,837,905,3276,837,13.828125,13.34375,3.771484375,13.828125,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",27.0,837,905,3276,837,13.671875,13.1875,3.736328125,13.671875,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",28.0,837,905,3276,837,13.671875,13.0546875,3.572265625,13.671875,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",29.0,837,905,3276,837,12.6796875,12.0859375,1.7578125,12.6796875,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",30.0,837,905,3276,837,14.3359375,13.59375,2.873046875,14.3359375,True,False,False
+true,false,none,"Relation: none
+Input: true
+Output:",31.0,837,905,3276,220,13.2734375,12.5625,3.517578125,14.953125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",,2764,8482,3276,2764,11.6796875,11.3125,1.400390625,11.6796875,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",0.0,2764,8482,3276,96966,-0.358154296875,-0.51025390625,-1.9990234375,8.40625,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",1.0,2764,8482,3276,92550,-0.420654296875,0.55029296875,-2.123046875,8.734375,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",2.0,2764,8482,3276,13,1.0517578125,0.55859375,-2.03125,8.4921875,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",3.0,2764,8482,3276,13,0.50634765625,0.290283203125,1.1025390625,8.8828125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",4.0,2764,8482,3276,342,0.311767578125,0.307373046875,2.556640625,8.9453125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",5.0,2764,8482,3276,650,-0.5078125,0.9228515625,3.9140625,11.15625,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",6.0,2764,8482,3276,3717,1.412109375,2.5390625,5.7578125,12.15625,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",7.0,2764,8482,3276,3717,3.619140625,3.9296875,6.45703125,11.8671875,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",8.0,2764,8482,3276,917,3.8515625,2.513671875,5.03515625,10.8125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",9.0,2764,8482,3276,2213,2.544921875,1.1884765625,3.326171875,11.5625,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",10.0,2764,8482,3276,482,3.7578125,1.9599609375,3.240234375,12.28125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",11.0,2764,8482,3276,482,6.99609375,5.78125,4.39453125,12.3359375,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",12.0,2764,8482,3276,482,8.3984375,7.70703125,3.623046875,10.5078125,False,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",13.0,2764,8482,3276,2764,14.4921875,12.1953125,4.3671875,14.4921875,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",14.0,2764,8482,3276,2764,15.390625,14.34375,4.03125,15.390625,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",15.0,2764,8482,3276,2764,14.6875,13.765625,4.9609375,14.6875,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",16.0,2764,8482,3276,2764,13.3125,12.7734375,3.328125,13.3125,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",17.0,2764,8482,3276,2764,12.8359375,11.78125,3.017578125,12.8359375,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",18.0,2764,8482,3276,2764,13.2734375,12.5546875,2.794921875,13.2734375,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",19.0,2764,8482,3276,2764,13.109375,12.2890625,2.603515625,13.109375,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",20.0,2764,8482,3276,2764,13.2578125,12.140625,2.96875,13.2578125,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",21.0,2764,8482,3276,2764,13.15625,12.359375,2.54296875,13.15625,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",22.0,2764,8482,3276,2764,13.046875,12.2109375,2.5859375,13.046875,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",23.0,2764,8482,3276,2764,13.21875,12.375,2.17578125,13.21875,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",24.0,2764,8482,3276,2764,12.859375,12.2578125,2.078125,12.859375,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",25.0,2764,8482,3276,2764,12.65625,12.1640625,2.3046875,12.65625,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",26.0,2764,8482,3276,2764,12.515625,12.0546875,2.693359375,12.515625,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",27.0,2764,8482,3276,2764,12.34375,11.7890625,2.603515625,12.34375,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",28.0,2764,8482,3276,2764,12.3203125,11.765625,2.572265625,12.3203125,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",29.0,2764,8482,3276,2764,11.8203125,11.0625,1.265625,11.8203125,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",30.0,2764,8482,3276,2764,12.4453125,11.4921875,2.08203125,12.4453125,True,False,False
+valid,invalid,none,"Relation: none
+Input: valid
+Output:",31.0,2764,8482,3276,220,11.75,10.953125,3.037109375,13.84375,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",,15325,23356,3276,15325,10.6796875,6.21875,2.951171875,10.6796875,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",0.0,15325,23356,3276,96966,1.453125,-1.177734375,-2.013671875,8.3828125,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",1.0,15325,23356,3276,92550,1.9326171875,-0.67919921875,-2.158203125,8.75,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",2.0,15325,23356,3276,13,2.751953125,-0.84033203125,-2.046875,8.5234375,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",3.0,15325,23356,3276,13,2.044921875,-1.1806640625,1.109375,9.2578125,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",4.0,15325,23356,3276,342,-0.2939453125,-2.130859375,2.650390625,9.2109375,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",5.0,15325,23356,3276,650,3.2734375,0.1448974609375,3.875,11.375,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",6.0,15325,23356,3276,3717,5.26171875,0.5302734375,5.94140625,12.296875,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",7.0,15325,23356,3276,3717,4.57421875,1.4658203125,6.9609375,11.890625,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",8.0,15325,23356,3276,3871,4.01953125,0.55078125,5.73828125,10.515625,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",9.0,15325,23356,3276,2213,3.205078125,-0.234130859375,4.30078125,10.5546875,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",10.0,15325,23356,3276,482,3.697265625,0.7724609375,4.16796875,11.4140625,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",11.0,15325,23356,3276,482,7.046875,3.1328125,4.57421875,11.2109375,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",12.0,15325,23356,3276,5357,7.7421875,2.6953125,3.83203125,9.921875,False,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",13.0,15325,23356,3276,15325,15.234375,8.046875,5.46484375,15.234375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",14.0,15325,23356,3276,15325,15.1796875,8.8125,5.08203125,15.1796875,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",15.0,15325,23356,3276,15325,13.78125,7.90625,5.421875,13.78125,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",16.0,15325,23356,3276,15325,13.375,8.6484375,4.6796875,13.375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",17.0,15325,23356,3276,15325,12.84375,7.7890625,3.48046875,12.84375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",18.0,15325,23356,3276,15325,12.4921875,7.67578125,3.0,12.4921875,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",19.0,15325,23356,3276,15325,12.375,7.01171875,4.28515625,12.375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",20.0,15325,23356,3276,15325,12.15625,6.8359375,4.66015625,12.15625,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",21.0,15325,23356,3276,15325,11.7109375,6.625,4.1796875,11.7109375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",22.0,15325,23356,3276,15325,11.890625,6.66015625,4.015625,11.890625,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",23.0,15325,23356,3276,15325,11.953125,6.47265625,3.826171875,11.953125,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",24.0,15325,23356,3276,15325,11.7578125,6.13671875,3.541015625,11.7578125,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",25.0,15325,23356,3276,15325,11.53125,5.88671875,3.65625,11.53125,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",26.0,15325,23356,3276,15325,11.2734375,5.87890625,3.84765625,11.2734375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",27.0,15325,23356,3276,15325,11.4140625,5.7734375,3.646484375,11.4140625,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",28.0,15325,23356,3276,15325,11.96875,6.30078125,3.791015625,11.96875,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",29.0,15325,23356,3276,15325,10.640625,5.48046875,2.96484375,10.640625,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",30.0,15325,23356,3276,15325,11.9609375,6.58203125,3.6640625,11.9609375,True,False,False
+practical,impractical,none,"Relation: none
+Input: practical
+Output:",31.0,15325,23356,3276,220,10.6328125,5.94140625,4.25,11.640625,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",,26632,49836,3276,26632,11.4921875,1.3408203125,2.740234375,11.4921875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",0.0,26632,49836,3276,96966,0.17041015625,2.185546875,-2.048828125,8.421875,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",1.0,26632,49836,3276,92550,0.6767578125,1.86328125,-2.1484375,8.796875,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",2.0,26632,49836,3276,13,1.5087890625,1.1494140625,-2.037109375,8.5078125,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",3.0,26632,49836,3276,13,0.814453125,-0.003696441650390625,1.16015625,9.1328125,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",4.0,26632,49836,3276,342,0.298095703125,-1.0615234375,2.63671875,9.09375,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",5.0,26632,49836,3276,650,2.94140625,-0.048797607421875,4.0859375,11.4296875,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",6.0,26632,49836,3276,3717,4.421875,1.07421875,6.3125,12.6171875,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",7.0,26632,49836,3276,3717,6.60546875,2.1875,7.00390625,12.3359375,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",8.0,26632,49836,3276,2592,5.29296875,0.77099609375,5.75,10.6953125,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",9.0,26632,49836,3276,2213,6.2265625,1.5380859375,3.91796875,11.6015625,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",10.0,26632,49836,3276,482,6.32421875,0.59765625,4.25390625,11.453125,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",11.0,26632,49836,3276,482,10.2734375,2.099609375,5.1875,11.1875,False,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",12.0,26632,49836,3276,26632,10.6171875,1.6533203125,4.45703125,10.6171875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",13.0,26632,49836,3276,26632,14.296875,6.65625,6.1015625,14.296875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",14.0,26632,49836,3276,26632,14.8046875,6.625,6.4140625,14.8046875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",15.0,26632,49836,3276,26632,13.0859375,5.36328125,6.0078125,13.0859375,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",16.0,26632,49836,3276,26632,12.796875,5.04296875,5.1640625,12.796875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",17.0,26632,49836,3276,26632,12.7265625,4.32421875,4.85546875,12.7265625,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",18.0,26632,49836,3276,26632,12.578125,3.546875,4.40625,12.578125,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",19.0,26632,49836,3276,26632,12.4765625,2.86328125,5.20703125,12.4765625,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",20.0,26632,49836,3276,26632,12.859375,2.7421875,5.51953125,12.859375,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",21.0,26632,49836,3276,26632,12.5703125,2.4375,4.65234375,12.5703125,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",22.0,26632,49836,3276,26632,12.0859375,1.853515625,4.33984375,12.0859375,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",23.0,26632,49836,3276,26632,11.78125,1.80078125,3.998046875,11.78125,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",24.0,26632,49836,3276,26632,11.8203125,1.5634765625,3.609375,11.8203125,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",25.0,26632,49836,3276,26632,12.046875,1.6640625,3.54296875,12.046875,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",26.0,26632,49836,3276,26632,11.9375,1.625,3.802734375,11.9375,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",27.0,26632,49836,3276,26632,11.75,1.466796875,3.82421875,11.75,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",28.0,26632,49836,3276,26632,12.28125,1.5341796875,3.912109375,12.28125,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",29.0,26632,49836,3276,26632,12.25,1.4619140625,2.751953125,12.25,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",30.0,26632,49836,3276,26632,12.5390625,1.8095703125,3.3515625,12.5390625,True,False,False
+privilege,disadvantage,none,"Relation: none
+Input: privilege
+Output:",31.0,26632,49836,3276,220,10.8984375,1.126953125,4.171875,11.7421875,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",,42902,6573,3276,42902,11.359375,8.8828125,3.890625,11.359375,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",0.0,42902,6573,3276,96966,1.775390625,2.146484375,-2.0078125,8.3828125,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",1.0,42902,6573,3276,92550,1.5712890625,2.517578125,-2.1640625,8.7734375,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",2.0,42902,6573,3276,13,1.3154296875,2.994140625,-2.02734375,8.453125,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",3.0,42902,6573,3276,13,1.9921875,3.599609375,1.0439453125,8.8984375,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",4.0,42902,6573,3276,342,3.353515625,6.1484375,2.55078125,9.125,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",5.0,42902,6573,3276,650,1.5478515625,8.046875,3.884765625,11.375,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",6.0,42902,6573,3276,3717,3.9453125,8.296875,6.0546875,12.234375,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",7.0,42902,6573,3276,3717,5.95703125,8.03125,6.5859375,11.6171875,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",8.0,42902,6573,3276,2592,3.974609375,6.37890625,5.37109375,10.4296875,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",9.0,42902,6573,3276,2213,1.8310546875,4.80859375,2.712890625,11.0078125,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",10.0,42902,6573,3276,482,2.2421875,5.4140625,2.42578125,11.2734375,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",11.0,42902,6573,3276,482,6.44921875,5.60546875,3.787109375,12.046875,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",12.0,42902,6573,3276,482,8.3125,6.1171875,3.470703125,10.1796875,False,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",13.0,42902,6573,3276,42902,14.2421875,6.6875,4.18359375,14.2421875,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",14.0,42902,6573,3276,42902,15.171875,6.71875,3.322265625,15.171875,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",15.0,42902,6573,3276,42902,13.7421875,6.84375,4.59375,13.7421875,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",16.0,42902,6573,3276,42902,13.515625,8.0,3.93359375,13.515625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",17.0,42902,6573,3276,42902,13.28125,8.0625,3.841796875,13.28125,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",18.0,42902,6573,3276,42902,12.8515625,8.828125,3.818359375,12.8515625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",19.0,42902,6573,3276,42902,12.2421875,8.7734375,4.03125,12.2421875,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",20.0,42902,6573,3276,42902,12.0625,8.609375,4.41796875,12.0625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",21.0,42902,6573,3276,42902,11.65625,9.125,4.265625,11.65625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",22.0,42902,6573,3276,42902,11.40625,8.75,4.3359375,11.40625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",23.0,42902,6573,3276,42902,11.5078125,9.0859375,4.09765625,11.5078125,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",24.0,42902,6573,3276,42902,11.765625,9.0546875,3.8203125,11.765625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",25.0,42902,6573,3276,42902,11.765625,9.171875,3.982421875,11.765625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",26.0,42902,6573,3276,42902,11.734375,9.0390625,4.6640625,11.734375,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",27.0,42902,6573,3276,42902,11.1875,9.328125,4.859375,11.1875,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",28.0,42902,6573,3276,42902,11.1484375,9.46875,5.1015625,11.1484375,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",29.0,42902,6573,3276,42902,10.9375,9.109375,3.84765625,10.9375,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",30.0,42902,6573,3276,42902,12.0390625,9.9140625,4.8125,12.0390625,True,False,False
+hollow,solid,none,"Relation: none
+Input: hollow
+Output:",31.0,42902,6573,3276,220,10.96875,9.2734375,5.125,12.953125,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",,5107,4228,3276,4228,9.4921875,9.5234375,1.3359375,9.5234375,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",0.0,5107,4228,3276,96966,-2.240234375,0.4228515625,-2.03515625,8.3984375,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",1.0,5107,4228,3276,92550,-1.9326171875,0.3408203125,-2.150390625,8.6796875,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",2.0,5107,4228,3276,13,-2.359375,2.076171875,-2.0546875,8.46875,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",3.0,5107,4228,3276,13,-0.9970703125,1.466796875,0.939453125,9.0390625,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",4.0,5107,4228,3276,342,-0.6767578125,1.1240234375,2.4296875,9.09375,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",5.0,5107,4228,3276,650,1.6474609375,2.2265625,3.75,11.21875,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",6.0,5107,4228,3276,3717,3.650390625,4.83203125,5.93359375,12.2265625,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",7.0,5107,4228,3276,3717,4.67578125,5.421875,6.81640625,11.7578125,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",8.0,5107,4228,3276,3871,4.54296875,6.0,5.6640625,11.1640625,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",9.0,5107,4228,3276,271,2.12890625,3.376953125,3.548828125,11.4375,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",10.0,5107,4228,3276,482,4.58203125,5.01171875,3.5390625,11.0703125,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",11.0,5107,4228,3276,482,7.421875,7.6953125,4.39453125,11.734375,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",12.0,5107,4228,3276,5357,6.7578125,7.9296875,3.44140625,10.4296875,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",13.0,5107,4228,3276,128001,11.4296875,10.5546875,4.08984375,13.765625,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",14.0,5107,4228,3276,5107,13.8125,11.2421875,3.763671875,13.8125,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",15.0,5107,4228,3276,5107,12.6640625,11.3984375,4.84765625,12.6640625,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",16.0,5107,4228,3276,5107,12.171875,11.8828125,3.28515625,12.171875,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",17.0,5107,4228,3276,4228,10.8515625,10.890625,2.623046875,10.890625,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",18.0,5107,4228,3276,4228,10.9765625,11.2734375,2.65625,11.2734375,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",19.0,5107,4228,3276,5107,10.9296875,10.8046875,3.048828125,10.9296875,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",20.0,5107,4228,3276,5107,10.765625,10.6875,3.13671875,10.765625,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",21.0,5107,4228,3276,5107,10.5,10.46875,3.072265625,10.5,True,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",22.0,5107,4228,3276,4228,10.203125,10.59375,2.68359375,10.59375,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",23.0,5107,4228,3276,4228,10.296875,10.671875,2.330078125,10.671875,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",24.0,5107,4228,3276,4228,10.0234375,10.4921875,2.005859375,10.4921875,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",25.0,5107,4228,3276,4228,10.0703125,10.546875,2.2421875,10.546875,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",26.0,5107,4228,3276,4228,10.03125,10.421875,2.59765625,10.421875,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",27.0,5107,4228,3276,4228,9.5859375,10.109375,2.30859375,10.109375,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",28.0,5107,4228,3276,4228,9.6171875,9.9921875,2.216796875,9.9921875,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",29.0,5107,4228,3276,4228,9.1875,9.453125,1.060546875,9.453125,False,True,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",30.0,5107,4228,3276,220,10.546875,10.625,2.1875,10.828125,False,False,False
+difficult,easy,none,"Relation: none
+Input: difficult
+Output:",31.0,5107,4228,3276,220,9.3359375,10.015625,2.84375,12.0703125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",,19913,19542,3276,19913,9.8984375,2.662109375,3.9453125,9.8984375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",0.0,19913,19542,3276,96966,4.08203125,2.4453125,-2.021484375,8.421875,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",1.0,19913,19542,3276,92550,4.66015625,3.48828125,-2.1328125,8.78125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",2.0,19913,19542,3276,13,3.119140625,3.138671875,-2.0546875,8.4453125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",3.0,19913,19542,3276,13,3.66796875,1.5419921875,1.0791015625,8.9609375,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",4.0,19913,19542,3276,342,3.845703125,0.14697265625,2.57421875,9.046875,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",5.0,19913,19542,3276,650,8.40625,4.28125,4.12109375,11.4765625,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",6.0,19913,19542,3276,3717,9.0078125,3.244140625,6.48828125,12.109375,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",7.0,19913,19542,3276,3717,8.671875,1.9912109375,7.0859375,11.3046875,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",8.0,19913,19542,3276,2213,8.6953125,1.9677734375,5.5078125,10.4609375,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",9.0,19913,19542,3276,2213,5.3984375,1.4736328125,3.591796875,11.203125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",10.0,19913,19542,3276,6576,7.3828125,1.841796875,3.46484375,10.8203125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",11.0,19913,19542,3276,482,9.046875,3.099609375,4.2265625,11.53125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",12.0,19913,19542,3276,19913,10.15625,2.35546875,3.48046875,10.15625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",13.0,19913,19542,3276,19913,15.125,4.828125,5.26171875,15.125,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",14.0,19913,19542,3276,19913,14.765625,5.30078125,4.9921875,14.765625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",15.0,19913,19542,3276,19913,13.0078125,3.787109375,5.65234375,13.0078125,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",16.0,19913,19542,3276,19913,12.1953125,3.439453125,5.41796875,12.1953125,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",17.0,19913,19542,3276,19913,11.59375,2.388671875,4.87109375,11.59375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",18.0,19913,19542,3276,19913,11.265625,1.9794921875,4.98046875,11.265625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",19.0,19913,19542,3276,19913,10.6796875,1.6953125,5.90234375,10.6796875,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",20.0,19913,19542,3276,19913,10.5234375,2.021484375,6.5546875,10.5234375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",21.0,19913,19542,3276,19913,10.2734375,1.5556640625,5.8359375,10.2734375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",22.0,19913,19542,3276,7000,10.0,1.435546875,5.58984375,10.046875,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",23.0,19913,19542,3276,19913,9.9453125,1.82421875,4.90234375,9.9453125,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",24.0,19913,19542,3276,19913,10.15625,1.9287109375,4.515625,10.15625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",25.0,19913,19542,3276,19913,10.265625,1.8603515625,4.71875,10.265625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",26.0,19913,19542,3276,19913,10.2734375,1.9267578125,4.71484375,10.2734375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",27.0,19913,19542,3276,19913,10.2734375,1.8466796875,4.90234375,10.2734375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",28.0,19913,19542,3276,19913,10.609375,2.388671875,5.10546875,10.609375,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",29.0,19913,19542,3276,19913,9.6640625,2.16796875,3.857421875,9.6640625,True,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",30.0,19913,19542,3276,220,10.546875,2.357421875,5.015625,11.28125,False,False,False
+luxury,poverty,none,"Relation: none
+Input: luxury
+Output:",31.0,19913,19542,3276,220,9.421875,2.646484375,5.21484375,12.2109375,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",,51077,69033,3276,51077,10.5703125,7.7578125,5.25,10.5703125,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",0.0,51077,69033,3276,96966,-0.955078125,0.15185546875,-2.03515625,8.4140625,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",1.0,51077,69033,3276,92550,-0.9150390625,0.0972900390625,-2.16796875,8.7578125,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",2.0,51077,69033,3276,13,-0.986328125,-0.5927734375,-2.021484375,8.46875,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",3.0,51077,69033,3276,13,-0.6728515625,-0.35498046875,1.1123046875,9.140625,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",4.0,51077,69033,3276,342,-1.10546875,0.1312255859375,2.6171875,9.015625,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",5.0,51077,69033,3276,650,0.6298828125,-0.8046875,4.0,11.625,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",6.0,51077,69033,3276,3717,3.736328125,1.453125,6.21484375,12.1328125,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",7.0,51077,69033,3276,3717,3.41015625,2.7890625,7.13671875,11.2734375,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",8.0,51077,69033,3276,3871,2.81640625,2.0546875,5.69921875,10.8125,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",9.0,51077,69033,3276,2213,1.91796875,1.96484375,3.97265625,11.2734375,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",10.0,51077,69033,3276,482,-0.312255859375,2.263671875,3.802734375,11.6953125,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",11.0,51077,69033,3276,482,4.1328125,4.80078125,4.33203125,10.7578125,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",12.0,51077,69033,3276,5357,4.85546875,4.9921875,3.408203125,10.296875,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",13.0,51077,69033,3276,128001,12.5234375,9.265625,5.5234375,12.7421875,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",14.0,51077,69033,3276,51077,13.109375,9.0859375,5.4453125,13.109375,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",15.0,51077,69033,3276,51077,12.578125,9.75,5.55078125,12.578125,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",16.0,51077,69033,3276,51077,12.421875,9.28125,5.125,12.421875,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",17.0,51077,69033,3276,51077,12.65625,8.9921875,4.83984375,12.65625,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",18.0,51077,69033,3276,51077,12.484375,9.6953125,4.76953125,12.484375,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",19.0,51077,69033,3276,51077,11.3984375,8.3671875,5.51953125,11.3984375,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",20.0,51077,69033,3276,51077,11.15625,8.5390625,6.02734375,11.15625,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",21.0,51077,69033,3276,51077,11.1953125,8.4921875,5.53125,11.1953125,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",22.0,51077,69033,3276,51077,11.015625,8.3828125,5.4609375,11.015625,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",23.0,51077,69033,3276,51077,11.1875,8.2109375,5.25390625,11.1875,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",24.0,51077,69033,3276,51077,11.3046875,8.265625,5.109375,11.3046875,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",25.0,51077,69033,3276,51077,11.2890625,8.0234375,5.6015625,11.2890625,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",26.0,51077,69033,3276,51077,11.3125,8.2890625,5.9453125,11.3125,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",27.0,51077,69033,3276,51077,10.453125,7.98046875,5.83984375,10.453125,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",28.0,51077,69033,3276,51077,10.46875,7.90625,5.875,10.46875,True,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",29.0,51077,69033,3276,7000,10.21875,7.9296875,5.27734375,10.6171875,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",30.0,51077,69033,3276,7000,10.5703125,7.59375,5.765625,11.2890625,False,False,False
+stimulate,inhibit,none,"Relation: none
+Input: stimulate
+Output:",31.0,51077,69033,3276,220,10.0859375,7.21875,6.35546875,11.5859375,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",,10570,27365,3276,10570,9.734375,2.234375,2.96484375,9.734375,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",0.0,10570,27365,3276,96966,-0.12646484375,0.5478515625,-2.01953125,8.40625,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",1.0,10570,27365,3276,92550,-0.4404296875,0.054351806640625,-2.16796875,8.7421875,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",2.0,10570,27365,3276,13,-0.97119140625,0.10748291015625,-2.048828125,8.4375,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",3.0,10570,27365,3276,13,-0.352294921875,0.327392578125,1.044921875,9.03125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",4.0,10570,27365,3276,342,-1.3984375,-0.006809234619140625,2.509765625,9.078125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",5.0,10570,27365,3276,650,0.2481689453125,-1.0078125,3.751953125,11.4140625,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",6.0,10570,27365,3276,3717,2.873046875,-0.61181640625,5.953125,12.0859375,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",7.0,10570,27365,3276,3717,4.40234375,-0.092041015625,7.09765625,11.7578125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",8.0,10570,27365,3276,3871,3.09375,-0.0018596649169921875,5.5546875,10.671875,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",9.0,10570,27365,3276,271,2.681640625,-0.669921875,3.732421875,11.5703125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",10.0,10570,27365,3276,482,2.7734375,0.27001953125,3.513671875,11.5625,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",11.0,10570,27365,3276,482,5.078125,1.5732421875,4.69140625,11.515625,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",12.0,10570,27365,3276,5357,4.125,0.11236572265625,3.62890625,10.109375,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",13.0,10570,27365,3276,128001,11.078125,3.53125,5.59765625,13.28125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",14.0,10570,27365,3276,128001,12.375,4.46875,5.31640625,12.3828125,False,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",15.0,10570,27365,3276,10570,12.0078125,4.796875,5.90625,12.0078125,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",16.0,10570,27365,3276,10570,11.203125,4.83203125,4.7421875,11.203125,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",17.0,10570,27365,3276,10570,11.4921875,4.41015625,4.28125,11.4921875,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",18.0,10570,27365,3276,10570,11.5078125,4.87890625,3.64453125,11.5078125,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",19.0,10570,27365,3276,10570,10.828125,4.23046875,4.7890625,10.828125,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",20.0,10570,27365,3276,10570,10.6015625,4.80859375,4.5078125,10.6015625,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",21.0,10570,27365,3276,10570,10.7734375,3.96484375,4.03515625,10.7734375,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",22.0,10570,27365,3276,10570,10.5625,4.06640625,4.0703125,10.5625,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",23.0,10570,27365,3276,10570,10.4609375,3.693359375,3.51953125,10.4609375,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",24.0,10570,27365,3276,10570,10.484375,3.580078125,3.302734375,10.484375,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",25.0,10570,27365,3276,10570,10.7265625,3.380859375,3.78515625,10.7265625,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",26.0,10570,27365,3276,10570,10.3515625,3.271484375,3.83203125,10.3515625,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",27.0,10570,27365,3276,10570,10.1796875,3.17578125,4.0078125,10.1796875,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",28.0,10570,27365,3276,10570,10.4921875,3.173828125,4.2890625,10.4921875,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",29.0,10570,27365,3276,10570,10.046875,2.1796875,2.853515625,10.046875,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",30.0,10570,27365,3276,10570,10.28125,2.541015625,3.86328125,10.28125,True,False,False
+proceed,halt,none,"Relation: none
+Input: proceed
+Output:",31.0,10570,27365,3276,220,9.34375,2.251953125,4.15625,10.8671875,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",,70225,4225,3276,70225,12.1015625,10.84375,4.390625,12.1015625,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",0.0,70225,4225,3276,96966,0.034515380859375,-1.3828125,-2.021484375,8.421875,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",1.0,70225,4225,3276,92550,-0.467529296875,-1.5810546875,-2.125,8.75,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",2.0,70225,4225,3276,13,-0.95166015625,-1.421875,-2.02734375,8.5,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",3.0,70225,4225,3276,13,-0.73974609375,-1.4296875,1.1630859375,9.0703125,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",4.0,70225,4225,3276,342,-0.466064453125,-0.25634765625,2.58203125,9.125,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",5.0,70225,4225,3276,650,-2.45703125,-0.1954345703125,3.685546875,11.1796875,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",6.0,70225,4225,3276,3717,-0.1922607421875,1.771484375,6.05859375,12.09375,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",7.0,70225,4225,3276,3717,1.919921875,2.529296875,6.84765625,11.421875,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",8.0,70225,4225,3276,3871,2.310546875,3.1796875,5.57421875,10.53125,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",9.0,70225,4225,3276,271,-0.7021484375,1.7578125,3.251953125,10.8046875,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",10.0,70225,4225,3276,482,0.193359375,2.74609375,3.45703125,11.109375,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",11.0,70225,4225,3276,482,4.6484375,4.2265625,4.04296875,11.390625,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",12.0,70225,4225,3276,20277,7.28125,3.923828125,3.9296875,9.890625,False,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",13.0,70225,4225,3276,70225,13.421875,6.34375,5.76953125,13.421875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",14.0,70225,4225,3276,70225,13.6875,6.40234375,5.84375,13.6875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",15.0,70225,4225,3276,70225,12.6640625,7.82421875,6.32421875,12.6640625,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",16.0,70225,4225,3276,70225,12.2109375,8.4375,5.15234375,12.2109375,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",17.0,70225,4225,3276,70225,12.1875,9.1796875,4.94140625,12.1875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",18.0,70225,4225,3276,70225,12.125,9.8359375,4.61328125,12.125,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",19.0,70225,4225,3276,70225,12.2265625,9.234375,5.328125,12.2265625,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",20.0,70225,4225,3276,70225,12.484375,9.2734375,5.48046875,12.484375,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",21.0,70225,4225,3276,70225,12.28125,9.9765625,4.51171875,12.28125,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",22.0,70225,4225,3276,70225,12.734375,10.25,4.7109375,12.734375,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",23.0,70225,4225,3276,70225,12.859375,10.40625,4.296875,12.859375,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",24.0,70225,4225,3276,70225,12.71875,10.21875,4.15234375,12.71875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",25.0,70225,4225,3276,70225,12.796875,10.4609375,4.62890625,12.796875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",26.0,70225,4225,3276,70225,12.78125,10.578125,4.859375,12.78125,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",27.0,70225,4225,3276,70225,12.328125,10.34375,4.59765625,12.328125,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",28.0,70225,4225,3276,70225,12.609375,10.578125,4.796875,12.609375,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",29.0,70225,4225,3276,70225,13.1171875,11.25,4.4765625,13.1171875,True,False,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",30.0,70225,4225,3276,4225,11.9765625,12.2109375,5.1484375,12.2109375,False,True,False
+fertile,infertile,none,"Relation: none
+Input: fertile
+Output:",31.0,70225,4225,3276,220,11.46875,11.3046875,5.5859375,12.5859375,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",,46763,32887,3276,46763,14.296875,10.828125,4.77734375,14.296875,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",0.0,46763,32887,3276,96966,1.3857421875,-0.045074462890625,-2.037109375,8.4140625,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",1.0,46763,32887,3276,92550,1.1025390625,0.71484375,-2.12890625,8.75,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",2.0,46763,32887,3276,13,1.171875,0.33447265625,-1.99609375,8.453125,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",3.0,46763,32887,3276,13,1.24609375,1.193359375,1.142578125,9.1171875,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",4.0,46763,32887,3276,342,1.212890625,1.0869140625,2.6328125,9.234375,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",5.0,46763,32887,3276,650,3.509765625,2.904296875,3.75,10.9296875,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",6.0,46763,32887,3276,3717,5.37109375,3.60546875,6.078125,11.8671875,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",7.0,46763,32887,3276,2592,6.0625,3.572265625,6.85546875,11.59375,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",8.0,46763,32887,3276,3871,6.39453125,4.828125,5.48828125,10.265625,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",9.0,46763,32887,3276,2213,3.6796875,1.921875,3.724609375,11.3203125,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",10.0,46763,32887,3276,482,5.421875,3.052734375,4.01171875,11.953125,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",11.0,46763,32887,3276,482,7.9921875,5.1640625,4.5703125,11.15625,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",12.0,46763,32887,3276,5688,8.109375,5.32421875,3.923828125,9.5,False,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",13.0,46763,32887,3276,46763,13.1953125,8.6796875,4.35546875,13.1953125,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",14.0,46763,32887,3276,46763,14.359375,9.8515625,5.05078125,14.359375,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",15.0,46763,32887,3276,46763,15.234375,11.3515625,5.5,15.234375,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",16.0,46763,32887,3276,46763,14.4375,10.6953125,4.71875,14.4375,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",17.0,46763,32887,3276,46763,13.96875,10.65625,3.791015625,13.96875,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",18.0,46763,32887,3276,46763,14.28125,10.9765625,4.08203125,14.28125,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",19.0,46763,32887,3276,46763,13.8671875,10.8125,5.55078125,13.8671875,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",20.0,46763,32887,3276,46763,14.15625,10.8359375,5.875,14.15625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",21.0,46763,32887,3276,46763,14.0,10.9765625,5.62109375,14.0,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",22.0,46763,32887,3276,46763,14.015625,11.015625,5.453125,14.015625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",23.0,46763,32887,3276,46763,14.1640625,11.2734375,5.4765625,14.1640625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",24.0,46763,32887,3276,46763,14.390625,11.4375,5.4375,14.390625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",25.0,46763,32887,3276,46763,14.1796875,11.2109375,5.19140625,14.1796875,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",26.0,46763,32887,3276,46763,14.2578125,11.03125,5.39453125,14.2578125,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",27.0,46763,32887,3276,46763,13.953125,10.9140625,5.0078125,13.953125,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",28.0,46763,32887,3276,46763,14.2890625,11.03125,5.1171875,14.2890625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",29.0,46763,32887,3276,46763,14.5546875,11.3125,5.07421875,14.5546875,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",30.0,46763,32887,3276,46763,14.5390625,10.9453125,5.2109375,14.5390625,True,False,False
+empirical,theoretical,none,"Relation: none
+Input: empirical
+Output:",31.0,46763,32887,3276,46763,13.75,10.75,6.10546875,13.75,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",,5128,28360,3276,5128,10.7734375,7.97265625,2.32421875,10.7734375,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",0.0,5128,28360,3276,96966,3.244140625,-1.30078125,-2.029296875,8.4296875,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",1.0,5128,28360,3276,92550,3.9921875,-2.205078125,-2.115234375,8.734375,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",2.0,5128,28360,3276,13,3.607421875,-1.279296875,-2.064453125,8.421875,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",3.0,5128,28360,3276,13,3.029296875,0.256103515625,1.150390625,9.140625,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",4.0,5128,28360,3276,342,3.0234375,0.15673828125,2.677734375,8.9453125,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",5.0,5128,28360,3276,650,6.08203125,1.1572265625,3.8515625,11.421875,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",6.0,5128,28360,3276,3717,6.5234375,1.3935546875,6.046875,12.390625,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",7.0,5128,28360,3276,3717,6.453125,2.828125,6.71875,11.8125,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",8.0,5128,28360,3276,917,6.13671875,2.482421875,5.63671875,10.7421875,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",9.0,5128,28360,3276,2213,5.31640625,-0.78125,3.79296875,11.8359375,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",10.0,5128,28360,3276,482,6.5078125,-0.2496337890625,3.580078125,11.3984375,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",11.0,5128,28360,3276,482,7.49609375,2.23828125,4.30078125,10.9765625,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",12.0,5128,28360,3276,330,6.8046875,2.123046875,3.341796875,10.0625,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",13.0,5128,28360,3276,128001,11.390625,5.515625,4.671875,12.2734375,False,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",14.0,5128,28360,3276,5128,12.65625,7.1796875,4.33203125,12.65625,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",15.0,5128,28360,3276,5128,11.796875,7.7109375,5.02734375,11.796875,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",16.0,5128,28360,3276,5128,11.8828125,8.9609375,4.453125,11.8828125,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",17.0,5128,28360,3276,5128,11.7578125,9.3828125,3.296875,11.7578125,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",18.0,5128,28360,3276,5128,11.78125,9.1796875,2.984375,11.78125,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",19.0,5128,28360,3276,5128,11.5390625,8.453125,3.248046875,11.5390625,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",20.0,5128,28360,3276,5128,11.734375,8.4921875,3.9453125,11.734375,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",21.0,5128,28360,3276,5128,11.4765625,8.84375,3.3203125,11.4765625,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",22.0,5128,28360,3276,5128,11.390625,8.6484375,3.00390625,11.390625,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",23.0,5128,28360,3276,5128,11.375,9.2109375,2.76171875,11.375,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",24.0,5128,28360,3276,5128,11.7109375,8.9140625,2.876953125,11.7109375,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",25.0,5128,28360,3276,5128,11.671875,8.7890625,2.9453125,11.671875,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",26.0,5128,28360,3276,5128,11.609375,8.4921875,3.240234375,11.609375,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",27.0,5128,28360,3276,5128,11.6171875,8.3828125,3.10546875,11.6171875,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",28.0,5128,28360,3276,5128,12.1171875,8.4375,3.255859375,12.1171875,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",29.0,5128,28360,3276,5128,10.53125,7.6796875,2.12890625,10.53125,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",30.0,5128,28360,3276,5128,11.828125,8.5,3.177734375,11.828125,True,False,False
+pretty,ugly,none,"Relation: none
+Input: pretty
+Output:",31.0,5128,28360,3276,220,10.9296875,7.796875,3.6796875,11.265625,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",,18069,89544,3276,837,10.6953125,10.625,3.990234375,12.4609375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",0.0,18069,89544,3276,96966,-0.1494140625,-1.8369140625,-2.0390625,8.4453125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",1.0,18069,89544,3276,92550,-0.572265625,-2.8671875,-2.12890625,8.7421875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",2.0,18069,89544,3276,13,-0.01519012451171875,-3.29296875,-2.025390625,8.4609375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",3.0,18069,89544,3276,13,-0.26708984375,-3.853515625,1.1513671875,9.1015625,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",4.0,18069,89544,3276,342,0.6142578125,-2.765625,2.642578125,9.1015625,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",5.0,18069,89544,3276,650,-0.1353759765625,-3.861328125,3.72265625,11.390625,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",6.0,18069,89544,3276,3717,-1.326171875,-5.109375,6.109375,12.1484375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",7.0,18069,89544,3276,917,0.0261383056640625,-3.138671875,6.9765625,11.8359375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",8.0,18069,89544,3276,2213,0.439453125,-1.7880859375,5.5234375,10.8984375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",9.0,18069,89544,3276,2213,-0.9736328125,-1.4306640625,3.16015625,11.578125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",10.0,18069,89544,3276,482,1.6787109375,-0.8115234375,3.056640625,10.6484375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",11.0,18069,89544,3276,482,3.2421875,-0.6142578125,4.83984375,11.1875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",12.0,18069,89544,3276,128001,5.9765625,1.2041015625,4.13671875,10.5546875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",13.0,18069,89544,3276,18069,14.4609375,9.9921875,5.47265625,14.4609375,True,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",14.0,18069,89544,3276,18069,15.21875,10.9375,4.5703125,15.21875,True,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",15.0,18069,89544,3276,18069,13.7265625,10.671875,5.76953125,13.7265625,True,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",16.0,18069,89544,3276,18069,13.359375,11.1015625,4.85546875,13.359375,True,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",17.0,18069,89544,3276,18069,12.3515625,10.34375,4.171875,12.3515625,True,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",18.0,18069,89544,3276,837,12.734375,11.640625,4.27734375,13.671875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",19.0,18069,89544,3276,837,11.9140625,10.9296875,4.03125,13.3515625,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",20.0,18069,89544,3276,837,11.3203125,10.4140625,4.625,13.3125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",21.0,18069,89544,3276,837,10.875,10.359375,4.76171875,12.796875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",22.0,18069,89544,3276,837,10.484375,10.8046875,4.68359375,12.984375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",23.0,18069,89544,3276,837,10.0859375,10.515625,4.0390625,13.1328125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",24.0,18069,89544,3276,837,10.0546875,10.6171875,3.650390625,12.9921875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",25.0,18069,89544,3276,837,9.953125,10.765625,3.591796875,12.703125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",26.0,18069,89544,3276,837,10.2734375,10.6015625,4.1875,12.8203125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",27.0,18069,89544,3276,837,10.453125,10.5,4.01171875,12.7109375,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",28.0,18069,89544,3276,837,10.328125,10.2734375,3.759765625,12.71875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",29.0,18069,89544,3276,837,10.2890625,9.546875,3.77734375,12.8125,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",30.0,18069,89544,3276,220,10.8515625,10.484375,5.01953125,14.296875,False,False,False
+lucky,unlucky,none,"Relation: none
+Input: lucky
+Output:",31.0,18069,89544,3276,220,10.6640625,9.2578125,5.8515625,16.546875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",,9986,2010,3276,2010,11.015625,11.109375,4.546875,11.109375,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",0.0,9986,2010,3276,96966,-0.5869140625,2.3046875,-2.005859375,8.4140625,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",1.0,9986,2010,3276,92550,-0.802734375,1.9580078125,-2.111328125,8.7734375,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",2.0,9986,2010,3276,13,-1.822265625,1.23046875,-2.00390625,8.46875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",3.0,9986,2010,3276,13,-1.515625,2.998046875,1.1318359375,9.078125,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",4.0,9986,2010,3276,342,-1.6005859375,2.58203125,2.63671875,9.0390625,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",5.0,9986,2010,3276,650,-1.0205078125,2.365234375,4.11328125,11.1875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",6.0,9986,2010,3276,3717,0.1552734375,3.681640625,6.50390625,12.546875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",7.0,9986,2010,3276,3717,2.033203125,4.69140625,7.4921875,12.2109375,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",8.0,9986,2010,3276,2592,1.853515625,5.4921875,5.99609375,10.921875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",9.0,9986,2010,3276,2213,-0.9990234375,2.921875,3.62109375,11.4765625,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",10.0,9986,2010,3276,482,0.326416015625,3.623046875,3.6484375,11.3671875,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",11.0,9986,2010,3276,482,3.609375,6.44140625,5.1796875,11.2734375,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",12.0,9986,2010,3276,5357,4.58984375,7.4765625,4.08203125,10.015625,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",13.0,9986,2010,3276,128001,11.1328125,8.7109375,5.21875,12.7890625,False,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",14.0,9986,2010,3276,9986,13.6484375,10.4921875,5.14453125,13.6484375,True,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",15.0,9986,2010,3276,9986,12.8671875,11.1171875,5.8359375,12.8671875,True,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",16.0,9986,2010,3276,9986,12.25,11.7109375,5.65234375,12.25,True,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",17.0,9986,2010,3276,9986,12.203125,12.125,5.65625,12.203125,True,False,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",18.0,9986,2010,3276,2010,12.1171875,12.8359375,5.234375,12.8359375,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",19.0,9986,2010,3276,2010,12.3359375,12.703125,5.91796875,12.703125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",20.0,9986,2010,3276,2010,12.1875,12.484375,5.79296875,12.484375,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",21.0,9986,2010,3276,2010,11.6171875,12.015625,5.5,12.015625,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",22.0,9986,2010,3276,2010,11.7421875,12.03125,5.5390625,12.03125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",23.0,9986,2010,3276,2010,11.640625,12.15625,5.56640625,12.15625,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",24.0,9986,2010,3276,2010,11.4453125,11.8828125,5.18359375,11.8828125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",25.0,9986,2010,3276,2010,11.609375,11.8125,5.59765625,11.8125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",26.0,9986,2010,3276,2010,11.4765625,11.7578125,5.5390625,11.7578125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",27.0,9986,2010,3276,2010,11.5390625,11.8046875,5.515625,11.8046875,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",28.0,9986,2010,3276,2010,11.3046875,11.6953125,5.39453125,11.6953125,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",29.0,9986,2010,3276,2010,10.8828125,11.3671875,4.35546875,11.3671875,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",30.0,9986,2010,3276,2010,11.75,12.46875,5.55078125,12.46875,False,True,False
+tail,head,none,"Relation: none
+Input: tail
+Output:",31.0,9986,2010,3276,220,11.21875,12.2890625,5.88671875,12.9375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",,41534,19560,3276,19560,11.546875,12.0078125,3.74609375,12.0078125,False,True,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",0.0,41534,19560,3276,96966,1.736328125,0.1834716796875,-2.005859375,8.390625,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",1.0,41534,19560,3276,92550,1.3203125,0.11663818359375,-2.111328125,8.7578125,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",2.0,41534,19560,3276,13,0.3212890625,-0.6171875,-2.0234375,8.46875,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",3.0,41534,19560,3276,13,0.80517578125,0.12176513671875,1.18359375,9.109375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",4.0,41534,19560,3276,342,1.16015625,-0.6875,2.791015625,9.109375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",5.0,41534,19560,3276,650,1.7802734375,1.9228515625,4.0703125,11.2109375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",6.0,41534,19560,3276,3717,4.9609375,4.91796875,6.27734375,12.1484375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",7.0,41534,19560,3276,3717,6.52734375,5.96484375,6.99609375,11.4375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",8.0,41534,19560,3276,2592,6.01171875,6.2109375,5.89453125,10.25,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",9.0,41534,19560,3276,2213,4.734375,4.80859375,3.90234375,10.96875,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",10.0,41534,19560,3276,482,5.84375,5.38671875,3.986328125,11.4609375,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",11.0,41534,19560,3276,482,8.90625,6.55078125,4.9375,11.8515625,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",12.0,41534,19560,3276,482,9.0859375,7.390625,3.939453125,10.4765625,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",13.0,41534,19560,3276,41534,13.4140625,10.890625,4.87890625,13.4140625,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",14.0,41534,19560,3276,41534,14.234375,12.0,5.2421875,14.234375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",15.0,41534,19560,3276,41534,13.5,12.09375,5.88671875,13.5,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",16.0,41534,19560,3276,41534,12.9296875,11.859375,4.6171875,12.9296875,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",17.0,41534,19560,3276,41534,12.375,11.625,3.9453125,12.375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",18.0,41534,19560,3276,41534,12.625,11.8515625,4.30078125,12.625,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",19.0,41534,19560,3276,41534,12.484375,11.703125,4.9140625,12.484375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",20.0,41534,19560,3276,41534,12.5625,12.0078125,5.1328125,12.5625,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",21.0,41534,19560,3276,41534,12.59375,12.2421875,4.7109375,12.59375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",22.0,41534,19560,3276,41534,12.859375,12.3984375,4.8984375,12.859375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",23.0,41534,19560,3276,41534,12.9296875,12.6015625,4.68359375,12.9296875,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",24.0,41534,19560,3276,41534,12.8359375,12.671875,4.54296875,12.8359375,True,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",25.0,41534,19560,3276,19560,12.6328125,12.71875,4.6484375,12.71875,False,True,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",26.0,41534,19560,3276,19560,12.1875,12.4375,4.80859375,12.4375,False,True,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",27.0,41534,19560,3276,19560,11.6875,12.09375,4.6171875,12.09375,False,True,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",28.0,41534,19560,3276,19560,11.671875,12.1015625,4.64453125,12.1015625,False,True,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",29.0,41534,19560,3276,1772,11.5625,11.75,4.046875,11.796875,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",30.0,41534,19560,3276,220,11.265625,11.765625,4.1796875,12.2421875,False,False,False
+undergraduate,graduate,none,"Relation: none
+Input: undergraduate
+Output:",31.0,41534,19560,3276,220,10.5078125,11.3359375,5.07421875,13.953125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",,15253,66087,3276,15253,9.3359375,6.11328125,3.9140625,9.3359375,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",0.0,15253,66087,3276,96966,-0.9404296875,-0.142578125,-2.02734375,8.390625,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",1.0,15253,66087,3276,92550,-0.6494140625,0.03631591796875,-2.134765625,8.7421875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",2.0,15253,66087,3276,13,-0.873046875,-1.6298828125,-2.07421875,8.4453125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",3.0,15253,66087,3276,13,-1.583984375,-1.8642578125,1.078125,8.96875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",4.0,15253,66087,3276,342,-1.3427734375,-2.171875,2.572265625,9.0078125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",5.0,15253,66087,3276,650,2.201171875,-1.341796875,4.0859375,11.7421875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",6.0,15253,66087,3276,3717,4.546875,0.85400390625,6.31640625,11.9453125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",7.0,15253,66087,3276,2592,4.39453125,1.8857421875,7.17578125,11.453125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",8.0,15253,66087,3276,53,3.517578125,0.7568359375,5.5546875,11.1171875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",9.0,15253,66087,3276,271,2.037109375,-0.364990234375,3.310546875,11.21875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",10.0,15253,66087,3276,6576,2.267578125,-1.337890625,3.1640625,11.0546875,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",11.0,15253,66087,3276,482,5.11328125,2.2578125,4.67578125,11.203125,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",12.0,15253,66087,3276,5357,5.6640625,3.48828125,3.3828125,10.5859375,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",13.0,15253,66087,3276,15253,13.4296875,11.3359375,4.70703125,13.4296875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",14.0,15253,66087,3276,128001,12.6015625,10.703125,4.08203125,13.0625,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",15.0,15253,66087,3276,15253,11.9140625,10.28125,5.48828125,11.9140625,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",16.0,15253,66087,3276,15253,11.1796875,9.96875,5.15625,11.1796875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",17.0,15253,66087,3276,15253,11.6875,9.2109375,4.890625,11.6875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",18.0,15253,66087,3276,15253,12.140625,9.7890625,4.46875,12.140625,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",19.0,15253,66087,3276,15253,10.875,8.2890625,5.765625,10.875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",20.0,15253,66087,3276,15253,10.0859375,7.44921875,6.015625,10.0859375,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",21.0,15253,66087,3276,15253,10.2421875,7.5390625,5.55859375,10.2421875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",22.0,15253,66087,3276,15253,9.9921875,7.1328125,5.12890625,9.9921875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",23.0,15253,66087,3276,15253,9.7265625,6.5,4.625,9.7265625,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",24.0,15253,66087,3276,15253,9.609375,6.37890625,4.25390625,9.609375,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",25.0,15253,66087,3276,15253,9.46875,6.78515625,4.62890625,9.46875,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",26.0,15253,66087,3276,15253,9.453125,6.50390625,5.1015625,9.453125,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",27.0,15253,66087,3276,15253,9.65625,6.65234375,5.03125,9.65625,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",28.0,15253,66087,3276,15253,9.9765625,7.0,5.27734375,9.9765625,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",29.0,15253,66087,3276,15253,9.6328125,6.296875,3.94140625,9.6328125,True,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",30.0,15253,66087,3276,220,9.921875,5.99609375,4.953125,10.7109375,False,False,False
+encourage,discourage,none,"Relation: none
+Input: encourage
+Output:",31.0,15253,66087,3276,220,9.2421875,5.2421875,5.171875,11.765625,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",,62945,9966,3276,62945,11.9140625,11.640625,2.0,11.9140625,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",0.0,62945,9966,3276,96966,0.2861328125,1.3642578125,-2.056640625,8.4296875,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",1.0,62945,9966,3276,92550,0.9755859375,1.7978515625,-2.17578125,8.78125,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",2.0,62945,9966,3276,13,0.60400390625,1.1904296875,-2.11328125,8.4453125,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",3.0,62945,9966,3276,13,-0.1756591796875,0.86376953125,1.0322265625,9.2265625,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",4.0,62945,9966,3276,342,-0.75244140625,0.1259765625,2.568359375,9.265625,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",5.0,62945,9966,3276,650,-0.460693359375,2.998046875,3.791015625,11.2109375,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",6.0,62945,9966,3276,3717,1.4296875,4.8515625,5.81640625,12.1015625,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",7.0,62945,9966,3276,3717,4.0625,6.109375,6.15234375,11.5859375,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",8.0,62945,9966,3276,3871,3.400390625,5.6796875,5.4609375,10.9921875,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",9.0,62945,9966,3276,271,3.166015625,5.63671875,3.41015625,11.203125,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",10.0,62945,9966,3276,482,2.90625,6.02734375,3.4140625,12.28125,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",11.0,62945,9966,3276,482,6.44921875,7.17578125,3.998046875,11.4375,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",12.0,62945,9966,3276,330,8.5546875,8.875,2.896484375,10.1796875,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",13.0,62945,9966,3276,128001,12.75,11.9609375,3.541015625,13.625,False,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",14.0,62945,9966,3276,62945,13.71875,12.8125,3.603515625,13.71875,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",15.0,62945,9966,3276,62945,13.1875,12.1484375,3.845703125,13.1875,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",16.0,62945,9966,3276,62945,12.5234375,12.1875,2.728515625,12.5234375,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",17.0,62945,9966,3276,62945,11.8203125,11.3671875,2.5703125,11.8203125,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",18.0,62945,9966,3276,62945,12.3203125,11.6640625,2.697265625,12.3203125,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",19.0,62945,9966,3276,62945,12.0234375,11.3125,2.828125,12.0234375,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",20.0,62945,9966,3276,62945,12.0625,11.5625,3.0703125,12.0625,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",21.0,62945,9966,3276,62945,11.46875,11.3125,2.427734375,11.46875,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",22.0,62945,9966,3276,62945,11.546875,11.3984375,2.384765625,11.546875,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",23.0,62945,9966,3276,62945,11.4453125,11.4296875,1.970703125,11.4453125,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",24.0,62945,9966,3276,62945,11.703125,11.5390625,1.953125,11.703125,True,False,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",25.0,62945,9966,3276,9966,11.625,11.78125,2.208984375,11.78125,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",26.0,62945,9966,3276,9966,11.5703125,11.8046875,2.646484375,11.8046875,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",27.0,62945,9966,3276,9966,11.4609375,11.609375,2.427734375,11.609375,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",28.0,62945,9966,3276,9966,11.6015625,11.671875,2.447265625,11.671875,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",29.0,62945,9966,3276,9966,11.484375,11.7578125,1.8515625,11.7578125,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",30.0,62945,9966,3276,9966,12.015625,12.5546875,2.466796875,12.5546875,False,True,False
+insecure,secure,none,"Relation: none
+Input: insecure
+Output:",31.0,62945,9966,3276,220,10.859375,11.7421875,3.474609375,12.84375,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",,6721,19077,3276,6721,10.625,7.03515625,3.515625,10.625,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",0.0,6721,19077,3276,96966,2.251953125,1.5576171875,-2.013671875,8.3984375,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",1.0,6721,19077,3276,92550,1.8642578125,1.15234375,-2.1640625,8.78125,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",2.0,6721,19077,3276,13,2.421875,0.424072265625,-2.013671875,8.5,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",3.0,6721,19077,3276,13,2.45703125,1.48046875,1.2158203125,9.21875,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",4.0,6721,19077,3276,342,1.7470703125,2.142578125,2.7109375,9.1875,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",5.0,6721,19077,3276,650,2.7734375,0.9208984375,3.884765625,11.3046875,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",6.0,6721,19077,3276,3717,7.69921875,3.19140625,6.27734375,12.375,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",7.0,6721,19077,3276,3717,9.5390625,4.5625,7.25390625,12.0546875,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",8.0,6721,19077,3276,271,10.265625,4.94921875,5.75,10.4765625,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",9.0,6721,19077,3276,271,6.78125,1.8994140625,4.0,11.1640625,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",10.0,6721,19077,3276,482,8.1796875,3.41796875,4.21484375,11.1640625,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",11.0,6721,19077,3276,482,9.546875,3.93359375,5.15625,12.1875,False,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",12.0,6721,19077,3276,6721,11.125,5.1875,4.1875,11.125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",13.0,6721,19077,3276,6721,14.59375,7.16015625,6.5234375,14.59375,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",14.0,6721,19077,3276,6721,14.4140625,8.21875,6.4375,14.4140625,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",15.0,6721,19077,3276,6721,12.9921875,7.625,7.0546875,12.9921875,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",16.0,6721,19077,3276,6721,13.0078125,6.62890625,6.59765625,13.0078125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",17.0,6721,19077,3276,6721,12.796875,6.51171875,5.3046875,12.796875,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",18.0,6721,19077,3276,6721,12.9296875,6.8984375,4.7890625,12.9296875,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",19.0,6721,19077,3276,6721,12.4375,6.77734375,5.71484375,12.4375,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",20.0,6721,19077,3276,6721,12.5078125,7.2421875,6.01171875,12.5078125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",21.0,6721,19077,3276,6721,12.140625,7.68359375,5.1171875,12.140625,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",22.0,6721,19077,3276,6721,12.28125,7.421875,5.2734375,12.28125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",23.0,6721,19077,3276,6721,12.171875,7.42578125,4.9921875,12.171875,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",24.0,6721,19077,3276,6721,11.890625,7.23046875,4.59375,11.890625,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",25.0,6721,19077,3276,6721,11.796875,7.1875,4.7734375,11.796875,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",26.0,6721,19077,3276,6721,11.75,7.0625,4.80859375,11.75,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",27.0,6721,19077,3276,6721,11.453125,7.03125,4.66796875,11.453125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",28.0,6721,19077,3276,6721,11.578125,7.08984375,4.6640625,11.578125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",29.0,6721,19077,3276,6721,11.15625,6.40234375,3.484375,11.15625,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",30.0,6721,19077,3276,6721,11.8203125,7.26953125,4.50390625,11.8203125,True,False,False
+professional,amateur,none,"Relation: none
+Input: professional
+Output:",31.0,6721,19077,3276,220,10.5625,6.453125,4.81640625,11.09375,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",,11295,6435,3276,11295,10.09375,4.078125,3.015625,10.09375,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",0.0,11295,6435,3276,96966,-1.9130859375,1.287109375,-2.033203125,8.4453125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",1.0,11295,6435,3276,92550,-2.0078125,0.179443359375,-2.138671875,8.7265625,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",2.0,11295,6435,3276,13,-1.625,1.5439453125,-2.052734375,8.4453125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",3.0,11295,6435,3276,13,-1.5576171875,2.193359375,1.1103515625,9.1796875,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",4.0,11295,6435,3276,342,-0.9326171875,2.984375,2.669921875,9.1875,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",5.0,11295,6435,3276,650,2.779296875,2.150390625,4.30859375,11.40625,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",6.0,11295,6435,3276,3717,3.568359375,1.51171875,6.56640625,12.140625,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",7.0,11295,6435,3276,3717,5.4609375,2.814453125,7.31640625,11.578125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",8.0,11295,6435,3276,3871,3.8125,1.9248046875,5.98046875,10.5390625,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",9.0,11295,6435,3276,271,2.5234375,0.10205078125,4.3671875,10.9453125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",10.0,11295,6435,3276,6576,4.17578125,2.091796875,4.16015625,11.578125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",11.0,11295,6435,3276,482,7.40625,2.841796875,5.140625,11.8359375,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",12.0,11295,6435,3276,10134,7.54296875,3.646484375,4.12890625,10.328125,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",13.0,11295,6435,3276,128001,12.78125,6.9609375,5.90234375,13.0390625,False,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",14.0,11295,6435,3276,11295,13.515625,7.734375,5.19140625,13.515625,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",15.0,11295,6435,3276,11295,13.1015625,9.53125,4.94140625,13.1015625,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",16.0,11295,6435,3276,11295,12.5703125,9.6796875,3.5078125,12.5703125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",17.0,11295,6435,3276,11295,12.6328125,7.99609375,3.134765625,12.6328125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",18.0,11295,6435,3276,11295,12.453125,7.78515625,3.033203125,12.453125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",19.0,11295,6435,3276,11295,11.8125,6.49609375,3.9375,11.8125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",20.0,11295,6435,3276,11295,11.734375,6.75,4.01953125,11.734375,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",21.0,11295,6435,3276,11295,11.2578125,5.40625,3.833984375,11.2578125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",22.0,11295,6435,3276,11295,11.2265625,5.65625,3.6953125,11.2265625,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",23.0,11295,6435,3276,11295,10.90625,6.08984375,3.208984375,10.90625,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",24.0,11295,6435,3276,11295,10.9609375,5.55078125,3.22265625,10.9609375,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",25.0,11295,6435,3276,11295,10.828125,4.35546875,3.44921875,10.828125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",26.0,11295,6435,3276,11295,10.5078125,4.40625,3.560546875,10.5078125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",27.0,11295,6435,3276,11295,10.2734375,4.3671875,3.69921875,10.2734375,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",28.0,11295,6435,3276,11295,10.5859375,4.44140625,4.15234375,10.5859375,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",29.0,11295,6435,3276,11295,10.2421875,3.87109375,3.0234375,10.2421875,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",30.0,11295,6435,3276,11295,11.0078125,4.40625,3.837890625,11.0078125,True,False,False
+rapid,slow,none,"Relation: none
+Input: rapid
+Output:",31.0,11295,6435,3276,220,10.359375,4.71484375,4.1640625,10.640625,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",,66121,15525,3276,66121,11.328125,6.91796875,3.89453125,11.328125,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",0.0,66121,15525,3276,96966,0.7333984375,0.55615234375,-2.03125,8.421875,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",1.0,66121,15525,3276,92550,1.1494140625,0.6845703125,-2.126953125,8.8203125,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",2.0,66121,15525,3276,13,0.96533203125,0.87451171875,-2.0625,8.4453125,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",3.0,66121,15525,3276,13,1.02734375,0.5146484375,1.00390625,8.96875,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",4.0,66121,15525,3276,342,0.88037109375,0.4326171875,2.4296875,9.078125,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",5.0,66121,15525,3276,650,1.365234375,1.2138671875,3.94921875,11.6328125,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",6.0,66121,15525,3276,3717,3.533203125,2.6875,6.046875,12.0546875,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",7.0,66121,15525,3276,3717,4.640625,2.708984375,6.80859375,11.375,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",8.0,66121,15525,3276,3871,3.912109375,3.779296875,5.42578125,10.4609375,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",9.0,66121,15525,3276,271,3.25390625,1.6142578125,3.140625,11.1171875,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",10.0,66121,15525,3276,482,3.15234375,2.876953125,3.13671875,11.21875,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",11.0,66121,15525,3276,482,5.26171875,3.56640625,3.90625,11.7578125,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",12.0,66121,15525,3276,482,5.03515625,3.40234375,3.03125,9.5859375,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",13.0,66121,15525,3276,128001,12.7265625,8.6640625,4.32421875,13.859375,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",14.0,66121,15525,3276,66121,13.65625,8.71875,3.82421875,13.65625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",15.0,66121,15525,3276,66121,13.2265625,7.94140625,5.70703125,13.2265625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",16.0,66121,15525,3276,66121,13.6875,8.78125,5.14453125,13.6875,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",17.0,66121,15525,3276,66121,12.7890625,7.80859375,5.03125,12.7890625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",18.0,66121,15525,3276,66121,12.546875,7.86328125,5.30078125,12.546875,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",19.0,66121,15525,3276,66121,11.265625,7.40234375,5.67578125,11.265625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",20.0,66121,15525,3276,66121,11.4609375,7.109375,6.06640625,11.4609375,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",21.0,66121,15525,3276,66121,11.3515625,7.1015625,5.53125,11.3515625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",22.0,66121,15525,3276,66121,11.3515625,7.62109375,5.4140625,11.3515625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",23.0,66121,15525,3276,66121,11.078125,7.3515625,4.84375,11.078125,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",24.0,66121,15525,3276,66121,11.0,7.26171875,4.37109375,11.0,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",25.0,66121,15525,3276,66121,11.0859375,7.38671875,4.73828125,11.0859375,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",26.0,66121,15525,3276,66121,10.8046875,7.09375,4.83984375,10.8046875,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",27.0,66121,15525,3276,66121,11.28125,7.09375,5.11328125,11.28125,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",28.0,66121,15525,3276,66121,11.3984375,6.99609375,5.2109375,11.3984375,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",29.0,66121,15525,3276,66121,11.015625,6.65625,4.0078125,11.015625,True,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",30.0,66121,15525,3276,220,11.40625,7.37109375,4.78125,12.0234375,False,False,False
+worthless,valuable,none,"Relation: none
+Input: worthless
+Output:",31.0,66121,15525,3276,220,10.4140625,6.578125,5.15234375,13.1796875,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",,21737,50380,3276,21737,11.765625,7.52734375,3.939453125,11.765625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",0.0,21737,50380,3276,96966,-0.307373046875,1.57421875,-2.0390625,8.421875,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",1.0,21737,50380,3276,92550,0.07196044921875,1.146484375,-2.140625,8.7734375,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",2.0,21737,50380,3276,13,-0.4189453125,0.316162109375,-2.013671875,8.4765625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",3.0,21737,50380,3276,13,0.343017578125,0.9111328125,1.1494140625,9.1484375,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",4.0,21737,50380,3276,342,0.0714111328125,1.5224609375,2.615234375,9.109375,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",5.0,21737,50380,3276,650,-1.1708984375,-0.24072265625,3.6328125,11.3359375,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",6.0,21737,50380,3276,3717,1.126953125,0.61767578125,6.09765625,12.3046875,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",7.0,21737,50380,3276,3717,3.1328125,1.955078125,6.61328125,11.953125,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",8.0,21737,50380,3276,2592,2.916015625,0.57177734375,5.6015625,10.7265625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",9.0,21737,50380,3276,2213,-1.07421875,-0.81201171875,3.248046875,11.515625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",10.0,21737,50380,3276,482,-0.61279296875,-0.85400390625,3.580078125,11.9140625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",11.0,21737,50380,3276,482,1.5224609375,0.482177734375,4.2578125,11.4140625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",12.0,21737,50380,3276,5357,2.6015625,2.046875,3.73046875,9.6640625,False,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",13.0,21737,50380,3276,21737,12.1640625,7.05078125,4.6015625,12.1640625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",14.0,21737,50380,3276,21737,13.359375,8.9765625,5.05859375,13.359375,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",15.0,21737,50380,3276,21737,13.1328125,9.359375,4.890625,13.1328125,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",16.0,21737,50380,3276,21737,12.7890625,9.4453125,4.08203125,12.7890625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",17.0,21737,50380,3276,21737,12.25,8.6640625,3.546875,12.25,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",18.0,21737,50380,3276,21737,12.640625,8.8828125,3.53125,12.640625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",19.0,21737,50380,3276,21737,12.359375,8.1796875,3.59375,12.359375,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",20.0,21737,50380,3276,21737,12.3203125,7.8046875,3.572265625,12.3203125,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",21.0,21737,50380,3276,21737,12.1171875,7.85546875,3.60546875,12.1171875,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",22.0,21737,50380,3276,21737,12.25,7.84765625,3.619140625,12.25,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",23.0,21737,50380,3276,21737,12.2421875,7.86328125,3.4765625,12.2421875,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",24.0,21737,50380,3276,21737,12.1171875,7.79296875,3.41015625,12.1171875,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",25.0,21737,50380,3276,21737,12.3125,7.78515625,3.716796875,12.3125,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",26.0,21737,50380,3276,21737,12.265625,7.73046875,4.15625,12.265625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",27.0,21737,50380,3276,21737,12.2578125,7.76171875,4.0859375,12.2578125,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",28.0,21737,50380,3276,21737,12.1640625,8.015625,4.1875,12.1640625,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",29.0,21737,50380,3276,21737,12.0546875,7.6640625,3.962890625,12.0546875,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",30.0,21737,50380,3276,21737,11.9609375,8.03125,4.51171875,11.9609375,True,False,False
+silent,noisy,none,"Relation: none
+Input: silent
+Output:",31.0,21737,50380,3276,220,11.421875,7.2890625,5.328125,12.6171875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",,47288,7294,3276,47288,11.625,9.8984375,7.63671875,11.625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",0.0,47288,7294,3276,96966,-0.05706787109375,2.578125,-2.05078125,8.4453125,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",1.0,47288,7294,3276,92550,0.9560546875,4.26953125,-2.173828125,8.734375,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",2.0,47288,7294,3276,13,0.12353515625,2.71875,-2.07421875,8.46875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",3.0,47288,7294,3276,13,-0.654296875,2.951171875,1.1123046875,9.0,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",4.0,47288,7294,3276,342,-0.46630859375,3.705078125,2.560546875,9.0390625,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",5.0,47288,7294,3276,650,-0.0618896484375,7.84375,4.0546875,11.5390625,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",6.0,47288,7294,3276,3717,0.9775390625,10.0859375,6.265625,12.0,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",7.0,47288,7294,3276,3717,2.193359375,9.171875,6.75390625,11.40625,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",8.0,47288,7294,3276,3871,2.234375,8.3046875,5.765625,10.4921875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",9.0,47288,7294,3276,271,2.482421875,7.5390625,3.849609375,10.9140625,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",10.0,47288,7294,3276,6576,2.783203125,7.72265625,3.84375,11.0703125,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",11.0,47288,7294,3276,482,5.19921875,9.0625,4.703125,11.6171875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",12.0,47288,7294,3276,11134,6.83203125,8.328125,3.658203125,10.1015625,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",13.0,47288,7294,3276,128001,12.5234375,9.8125,5.7578125,13.671875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",14.0,47288,7294,3276,128001,12.765625,9.828125,5.0546875,13.0078125,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",15.0,47288,7294,3276,37140,11.2578125,9.7578125,5.85546875,11.3828125,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",16.0,47288,7294,3276,47288,11.3671875,9.9609375,6.0703125,11.3671875,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",17.0,47288,7294,3276,47288,11.9765625,9.7421875,5.9921875,11.9765625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",18.0,47288,7294,3276,47288,11.90625,9.84375,5.78125,11.90625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",19.0,47288,7294,3276,47288,11.2890625,9.640625,7.109375,11.2890625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",20.0,47288,7294,3276,47288,11.4453125,10.015625,7.38671875,11.4453125,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",21.0,47288,7294,3276,47288,11.2578125,9.6328125,6.9375,11.2578125,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",22.0,47288,7294,3276,47288,11.421875,9.984375,7.0625,11.421875,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",23.0,47288,7294,3276,47288,11.4765625,10.3125,7.26953125,11.4765625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",24.0,47288,7294,3276,47288,11.3125,10.46875,7.37890625,11.3125,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",25.0,47288,7294,3276,47288,11.375,10.5703125,7.79296875,11.375,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",26.0,47288,7294,3276,47288,11.40625,10.5703125,8.125,11.40625,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",27.0,47288,7294,3276,47288,11.5546875,10.359375,7.828125,11.5546875,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",28.0,47288,7294,3276,47288,12.1484375,10.5390625,7.9296875,12.1484375,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",29.0,47288,7294,3276,47288,11.7421875,10.6171875,7.625,11.7421875,True,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",30.0,47288,7294,3276,7000,11.7890625,10.8515625,8.3515625,11.921875,False,False,False
+inflammatory,anti-inflammatory,none,"Relation: none
+Input: inflammatory
+Output:",31.0,47288,7294,3276,220,10.84375,10.625,8.703125,12.75,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",,7293,5387,3276,7293,8.8828125,5.35546875,2.400390625,8.8828125,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",0.0,7293,5387,3276,96966,1.0419921875,2.498046875,-2.025390625,8.40625,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",1.0,7293,5387,3276,92550,0.8935546875,3.126953125,-2.17578125,8.7578125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",2.0,7293,5387,3276,13,0.78369140625,2.63671875,-2.05859375,8.4921875,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",3.0,7293,5387,3276,13,1.1826171875,3.482421875,1.0439453125,8.953125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",4.0,7293,5387,3276,342,1.8037109375,3.619140625,2.44140625,9.0703125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",5.0,7293,5387,3276,650,2.01171875,4.30859375,3.734375,11.375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",6.0,7293,5387,3276,3717,4.88671875,4.7734375,6.01953125,12.1875,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",7.0,7293,5387,3276,3717,6.2890625,4.6484375,7.12109375,11.640625,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",8.0,7293,5387,3276,271,5.25,3.904296875,5.74609375,10.8359375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",9.0,7293,5387,3276,271,2.7734375,1.62109375,3.419921875,11.4375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",10.0,7293,5387,3276,482,3.6953125,2.658203125,3.69140625,11.75,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",11.0,7293,5387,3276,482,7.62109375,4.63671875,4.54296875,11.3515625,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",12.0,7293,5387,3276,1121,7.8515625,4.4453125,3.5546875,9.7578125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",13.0,7293,5387,3276,7293,13.6171875,7.55859375,3.900390625,13.6171875,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",14.0,7293,5387,3276,7293,14.0078125,9.0625,4.08203125,14.0078125,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",15.0,7293,5387,3276,7293,12.3046875,8.125,4.3046875,12.3046875,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",16.0,7293,5387,3276,7293,11.1875,7.40625,3.58203125,11.1875,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",17.0,7293,5387,3276,7293,10.65625,6.80859375,3.4296875,10.65625,True,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",18.0,7293,5387,3276,7000,10.53125,7.46875,3.37890625,10.7109375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",19.0,7293,5387,3276,7000,10.1796875,6.54296875,3.96875,10.7109375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",20.0,7293,5387,3276,7000,10.171875,7.01953125,3.97265625,10.5703125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",21.0,7293,5387,3276,7000,9.671875,6.63671875,3.654296875,10.171875,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",22.0,7293,5387,3276,7000,9.484375,6.37890625,3.33203125,10.0703125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",23.0,7293,5387,3276,7000,9.2265625,6.3046875,3.095703125,10.203125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",24.0,7293,5387,3276,7000,9.2578125,6.234375,2.998046875,9.953125,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",25.0,7293,5387,3276,7000,9.4453125,6.296875,3.388671875,9.71875,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",26.0,7293,5387,3276,7000,9.3515625,6.1015625,3.60546875,9.609375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",27.0,7293,5387,3276,7000,9.0703125,5.84765625,3.521484375,9.46875,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",28.0,7293,5387,3276,7000,9.140625,5.71875,3.486328125,9.4609375,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",29.0,7293,5387,3276,7000,8.7265625,5.04296875,2.248046875,9.2265625,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",30.0,7293,5387,3276,220,9.9140625,5.7890625,3.2890625,10.75,False,False,False
+remain,leave,none,"Relation: none
+Input: remain
+Output:",31.0,7293,5387,3276,220,9.28125,5.83203125,3.84375,12.0546875,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",,5076,1314,3276,5076,11.8515625,9.9765625,1.8623046875,11.8515625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",0.0,5076,1314,3276,96966,4.20703125,2.462890625,-2.03515625,8.4140625,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",1.0,5076,1314,3276,92550,4.99609375,3.56640625,-2.17578125,8.7421875,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",2.0,5076,1314,3276,13,5.046875,4.48046875,-2.044921875,8.4453125,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",3.0,5076,1314,3276,13,5.6171875,4.3515625,1.076171875,9.0390625,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",4.0,5076,1314,3276,342,5.4296875,3.111328125,2.5390625,9.015625,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",5.0,5076,1314,3276,650,5.97265625,5.53125,3.8671875,11.4921875,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",6.0,5076,1314,3276,3717,6.296875,7.28515625,5.98828125,12.296875,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",7.0,5076,1314,3276,3717,7.20703125,7.96875,6.74609375,11.828125,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",8.0,5076,1314,3276,271,5.18359375,7.61328125,5.65234375,11.2890625,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",9.0,5076,1314,3276,271,3.611328125,5.27734375,3.236328125,11.6953125,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",10.0,5076,1314,3276,482,3.296875,4.4765625,3.322265625,12.0,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",11.0,5076,1314,3276,482,6.37890625,5.86328125,4.7421875,13.0234375,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",12.0,5076,1314,3276,482,7.70703125,5.65625,4.15234375,10.7578125,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",13.0,5076,1314,3276,128001,13.6328125,8.28125,5.0703125,13.9609375,False,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",14.0,5076,1314,3276,5076,15.53125,9.859375,5.1640625,15.53125,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",15.0,5076,1314,3276,5076,14.6875,9.6328125,5.30859375,14.6875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",16.0,5076,1314,3276,5076,14.0703125,9.90625,4.01953125,14.0703125,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",17.0,5076,1314,3276,5076,13.2265625,9.96875,4.0703125,13.2265625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",18.0,5076,1314,3276,5076,13.515625,11.2578125,3.947265625,13.515625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",19.0,5076,1314,3276,5076,13.1171875,10.859375,3.5703125,13.1171875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",20.0,5076,1314,3276,5076,13.4140625,11.1640625,4.05078125,13.4140625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",21.0,5076,1314,3276,5076,13.3515625,10.9296875,3.7109375,13.3515625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",22.0,5076,1314,3276,5076,13.3828125,11.3046875,3.689453125,13.3828125,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",23.0,5076,1314,3276,5076,13.421875,11.125,3.2421875,13.421875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",24.0,5076,1314,3276,5076,12.9921875,10.8203125,2.958984375,12.9921875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",25.0,5076,1314,3276,5076,12.8984375,10.90625,3.150390625,12.8984375,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",26.0,5076,1314,3276,5076,12.8046875,11.0703125,3.376953125,12.8046875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",27.0,5076,1314,3276,5076,12.6171875,10.8046875,3.048828125,12.6171875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",28.0,5076,1314,3276,5076,12.6875,10.8125,3.00390625,12.6875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",29.0,5076,1314,3276,5076,11.9140625,10.171875,1.6259765625,11.9140625,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",30.0,5076,1314,3276,5076,12.96875,11.2578125,2.6015625,12.96875,True,False,False
+wrong,right,none,"Relation: none
+Input: wrong
+Output:",31.0,5076,1314,3276,220,12.109375,11.1875,3.455078125,14.1953125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",,35955,42223,3276,35955,10.1171875,6.56640625,3.587890625,10.1171875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",0.0,35955,42223,3276,96966,-1.4716796875,2.126953125,-2.025390625,8.4140625,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",1.0,35955,42223,3276,92550,-0.39306640625,2.93359375,-2.166015625,8.828125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",2.0,35955,42223,3276,13,-0.54736328125,0.77880859375,-2.064453125,8.453125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",3.0,35955,42223,3276,13,-0.46875,2.056640625,1.0458984375,9.0546875,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",4.0,35955,42223,3276,342,-0.88671875,2.33984375,2.52734375,8.875,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",5.0,35955,42223,3276,650,0.90380859375,4.7890625,3.87109375,11.578125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",6.0,35955,42223,3276,3717,2.51953125,2.95703125,6.22265625,12.34375,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",7.0,35955,42223,3276,3717,3.98828125,2.93359375,6.79296875,11.6171875,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",8.0,35955,42223,3276,4815,3.521484375,1.5908203125,5.4140625,10.3515625,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",9.0,35955,42223,3276,2213,1.1484375,2.732421875,3.1953125,11.4453125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",10.0,35955,42223,3276,482,2.62890625,3.28125,3.173828125,11.078125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",11.0,35955,42223,3276,482,4.01953125,3.91796875,4.09375,11.140625,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",12.0,35955,42223,3276,5357,5.91015625,3.70703125,3.3671875,10.0703125,False,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",13.0,35955,42223,3276,35955,13.484375,7.33203125,4.71484375,13.484375,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",14.0,35955,42223,3276,35955,13.3515625,7.4296875,4.7890625,13.3515625,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",15.0,35955,42223,3276,35955,12.078125,6.9765625,4.8671875,12.078125,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",16.0,35955,42223,3276,35955,12.1484375,7.359375,4.3828125,12.1484375,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",17.0,35955,42223,3276,35955,11.3125,6.69921875,3.703125,11.3125,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",18.0,35955,42223,3276,35955,11.34375,7.09765625,3.96484375,11.34375,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",19.0,35955,42223,3276,35955,10.796875,7.125,4.42578125,10.796875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",20.0,35955,42223,3276,35955,10.546875,7.05859375,4.42578125,10.546875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",21.0,35955,42223,3276,35955,10.46875,7.47265625,4.05859375,10.46875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",22.0,35955,42223,3276,35955,10.40625,7.2578125,3.8125,10.40625,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",23.0,35955,42223,3276,35955,10.1953125,7.234375,3.6015625,10.1953125,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",24.0,35955,42223,3276,35955,10.2421875,7.25,3.50390625,10.2421875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",25.0,35955,42223,3276,35955,10.265625,7.02734375,3.765625,10.265625,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",26.0,35955,42223,3276,35955,10.1328125,7.01171875,3.98828125,10.1328125,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",27.0,35955,42223,3276,35955,10.46875,7.2109375,4.37890625,10.46875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",28.0,35955,42223,3276,35955,10.515625,7.390625,4.65234375,10.515625,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",29.0,35955,42223,3276,35955,10.0546875,6.8828125,3.6328125,10.0546875,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",30.0,35955,42223,3276,35955,10.3359375,6.8359375,4.34375,10.3359375,True,False,False
+whisper,shout,none,"Relation: none
+Input: whisper
+Output:",31.0,35955,42223,3276,220,9.84375,6.453125,4.7734375,11.4765625,False,False,False
