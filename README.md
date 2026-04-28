@@ -21,7 +21,9 @@ Evaluate the model on three relation conditions (`antonym`, `none`, `repeat`) to
 ### Step 2 — Activation Patching
 For correctly predicted samples, cache attention head outputs and compute per-head intervention scores by measuring how each head's mean activation shifts the output logit toward the target. Red borders indicate the top-10 scoring heads.
 
-![Head Intervention Scores](results/meta-llama_Llama-3.2-3B/antonym/patching_head_viz.png)
+| prompt_1e1ef3fe | prompt_f4027ccf |
+| --- | --- |
+| ![Head Intervention Scores (prompt_1e1ef3fe)](results/meta-llama_Llama-3.2-3B/antonym/prompt_1e1ef3fe/patching_head_viz.png) | ![Head Intervention Scores (prompt_f4027ccf)](results/meta-llama_Llama-3.2-3B/antonym/prompt_f4027ccf/patching_head_viz.png) |
 
 ### Step 3 — Intervention Vector Construction
 Select top-scoring heads and project their mean activations through each head's output projection, then sum them into a single intervention vector.
@@ -31,15 +33,21 @@ Add the intervention vector to hidden states at each layer and measure accuracy 
 
 **Correct samples (antonym → none)** — Can the vector maintain antonym behavior even when the prompt says "none"?
 
-![Intervention on Correct Samples](results/meta-llama_Llama-3.2-3B/antonym/intervention_fig.png)
+| prompt_1e1ef3fe | prompt_f4027ccf |
+| --- | --- |
+| ![Intervention on Correct Samples (prompt_1e1ef3fe)](results/meta-llama_Llama-3.2-3B/antonym/prompt_1e1ef3fe/intervention_fig.png) | ![Intervention on Correct Samples (prompt_f4027ccf)](results/meta-llama_Llama-3.2-3B/antonym/prompt_f4027ccf/intervention_fig.png) |
 
 **Incorrect samples (antonym → none)** — Can the vector restore correct behavior on samples the model originally got wrong?
 
-![Intervention on Incorrect Samples (restore)](results/meta-llama_Llama-3.2-3B/antonym/intervention_restore_fig.png)
+| prompt_1e1ef3fe | prompt_f4027ccf |
+| --- | --- |
+| ![Intervention on Incorrect Samples (restore, prompt_1e1ef3fe)](results/meta-llama_Llama-3.2-3B/antonym/prompt_1e1ef3fe/intervention_restore_fig.png) | ![Intervention on Incorrect Samples (restore, prompt_f4027ccf)](results/meta-llama_Llama-3.2-3B/antonym/prompt_f4027ccf/intervention_restore_fig.png) |
 
 **Incorrect samples (no relation change)** — What happens when we intervene without changing the relation prompt?
 
-![Intervention on Incorrect Samples (enforce)](results/meta-llama_Llama-3.2-3B/antonym/intervention_enforce_fig.png)
+| prompt_1e1ef3fe | prompt_f4027ccf |
+| --- | --- |
+| ![Intervention on Incorrect Samples (enforce, prompt_1e1ef3fe)](results/meta-llama_Llama-3.2-3B/antonym/prompt_1e1ef3fe/intervention_enforce_fig.png) | ![Intervention on Incorrect Samples (enforce, prompt_f4027ccf)](results/meta-llama_Llama-3.2-3B/antonym/prompt_f4027ccf/intervention_enforce_fig.png) |
 
 ### Note on Sample Split
 
